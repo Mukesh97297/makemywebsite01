@@ -1,0 +1,83 @@
+.branding-info p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.Graphic-design h3 {
+    font-size: 52px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.Graphic-design p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.graphic h4 {
+    font-size: 28px;
+    line-height: 1.4em;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    color: #222222;
+}
+
+.graphic h5 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+.graphic p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.brand-i {
+    color: #333;
+    position: relative !important;
+    top: 6px;
+}
+
+.wordplay-identity {
+    font-size: 52px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.Design p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.business h4 {
+    font-size: 28px;
+    line-height: 1.4em;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    color: #222222;
+}
+
+.business p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}

@@ -1,0 +1,76 @@
+/* DigitalMarketing */
+.DigitalMarkeing h1{
+    font-family: "Montserrat", Sans-serif;
+      line-height: 1.3em;
+      font-size: 26px;
+      font-weight: 600;
+      color: white;
+  }
+  .DigitalMarkeing h2{
+    font-family: "Montserrat", Sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+      color: white;
+      line-height: 1.3em;
+      word-spacing: 3px;
+  }
+  .Digitalmarketing-p p{
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  .DigitalMarkeing span{
+    font-weight: 400;
+    text-align: center;
+    color: #545454;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-family: "Josefin Sans", Sans-serif;
+  }
+  .seo{
+    text-align: center;
+  }
+  .seo h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Josefin Sans", Sans-serif;
+    color: #222222;
+    margin-bottom: 1rem;
+    line-height: 1.75em;
+  }
+  .ppc{
+    text-align: center;
+  }
+  .ppc h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Josefin Sans", Sans-serif;
+    color: #222222;
+    margin-bottom: 1rem;
+    line-height: 1.75em;
+  }
+  .socialmedia{
+    text-align: center;
+  }
+  .socialmedia h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Josefin Sans", Sans-serif;
+    color: #222222;
+    margin-bottom: 1rem;
+    line-height: 1.75em;
+  }
+  .content{
+    text-align: center;
+  }
+  .content h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Josefin Sans", Sans-serif;
+    color: #222222;
+    margin-bottom: 1rem;
+    line-height: 1.75em;
+  }
+  

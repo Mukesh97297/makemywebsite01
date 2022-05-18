@@ -1,0 +1,58 @@
+.form-span{
+    color: #33475b;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    float: none;
+    width: auto;
+    padding-top: 0;
+    margin-bottom: 0px;
+}
+.submit-btn{
+    background: #ED1C24;
+    border-color: #ED1C24;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: helvetica;
+    transition: all .15s linear;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 12px 24px;
+}
+.Customer-Care h1{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: #222222;
+}
+.Customer-Care p{
+    text-align: center;
+    color: #000000;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    align-items: center;
+}
+.CustomerCare-section p{
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.Customer-Care h3{
+    font-size: 52px;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 600;
+    line-height: 1.3em;
+}
