@@ -7,7 +7,7 @@ function About() {
     return (
         <div>
           
-            <div className="container-fluid pl-5 pt-5" id="about-container">
+            <div className="container-fluid pl-5 py-5" id="about-container">
                 <div className="row pt-5">
                     <div className="col-md-12 pl-5 paragraph">
                         <h1 className='pl-4 pt-5'>

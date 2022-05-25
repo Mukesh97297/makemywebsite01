@@ -1,17 +1,9 @@
 import React from 'react'
-import dal from '../images/dal.jpg'
-import carabbba from '../images/Carrabbas-Group.jpg'
-import coburns from '../images/Coburns-Rise.jpg'
-import rgland from '../images/RG-Land.jpg'
-import sunshine from '../images/Sunshine-Collectables.jpg'
-import ticgroup from '../images/TIC-Group.jpg'
-import unitedtools from '../images/United-Tools.jpg'
-import darbingas from '../images/Darebin-Gas.jpg'
-
+import '../CaseStudy.css'
 function Casestudy() {
     return (
         <div>
-            <div className="container-fluid pl-5 pt-3" id="about-container">
+            <div className="container-fluid pl-5 py-3" id="about-container">
                 <div className="row pt-5">
                     <div className="col-md-12 py-5 pl-5 webDesignDevelopment">
                         <h1 className='pl-4 pt-5'>
@@ -29,23 +21,65 @@ function Casestudy() {
                     </div>
                 </div>
             </div>
-            <div className='contaienr-fluid' style={{ backgroundColor: "#060709" }}>
+            <div className='container-fluid' id='casestudy'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className="col-md-3 col-md-offset-3 content">
-                            <div className="screen">
-                                <img src={dal} />
+                    <div className='row py-5'>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy1'>
                                 <div className='overlay1'>
                                     United Tools
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
-                        <div className='col-lg-3 col-md-offset-3 content'></div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy2'>
+                                <div className='overlay1'>
+                                    Dal
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy3'>
+                                <div className='overlay1'>
+                                    Coburns Rise
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy4'>
+                                <div className='overlay1'>
+                                    Rg Land
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy5'>
+                                <div className='overlay1'>
+                                    Sunshine Collactables
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy6'>
+                                <div className='overlay1'>
+                                    Tic Group
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy7'>
+                                <div className='overlay1'>
+                                    Carrabba's Group
+                                </div>
+                            </div>
+                        </div>
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='casestudy casestudy8'>
+                                <div className='overlay1'>
+                                    Rg Land
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

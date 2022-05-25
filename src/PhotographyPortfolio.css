@@ -1,0 +1,19 @@
+.img-container{
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
+}
+.head-btn button{
+    color: #000000;
+    font-family: "Josefin Sans", Sans-serif;
+    line-height: 1.75em;
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: color .3s ease;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}

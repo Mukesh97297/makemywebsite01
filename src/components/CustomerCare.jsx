@@ -1,4 +1,5 @@
 import React from 'react'
+import '../CustomerCare.css'
 import Lottie from 'lottie-react'
 import support from '../animation/CustomerCare.json'
 import ServiceDelivery from './ServiceDelivery'
@@ -8,7 +9,7 @@ function CustomerCare() {
     return (
         <div>
          
-            <div className="container-fluid pl-5 pt-3" id="about-container">
+            <div className="container-fluid pl-5 py-3" id="about-container">
                 <div className="row pt-5">
                     <div className="col-md-12 py-5 pl-5 webDesignDevelopment">
                         <h1 className='pl-4 pt-5'>

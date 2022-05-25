@@ -29,7 +29,7 @@
   line-height: 20px;
   align-items: center;
   font-family: 'Josefin Slab', serif;
-  font-size: 15px;
+  font-size: 12px;
 }
 #navbar-btn {
   background-color: red;
@@ -244,10 +244,10 @@
   height: 0;
   transition: .5s ease;
 }
-.card {
+.service-card {
   height: 410px;
 }
-.card:hover .overlay {
+.service-card:hover .overlay {
   height: 100%;
 }
 .text {
@@ -293,28 +293,53 @@
 /* works */
 
 #works{
-  background-color: black;
+  background-color: #060709;
 }
 #heroTag h1 {
   color: white;
   font-size: 5em;
 }
-.screen {
-  width: 100%;
-  top: 0;
-  overflow: hidden;
- 
-  }
-  .screen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    transition: all 1s ease-in-out;
-  }
-  .screen:hover img{
-    object-position: bottom center;
-  }
+.works{
+  background-color: black;
+  height: 300px;
+  transition: ease-in-out 2s;
+  background-position: top;
+}
+.works.works1{
+  background: url(../src/images/United-Tools.jpg);
+  background-size: cover;
+}
+.works.works2{
+  background: url(../src/images/dal.jpg);
+  background-size: cover;
+}
+.works.works3{
+  background: url(../src/images/Coburns-Rise.jpg);
+  background-size: cover;
+}
+.works.works4{
+  background: url(../src/images/RG-Land.jpg);
+  background-size: cover;
+}
+.works.works5{
+  background: url(../src/images/Sunshine-Collectables.jpg);
+  background-size: cover;
+}
+.works.works6{
+  background: url(../src/images/TIC-Group.jpg);
+  background-size: cover;
+}
+.works.works7{
+  background: url(../src/images/Carrabbas-Group.jpg);
+  background-size: cover;
+}
+.works.works8{
+  background: url(../src/images/Darebin-Gas.jpg);
+  background-size: cover;
+}
+.works:hover{
+  background-position: bottom;
+}
   
 .overlay1 {
   position: absolute;
@@ -347,6 +372,7 @@
     max-width: 100%;
     width: auto;
 }
+
 
 /* customer feedback */
 
@@ -424,12 +450,66 @@
 /* mmw-front */
 .front-banner {
   background-image: url("./images/front-banner.jpg");
-  height: 1500px;
   background-attachment: fixed;
   width: 100%;
+  height: 100%;
   background-repeat: no-repeat,repeat;
   background-size: cover;
 }
+.project{
+  width: 100%;
+  background-color: #000000D1;
+}
+.project .heading .heading-info1 {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.project .heading p{
+  font-size: 26px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+  line-height: 1.2em;
+  color: #FFFFFF;
+}
+.heading-button .get-quits{
+  font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 0%);
+    fill:#060709;
+    color:#060709;
+    background-color:#FFFFFF;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 20px 0px rgb(177 89 105 / 20%);
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+}
+.Team{
+  margin: 0px 0px -17px 0px;
+  font-size: 46px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.3em;
+  font-family: "Josefin Sans", Sans-serif;
+}
+.Team1{
+  font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 
 /* about */
 
@@ -598,6 +678,9 @@ animation-iteration-count: infinite;
     z-index: 0;
     direction: ltr;
     object-fit: cover;
+}
+.vedio-portfolio{
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
 }
 
 

@@ -37,28 +37,36 @@ function Navbar() {
                 <a href="/about" className="nav-link active mx-3" id='nav-link'>ABOUT US</a>
               </li>
               <li className="nav-item dropdown">
-                <a href="/about" className="nav-link active mx-3 " role='button'  type='button' data-toggle="dropdown" id='nav-link'>SERVICE +</a>
+                <a href="/service" className="nav-link active mx-3 "  id='nav-link'>SERVICE +</a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <li className='mb-2'><a href="/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
+                  <li className='mb-2'><a href="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
                   <li className='dropdown ' >
-                    <a href="/DigitalMarkeing" className='dropdown-item mb-2' type='button' role='button' data-toggle="dropdown">Digital Marketing +</a>
+                    <a href="/service/DigitalMarkeing" className='dropdown-item mb-2'>Digital Marketing +</a>
                     <ul className='dropdown-menu shadow dropdwnleft'>
-                      <li className='mb-2'><a href="/" className='dropdown-item' >Search Engine Optimization</a></li>
-                      <li className='mb-2'><a href="/" className='dropdown-item'>Social Media Marketing</a></li>
-                      <li className='mb-2'><a href="/" className='dropdown-item'>Content-Marketing</a></li>
+                      <li className='mb-2'><a href="/DigitalMarkeing/SearchEngine" className='dropdown-item' >Search Engine Optimization</a></li>
+                      <li className='mb-2'><a href="/WebDesignDelovpment/SocialMedia" className='dropdown-item'>Social Media Marketing</a></li>
+                      <li className='mb-2'><a href="/WebDesignDelovpment/ContentMarketing" className='dropdown-item'>Content-Marketing</a></li>
+                      <li className='mb-2'><a href="/WebDesignDelovpment/GooglePay" className='dropdown-item'>Google Ads & Pay Per Click</a></li>
                     </ul>
                   </li>
-                  <li className='mb-2'><a href="/branding" className='dropdown-item'>Branding</a></li>
-                  <li className='mb-2'><a href="/WebEmailHosting" className='dropdown-item'>Web And Email Hosting</a></li>
-                  <li className='mb-2'><a href="/PhotoGraphyVideoGraphy" className='dropdown-item'>Photography and Vediography</a></li>
-                  <li className='mb-2'><a href="/CustomerCare" className='dropdown-item'>Customer Care</a></li>
+                  <li className='mb-2'><a href="/service/branding" className='dropdown-item'>Branding</a></li>
+                  <li className='mb-2'><a href="/service/WebEmailHosting" className='dropdown-item'>Web And Email Hosting</a></li>
+                  <li className='mb-2'><a href="/service/PhotoGraphyVideoGraphy" className='dropdown-item'>Photography and Vediography</a></li>
+                  <li className='mb-2'><a href="/service/CustomerCare" className='dropdown-item'>Customer Care</a></li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link active mx-3" id='nav-link'> OUR PORTFOLIO +</a>
+              <li className="nav-item  dropdown">
+                <a href="/ourportfolio" className="nav-link active mx-3" id='nav-link'> OUR PORTFOLIO +</a>
+                <ul ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
+                      <li className='mb-2'><a href="/" className='dropdown-item' >Web Design Portfolio</a></li>
+                      <li className='mb-2'><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
+                      <li className='mb-2'><a href="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</a></li>
+                      <li className='mb-2'><a href="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</a></li>
+                      <li className='mb-2'><a href="/Casestudy" className='dropdown-item'>Case Studies</a></li>
+                    </ul>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link active mx-3" id='nav-link'> BLOG</a>
+                <a href="/Blog" className="nav-link active mx-3" id='nav-link'> BLOG</a>
               </li>
               <li className="nav-item">
                 <a href="/" className="nav-link active mx-3" id='nav-link'> CONTACT US</a>

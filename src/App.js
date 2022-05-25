@@ -1,14 +1,5 @@
 import React from 'react';
 import './App.css';
-import './WebDesignDevlopment.css';
-import './Services.css'
-import './DigitalMarketing.css'
-import './Branding.css'
-import './WebEmailHosting.css'
-import './PhotoGraphyVideoGraphy.css'
-import './CustomerCare.css'
-import './OurPortfolio.css'
-import './CaseStudy.css'
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -22,33 +13,43 @@ import CustomerCare from './components/CustomerCare';
 import DigitalMarkeing from './components/DigitalMarkeing';
 import PhotoGraphyVideoGraphy from './components/PhotoGraphyVideoGraphy';
 import OurPortfolio from './components/OurPortfolio';
-import Works from './components/Works';
 import Casestudy from './components/Casestudy';
-
-
+import PhotographyPortfolio from './components/PhotographyPortfolio';
+import GraohicPortfolio from './components/GraohicPortfolio';
+import Blog from './components/Blog';
+import VedioGraphyPortfolio from './components/VedioGraphyPortfolio';
+import SearchEngineOptimization from './components/SearchEngineOptimization';
+import SocialMediaMarketing from './components/SocialMediaMarketing';
+import ContentMarketing from './components/ContentMarketing';
+import GoogleAdsPay from './components/GoogleAdsPay';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+     <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Services />}/>
-          <Route path="/WebDesignDelovpment" element={<WebDesignDevlopment />} />
-          <Route path="/DigitalMarkeing" element={<DigitalMarkeing />} />
-          <Route path="/branding" element={<Branding />} />
-          <Route path="/WebEmailHosting" element={<WebEmailHosting />} />
-          <Route path="/PhotoGraphyVideoGraphy" element={<PhotoGraphyVideoGraphy />} />
-          <Route path="/CustomerCare" element={<CustomerCare />} />
+          <Route path="/service" element={<Services />} />
+          <Route path="/service/WebDesignDelovpment" element={<WebDesignDevlopment />} />
+          <Route path="/service/DigitalMarkeing" element={<DigitalMarkeing />} />
+          <Route path="/DigitalMarkeing/SearchEngine" element={<SearchEngineOptimization/>} />
+          <Route path="/DigitalMarkeing/SocialMedia" element={<SocialMediaMarketing/>} />
+          <Route path="/DigitalMarkeing/ContentMarketing" element={<ContentMarketing/>} />
+          <Route path="/WebDesignDelovpment/GooglePay" element={<GoogleAdsPay/>} />
+          <Route path="/service/branding" element={<Branding />} />
+          <Route path="/service/WebEmailHosting" element={<WebEmailHosting />} />
+          <Route path="/service/PhotoGraphyVideoGraphy" element={<PhotoGraphyVideoGraphy />} />
+          <Route path="/service/CustomerCare" element={<CustomerCare />} />
+          <Route path="/ourportfolio" element={<OurPortfolio />} />
+          <Route path="/ourportfolio/Casestudy" element={<Casestudy />} />
+          <Route path="/VedioPortfolio" element={<VedioGraphyPortfolio />} />
+          <Route path="/phtographyportfolio" element={<PhotographyPortfolio />} />
+          <Route path="/Graphicportfolio" element={<GraohicPortfolio />} />
+          <Route path="/Blog" element={<Blog />} />
         </Routes>
         <Footer />
-
-      </BrowserRouter>
-      {/* <Navbar/>
-      <Works/> */}
-     {/* <OurPortfolio/> */}
-    {/* <Casestudy/> */}
+      </BrowserRouter> 
     </div>
   );
 }

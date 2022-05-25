@@ -1,5 +1,6 @@
 import React from 'react'
 import Customer from './Customer'
+import MmwFront from './MmwFront'
 import Service from './Service'
 import ServiceDelivery from './ServiceDelivery'
 import WebDesign from './WebDesign'
@@ -15,6 +16,7 @@ function Home() {
       <WebDesign/>
       <Service/>
       <Works/>
+      <MmwFront/>
       <Customer/>
       <ServiceDelivery/>
     </div>

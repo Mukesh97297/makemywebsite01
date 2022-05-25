@@ -1,15 +1,15 @@
 import React from 'react'
+import '../PhotoGraphyVideoGraphy.css'
 import Lottie from 'lottie-react'
 import vediography from '../animation/Photography.json'
 import ServiceDelivery from './ServiceDelivery'
-import Footer from './Footer'
-import Navbar from './Navbar'
+
 
 function PhotoGraphyVideoGraphy() {
     return (
         <div>
-            <Navbar/>
-            <div className="container-fluid pl-5 pt-3" id="about-container">
+   
+            <div className="container-fluid pl-5 py-3" id="about-container">
                 <div className="row pt-5">
                     <div className="col-md-12 py-5 pl-5 webDesignDevelopment">
                         <h1 className='pl-4 pt-5'>
@@ -57,7 +57,7 @@ function PhotoGraphyVideoGraphy() {
                 </div>
             </div>
             <ServiceDelivery/>
-            <Footer/>
+
         </div>
     )
 }

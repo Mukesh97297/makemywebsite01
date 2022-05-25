@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Services.css'
 import webdesigns from '../images/web-design-and-development.png'
 import digitalmarketing from '../images/digital.png';
 import branding from '../images/brand.png';
@@ -10,7 +11,7 @@ import videography from '../images/photography-and-videography-service.png'
 function Services() {
     return (
         <div>
-            <div className="container-fluid pl-5 pt-5" id="about-container">
+            <div className="container-fluid pl-5 py-5" id="about-container">
                 <div className="row pt-5">
                     <div className="col-md-12 py-5 pl-5 paragraph">
                         <h1 className='pl-4 pt-5'>
@@ -44,7 +45,7 @@ function Services() {
                                 Make My Website embraces technological advancement and puts forth what’s the best for your brand. Your online presence is important to your business, and we exhibit our passion and creativity.</p>
                             <p>An impressive design is synonymous with a brilliant mind that harnesses innovation beyond imagination. At Make My Website, we boast of brilliance.</p>
                             <div className='py-2'>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                         <div className='col-lg-6 pt-5'>
@@ -65,7 +66,7 @@ function Services() {
                             <h3 className='py-2'>Digital Marketing</h3>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets no audience to avail the purposes it is built for. By marketing digitally, as a business owner, you reach out to the right demographic thus making conversion a much faster and simpler process than normal.</p>
                             <div className='py-2'>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -79,7 +80,7 @@ function Services() {
                             <p className='pt-3'>Branding in itself takes a lot of understanding of brand values and the identity you want the world to remember you with as a brand. </p>
                             <p>Branding in itself takes a lot of understanding of brand values and the identity you want the world to remember you with as a brand. </p>
                             <div className='py-2'>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                         <div className='col-lg-6'>
@@ -103,7 +104,7 @@ function Services() {
                             <p>Your business’s online address is what is your base for starting everything. This address is nothing but your web hosting i.e. the space you have rented on the internet to store and showcase your business’s projects, deliverables and content. </p>
                             <p>Your business’s online address is what is your base for starting everything. This address is nothing but your web hosting i.e. the space you have rented on the internet to store and showcase your business’s projects, deliverables and content. </p>
                             <div className='py-2'>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +118,7 @@ function Services() {
                             <p>Support is highly crucial when running a website for your business and it is not feasible to handle all of it by yourself. Offering support for a domain and running its various functionalities optimally requires skill, expertise, and experience.</p>
                             <p> Holistic support for your website involves monthly management involving resolution of security issues, updating the plugins, changes in website as per demand, dynamic platform establishment, and making new updates as per search engine’s upgraded algorithms.</p>
                             <div className='py-2'>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                         <div className='col-lg-6 '>
@@ -139,7 +140,7 @@ function Services() {
                             <p>Photography & Videography is a medium to visually represent your business. Make My Website and Make My Memories work collaboratively with a visionary approach to enhance your brand presence. </p>
                             <p>Whether you are a service provider or run a product-based business, you would need a professional team to capture its true essence so you can share it with your potential customers.</p>
                             <div>
-                                <a href="" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                     </div>

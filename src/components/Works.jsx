@@ -1,14 +1,4 @@
-import React from 'react'
-import Rgland from '../images/RG-Land.jpg'
-import unitedtool from '../images/United-Tools.jpg'
-import ticgroup from '../images/TIC-Group.jpg'
-import Sunshine from '../images/Sunshine-Collectables.jpg'
-import darbin from '../images/Darebin-Gas.jpg'
-import dal from '../images/dal.jpg'
-import Coburns from '../images/Coburns-Rise.jpg'
-import carrabbas from '../images/Carrabbas-Group.jpg'
-
-
+import React from 'react';
 function Works() {
     return (
         <div>
@@ -20,67 +10,61 @@ function Works() {
                         </div>
                     </div>
                     <div className='row py-5'>
-                        <div className=" mb-4 screen">
-                                <img src={unitedtool} alt=""  />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works1'>
                                 <div className='overlay1'>
-                                   United Tools
+                                    United Tools
                                 </div>
-                           
+                            </div>
                         </div>
-                        <div className=" screen mb-4">
-                            
-                                <img src={dal} alt="" className='img-fluid'  />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works2'>
                                 <div className='overlay1'>
-                                   Dal
+                                    Dal
                                 </div>
-                           
+                            </div>
                         </div>
-                        <div className=" mb-4 screen">
-                           
-                                <img src={Coburns} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works3'>
                                 <div className='overlay1'>
-                                   Coburns Rise
+                                    Coburns Rise
                                 </div>
-                           
+                            </div>
                         </div>
-                        <div className=" screen mb-4">
-                           
-                                <img src={Rgland} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works4'>
                                 <div className='overlay1'>
-                                   Rg Land
+                                    Rg Land
                                 </div>
+                            </div>
                         </div>
-                        <div className=" screen  mb-4">
-                            
-                                <img src={Sunshine} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works5'>
                                 <div className='overlay1'>
-                                   Sunshine Collactables
+                                    Sunshine Collactables
                                 </div>
-                            
+                            </div>
                         </div>
-                        <div className=" screen mb-4">
-                           
-                                <img src={ticgroup} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works6'>
                                 <div className='overlay1'>
-                                   Tic Group
+                                    Tic Group
                                 </div>
-                            
+                            </div>
                         </div>
-                        <div className=" screen mb-4">
-                           
-                                <img src={carrabbas} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works7'>
                                 <div className='overlay1'>
-                                   Carrabba's Group
+                                    Carrabba's Group
                                 </div>
-                            
+                            </div>
                         </div>
-                        <div className=" screen mb-4">
-                            
-                                <img src={darbin} alt="" className='img-fluid' />
+                        <div className=" col-md-3 mb-4 ">
+                            <div className='works works8'>
                                 <div className='overlay1'>
-                                   Darbin Gas
+                                    Rg Land
                                 </div>
-                          
+                            </div>
                         </div>
                     </div>
                     <div className='row justify-content-center'>
