@@ -9,47 +9,49 @@ import marksqualitylogo from '../images/Marks-Quality-Cakes-logo.jpg'
 import coburnslogo from '../images/coburnsrise-logo.jpg'
 import augmentlogo from '../images/Augment-Group-logo.jpg'
 import propertylogo from '../images/Property-Select-Advisory.jpg'
-
+import aos from 'aos'
+import 'aos/dist/aos.css'
+aos.init();
 function ServiceDelivery() {
     return (
         <div>
             <div className="container-fluid pl-5" id="service-delivery">
-                <h5>
+                <h5  data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                     <i class="fa-solid fa-circle-dot"></i>Service Delivery With A Sense Of
                     Pride
                 </h5>
-                <h1>
+                <h1  data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                     We’re trusted by these industry experts<br></br> Australia-wide!
                 </h1>
                 <div className="row justify-content-center pl-5">
-                    <div className="col-md-3">
+                    <div className="col-md-3"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"> 
                         <img src={unitedlogo} alt="unitedlogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={pursuelogo} alt="pursuelogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={ticlogo} alt="ticlogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={dallogo} alt="dallogo"  className='logo'/>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={rglandlogo} alt="rglandlogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={malvernlogo} alt="malvernlogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={marksqualitylogo} alt="marksqualitylogo"  className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={coburnslogo} alt="coburnslogo" className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={augmentlogo} alt="augmentlogo" className='logo' />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-aos="top-top" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <img src={propertylogo} alt="propertylogo" className='logo' />
                     </div>
                 </div>

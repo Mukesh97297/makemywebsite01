@@ -13,7 +13,7 @@ function WebDesign() {
             <section className='about_section'>
                 <div className="container py-5">
                     <div className="row mb-5">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="slide-down"data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div>
                                 <img src={about} alt="about" className="img-fluid rounded-pill" />
                                 <div id="web-img-small">
@@ -23,7 +23,7 @@ function WebDesign() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-6' >
+                        <div className='col-md-6' data-aos="slide-left" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <p className='about-p'>
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </p>
@@ -70,28 +70,28 @@ function WebDesign() {
                         </div>
                     </div>
                     <div className='row justify-content-center about-counter-row '>
-                        <div className='col-lg-3 py-5'>
+                        <div className='col-lg-3 py-5'data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div>
                                 <img src={experience} alt="experience" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'><CountUp start={0} end={10} duration={1} />+</h1>
                                 <p className='about-counter-p py-3'>Year Of Expertise</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5'>
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div  className='about-col'>
                                 <img src={owned} alt="owned" height="60px" width="60px" />
                                 <h1 className='about-count-h pt-4'><CountUp start={0} end={100} duration={1} />%</h1>
                                 <p className='about-counter-p py-3'>Australian Owned</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5'>
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div  className='about-col'>
                                 <img src={design} alt="design" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'> <CountUp start={0} end={5} duration={1} />-Star rated</h1>
                                 <p className='about-counter-p py-3'>Web design agency</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5 '>
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div className='about-col'>
                                 <img src={client} alt="clients" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'>

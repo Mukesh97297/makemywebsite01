@@ -1,7 +1,14 @@
 import React from 'react'
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { SwiperSlide, Swiper } from 'swiper/react'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import'../OwlCarousal.css';
+
+
+
 
 import Coburns from '../images/Coburns-Rise.png'
 import Augment from '../images/Augment-Group.png'
@@ -10,63 +17,101 @@ import misurgeon from '../images/misurgeon.png'
 import imfintelygreen from '../images/infinitelygreen.png'
 
 
+
 function OwlCarousal() {
 
     return (
         <div>
-            {/* <div className='vedio-section'>
-                <video autoPlay muted loop style={{ width: "100%" }}>
-                    <source src="https://makemywebsiteaustralia.com.au/mmw/wp-content/uploads/2021/03/ccc.mp4" type="video/mp4"></source>
-                </video>
-            </div>
-             */}
-            {/* <OwlCarousel className='owl-theme' loop={true} margin={10} autoplay={true} items={2} center={true}
-                >
-                <div className='item'>
-                    <img src={misurgeon} alt="" />
-                </div>
-                <div className='item'>
-                    <img src={misurgeon} alt="" />
-                </div>
 
-            </OwlCarousel>
-           */}
-            {/* <div className='pgl'>
-                <OwlCarousel className='owl-theme' loop margin={30} items={2} center={true} autoplay={true}>
-                    <div className='about-carousal-item'>
-                        <img src={Coburns} alt="" height="100%" width='100%' />
-                        <h2>Coburns Rise</h2>
-                        <a href='https://www.coburnsrise.com.au/'>https://www.coburnsrise.com.au/</a>
+
+            {/* <Swiper s Navigation={true} EffectCoverflow centeredSlides={true} loop={true} slidesPerView={window.innerWidth < 768 ? 1 : "auto"} coverflowEffect={{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:true }} pagination={{clickable
+                :true}} >
+                    <div>
+                        <img src={misurgeon} alt=""className='img-fluid' />
                     </div>
-                    <div className='about-carousal-item'>
-                        <img src={imfintelygreen} alt="" height="100%" width='100%' />
-                        <h2>Imfintely Green</h2>
-                        <a href='https://infinitelygreen.com.au/'>https://infinitelygreen.com.au/</a>
+                    <div>
+                        <img src={Augment} alt="" className='img-fluid' />
                     </div>
-                    <div className='about-carousal-item'>
-                        <img src={misurgeon} alt="" height="100%" width='100%' />
-                        <h2>Mi Surgeon</h2>
-                        <a href='https://www.misurgeon.com.au/'>https://www.misurgeon.com.au/</a>
+                    <div>
+                        <img src={ninoklapcic} alt="" className='img-fluid' />
                     </div>
-                    <div className='about-carousal-item'>
-                        <img src={ninoklapcic} alt="" height="100%" width='100%' />
-                        <h2>Nino Klapcic</h2>
-                        <a href='https://www.ninoklapcic.com/'>https://www.ninoklapcic.com/</a>
+                    <div>
+                        <img src={imfintelygreen} alt="" className='img-fluid' />
                     </div>
-                    <div className='about-carousal-item'>
-                        <img src={Augment} alt="" height="100%" width='100%' />
-                        <h2>Augment Group</h2>
-                        <a href='https://www.augmentgroup.com.au/'>https://www.augmentgroup.com.au/</a>
+
+                    <div>
+                        <img src={Coburns} alt="" className='img-fluid' />
                     </div>
-                </OwlCarousel>;
-            </div>
-        </div> */}
-        <div className='about-caraousel'>
-            <div></div>
-            
+
+                </Swiper> */}
+            {/* <Swiper
+                spaceBetween={50}
+                slidesPerView={3}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                navigation
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+            >
+                <SwiperSlide>
+                    <img src={Augment} alt="" className='img-fluid' />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={misurgeon} alt="" className='img-fluid' />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Augment} alt="" className='img-fluid' />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={imfintelygreen} alt="" className='img-fluid' />
+                </SwiperSlide>
+            </Swiper>
+
+
+ */}
+   <section className='What-we-do'>
+                <div className='Vedio-Section'>
+                    <video autoPlay muted loop id='What-we-do-vedio' >
+                        <source src='https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4' type="video/mp4" />
+                    </video>
+                </div>
+                <div className='background-overlay'></div>
+                <div className='Column-gap-default'>
+                    <div className='elementer-column'>
+                        <div className='elementer-wight-wrap'>
+                            <section className='elementer-section'>
+                                <div className='elementer-background-overlay'></div>
+                                <div className='elementer-container'>
+                                    <div className='elementer-column'>
+                                        <div className='elementer-wight-wrap'>
+                                            <div className='elementer-element'>
+                                                <div className='elementer-wight-container'>
+                                                    <h1 className='elementer-heading-title'>What We Do</h1>
+                                                </div>
+                                            </div>
+                                            <div className='elementer-element'>
+                                                <div className='elementer-wight-container-p'>
+                                                    Make My Website offers end-to-end strategic web solutions with a focus on customer satisfaction. Our mission is simple- to build you a website that aligns with your goals, take a strategic route, and market you online. With over 400+ reviews on Google, Facebook, Oneflare, and Word of Mouth, we have been rated highly credible for the work we do.
+                                                    We infuse creativity in your online space and make it a captivating experience for the users on the world wide web.
+                                                    <br />
+                                                    <br />
+
+                                                    Are you looking for a cutting-edge website? We are here to help!
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
-        </div>
-      
+
 
 
 

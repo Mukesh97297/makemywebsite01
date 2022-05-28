@@ -1,0 +1,141 @@
+.ContactUs-conainer-fluid{
+    background: linear-gradient(to left, white 50%, #000000 50%);
+}
+.contact-form h3{
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: "Montserrat", Sans-serif;
+    color: #222222;
+    font-size: 40px;
+}
+.contact-us-i{
+    width: 1.25em;
+    font-size: 32px;
+    position: relative!important;
+    top: 6px;
+    color: #000000;
+}
+.contact-form a{
+    color: #000000;
+    line-height: 2em;
+    font-family:  "Josefin Sans", Sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+}
+.contact-envelope-i{
+    width: 1.25em;
+    font-size: 32px;
+    position: relative !important;
+    top: 6px;
+    color: #000000;
+}
+.contact-us-animations h3{
+    font-weight: 800;
+    line-height: 1.3em;
+    font-family: "Montserrat", Sans-serif;
+    color: #222222;
+    font-size: 32px;
+}
+.Contact-us-submit{
+    background-color: #222222;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #7A7A7A;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+    padding: 15px 35px 15px 35px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+    width: 100%;
+    border-radius: 0px 0px 0px 0px; 
+}
+.Contact-us-submit:hover{
+    background-color: red;
+}
+.contact-us-lable{
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.divider{
+    display: flex;
+    align-items: center;
+}
+.sapreter h1{
+    padding: 0.22rem;
+    font-size: 36px;
+    font-weight: 200;
+    font-family: "Josefin Sans", Sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    max-width: 95%;
+}
+.divider .sapreter{
+    flex: 1;
+    height: 1px;
+    background-color: black;
+}
+.contact-column{
+    text-align: center;
+}
+.contact-column h3{
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.3em;
+    font-family: "Montserrat", Sans-serif;
+}
+.contact-us-lottie{
+    margin-top: -150px;
+}
+.ContactUs-col-black{
+    background-color: #000000;
+}
+.ContactUs-col-white{
+    background-color: white;
+}
+.ContactUs-Social-Media-icons{
+    text-align: center;
+}
+.contact-us-map{
+ justify-content: center;
+ flex-direction: column;
+ display: flex;
+ text-align: center;
+ vertical-align: middle;
+
+}
+.contact-us-map-icon{
+    color:#ED1C24;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.contact-us-map h5{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.333rem;
+    font-weight: 600;
+    color: #222222;
+}
+.contact-us-map p{
+    margin-bottom: 10px;
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.ContactUs-Social-Media-icons a{
+    color: #FFFFFF;
+    position: inherit !important;
+    width: 1.25em;
+    font-size: 25px;
+}
+.ContactUs-Social-Media-icons{
+    margin-top: -180px;
+}
+

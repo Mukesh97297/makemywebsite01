@@ -22,6 +22,8 @@ import SearchEngineOptimization from './components/SearchEngineOptimization';
 import SocialMediaMarketing from './components/SocialMediaMarketing';
 import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
+import ContactUs from './components/ContactUs';
+
 function App() {
   return (
     <div className="App">
@@ -47,9 +49,14 @@ function App() {
           <Route path="/phtographyportfolio" element={<PhotographyPortfolio />} />
           <Route path="/Graphicportfolio" element={<GraohicPortfolio />} />
           <Route path="/Blog" element={<Blog />} />
-        </Routes>
+          <Route path="/ContactUs" element={<ContactUs/>} /> 
+        </Routes> 
         <Footer />
       </BrowserRouter> 
+
+ 
+       
+     
     </div>
   );
 }

@@ -1,6 +1,9 @@
 import React from 'react'
 import footer1 from '../images/client-partners-verified.png'
 import footer2 from '../images/google_adword_qualified.png';
+import aos from 'aos';
+import 'aos/dist/aos.css'
+aos.init();
 
 function Footer() {
     return (
@@ -52,7 +55,6 @@ function Footer() {
                                     </div>
                                     <div className="row">
                                         <div className="col-md-12">
-
                                             <div id="footer">
                                                 <p>
                                                     <i className='fas fa-dot-circle' style={{ fontSize: "15px", color: "red" }}></i> Web Design Adelaide

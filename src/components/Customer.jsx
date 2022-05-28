@@ -5,21 +5,23 @@ import onestepcare from '../images/onestepcare.png'
 import lalunavintage from '../images/lalunavintage.png'
 import propertyselect from '../images/propertyselect.png'
 import sunshinec from '../images/sunshinec.png'
+import aos from 'aos'
+import 'aos/dist/aos.css'
+aos.init();
 
 
 function Customer() {
     return (
         <div>
-         
-            <div className='container-fluid py-5' style={{ backgroundColor: "black" }}>
+            <div className='container-fluid py-5' style={{ backgroundColor: "#060709" }}>
                 <div className='container'>
                     <div className='row justify-content-center py-5'>
                         <div id='Heading'>
-                            <p>
+                            <p  data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                                 <i aria-hidden="true" className="fas fa-dot-circle mx-2" id="true-circle"> </i>
                                 Customer Feedback
                             </p>  
-                            <div>
+                            <div  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                                 <h1>
                                     Hear from those who’ve had first-hand experiences with us
                                 </h1>
@@ -27,7 +29,7 @@ function Customer() {
                         </div>
                     </div>
                 </div>
-                <div id="demo" className="carousel slide" data-ride="carousel" style={{ backgroundColor: "black" }}>
+                <div id="demo" className="carousel slide" data-ride="carousel" style={{ backgroundColor: "#060709" }}>
                     <div className="carousel-inner py-5">
                         <div className="carousel-item active">
                             <div className='container'>

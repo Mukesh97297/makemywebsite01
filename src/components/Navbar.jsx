@@ -69,7 +69,7 @@ function Navbar() {
                 <a href="/Blog" className="nav-link active mx-3" id='nav-link'> BLOG</a>
               </li>
               <li className="nav-item">
-                <a href="/" className="nav-link active mx-3" id='nav-link'> CONTACT US</a>
+                <a href="/ContactUs" className="nav-link active mx-3" id='nav-link'> CONTACT US</a>
               </li>
               <li className="nav-item">
                 <a href="/" id='navbar-btn' className="btn active mx-3"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
