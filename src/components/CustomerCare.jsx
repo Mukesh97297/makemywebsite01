@@ -9,23 +9,19 @@ function CustomerCare() {
     return (
         <div>
          
-            <div className="container-fluid pl-5 py-3" id="about-container">
+            <div className="container-fluid  py-4" id="about-container">
+                <div className='container'>
                 <div className="row pt-5">
-                    <div className="col-md-12 py-5 pl-5 webDesignDevelopment">
-                        <h1 className='pl-4 pt-5'>
+                    <div className="col-md-12 py-5  webDesignDevelopment">
+                        <h1 className=' pt-5'>
                             Customer Care<hr className='hr'></hr>
                         </h1>
-                        <h2 className='pl-4'>
+                        <h2 className=''>
                             An End-To-End Service Aimed At <br /> Managing Your Tech-Driven Platforms
-
                         </h2>
-                        <div id="about-main-elemontor">
-                            <div id="about-rcircle">
-                                <div id="about-welcome-shape-1"></div>
-                                <div id="about-welcome-shape-2"></div>
-                            </div>
-                        </div>
+                       
                     </div>
+                </div>
                 </div>
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>

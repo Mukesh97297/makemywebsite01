@@ -5,71 +5,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import'../OwlCarousal.css';
-
-
-
-
-import Coburns from '../images/Coburns-Rise.png'
-import Augment from '../images/Augment-Group.png'
-import ninoklapcic from '../images/ninoklapcic.png'
-import misurgeon from '../images/misurgeon.png'
-import imfintelygreen from '../images/infinitelygreen.png'
-
-
+import '../OwlCarousal.css';
 
 function OwlCarousal() {
 
     return (
         <div>
-
-
-            {/* <Swiper s Navigation={true} EffectCoverflow centeredSlides={true} loop={true} slidesPerView={window.innerWidth < 768 ? 1 : "auto"} coverflowEffect={{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:true }} pagination={{clickable
-                :true}} >
-                    <div>
-                        <img src={misurgeon} alt=""className='img-fluid' />
-                    </div>
-                    <div>
-                        <img src={Augment} alt="" className='img-fluid' />
-                    </div>
-                    <div>
-                        <img src={ninoklapcic} alt="" className='img-fluid' />
-                    </div>
-                    <div>
-                        <img src={imfintelygreen} alt="" className='img-fluid' />
-                    </div>
-
-                    <div>
-                        <img src={Coburns} alt="" className='img-fluid' />
-                    </div>
-
-                </Swiper> */}
-            {/* <Swiper
-                spaceBetween={50}
-                slidesPerView={3}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-            >
-                <SwiperSlide>
-                    <img src={Augment} alt="" className='img-fluid' />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={misurgeon} alt="" className='img-fluid' />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Augment} alt="" className='img-fluid' />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={imfintelygreen} alt="" className='img-fluid' />
-                </SwiperSlide>
-            </Swiper>
-
-
- */}
-   <section className='What-we-do'>
+            <section className='What-we-do'>
                 <div className='Vedio-Section'>
                     <video autoPlay muted loop id='What-we-do-vedio' >
                         <source src='https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4' type="video/mp4" />
@@ -102,14 +44,12 @@ function OwlCarousal() {
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </section>
                         </div>
                     </div>
                 </div>
             </section>
-
         </div>
 
 

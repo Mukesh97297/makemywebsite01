@@ -14,7 +14,7 @@ function MmwFront() {
       <div className='container-fluid '>
         <div className='container py-5'>
           <div className='row py-5' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
-            <div className='col-md-7 py-5'>
+            <div className='col-lg-7 py-5'>
               <div className='project'>
                 <div className='heading mx-5'>
                   <p className='pt-5'>Have A Project In Mind?</p>
@@ -35,25 +35,25 @@ function MmwFront() {
       </div>
       <div className='container-fluid' style={{backgroundColor:"#000000D1"}} data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
           <div className='container'>
-            <div className='row py-5 justify-content-center'>
+            <div className='row justify-content-center py-5'>
               <div className='Team py-3'>	We team up with the leading names of the industry</div>
               <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring <br /> the best to every business, every time.	</div>
 
             </div>
             <div className='row justify-content-center'>
-              <div className='col-md-3' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <img src={google} alt="google" className='img-fluid'/>
               </div>
-              <div className='col-md-3' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <img src={shopify} alt="shopify" className='img-fluid'/>
               </div>
-              <div className='col-md-3' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <img src={commerce} alt="commerce" className='img-fluid'/>
               </div>
-              <div className='col-md-3' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <img src={wordpress} alt="wordpress" className='img-fluid'/>
               </div>
-              <div className='col-md-3' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <img src={magento} alt="magento" className='img-fluid'/>
               </div>
             </div>

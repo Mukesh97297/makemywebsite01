@@ -13,25 +13,24 @@ aos.init();
 function Service() {
     return (
         <div>
-
             <section className='Our-service py-5'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-9' data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-9' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <h2 className='service-h2'>Our Services</h2>
                             <p className='service-p'>Our focus is on designing stunning, professional, and optimised<br></br>
                                 websites to help you meet your business goals and succeed online.
                             </p>
                         </div>
-                        <div className='col-lg-3 pt-5 service-btn' data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
-                            <button className='btn  viewbtn'>VIEW ALL SERVICES</button>
+                        <div className='col-lg-3 pt-5 service-btn' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                            <button className='btn viewbtn'>VIEW ALL SERVICES</button>
                         </div>
 
                     </div>
                 </div>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4  mb-4' data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-4  mb-4' data-aos="slide-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={design} loop={true} autoplay={true} style={{ height: "300px", width: "100%" }} />
                                 <div className='service-title'>
@@ -64,7 +63,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4  mb-4' data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-4  mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={branding} loop={true} autoplay={true} style={{ height: "300px", width: "100%" }} />
                                 <div className='service-title'>
@@ -81,7 +80,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 mb-4' data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={email} loop={true} autoplay={true} style={{ height: "300px", width: "100%" }} />
                                 <div className='service-title'>
@@ -97,7 +96,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4  mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-4  mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={photography} loop={true} autoplay={true} style={{ height: "300px", width: "100%" }} />
                                 <div className='service-title'>
@@ -113,7 +112,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 mb-4' data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={customer} loop={true} autoplay={true} style={{ height: "300px", width: "100%" }} />
                                 <div className='service-title'>

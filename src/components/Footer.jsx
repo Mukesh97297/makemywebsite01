@@ -8,7 +8,7 @@ aos.init();
 function Footer() {
     return (
         <div>
-            <div style={{ backgroundColor: "black", color: "white" }}>
+            <div style={{ backgroundColor: "black", color: "white",textAlign:"center" }}>
                 <div className="container-fluid py-3">
                     <div className="row px-5">
                         <div className="col-md-8">
@@ -118,8 +118,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid" style={{ backgroundColor: "#0C0C0C" }}>
-
+                <div className="container-fluid" style={{ backgroundColor: "#0C0C0C",textAlign:"center" }}>
                     <div className="row px-5">
                         <div className="col-md-7">
                             <div className='row'>

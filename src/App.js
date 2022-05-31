@@ -27,7 +27,7 @@ import ContactUs from './components/ContactUs';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,24 +35,25 @@ function App() {
           <Route path="/service" element={<Services />} />
           <Route path="/service/WebDesignDelovpment" element={<WebDesignDevlopment />} />
           <Route path="/service/DigitalMarkeing" element={<DigitalMarkeing />} />
-          <Route path="/DigitalMarkeing/SearchEngine" element={<SearchEngineOptimization/>} />
-          <Route path="/DigitalMarkeing/SocialMedia" element={<SocialMediaMarketing/>} />
-          <Route path="/DigitalMarkeing/ContentMarketing" element={<ContentMarketing/>} />
-          <Route path="/WebDesignDelovpment/GooglePay" element={<GoogleAdsPay/>} />
+          <Route path="/DigitalMarkeing/SearchEngine" element={<SearchEngineOptimization />} />
+          <Route path="/DigitalMarkeing/SocialMedia" element={<SocialMediaMarketing />} />
+          <Route path="/WebDesignDelovpment/ContentMarketing" element={<ContentMarketing />} />
+          <Route path="/WebDesignDelovpment/GooglePay" element={<GoogleAdsPay />} />
           <Route path="/service/branding" element={<Branding />} />
           <Route path="/service/WebEmailHosting" element={<WebEmailHosting />} />
           <Route path="/service/PhotoGraphyVideoGraphy" element={<PhotoGraphyVideoGraphy />} />
           <Route path="/service/CustomerCare" element={<CustomerCare />} />
           <Route path="/ourportfolio" element={<OurPortfolio />} />
-          <Route path="/ourportfolio/Casestudy" element={<Casestudy />} />
+          <Route path="/Casestudy" element={<Casestudy />} />
           <Route path="/VedioPortfolio" element={<VedioGraphyPortfolio />} />
           <Route path="/phtographyportfolio" element={<PhotographyPortfolio />} />
           <Route path="/Graphicportfolio" element={<GraohicPortfolio />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/ContactUs" element={<ContactUs/>} /> 
+          <Route path="/ContactUs" element={<ContactUs />} /> 
         </Routes> 
         <Footer />
-      </BrowserRouter> 
+      </BrowserRouter>
+      
 
  
        

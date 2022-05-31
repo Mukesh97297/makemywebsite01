@@ -31,13 +31,13 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="mainNavigation">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a href="/" className="nav-link active mx-3" id='nav-link'>HOME</a>
+                <a href="/" className="nav-link active" id='nav-link'>HOME</a>
               </li>
               <li className="nav-item">
-                <a href="/about" className="nav-link active mx-3" id='nav-link'>ABOUT US</a>
+                <a href="/about" className="nav-link active" id='nav-link'>ABOUT US</a>
               </li>
               <li className="nav-item dropdown">
-                <a href="/service" className="nav-link active mx-3 "  id='nav-link'>SERVICE +</a>
+                <a href="/service" className="nav-link active"  id='nav-link'>SERVICE +</a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li className='mb-2'><a href="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
                   <li className='dropdown ' >
@@ -56,7 +56,7 @@ function Navbar() {
                 </ul>
               </li>
               <li className="nav-item  dropdown">
-                <a href="/ourportfolio" className="nav-link active mx-3" id='nav-link'> OUR PORTFOLIO +</a>
+                <a href="/ourportfolio" className="nav-link active" id='nav-link'> OUR PORTFOLIO +</a>
                 <ul ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                       <li className='mb-2'><a href="/" className='dropdown-item' >Web Design Portfolio</a></li>
                       <li className='mb-2'><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
@@ -66,13 +66,13 @@ function Navbar() {
                     </ul>
               </li>
               <li className="nav-item">
-                <a href="/Blog" className="nav-link active mx-3" id='nav-link'> BLOG</a>
+                <a href="/Blog" className="nav-link active" id='nav-link'> BLOG</a>
               </li>
               <li className="nav-item">
-                <a href="/ContactUs" className="nav-link active mx-3" id='nav-link'> CONTACT US</a>
+                <a href="/ContactUs" className="nav-link active" id='nav-link'> CONTACT US</a>
               </li>
               <li className="nav-item">
-                <a href="/" id='navbar-btn' className="btn active mx-3"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
+                <a href="/" id='navbar-btn' className="btn active"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
               </li>
             </ul>
 

@@ -5,38 +5,35 @@ import ServiceDelivery from './ServiceDelivery'
 import '../About.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Caraousel from './Caraousal'
 Aos.init()
 
 function About() {
     return (
         <div>
-
-            <div className="container-fluid pl-5 py-5" id="about-container">
+            <div className="container-fluid py-5" id="about-container">
+                <div className='container'>
                 <div className="row pt-5">
-                    <div className="col-md-12 pl-5 paragraph">
-                        <h1 className='pl-4 pt-5'>
+                    <div className="col-md-12  paragraph">
+                        <h1 className=' pt-5'>
                             About Us <hr className='hr'></hr>
                         </h1>
-                        <h2 className='pl-4'>
+                        <h2 className=''>
                             A Team Of Experts United By The <br></br>Passion For
                             Technology-Led Solutions
                         </h2>
-                        <div id="about-main-elemontor">
-                            <div id="about-rcircle">
-                                <div id="about-welcome-shape-1"></div>
-                                <div id="about-welcome-shape-2"></div>
-                            </div>
-                        </div>
+                        
                     </div>
+                </div>
                 </div>
             </div>
             <div className="container-fluid py-5 ">
                 <div className='container py-5'>
                     <div className='row'>
-                        <div className='main-heading' data-aos="slide-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='main-heading' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <h2>About Make My Website</h2>
                         </div>
-                        <div className='main-heading1' data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='main-heading1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <h4>A promising agency that redefines digitalisation and develops magnificent web experiences</h4>
                         </div>
                         <div className='main-heading2' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
@@ -49,8 +46,8 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid py-5' style={{ backgroundColor: "black" }}>
-                <div className=''></div>
+            <div className='container-fluid py-5'>
+               <Caraousel/>
             </div>
             <div className='container-fluid py-5'>
                 <div className='container  py-5'>
@@ -60,7 +57,7 @@ function About() {
                         </h2>
                     </div>
                     <div className='row justify-content-center py-5'>
-                        <div className='col-lg-6' data-aos="slide-top" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <p className='our-story-p'>
                                 What first started as an idea has now transformed into a vision and as we continue to expand our horizons- our commitment towards providing high standards of service has just gotten stronger.
                                 As a digital agency with clients in every single state and territory of Australia, our establishment as a renowned company has been worthwhile.
@@ -69,20 +66,20 @@ function About() {
                                 businesses in this digital space. We are ready to take up any challenge and strive to provide the best customer service.
                             </p>
                         </div>
-                        <div className='col-lg-6' data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                             <img src={storyoffice} alt="our-story" className='img-fluid' />
                         </div>
                     </div>
                 </div>
             </div>
-            <section className='What-we-do'>
+            <section className='What-we-do mb-0'>
                 <div className='Vedio-Section'>
-                    <video autoPlay muted loop  >
+                    <video autoPlay muted loop>
                         <source src='https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4' type="video/mp4" />
                     </video>
                 </div>
-                <div className='background-overlay-div'></div>
-                <div className=' container Column-gap-default'>
+                <div className='background-overlay'></div>
+                <div className='container Column-gap-default'>
                     <div className='elementer-column'>
                         <div className='elementer-wight-wrap'>
                             <section className='elementer-section'>

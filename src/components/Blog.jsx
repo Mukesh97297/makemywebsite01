@@ -20,37 +20,33 @@ import business2 from '../images/google-business.jpg'
 import business3 from '../images/Content-Marketing-Blog-Marketig.jpg'
 import business4 from '../images/business-brand.jpg'
 import business5 from '../images/Common-problems-faced-by-small-businesses-without-an-online-presence.jpg'
-
-
+import aos from 'aos'
+import 'aos/dist/aos.css'
+aos.init()
 
 function Blog() {
     return (
         <div>
-        
-            <div className="container-fluid pl-5 pt-3" id="about-container">
-                <div className="row pt-5">
-                    <div className="col-md-12 pt-5 pl-5 webDesignDevelopment">
-                        <h1 className='pl-4 pt-3'>
-                            Blog
-                            <hr className='hr'></hr>
-                        </h1>
-                        <h2 className='pl-4 mb-2'>
-                            Adding Value To Your Business By <br /> Spilling Facts, And Sharing <br /> Knowledge
-                        </h2>
-                        <div id="about-main-elemontor">
-                            <div id="about-rcircle">
-                                <div id="about-welcome-shape-1"></div>
-                                <div id="about-welcome-shape-2"></div>
-                            </div>
+            <div className="container-fluid py-5" id="about-container">
+                <div className='container'>
+                    <div className="row pt-5">
+                        <div className="col-md-12 paragraph">
+                            <h1 className=''>
+                                Blog
+                                <hr className='hr'></hr>
+                            </h1>
+                            <h2 className='mb-2'>
+                                Adding Value To Your Business By <br /> Spilling Facts, And Sharing <br /> Knowledge
+                            </h2>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='container py-5'>
                 <div className='row'>
-                <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business5} alt=""/>
+                            <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -60,21 +56,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={blog2} alt=""  />
-                             <div className='abc-btn py-1 px-3'>Blogs</div>
-                            <div className='card-body'>
-                                <h4>How SEO can Boost your Small Business</h4>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Admin . 04/02/2022</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-md-4 mb-4'>
-                        <div className='card blogs-card'>
-                            <img src={blog1} alt=""  />
+                            <img src={blog2} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
                             <div className='card-body'>
                                 <h4>How SEO can Boost your Small Business</h4>
@@ -84,9 +68,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={blog3} alt=""  />
+                            <img src={blog1} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
                             <div className='card-body'>
                                 <h4>How SEO can Boost your Small Business</h4>
@@ -96,9 +80,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={blog4} alt=""  />
+                            <img src={blog3} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
                             <div className='card-body'>
                                 <h4>How SEO can Boost your Small Business</h4>
@@ -108,9 +92,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={blog5} alt=""  />
+                            <img src={blog4} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
                             <div className='card-body'>
                                 <h4>How SEO can Boost your Small Business</h4>
@@ -120,9 +104,21 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={design1} alt=""  />
+                            <img src={blog5} alt="" />
+                            <div className='abc-btn py-1 px-3'>Blogs</div>
+                            <div className='card-body'>
+                                <h4>How SEO can Boost your Small Business</h4>
+                            </div>
+                            <div className='card-footer'>
+                                <p>Admin . 04/02/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='card blogs-card'>
+                            <img src={design1} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
                             <div className='card-body'>
                                 <h4>Reasons to Improve your Website Design</h4>
@@ -132,9 +128,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={design2} alt=""  />
+                            <img src={design2} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
                             <div className='card-body'>
                                 <h4>Reasons to Improve your Website Design</h4>
@@ -144,9 +140,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={design3} alt=""  />
+                            <img src={design3} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
                             <div className='card-body'>
                                 <h4>How is having a Good Web Design Synonymous to Visual Merchandising?</h4>
@@ -156,9 +152,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={design4} alt=""  />
+                            <img src={design4} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
                             <div className='card-body'>
                                 <h4>5 reasons why Tradies need a website</h4>
@@ -168,9 +164,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={design5} alt=""  />
+                            <img src={design5} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
                             <div className='card-body'>
                                 <h4>Introduction to key areas in a Website</h4>
@@ -180,9 +176,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card' >
-                            <img src={sco1} alt=""  />
+                            <img src={sco1} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
                             <div className='card-body'>
                                 <h4>How Does An SEO Agency Help Increase Organic Traffic?</h4>
@@ -192,9 +188,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business5} alt=""/>
+                            <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -204,9 +200,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card' >
-                            <img src={sco2} alt=""  />
+                            <img src={sco2} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
                             <div className='card-body'>
                                 <h4>3 Things To Include In a Website For Better Ranking</h4>
@@ -216,9 +212,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card' >
-                            <img src={sco3} alt=""  />
+                            <img src={sco3} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
                             <div className='card-body'>
                                 <h4>What Makes For High-Quality Content</h4>
@@ -228,9 +224,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card' >
-                            <img src={sco4} alt=""  />
+                            <img src={sco4} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
                             <div className='card-body'>
                                 <h4>How To Do Better Online Marketing</h4>
@@ -240,9 +236,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card' >
-                            <img src={sco5} alt=""  />
+                            <img src={sco5} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
                             <div className='card-body'>
                                 <h4>The Backbone of Digitization (Edition 2020) : Website Optimisation</h4>
@@ -252,9 +248,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business1} alt=""/>
+                            <img src={business1} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -264,9 +260,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business2} alt=""/>
+                            <img src={business2} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -276,9 +272,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business3} alt=""/>
+                            <img src={business3} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -288,9 +284,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business4} alt=""/>
+                            <img src={business4} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -300,9 +296,9 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         <div className='card blogs-card'>
-                            <img src={business5} alt=""/>
+                            <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
                             <div className='card-body'>
                                 <h4>Tips To Improve Your Google My Business Ranking</h4>
@@ -313,7 +309,7 @@ function Blog() {
                         </div>
                     </div>
                 </div>
-                <div className='py-5 blog-footer-end'>
+                <div className='py-5 blog-footer-end' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                     <p>No more posts to show</p>
                 </div>
             </div>

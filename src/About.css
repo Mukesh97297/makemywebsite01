@@ -3,6 +3,7 @@
     background: url(./images/abstract-bg.jpg) 50% 50%;
     background-size: cover;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 727px) {
@@ -15,7 +16,7 @@
 }
 
 /* vedio-section */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
     .Vedio-Section {
         display: none;
         text-align: center;
@@ -38,11 +39,10 @@ vedio {
     position: absolute;
     top: 50%;
     left: 50%;
-
     text-align: center;
 }
 
-.background-overlay-div{
+.background-overlay{
     height: 100%;
     width: 100%;
     left: 0;

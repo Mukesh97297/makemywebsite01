@@ -12,18 +12,13 @@ function WebDesign() {
         <div>
             <section className='about_section'>
                 <div className="container py-5">
-                    <div className="row mb-5">
-                        <div className="col-lg-6" data-aos="slide-down"data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                    <div className="row mb-5 about_section-2">
+                        <div className="col-lg-6" data-aos="zoom-in"data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <div>
                                 <img src={about} alt="about" className="img-fluid rounded-pill" />
-                                <div id="web-img-small">
-                                    <p id="web-img-small1">Trusted by</p>
-                                    <p id="web-img-small2">800 +</p>
-                                    <p id="web-img-small3">clients</p>
-                                </div>
                             </div>
                         </div>
-                        <div className='col-md-6' data-aos="slide-left" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
                             <p className='about-p'>
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </p>
@@ -55,7 +50,7 @@ function WebDesign() {
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-12'>
+                                <div className='col-lg-12'>
                                     <p className='about-paragraph'>We’ve put on our creative hats to level up web design, Australia-wide. It’s about time
                                         to put forth your business on the world wide web and be second to none.
                                         Innovation is the key to creating designs that don’t
