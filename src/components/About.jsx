@@ -72,7 +72,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <section className='What-we-do mb-0'>
+            <section className='What-we-do'>
                 <div className='Vedio-Section'>
                     <video autoPlay muted loop>
                         <source src='https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4' type="video/mp4" />

@@ -23,11 +23,12 @@ import SocialMediaMarketing from './components/SocialMediaMarketing';
 import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
+import AutoScroll from './components/AutoScroll';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -53,8 +54,8 @@ function App() {
         </Routes> 
         <Footer />
       </BrowserRouter>
-      
-
+       */}
+      <AutoScroll/>
  
        
      

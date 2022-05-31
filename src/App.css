@@ -611,6 +611,14 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
+.autoscroll{
+  background-color: black;
+  height: 300px;
+  transition: ease-in-out 2s;
+  background-position: top;
+  background-size: cover;
+  overflow: hidden;
+}
 
 
  
