@@ -58,7 +58,7 @@ function Navbar() {
               <li className="nav-item  dropdown">
                 <a href="/ourportfolio" className="nav-link active" id='nav-link'> OUR PORTFOLIO +</a>
                 <ul ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                      <li className='mb-2'><a href="/" className='dropdown-item' >Web Design Portfolio</a></li>
+                      <li className='mb-2'><a href="/WebDesignPortfolio" className='dropdown-item' >Web Design Portfolio</a></li>
                       <li className='mb-2'><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
                       <li className='mb-2'><a href="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</a></li>
                       <li className='mb-2'><a href="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</a></li>

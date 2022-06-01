@@ -1,51 +1,43 @@
+.abc {
+  height: 300px;
+  overflow: scroll;
+}
+.abc img{
+  width: 100%;
+  text-align: center;
+}
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  opacity: 1;
+}
 
-  .abc{
-    background-color: black;
-    height: 200px;
-    transition: ease-in-out 2s;
-    background-position: top;
-    background-size: cover;
-  }
-  
-  
-  /* .works.works2{
-    background: url(../src/images/Angels-Hair-Extensions-372x1024.jpg);
-    background-size: cover;
-  
-  } */
-  .abc:hover{
-    background-position: bottom;
-  }
-    
-  .overlay1 {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    opacity: 1;
-  }
-  .view-btn{
-    font-family: "Poppins", Sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 30px;
-      fill: #FFFFFF;
-      color: #FFFFFF;
-      background-color:red;
-      border-style: solid;
-      border-width: 0px 0px 0px 0px;
-      border-color: #FFFFFF;
-      border-radius: 0px 0px 0px 0px;
-      padding: 10px 25px 10px 25px;
-      max-width: 100%;
-      width: auto;
-  }
-  
+.view-btn {
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: red;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #FFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  padding: 10px 25px 10px 25px;
+  max-width: 100%;
+  width: auto;
+}
+.view-btn button{
+  text-align: center;
+}

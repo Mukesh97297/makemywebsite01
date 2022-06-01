@@ -23,12 +23,12 @@ import SocialMediaMarketing from './components/SocialMediaMarketing';
 import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
-import AutoScroll from './components/AutoScroll';
+import WebDesignPortfolio from './components/WebDesignPortfolio';
 
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -45,6 +45,7 @@ function App() {
           <Route path="/service/PhotoGraphyVideoGraphy" element={<PhotoGraphyVideoGraphy />} />
           <Route path="/service/CustomerCare" element={<CustomerCare />} />
           <Route path="/ourportfolio" element={<OurPortfolio />} />
+          <Route path='/WebDesignPortfolio' element={<WebDesignPortfolio/>}/>
           <Route path="/Casestudy" element={<Casestudy />} />
           <Route path="/VedioPortfolio" element={<VedioGraphyPortfolio />} />
           <Route path="/phtographyportfolio" element={<PhotographyPortfolio />} />
@@ -54,8 +55,7 @@ function App() {
         </Routes> 
         <Footer />
       </BrowserRouter>
-       */}
-      <AutoScroll/>
+
  
        
      

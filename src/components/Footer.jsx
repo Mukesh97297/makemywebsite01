@@ -8,12 +8,12 @@ aos.init();
 function Footer() {
     return (
         <div>
-            <div style={{ backgroundColor: "black", color: "white",textAlign:"center" }}>
+            <div style={{ backgroundColor: "black", color: "white" }}>
                 <div className="container-fluid py-3">
                     <div className="row px-5">
-                        <div className="col-md-8">
+                        <div className="col-lg-8">
                             <div className="row">
-                                <div className="col-md-4">
+                                <div className="col-lg-4">
                                     <div className="py-3">
                                         <h4 id="fotterh4">Victoria</h4>
                                     </div>
@@ -24,7 +24,7 @@ function Footer() {
                                         <h6 id="footerh6">TRUGANINA VIC 3029</h6>
                                     </div>
                                     <div className="row">
-                                        <div className="col-md-12">
+                                        <div className="col-lg-12">
                                             <div id="footer">
                                                 <p>
                                                     <i className='fas fa-dot-circle' style={{ fontSize: "15px", color: "red" }}></i> Web Design Sydney
@@ -42,7 +42,7 @@ function Footer() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4">
                                     <div className="py-3">
                                         <h4 id="fotterh4">New South Wales</h4>
                                     </div>
@@ -54,7 +54,7 @@ function Footer() {
                                         <h6 id="footerh6">NSW 2148, Australia</h6>
                                     </div>
                                     <div className="row">
-                                        <div className="col-md-12">
+                                        <div className="col-lg-12">
                                             <div id="footer">
                                                 <p>
                                                     <i className='fas fa-dot-circle' style={{ fontSize: "15px", color: "red" }}></i> Web Design Adelaide
@@ -69,7 +69,7 @@ function Footer() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4">
+                                <div className="col-lg-4">
                                     <div id="footerlinks">
                                         <h4 id="fotterh4" className="py-3">Quick Links</h4>
                                         <p className='pt-2'>
@@ -91,7 +91,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-lg-4">
                             <div className="py-4" id="social-links">
                                 <h5>
                                     Creating future-proof digital experiences is what we do. Tell us
@@ -118,11 +118,11 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid" style={{ backgroundColor: "#0C0C0C",textAlign:"center" }}>
+                <div className="container-fluid" style={{ backgroundColor: "#0C0C0C"}}>
                     <div className="row px-5">
-                        <div className="col-md-7">
+                        <div className="col-lg-7">
                             <div className='row'>
-                                <div className='col-md-12 d-flex'>
+                                <div className='col-lg-12 d-flex'>
                                     <img src={footer1} alt="client" height='75px' width='160px' />
                                     <img src={footer2} alt="client" height='70px' width='160px' className='pt-1' />
                                 </div>
@@ -133,7 +133,7 @@ function Footer() {
                             </div>
                         </div >
 
-                        <div className="col-md-5 pt-3">
+                        <div className="col-lg-5 pt-3">
                             <div id="footer-logo-p2">
                                 <p>Copyright © 2022 Make My Website. All Rights Reserved.</p>
                                 <p>Web Design Melbourne Make My Website</p>
