@@ -13,12 +13,12 @@ function WebDesign() {
             <section className='about_section'>
                 <div className="container py-5">
                     <div className="row mb-5 about_section-2">
-                        <div className="col-lg-6" data-aos="zoom-in"data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className="col-lg-6" data-aos="zoom-in"data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <div>
                                 <img src={about} alt="about" className="img-fluid rounded-pill" />
                             </div>
                         </div>
-                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <p className='about-p'>
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </p>
@@ -43,10 +43,10 @@ function WebDesign() {
                             </div>
                             <div className='row'>
                                 <div className='col-md-5 mb-3'>
-                                    <button className='btn about-btn py-2 '><i aria-hidden="true" className="fas fa-check chack px-2"></i>High-end solutions forsmall & large business</button>
+                                    <button className='btn about-btn py-2 '><i aria-hidden={true} className="fas fa-check chack px-2"></i>High-end solutions forsmall & large business</button>
                                 </div>
                                 <div className='col-md-5 mb-3'>
-                                    <button className='btn about-btn py-2'><i aria-hidden="true" className="fas fa-check chack px-2"></i>Helping local businesses go online</button>
+                                    <button className='btn about-btn py-2'><i aria-hidden={true} className="fas fa-check chack px-2"></i>Helping local businesses go online</button>
                                 </div>
                             </div>
                             <div className='row'>
@@ -65,28 +65,28 @@ function WebDesign() {
                         </div>
                     </div>
                     <div className='row justify-content-center about-counter-row '>
-                        <div className='col-lg-3 py-5'data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-3 py-5'data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <div>
                                 <img src={experience} alt="experience" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'><CountUp start={0} end={10} duration={1} />+</h1>
                                 <p className='about-counter-p py-3'>Year Of Expertise</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <div  className='about-col'>
                                 <img src={owned} alt="owned" height="60px" width="60px" />
                                 <h1 className='about-count-h pt-4'><CountUp start={0} end={100} duration={1} />%</h1>
                                 <p className='about-counter-p py-3'>Australian Owned</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <div  className='about-col'>
                                 <img src={design} alt="design" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'> <CountUp start={0} end={5} duration={1} />-Star rated</h1>
                                 <p className='about-counter-p py-3'>Web design agency</p>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false">
+                        <div className='col-lg-3 py-5' data-aos="zoom-in" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
                             <div className='about-col'>
                                 <img src={client} alt="clients" height="60px" width="60px"  />
                                 <h1 className='about-count-h pt-4'>

@@ -22,7 +22,7 @@ function Navbar() {
     <div>
       <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${color && 'nav_blue'}`}>
         <div className="container py-2">
-          <a href="/" className="navbar-brand">
+          <a className="navbar-brand">
             <img src={logo} height="50px" alt="" />
           </a>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">

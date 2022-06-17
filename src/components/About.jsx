@@ -30,13 +30,13 @@ function About() {
             <div className="container-fluid py-5 ">
                 <div className='container py-5'>
                     <div className='row'>
-                        <div className='main-heading' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='main-heading' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             <h2>About Make My Website</h2>
                         </div>
-                        <div className='main-heading1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='main-heading1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             <h4>A promising agency that redefines digitalisation and develops magnificent web experiences</h4>
                         </div>
-                        <div className='main-heading2' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='main-heading2' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             <p>Make My Website envisions empowering local businesses by creating meaningful
                                 experiences for them to ace in their fields of expertise. We take pride in having
                                 successful associations across Australia whilst adopting innovative practices and
@@ -52,12 +52,12 @@ function About() {
             <div className='container-fluid py-5'>
                 <div className='container  py-5'>
                     <div className='row justify-content-center'>
-                        <h2 className='our-story' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <h2 className='our-story' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             Our Story
                         </h2>
                     </div>
                     <div className='row justify-content-center py-5'>
-                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             <p className='our-story-p'>
                                 What first started as an idea has now transformed into a vision and as we continue to expand our horizons- our commitment towards providing high standards of service has just gotten stronger.
                                 As a digital agency with clients in every single state and territory of Australia, our establishment as a renowned company has been worthwhile.
@@ -66,7 +66,7 @@ function About() {
                                 businesses in this digital space. We are ready to take up any challenge and strive to provide the best customer service.
                             </p>
                         </div>
-                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <div className='col-lg-6' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                             <img src={storyoffice} alt="our-story" className='img-fluid' />
                         </div>
                     </div>

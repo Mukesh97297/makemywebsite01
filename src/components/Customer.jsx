@@ -17,11 +17,11 @@ function Customer() {
                 <div className='container'>
                     <div className='row justify-content-center py-5'>
                         <div id='Heading'>
-                            <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
-                                <i aria-hidden="true" className="fas fa-dot-circle mx-2" id="true-circle"> </i>
+                            <p data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                                <i aria-hidden={true} className="fas fa-dot-circle mx-2" id="true-circle"> </i>
                                 Customer Feedback
                             </p>  
-                            <div  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                            <div  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
                                 <h1>
                                     Hear from those who’ve had first-hand experiences with us
                                 </h1>
