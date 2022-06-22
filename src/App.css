@@ -12,7 +12,7 @@ container {
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .home-main-div {
@@ -439,12 +439,13 @@ p {
   padding: 100px 35px 100px 35px;
 }
 
-#heroTag p {
+.latest-work {
   color: white;
   font-weight: bold;
   line-height: 1.3em;
   margin: 0px 0px 10px 0px;
   font-size: 5.209rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .works {

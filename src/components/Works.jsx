@@ -6,7 +6,7 @@ function Works() {
                 <div className='container-fluid'>
                     <div className='row'>
                         <div id='heroTag'  >
-                            <p>Latest Works</p>
+                            <p className='latest-work'>Latest Works</p>
                         </div>
                     </div>
                     <div className='row py-5'>
