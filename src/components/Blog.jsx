@@ -27,24 +27,22 @@ aos.init()
 function Blog() {
     return (
         <div>
-            <div className="container-fluid py-5" id="about-container">
-                <div className='container'>
-                    <div className="row pt-5">
-                        <div className="col-md-12 paragraph">
-                            <h1 className=''>
-                                Blog
-                                <hr className='hr'></hr>
-                            </h1>
-                            <h2 className='mb-2'>
-                                Adding Value To Your Business By <br /> Spilling Facts, And Sharing <br /> Knowledge
-                            </h2>
-                        </div>
+            <div className="container-fluid" id="about-container">
+                <div className="row">
+                    <div className="col-md-6 paragraph">
+                        <h1>
+                            Blog
+                            <hr className='hr'></hr>
+                        </h1>
+                        <h2>
+                            Adding Value To Your Business By <br /> Spilling Facts, And Sharing <br /> Knowledge
+                        </h2>
                     </div>
                 </div>
             </div>
             <div className='container py-5'>
                 <div className='row'>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -56,7 +54,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog2} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -68,7 +66,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog1} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -80,7 +78,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog3} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -92,7 +90,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog4} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -104,7 +102,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog5} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -116,7 +114,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design1} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -128,7 +126,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design2} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -140,7 +138,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design3} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -152,7 +150,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design4} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -164,7 +162,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design5} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -176,7 +174,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco1} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -188,7 +186,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4' >
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -200,7 +198,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4' >
                         <div className='card blogs-card' >
                             <img src={sco2} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -212,7 +210,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco3} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -224,7 +222,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco4} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -236,7 +234,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4' >
                         <div className='card blogs-card' >
                             <img src={sco5} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -248,7 +246,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business1} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -260,7 +258,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business2} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -272,7 +270,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business3} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -284,7 +282,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business4} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -296,7 +294,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -309,7 +307,7 @@ function Blog() {
                         </div>
                     </div>
                 </div>
-                <div className='py-5 blog-footer-end' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                <div className='py-5 blog-footer-end' >
                     <p>No more posts to show</p>
                 </div>
             </div>

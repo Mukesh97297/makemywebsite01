@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import logo from '../images/mmw-light-logo-min.png'
 
 function Navbar() {
-  const [color, setColor] = useState(false);
+   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY > 50) {
       setColor(false)
@@ -16,13 +16,13 @@ function Navbar() {
     return () => {
       window.removeEventListener('scroll', changeColor)
     }
-  }, [])
+   }, [])
 
   return (
     <div>
       <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${color && 'nav_blue'}`}>
-        <div className="container py-2">
-          <a className="navbar-brand">
+        <div className="container-fluid mx-3 py-2">
+          <a href='/' className="navbar-brand">
             <img src={logo} height="50px" alt="" />
           </a>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
@@ -75,10 +75,9 @@ function Navbar() {
                 <a href="/" id='navbar-btn' className="btn active"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
               </li>
             </ul>
-
           </div>
         </div>
-      </nav >
+      </nav > 
     </div>
 
   )

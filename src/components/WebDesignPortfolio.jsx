@@ -19,19 +19,17 @@ function WebDesignPortfolio() {
     }
     return (
         <div>
-            <div className="container-fluid py-4" id="about-container">
-               <div className='container'>
-               <div className="row pt-5">
-                    <div className="col-md-12 py-5  webDesignDevelopment">
-                        <h1 className='pt-5'>
+            <div className="container-fluid" id="about-container">
+               <div className="row">
+                    <div className="col-md-6 paragraph">
+                        <h1>
                             Web Design Portfolio <hr className='hr'></hr>
                         </h1>
-                        <h2 className=''>
+                        <h2>
                             A Vast Portfolio Of Websites That <br /> Showcase Our Credibility
                         </h2>
                     </div>
                 </div>
-               </div>
             </div>
             <div className='container my-3'>
                 <div className='row head-btn justify-content-center'>

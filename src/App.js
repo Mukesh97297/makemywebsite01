@@ -28,8 +28,12 @@ import WebDesignPortfolio from './components/WebDesignPortfolio';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navbar />
+       
+     
+      
+      
+       <BrowserRouter>
+       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -53,8 +57,9 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/ContactUs" element={<ContactUs />} /> 
         </Routes> 
-        <Footer />
-      </BrowserRouter>
+        <Footer/>
+      </BrowserRouter> 
+       
 
  
        

@@ -1,78 +1,75 @@
 import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'
-AOS.init()
 function Works() {
     return (
         <div>
             <div className='container-fluid' id='works'>
-                <div className='container py-5'>
+                <div className='container-fluid'>
                     <div className='row'>
-                        <div id='heroTag'  data-aos="" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <h1>Latest Works</h1>
+                        <div id='heroTag'  >
+                            <p>Latest Works</p>
                         </div>
                     </div>
                     <div className='row py-5'>
-                        <div className=" col-lg-3 mb-4"data-aos="flip-up" data-aos-offset="200"data-aos-delay="50"data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror={true}data-aos-once="false">
-                            <div className='works works1'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4">
+                            <p className='works works1'>
+                                <a href='/' className='overlay1'>
                                     United Tools
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works2'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4" >
+                            <p className='works works2'>
+                                <a href='/' className='overlay1'>
                                     Dal
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4 " data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works3'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4 " >
+                            <p className='works works3'>
+                                <a href='/' className='overlay1'>
                                     Coburns Rise
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4 " data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works4'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4 " >
+                            <p className='works works4'>
+                                <a href='/' className='overlay1'>
                                     Rg Land
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works5'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4" >
+                            <p className='works works5'>
+                                <a href='/' className='overlay1'>
                                     Sunshine Collactables
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works6'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4" >
+                            <p className='works works6'>
+                                <a href='/' className='overlay1'>
                                     Tic Group
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4"data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works7'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4">
+                            <p className='works works7'>
+                                <a href='/' className='overlay1'>
                                     Carrabba's Group
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <div className='works works8'>
-                                <div className='overlay1'>
+                        <div className=" col-lg-3 mb-4" >
+                            <p className='works works8'>
+                                <a href='/' className='overlay1'>
                                     Rg Land
-                                </div>
-                            </div>
+                                </a>
+                            </p>
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                            <button className='btn view-btn'>View All Pojects</button>
+                        <div>
+                            <a className='btn view-btn' href='/'>View All Pojects</a>
                         </div>
                     </div>
                 </div>

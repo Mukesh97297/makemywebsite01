@@ -11,54 +11,53 @@ aos.init();
 function MmwFront() {
   return (
     <div className='front-banner'>
-      <div className='container-fluid '>
-        <div className='container py-5'>
-          <div className='row py-5' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-            <div className='col-lg-7 py-5'>
-              <div className='project'>
-                <div className='heading mx-5'>
-                  <p className='pt-5'>Have A Project In Mind?</p>
-                  <div className='heading-info1 pt-3'> Want to collaborate and give wings to your dream project?</div>
-                  <div className='heading-info1 pt-4'>Let’s talk!	</div>
-                  <div className='heading-button py-5 mb-5'>
-                    <a href="/" className='btn-link get-quits' role='button'>
-                      <span>
-                        <span>Get a Quote</span>
-                      </span>
-                    </a>
-                  </div>
+      <div className='container-fluid front-banner1'>
+        <div className='row' >
+          <div className='col-lg-6'>
+            <div className='project'>
+              <div className='heading'>
+                <p>Have A Project In Mind?</p>
+                <div className='heading-info1'> Want to collaborate and give wings to your dream project?</div>
+                <div className='heading-info1'>Let’s talk!</div>
+                <div className='heading-button'>
+                  <a href="/" className='btn-link get-quits' role='button'>
+                    <span>
+                      <span>Get a Quote</span>
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='container-fluid' style={{backgroundColor:"#000000D1"}} data-aos="flip-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-          <div className='container'>
-            <div className='row justify-content-center py-5'>
-              <div className='Team py-3'>	We team up with the leading names of the industry</div>
-              <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring <br /> the best to every business, every time.	</div>
-
+      <div className='container-fluid' style={{ backgroundColor: "#000000D1",padding:"20px 0px 20px 0px" }} >
+        <div className='container'>
+          <div className='Teams'>
+            <div className='row justify-content-center '>
+              <div className='Team'>	We team up with the leading names of the industry</div>
+              <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring the best to every business, every time.	</div>
             </div>
-            <div className='row justify-content-center'>
-              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                <img src={google} alt="google" className='img-fluid'/>
+            <div className='row justify-content-center' style={{padding:"20px 0px 20px 0px" }}>
+              <div className='col-lg-2 mmw-logos-1' >
+                <img src={google} alt="google" className='img-fluid' />
               </div>
-              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                <img src={shopify} alt="shopify" className='img-fluid'/>
+              <div className='col-lg-2 mmw-logos-1' >
+                <img src={shopify} alt="shopify" className='img-fluid' />
               </div>
-              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                <img src={commerce} alt="commerce" className='img-fluid'/>
+              <div className='col-lg-2 mmw-logos-1' >
+                <img src={commerce} alt="commerce" className='img-fluid' />
               </div>
-              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                <img src={wordpress} alt="wordpress" className='img-fluid'/>
+              <div className='col-lg-2 mmw-logos-1' >
+                <img src={wordpress} alt="wordpress" className='img-fluid' />
               </div>
-              <div className='col-lg-3 mmw-logos-1' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
-                <img src={magento} alt="magento" className='img-fluid'/>
+              <div className='col-lg-2 mmw-logos-1' >
+                <img src={magento} alt="magento" className='img-fluid' />
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   )
 }

@@ -10,23 +10,21 @@ aos.init()
 function Branding() {
     return (
         <div>
-            <div className="container-fluid  py-4" id="about-container">
-                <div className='container'>
-                <div className="row pt-5">
-                    <div className="col-md-12 py-5 webDesignDevelopment">
-                        <h1 className=' pt-5'data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+            <div className="container-fluid" id="about-container">  
+                <div className="row">
+                    <div className="col-md-6 paragraph">
+                        <h1>
                             Branding <hr className='hr'></hr>
                         </h1>
-                        <h2 className='' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                        <h2>
                             Designs That Communicate The <br /> Essence Of Your Brand
                         </h2>
                     </div>
                 </div>
-                </div>
             </div>
             <div className='container-fluid'>
                 <div className='container py-5'>
-                    <div className='row branding-info py-5'data-aos="zoom-in-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='row branding-info py-5'>
                         <p>Branding in itself takes a lot of understanding of brand values and the identity you want the world to
                             remember you with as a brand. Branding has various realms including designing logos, business cards,
                             letterheads, brochures that stretches onto creating business taglines, prints, and finalizing on fonts
@@ -48,62 +46,62 @@ function Branding() {
                 <div className='container'>
                     <div className='row py-5'>
                         <div className='col-lg-7 Graphic-design'>
-                            <h3 data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">Graphic Design</h3>
-                            <p data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">When it comes to graphic designs, the sky’s the limit as everything that takes some
+                            <h3 >Graphic Design</h3>
+                            <p >When it comes to graphic designs, the sky’s the limit as everything that takes some
                                 shape and is utilised by your brand as its own representative is your graphic design.
                                 Graphics play a huge role in determining how the audience and clients interpret
                                 your brand as the human mind thinks in images and corresponding shapes. This makes
                                 your graphic designs a direct communicator to the minds of the people watching or engaging with you.
                             </p>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">A good and effective graphic design subtly communicates to your audiences but imparts
+                            <p  >A good and effective graphic design subtly communicates to your audiences but imparts
                                 every piece of information that needs to go out. A captivating logo, impressive
                                 business card, statement letterhead, with taglines and prints that unleash your
                                 exquisiteness with every glance is how impactful graphics in design can be.
                             </p>
                         </div>
-                        <div className='col-lg-5' data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                        <div className='col-lg-5' >
                             <Lottie animationData={brand} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
                     <div className='row py-5'>
                         <div className='graphic'>
-                            <h4 data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false" className='py-2'>Why Graphic Design is the backbone of every business’s representative <br /> qualitative:</h4>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> It speaks to your audience without having to speak</p>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Gives your brand the attention it deserves</p>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Let’s you graphically depict your brand’s vision and ideals</p>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check  brand-i"></i> Builds a solid brand identity that connects people with you</p>
-                            <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Allows you to establish a familiarity with your audience</p>
-                            <h5 data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false" className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E- <br /> books and more!</h5>
+                            <h4  className='py-2'>Why Graphic Design is the backbone of every business’s representative <br /> qualitative:</h4>
+                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> It speaks to your audience without having to speak</p>
+                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Gives your brand the attention it deserves</p>
+                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you graphically depict your brand’s vision and ideals</p>
+                            <p  ><i className="fa-solid fa-circle-check  brand-i"></i> Builds a solid brand identity that connects people with you</p>
+                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Allows you to establish a familiarity with your audience</p>
+                            <h5  className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E- <br /> books and more!</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='container'>
-                <h3 data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false" className='wordplay-identity'>Brand’s Wordplay Identity</h3>
+                <h3  className='wordplay-identity'>Brand’s Wordplay Identity</h3>
                 <div className='row py-5'>
                     <div className='col-lg-7 Design'>
-                        <p data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">A Brand’s vision is translated through its graphic representations but at
+                        <p >A Brand’s vision is translated through its graphic representations but at
                            the same time is supported through its taglines, slogan, and foremost
                            the name that you hold. Every print and even your main brand logo is only a supporting agent of
                            the name and brand tagline that you speak to your audiences with.
                         </p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">An intelligently named venture, speaks directly to the demand of the market, addresses it,
+                        <p  >An intelligently named venture, speaks directly to the demand of the market, addresses it,
                            and translates into high conversion rates of your leads. The work of business taglines
                            and titles is to hold the audiences the minute they hear of your business’s utility and deliverables.
                            Without the support of taglines, the graphic designs would lack depth and overall meaning.
                         </p>
                     </div>
-                    <div className='col-lg-5'data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">
+                    <div className='col-lg-5'>
                     <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                     </div>
                 </div>
                 <div className='business mb-5'>
-                    <h4 className='py-3'data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false">How your brand’s wordplay and identity establish your value as a business:</h4>
-                    <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> It allows your brand to stand up to its authenticity with the audience</p>
-                    <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Let’s you establish your purposefulness and goal-oriented task forces</p>
-                    <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Motivates your team and professionals to match up to the brand ideals</p>
-                    <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Gives you a clear & distinctive path to follow in delivering</p>
-                    <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check brand-i"></i> Let’s you create an exclusive style of functionality</p>
+                    <h4 className='py-3'>How your brand’s wordplay and identity establish your value as a business:</h4>
+                    <p  ><i className="fa-solid fa-circle-check brand-i"></i> It allows your brand to stand up to its authenticity with the audience</p>
+                    <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you establish your purposefulness and goal-oriented task forces</p>
+                    <p  ><i className="fa-solid fa-circle-check brand-i"></i> Motivates your team and professionals to match up to the brand ideals</p>
+                    <p  ><i className="fa-solid fa-circle-check brand-i"></i> Gives you a clear & distinctive path to follow in delivering</p>
+                    <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you create an exclusive style of functionality</p>
                 </div>
             </div>
             <ServiceDelivery />
