@@ -7,7 +7,7 @@ function Casestudy() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-                <div className="row">
+                <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
                         <h1>
                             Case Studies<hr className='hr'></hr>
