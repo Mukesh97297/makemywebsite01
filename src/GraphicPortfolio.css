@@ -1,30 +1,39 @@
-button:hover{
+button:hover {
     outline: none;
     color: #FB3F69;
-  }
-  button:focus,button.active{
+}
+
+button:focus,
+button.active {
     color: #ED1C24 !important;
     font-weight: 700 !important;
-  }
-  .web-design-portfolio{
+}
+
+.web-design-portfolio {
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-  .btn-section{
-   padding: 10px;
-  }
-  .btn-section .child{
+}
+
+.btn-section {
+    padding: 10px;
+}
+
+.btn-section .child {
     text-align: center;
-  }
-  .filter-links{
+}
+
+.filter-links {
     padding: 0;
-    margin: 0; 
+    margin: 0;
     outline: 0ch;
-  }
-  .filter-links li{
-    margin: 0; display: inline-block;
-  }
-  .filter-links li button{
+}
+
+.filter-links li {
+    margin: 0;
+    display: inline-block;
+}
+
+.filter-links li button {
     padding: 0 10px;
     cursor: pointer;
     display: inline-block;
@@ -36,4 +45,4 @@ button:hover{
     background-color: transparent;
     border-style: none;
     box-shadow: none;
-  }
+}

@@ -1,121 +1,130 @@
 #casestudy {
-  background-color: #060709;
-  padding: 5% 5% 5% 5%;
+    background-color: #060709;
+    padding: 5% 5% 5% 5%;
 }
+
 #heroTag h1 {
-  color: white;
-  font-size: 5em;
+    color: white;
+    font-size: 5em;
 }
 
 .casestudy {
-  background-color: black;
-  height: 300px;
-  transition: ease-in-out 2s;
-  background-position: top;
- 
+    background-color: black;
+    height: 300px;
+    transition: ease-in-out 2s;
+    background-position: top;
 }
-.casestudy.casestudy1:hover{
-  filter: none;
+
+.casestudy.casestudy1:hover {
+    filter: none;
 }
-.casestudy.casestudy2:hover{
-  filter: none;
+
+.casestudy.casestudy2:hover {
+    filter: none;
 }
-.casestudy.casestudy3:hover{
-  filter: none;
+
+.casestudy.casestudy3:hover {
+    filter: none;
 }
-.casestudy.casestudy4:hover{
-  filter: none;
+
+.casestudy.casestudy4:hover {
+    filter: none;
 }
-.casestudy.casestudy5:hover{
-  filter: none;
+
+.casestudy.casestudy5:hover {
+    filter: none;
 }
-.casestudy.casestudy6:hover{
-  filter: none;
+
+.casestudy.casestudy6:hover {
+    filter: none;
 }
-.casestudy.casestudy7:hover{
-  filter: none;
+
+.casestudy.casestudy7:hover {
+    filter: none;
 }
 
 .casestudy.casestudy1 {
-  background: url(../src/images/United-Tools.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/United-Tools.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy2 {
-  background: url(../src/images/dal.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/dal.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy3 {
-  background: url(../src/images/Coburns-Rise.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/Coburns-Rise.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy4 {
-  background: url(../src/images/RG-Land.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/RG-Land.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy5 {
-  background: url(../src/images/Sunshine-Collectables.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/Sunshine-Collectables.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy6 {
-  background: url(../src/images/TIC-Group.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/TIC-Group.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy7 {
-  background: url(../src/images/Carrabbas-Group.jpg);
-  background-size: cover;
-  filter: grayscale(1);
+    background: url(../src/images/Carrabbas-Group.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
 
 .casestudy.casestudy8 {
-  background: url(../src/images/Darebin-Gas.jpg);
-  background-size: cover;
-  filter: grayscale(1);
- 
+    background: url(../src/images/Darebin-Gas.jpg);
+    background-size: cover;
+    filter: grayscale(1);
 }
+
 .casestudy:hover {
-  background-position: bottom;
+    background-position: bottom;
 }
 
 .overlay2 {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  transition: .5s ease;
-  opacity: 0;
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-  opacity: 1;
-  background-size: cover;
-} */ *
-.overlay2 h3{
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 1.3em;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 1;
+    background-size: cover;
 }
-.overlay2 h3 a{
-  align-items: flex-end;
-  justify-content: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9;
-  color: #f1f1f1;
-  position: absolute;
-  text-decoration: none;
+
+*/ * .overlay2 h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.overlay2 h3 a {
+    align-items: flex-end;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    color: #f1f1f1;
+    position: absolute;
+    text-decoration: none;
 }

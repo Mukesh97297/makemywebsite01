@@ -1,24 +1,27 @@
-.Content-Marketing p{
+.Content-Marketing p {
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.4em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4em;
 }
-.Content-marketing{
+
+.Content-marketing {
     color: #545454;
 }
-.Content-Marketing-1 h3{
+
+.Content-Marketing-1 h3 {
     font-weight: 600;
     line-height: 1.3em;
     font-family: "Montserrat", Sans-serif;
     color: #222222;
     font-size: 36px;
 }
-.Content-Marketing-1 p{
+
+.Content-Marketing-1 p {
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.2em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2em;
 }
