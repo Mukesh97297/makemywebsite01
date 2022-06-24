@@ -3,16 +3,10 @@ import storyoffice from '../images/our-story.jpg'
 import Customer from './Customer'
 import ServiceDelivery from './ServiceDelivery'
 import '../About.css'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-import Caraousel from './Caraousal'
-Aos.init()
-
 function About() {
     return (
         <div>
             <div className="container-fluid " id="about-container">
-                
                 <div className="row paragraph1">
                     <div className="col-md-6  paragraph">
                         <h1 className=''>

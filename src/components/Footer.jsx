@@ -1,6 +1,5 @@
 import React from 'react'
 import footer1 from '../images/client-partners-verified.png'
-// import footer2 from '../images/google_adword_qualified.png';
 import demo from '../images/demotext.jpg'
 function Footer() {
     return (
@@ -27,37 +26,34 @@ function Footer() {
                                 </div>
                             </div>
                             <div className='row pt-4'>
-                                <div className='d-flex '>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Sydney</span>
-                                    </div>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Brisbane</span>
-                                    </div>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Perth</span>
-                                    </div>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Newcastle</span>
-                                    </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Sydney</span>
                                 </div>
-                                <div className='d-flex'>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Adelaide</span>
-                                    </div>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Geelong</span>
-                                    </div>
-                                    <div className='footer-web-design'>
-                                        <i className='fas fa-dot-circle'></i>
-                                        <span>Web Design Gold Coast</span>
-                                    </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Brisbane</span>
+                                </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Perth</span>
+                                </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Newcastle</span>
+                                </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Adelaide</span>
+                                </div>
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Geelong</span>
+                                </div>
+
+                                <div className='footer-web-design'>
+                                    <i className='fas fa-dot-circle'></i>
+                                    <span>Web Design Gold Coast</span>
                                 </div>
                             </div>
                         </div>
@@ -109,20 +105,23 @@ function Footer() {
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div className='container-fluid footer-bottom-part'>
                 <div className='row m-0'>
                     <div className='col-lg-8'>
-                        <div className='d-flex m-0'>
-                            <a href="/">
-                                <img src={footer1} alt="client" height='65px' width='210px' />
-                            </a>
-                            <a href="/">
-                                <img src={demo} alt="client" height='61px' width='210px' className='pt-1' />
-                            </a>
+                        <div className='row'>
+                            <div>
+                                <a href="/">
+                                    <img src={footer1} alt="client" height='65px' width='210px' />
+                                </a>
+                            </div>
+                            <div>
+                                <a href="/">
+                                    <img src={demo} alt="client" height='61px' width='210px' className='pt-1' />
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className='col-lg-4 footer-bottom-part-1'>

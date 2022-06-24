@@ -20,27 +20,24 @@ import business2 from '../images/google-business.jpg'
 import business3 from '../images/Content-Marketing-Blog-Marketig.jpg'
 import business4 from '../images/business-brand.jpg'
 import business5 from '../images/Common-problems-faced-by-small-businesses-without-an-online-presence.jpg'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init()
 
 function Blog() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-                <div className="row">
+                <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
                         <h1>
                             Blog
                             <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Adding Value To Your Business By <br /> Spilling Facts, And Sharing <br /> Knowledge
+                            Adding Value To Your Business By Spilling Facts, And Sharing Knowledge
                         </h2>
                     </div>
                 </div>
             </div>
-            <div className='container py-5'>
+            <div className='container main-blog'>
                 <div className='row'>
                     <div className='col-md-4 mb-4'>
                         <div className='card blogs-card'>
