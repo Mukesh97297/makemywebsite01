@@ -20,8 +20,8 @@ function Navbar() {
 
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${color && 'nav_blue'}`}>
-        <div className="container-fluid mx-3 py-2">
+      <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
+        <div className="container-fluid">
           <a href='/' className="navbar-brand">
             <img src={logo} height="50px" alt="" />
           </a>

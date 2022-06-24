@@ -7,74 +7,80 @@ function ContactUs() {
         <div>
             <div className="container-fluid" id="about-container">
                 <div className="row paragraph1">
-                    <div className="col-md-6 paragraph">
+                    <div className='col-lg-6 paragraph'>
                         <h1>
                             Contact Us <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Take Your First Step Towards <br /> Creating An Impact
+                            Take Your First Step Towards Creating An Impact
                         </h2>
                     </div>
                 </div>
             </div>
             <div className='containar-fluid '>
                 <div className='row'>
-                    <div className='col-lg-6  ContactUs-col-black'>
-                        <div className='container'>
-                            <div className='contact-column mb-0'>
-                                <h3 className='pt-5'>Born in sydney, <br /> Grown in melbourne</h3>
+                    <div className='col-lg-6 ContactUs-col-black'>
+                        <div className='ContactUs-col-left'>
+                            <div className='contact-column'>
+                                <h3>Born in sydney, Grown in melbourne</h3>
                             </div>
                             <div className='contact-us-lottie'>
-                                <Lottie animationData={contact} loop={true} autoplay={true} style={{ height: "700px", width: "100%" }} />
+                                <div>
+                                    <Lottie animationData={contact} loop={true} autoplay={true} style={{ height: "700px", width: "100%" }} />
+                                </div>
                             </div>
                             <div className='ContactUs-Social-Media-icons'>
                                 <a href="https://www.facebook.com/makemywebsite.com.au">
-                                    <i className="fa-brands fa-facebook mr-5 pt-5"></i>
+                                    <i className="fa-brands fa-facebook"></i>
                                 </a>
                                 <a href="https://www.instagram.com/makemywebsite.mmw/">
-                                    <i className="fa-brands fa-instagram mr-5 pt-5"></i>
+                                    <i className="fa-brands fa-instagram"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/company/make-my-website-pty-ltd/">
-                                    <i className="fa-brands fa-linkedin-in mr-5 pt-5"></i>
+                                    <i className="fa-brands fa-linkedin-in"></i>
                                 </a>
                                 <a href="https://twitter.com/makemywebsite16">
-                                    <i className="fa-brands fa-twitter-square mr-5 pt-5"></i>
+                                    <i className="fa-brands fa-twitter-square"></i>
                                 </a>
                                 <a href="https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ">
-                                    <i className="fa-brands fa-youtube mr-5 pt-5"></i>
+                                    <i className="fa-brands fa-youtube"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div className='col-lg-6 ContactUs-col-white'>
-                        <div className='container'>
-                            <div className='contact-form pt-5'>
-                                <h3>We’d love to hear <br /> from you! Reach out <br /> to us for all your <br /> queries.</h3>
-                                <a href="tel:1300769302"><i className="fa-solid fa-phone contact-us-i"></i> 1300769302</a> <br />
+                        <div className='ContactUs-col-right'>
+                            <div className='contact-form'>
+                                <h3>We’d love to hear from you! Reach out to us for all your queries.</h3>
+                            </div>
+                            <div className='contact-form-1'>
+                                <a href="tel:1300769302"><i className="fa-solid fa-phone contact-us-i"></i> 1300769302</a>
+                            </div>
+                            <div className='contact-form-1 mb-5'>
                                 <a href="mailto:info@makemywebsite.com.au"><i className="fa-solid fa-envelope contact-envelope-i"></i> info@makemywebsite.com.au</a>
                             </div>
                             <div className='row'>
-                                <div className='col-md-6 py-2'>
-                                    <label htmlFor="Name" className='contact-us-lable mb-0'>Name</label>
+                                <div className='col-md-6 contact-form-input-list'>
+                                    <label htmlFor="Name" className=''>Name</label>
                                     <input type="Name" className='form-control' />
                                 </div>
-                                <div className='col-md-6 py-2'>
-                                    <label htmlFor="email" className='contact-us-lable mb-0'>Email</label>
+                                <div className='col-md-6 contact-form-input-list'>
+                                    <label htmlFor="email" className=''>Email</label>
                                     <input type="Email" className='form-control' />
                                 </div>
-                                <div className='col-md-6 py-2'>
-                                    <label htmlFor="number" className='contact-us-lable mb-0'>Phone</label>
+                                <div className='col-md-6 contact-form-input-list'>
+                                    <label htmlFor="number" className=''>Phone</label>
                                     <input type="Phone" className='form-control' />
                                 </div>
-                                <div className='col-md-6 py-2'>
-                                    <label htmlFor="sub" className='contact-us-lable mb-0'>Subject</label>
+                                <div className='col-md-6 contact-form-input-list'>
+                                    <label htmlFor="sub" className=''>Subject</label>
                                     <input type="text" className='form-control' />
                                 </div>
-                                <div className='col-lg-12 py-2'>
-                                    <label htmlFor="discription" className='contact-us-lable mb-0'>Project Description or Message</label>
+                                <div className='col-md-12 contact-form-input-list'>
+                                    <label htmlFor="discription" className=''>Project Description or Message</label>
                                     <textarea type="text" className="form-control" style={{ height: "100px" }}></textarea>
                                 </div>
-                                <div className='col-lg-4'>
+                                <div className='col-md-4 pt-2 contact-form-input-list'>
                                     <a href="/" className='btn btn-dark Contact-us-submit' role='button'>SUBMIT</a>
                                 </div>
                             </div>
@@ -82,14 +88,13 @@ function ContactUs() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid py-5'>
-                <div className='container divider' >
+            <div className='container-fluid'>
+                <div className='divider' >
                     <div className='sapreter'></div>
-                    <h1 className='mx-5'>OUR LOCATIONS</h1>
+                    <span className='sapreter-span mx-4'>OUR LOCATIONS</span>
                     <div className='sapreter'></div>
                 </div>
             </div>
-
             <div className='container-fluid' style={{ backgroundColor: "#F5F5F5" }}>
                 <div className='row'>
                     <div className='col-lg-6 m-0 p-0'>
@@ -116,9 +121,7 @@ function ContactUs() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
-
 export default ContactUs

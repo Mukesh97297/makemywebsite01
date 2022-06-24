@@ -6,9 +6,11 @@ h5,
 h6 {
   font-family: 'Montserrat', sans-serif !important;
 }
-
-container {
+.container {
   max-width: 1200px !important;
+}
+.row{
+  margin-right: 0 !important;
 }
 
 p {
@@ -29,12 +31,15 @@ p {
 
 /* Navbar */
 .navbar ul li {
-  padding: 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .navbar {
   position: fixed;
   width: 100%;
+  align-content: center;
+  align-items: center;
+  padding: 0px 35px 0% 35px;
   background-color: rgba(34, 34, 34, 0.62);
   backdrop-filter: saturate(180%) blur(20px);
 }
@@ -46,7 +51,6 @@ p {
 .navbar-nav li:hover>.dropdown-menu {
   display: block;
 }
-
 .dropdwnleft {
   top: 0;
   left: 100%;
@@ -55,11 +59,22 @@ p {
 
 #nav-link {
   color: white;
-  font-size: 15px;
+  font-size: 0.9vw;
   text-transform: uppercase;
   line-height: 20px;
   align-items: center;
   font-family: 'Josefin Slab', sans-serif;
+}
+@media only screen and (max-width:900px) {
+  #nav-link{
+    font-size:15px;
+  }
+  #navbar-btn {
+    font-size: 15px !important;
+  }
+  #navbar-btn i {
+    font-size: 15px !important;
+  }
 }
 
 .dropdown-item {
@@ -68,21 +83,28 @@ p {
   font-family: 'Josefin Slab', serif;
   font-size: 12px;
 }
+.dropdown-menu li:hover{
+  background-color: black;
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: white;
+}
 
 #navbar-btn {
   background-color: red;
   color: white;
+  font-size: 0.9vw;
 }
 
 #navbar-btn i {
   color: white;
-  font-size: 15px;
+  font-size: 0.9vw;
 }
 
 /* about */
 #about-container {
   background-color: #222222;
-  padding: 0em 0em 2em 2.8em;
 }
 .about_section {
   background-color: black;
@@ -265,7 +287,7 @@ p {
 }
 
 .footer-web-design {
-  padding: 0px 0px 0px 5px;
+  padding: 0px 5px 0px 5px;
 }
 
 .footer-web-design span {
@@ -280,7 +302,7 @@ p {
 }
 
 .footer-bottom-part {
-  padding: 0.5% 35px 0.5% 35px;
+  padding: 0.5% 35px 0.5% ;
   background-color: #0C0C0C;
 }
 
@@ -772,6 +794,7 @@ p {
 .paragraph1{
   min-height: 50vh;
   align-items: flex-end;
+  padding: 0em 0em 2em 2.8em;
 }
 
 .paragraph h1 {
@@ -782,19 +805,19 @@ p {
 }
 
 .hr {
-  width: 5%;
+  width: 8%;
   background-color: red;
   text-align: left;
-  padding: 1px;
+  padding: 0.5px;
   margin-left: 0px;
   margin-top: 5px;
 }
 
 .paragraph h2 {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
   color: white;
+  text-transform: capitalize;
 }
 
 .main-heading h2 {

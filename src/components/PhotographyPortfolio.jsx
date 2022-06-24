@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 function PhotographyPortfolio() {
     const [images, setImages] = useState(Photography)
-    
+
     const allItem = () => {
         const finalData = Photography.filter((value) => {
             return value;
@@ -29,20 +29,38 @@ function PhotographyPortfolio() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Glimpses Of Commercial <br /> Photoshoots For Our Esteemed <br /> Clients
+                            Glimpses Of Commercial Photoshoots For Our Esteemed Clients
                         </h2>
                     </div>
                 </div>
             </div>
-            <div className='container my-3'>
-                <div className='row head-btn'>
-                    <button   className='btn btn-link' onClick={allItem}>All</button>
-                    <button   className='btn btn-link' onClick={() => Data("Headshot")}>Headshot/Portraits</button>
-                    <button   className='btn btn-link' onClick={() => Data("Commercial")}>Commercial</button>
-                    <button   className='btn btn-link' onClick={() => Data("Product")}>Products</button>
-                    <button   className='btn btn-link' onClick={() => Data("Drone")}>Drone</button>
-                    <button   className='btn btn-link' onClick={() => Data("Group")}>Group Portrait</button>
-                    <button   className='btn btn-link' onClick={() => Data("Lays")}>Flat Lays</button>
+            <div className='container web-design-portfolio'>
+                <div className='row btn-section'>
+                    <div className='child'>
+                        <ul className='filter-links'>
+                            <li>
+                                <button href="/" className='button All' onClick={allItem}>All</button>
+                            </li>
+                            <li>
+                                <button className='button Commercial' onClick={() => Data("Commercial")}>Commercial</button>
+                            </li>
+                            <li>
+                                <button className='button Headshot/Portraits' onClick={() => Data("Headshot")}>Headshot/Portraits</button>
+                            </li>
+                            <li>
+                                <button className='button Products' onClick={() => Data("Product")}>Products</button>
+                            </li>
+                            <li>
+                                <button className='button Drone' onClick={() => Data("Drone")}>Drone</button>
+                            </li>
+                            <li>
+                                <button className='button Group Portrait' onClick={() => Data("Group")}>Group Portrait</button>
+                            </li>
+                            <li>
+                                <button className='button Flat Lays' onClick={() => Data("Lays")}>Flat Lays</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className='container'>
@@ -50,15 +68,15 @@ function PhotographyPortfolio() {
                     {
                         images.map((value) => {
                             return (
-                               <div className='col-md-3 mb-4 img-container' >
+                                <div className='col-md-3 mb-4 img-container' >
                                     <img height="250px" width="100%" src={value.image} alt="images" />
-                               </div>
+                                </div>
                             )
                         })
                     }
                 </div>
             </div>
-     
+
         </div>
     )
 }

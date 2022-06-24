@@ -1,6 +1,45 @@
+button:hover{
+  outline: none;
+  color: #FB3F69;
+}
+button:focus,button.active{
+  color: #ED1C24 !important;
+  font-weight: 700 !important;
+}
 .abc {
   height: 300px;
   overflow: scroll;
+}
+.web-design-portfolio{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.btn-section{
+ padding: 10px;
+}
+.btn-section .child{
+  text-align: center;
+}
+.filter-links{
+  padding: 0;
+  margin: 0; 
+  outline: 0ch;
+}
+.filter-links li{
+  margin: 0; display: inline-block;
+}
+.filter-links li button{
+  padding: 0 10px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.75em;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: transparent;
+  border-style: none;
+  box-shadow: none;
 }
 .abc img{
   width: 100%;
@@ -20,24 +59,4 @@
   padding: 20px;
   text-align: center;
   opacity: 1;
-}
-
-.view-btn {
-  font-family: "Poppins", Sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 30px;
-  fill: #FFFFFF;
-  color: #FFFFFF;
-  background-color: red;
-  border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  border-color: #FFFFFF;
-  border-radius: 0px 0px 0px 0px;
-  padding: 10px 25px 10px 25px;
-  max-width: 100%;
-  width: auto;
-}
-.view-btn button{
-  text-align: center;
 }

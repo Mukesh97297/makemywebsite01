@@ -1,23 +1,23 @@
-/* .ContactUs-conainer-fluid{
-    background: linear-gradient(to left, white 50%, #000000 50%);
-} */
 .contact-form h3{
     font-weight: 800;
-    line-height: 1.5em;
-    font-family: "Montserrat", Sans-serif;
-    color: #222222;
-    font-size: 40px;
+    line-height: 1.3em;
+    color: #000000;
+    font-size: 41px;
+}
+.contact-form{
+    text-align: left;
+    margin-bottom: 20px;
 }
 .contact-us-i{
     width: 1.25em;
-    font-size: 32px;
-    position: relative!important;
+    font-size: 26px;
     top: 6px;
     color: #000000;
+    font-weight: 900;
 }
-.contact-form a{
+.contact-form-1 a{
     color: #000000;
-    line-height: 2em;
+    line-height: 1.75em;
     font-family:  "Josefin Sans", Sans-serif;
     font-size: 26px;
     font-weight: 800;
@@ -32,7 +32,6 @@
 .contact-us-animations h3{
     font-weight: 800;
     line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
     color: #222222;
     font-size: 32px;
 }
@@ -54,25 +53,25 @@
 .Contact-us-submit:hover{
     background-color: red;
 }
-.contact-us-lable{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-}
 .divider{
     display: flex;
     align-items: center;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.sapreter h1{
-    padding: 0.22rem;
-    font-size: 36px;
+.devider-1{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 0% 30% 0% 30%;
+}
+.sapreter-span{
+    color: #000000;
+    font-size: 4vw;
     font-weight: 200;
-    font-family: "Josefin Sans", Sans-serif;
     text-transform: uppercase;
-    line-height: 1;
     max-width: 95%;
+    font-family: "Josefin Sans", Sans-serif;
 }
 .divider .sapreter{
     flex: 1;
@@ -81,26 +80,41 @@
 }
 .contact-column{
     text-align: center;
+    margin-bottom: 20px;
 }
 .contact-column h3{
-    color: white;
-    font-size: 42px;
+    color:#FFFFFF;
+    font-size: 45px;
     font-weight: 800;
     line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
+   text-transform: capitalize;
 }
 .contact-us-lottie{
-    margin-top: -150px;
+   margin-bottom: 0;
+   text-align: center;
+}
+.contact-us-lottie div{
+    margin: -150px 0px -180px 0px;
 }
 .ContactUs-col-black{
-    background-color: #000000;
+    background-color:transparent;
+    background-image: linear-gradient(180deg,#000000 0%, #303030 100%);
+}
+.ContactUs-col-left{
+    padding: 50px 20px 0px 70px;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
 }
 .ContactUs-col-white{
     background-color: white;
 }
-.ContactUs-Social-Media-icons{
-    text-align: center;
+.ContactUs-col-right{
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 50px 30px 50px;
 }
+
 .contact-us-map{
  justify-content: center;
  flex-direction: column;
@@ -129,13 +143,31 @@
     font-weight: 400;
     line-height: 1.5em;
 }
-.ContactUs-Social-Media-icons a{
+.ContactUs-Social-Media-icons a i{
     color: #FFFFFF;
-    position: inherit !important;
     width: 1.25em;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    top: 6;
+   margin: 0px 13px 0px 13px;
 }
 .ContactUs-Social-Media-icons{
-    margin-top: -180px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
 }
-
+.contact-form-input-list{
+    align-items: center;
+    padding-right:0px ;
+}
+.contact-form-input-list label{
+    cursor: pointer;
+    line-height: 1;
+    font-family: "Josefin Sans",sans-serif;
+    margin-bottom: 0px;
+}
+.contact-form-input-list input{
+    background-color: #ffffff;
+    border: 1px solid #818a91;
+    color: #373a3c;
+    width: 100%;
+}

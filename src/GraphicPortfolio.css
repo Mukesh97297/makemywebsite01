@@ -1,14 +1,39 @@
-.Graphices-btn a{
-    color: #000000;
-    font-family: "Josefin Sans", Sans-serif;
-    line-height: 1.75em;
-    font-size: 1.25rem;
-    margin: 0;
+button:hover{
+    outline: none;
+    color: #FB3F69;
+  }
+  button:focus,button.active{
+    color: #ED1C24 !important;
+    font-weight: 700 !important;
+  }
+  .web-design-portfolio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .btn-section{
+   padding: 10px;
+  }
+  .btn-section .child{
+    text-align: center;
+  }
+  .filter-links{
+    padding: 0;
+    margin: 0; 
+    outline: 0ch;
+  }
+  .filter-links li{
+    margin: 0; display: inline-block;
+  }
+  .filter-links li button{
     padding: 0 10px;
     cursor: pointer;
-    transition: color .3s ease;
+    display: inline-block;
     text-decoration: none;
-    border: none;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.75em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: transparent;
+    border-style: none;
     box-shadow: none;
-    outline: none;
-}
+  }

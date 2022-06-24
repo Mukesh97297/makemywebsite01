@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import '../GraphicPortfolio.css'
 import Graphices from './Graphices.jsx'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
 function GraohicPortfolio() {
     const [images, setImages] = useState(Graphices)
 
@@ -29,17 +26,29 @@ function GraohicPortfolio() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2 >
-                            Balancing Art & Technology To <br /> Create Modern & Contemporary <br /> Branding Collateral
+                            Balancing Art & Technology To Create Modern & Contemporary Branding Collateral
                         </h2>
                     </div>
                 </div>
             </div>
-            <div className='container my-3'>
-                <div className='row Graphices-btn'>
-                    <button  className='btn btn-link' onClick={allItem}>All</button>
-                    <button  className='btn btn-link' onClick={() => Data("Logo")}>Logo</button>
-                    <button  className='btn btn-link' onClick={() => Data("Card")}>Business Card</button>
-                    <button  className='btn btn-link' onClick={() => Data("Brochure")}>Brochure</button>
+            <div className='container web-design-portfolio'>
+                <div className='row btn-section'>
+                    <div className='child'>
+                        <ul className='filter-links'>
+                            <li>
+                                <button href="/" className='button All' onClick={allItem}>All</button>
+                            </li>
+                            <li>
+                                <button className='button Business Card' onClick={() => Data("Card")}>Business Card</button>
+                            </li>
+                            <li>
+                                <button className='button Logo' onClick={() => Data("Logo")}>Logo</button>
+                            </li>
+                            <li>
+                                <button className='button Brochure' onClick={() => Data("Brochure")}>Brochure</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div className='container'>
