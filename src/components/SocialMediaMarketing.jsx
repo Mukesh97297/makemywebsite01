@@ -17,7 +17,7 @@ function SocialMediaMarketing() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Improvise Your Social Branding With <br /> Experts Who Know It All
+                            Improvise Your Social Branding With Experts Who Know It All
                         </h2>
                     </div>
                 </div>

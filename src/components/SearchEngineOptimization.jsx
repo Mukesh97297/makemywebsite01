@@ -16,7 +16,7 @@ function SearchEngineOptimization() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2 className='mb-2'>
-                            An Amalgamation Of Consistency <br /> And Knowledge To Enhance Your <br /> Online Presence
+                            An Amalgamation Of Consistency And Knowledge To Enhance Your Online Presence
                         </h2>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ function WebEmailHosting() {
                             Web & Email Hosting<hr className='hr'></hr>
                         </h1>
                         <h2>
-                            For A Hassle-Free, And Cost-Effective <br />s Management Of Your Online Portals
+                            For A Hassle-Free, And Cost-Effectives Management Of Your Online Portals
                         </h2>
                     </div>
                 </div>

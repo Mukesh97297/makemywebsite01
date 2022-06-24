@@ -1,4 +1,3 @@
-
 .What-we-do {
     background: url(./images/abstract-bg.jpg) 50% 50%;
     background-size: cover;
@@ -15,7 +14,9 @@
     }
 }
 
+
 /* vedio-section */
+
 @media only screen and (max-width: 1200px) {
     .Vedio-Section {
         display: none;
@@ -34,6 +35,7 @@
     text-align: center;
 }
 
+
 /* vedio {
     object-fit: cover;
     position: absolute;
@@ -42,7 +44,7 @@
     text-align: center;
 } */
 
-.background-overlay{
+.background-overlay {
     height: 100%;
     width: 100%;
     left: 0;
@@ -159,7 +161,8 @@
         text-align: center;
     }
 }
-.elementer-wight-container-p{
+
+.elementer-wight-container-p {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-box-shadow .3s;
     text-align: center;
     color: #545454;

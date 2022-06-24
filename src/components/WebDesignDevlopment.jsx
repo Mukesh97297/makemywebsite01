@@ -17,7 +17,7 @@ function WebDesignDevlopment() {
               Web Design & Development <hr className='hr'></hr>
             </h1>
             <h2>
-              Building Future-Proof Designs For <br /> Companies That Envision Growth.
+              Building Future-Proof Designs For Companies That Envision Growth.
             </h2>
           </div>
         </div>

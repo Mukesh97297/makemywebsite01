@@ -18,7 +18,7 @@ function ServiceDelivery() {
                     Pride
                 </p>
                 <p className='service-delivery-p2'>
-                    We’re trusted by these industry experts<br></br> Australia-wide!
+                    We’re trusted by these industry experts Australia-wide!
                 </p>
                 <div className='row justify-content-center Service-delivary-2'>
                     <div className="col-lg-2 Service-delivary-1"  >

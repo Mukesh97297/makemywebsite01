@@ -9,7 +9,7 @@ function About() {
             <div className="container-fluid " id="about-container">
                 <div className="row paragraph1">
                     <div className="col-md-6  paragraph">
-                        <h1 className=''>
+                        <h1>
                             About Us <hr className='hr'></hr>
                         </h1>
                         <h2>

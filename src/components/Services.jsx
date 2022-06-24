@@ -16,7 +16,7 @@ function Services() {
                             Our Services <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            A Full-Service Digital Agency To Help <br /> You Grow Online.
+                            A Full-Service Digital Agency To Help You Grow Online.
                         </h2>
                     </div>
                 </div>
