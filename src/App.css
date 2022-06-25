@@ -869,6 +869,10 @@ p {
     text-align: center !important;
     padding-bottom: 15px;
  }
+ .paragraph h2 {
+    font-size: 1.5rem !important;
+    
+}
  
 }
 
