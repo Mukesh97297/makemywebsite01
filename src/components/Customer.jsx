@@ -23,9 +23,9 @@ function Customer() {
                             Customer Feedback
                         </p>
                         <div id='Heading2'>
-                            <p>
+                            <h3>
                                 Hear from those who’ve had first-hand experiences with us
-                            </p>
+                            </h3>
                         </div>
                     </div>
                 </div>

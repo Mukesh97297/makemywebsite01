@@ -62,14 +62,14 @@ function OurPortfolio() {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <img src={design} alt="" width="511" height="305" />
+                            <img src={design} alt="" className='img-fluid' />
                         </div>
                     </div>
                 </div>
                 <div className='container portfolio-items'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <img src={graphic} alt="" height='350px' />
+                            <img src={graphic} alt="" className='img-fluid' />
                         </div>
                         <div className='col-md-6'>
                             <div className='Portfolio-design-child'>
@@ -117,7 +117,7 @@ function OurPortfolio() {
                 <div className='container portfolio-items'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <img src={CaseStudy} alt="" height='330px' width='400px' />
+                            <img src={CaseStudy} alt="" className='img-fluid' />
                         </div>
                         <div className='col-md-6'>
                             <div className='Portfolio-design-child'>

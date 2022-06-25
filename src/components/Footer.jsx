@@ -112,14 +112,14 @@ function Footer() {
                 <div className='row m-0'>
                     <div className='col-lg-8'>
                         <div className='row'>
-                            <div>
+                            <div className='fotter-bottom-part-img'>
                                 <a href="/">
                                     <img src={footer1} alt="client" height='65px' width='210px' />
                                 </a>
                             </div>
-                            <div>
+                            <div className='fotter-bottom-part-img'>
                                 <a href="/">
-                                    <img src={demo} alt="client" height='61px' width='210px' className='pt-1' />
+                                    <img src={demo} alt="client" height='61px' width='210px' className='demo pt-1' />
                                 </a>
                             </div>
                         </div>

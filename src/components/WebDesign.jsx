@@ -23,30 +23,30 @@ function WebDesign() {
                             <div id="demo" className="carousel slide about-crousal mb-4" data-ride="carousel">
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
-                                        <div className='carousel-h'>Complete Web Solution <br /> In Australia</div>
+                                        <div className='carousel-h'>Complete Web Solution  In Australia</div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className='carousel-h'> Bringin in Innovation <br /> to web design</div>
+                                        <div className='carousel-h'> Bringin in Innovation to web design</div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className='carousel-h'>Infusing creativity in <br /> your online space</div>
+                                        <div className='carousel-h'>Infusing creativity in  your online space</div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className='carousel-h'>Capativating designs <br /> that tell stories</div>
+                                        <div className='carousel-h'>Capativating designs that tell stories</div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className='carousel-h'>Prioritising customer <br /> satisfactions all among</div>
+                                        <div className='carousel-h'>Prioritising customer satisfactions all among</div>
                                     </div>
                                 </div>
                             </div>
                             <div className='row mb-4'>
-                                <div className='col-md-5 '>
+                                <div className='col-md-5 web-design-btn-col '>
                                     <div className='d-flex web-design-btn'>
                                         <i aria-hidden={true} className="fas fa-check " />
                                         <span>High-end solutions for <br /> small & large business</span>
                                     </div>
                                 </div>
-                                <div className='col-md-5 '>
+                                <div className='col-md-5 web-design-btn-col'>
                                     <div className='d-flex web-design-btn'>
                                         <i aria-hidden={true} className="fas fa-check" />
                                         <span>Helping local <br /> businesses go online</span>
@@ -57,7 +57,9 @@ function WebDesign() {
                                 We’ve put on our creative hats to level up web design, Australia-wide. It’s about time
                                 to put forth your business on the world wide web and be second to none.
                                 Innovation is the key to creating designs that don’t  let users hit the “back” button, and that is what we strive for at Make My Website.
-                                <p className='paragraph pt-2 mb-5'>
+                            </div>
+                            <div>
+                            <p className='paragraph'>
                                     If you’ve envisioned to be the foremost choice for your clients- it’s time to make a decision.
                                     We are curious to know about your goals, and venture
                                     into helping you to achieve those, using the digital space. So let’s get in touch and build a stunning website for you.

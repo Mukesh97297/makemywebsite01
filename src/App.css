@@ -113,7 +113,22 @@ p {
 
 
 /* about */
-
+@media only screen and (max-width:767px) {
+    .about_section-3 .paragraph{
+        text-align: center;
+        padding: 0px 15px 0px 15px;
+    }
+    .about_section-3{
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+    .web-design-btn-col {
+        width: 100%;
+        text-align: center;
+        padding: 15px 40px 15px 40px !important;
+    }
+   
+}
 #about-container {
     background-color: #222222;
 }
@@ -127,7 +142,6 @@ p {
     border: 2px solid #222222;
     color: white;
     border-radius: 10px;
-    ;
     width: 100%;
     text-align: left;
     padding: 15px 20px 15px 20px;
@@ -168,6 +182,7 @@ p {
     font-size: 19px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .about-crousal {
@@ -218,6 +233,21 @@ p {
 
 
 /* footer */
+@media only screen and (max-width:767px) {
+    .footer-bottom-part-1{
+    text-align: center !important;
+    padding: 10px 0px 10px 0px;
+  }
+  .fotter-bottom-part-img a img{
+    height: 40px;
+    width: 150px;
+    padding-top: 0px !important;
+    padding: 0px 2px 0px 2px;
+  }
+  #social-links a i {
+    margin-right: calc(90px/2) !important;
+}
+}
 
 .Footer {
     padding: 70px 35px 40px 35px;
@@ -336,13 +366,17 @@ p {
         font-size: 16px;
     }
     .service-h2 {
-        font-size: 20px;
+        font-size: 20px !important;
+        text-align: center;
     }
     .service-btn {
-        text-align: center;
+        text-align: center !important;
         align-items: center;
         justify-content: center;
         padding: 25px;
+    }
+    .service-paragraph{
+        text-align: center;
     }
 }
 
@@ -575,6 +609,11 @@ p {
 
 
 /* customer feedback */
+@media only screen and (max-width:767px) {
+    #Heading2 h3{
+        font-size: 24px !important;
+    }
+}
 
 #Heading {
     text-align: center;
@@ -583,25 +622,25 @@ p {
 }
 
 #Heading p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #C9C9C9;
     font-weight: 400;
     line-height: 1.5em;
     font-size: 16px;
 }
 
-#Heading2 p {
-    margin-bottom: 10px;
+#Heading2 h3 {
+    margin-bottom: 20px;
     color: #C9C9C9;
+    font-size: 2.369rem;
     font-weight: 600;
-    line-height: 1.5em;
-    font-size: 42px;
+    line-height: 1.3em;
 }
 
 #titlebtn {
     text-align: center;
     width: 100%;
-    background-color: red;
+    background-color: #ED1C24;
     color: white;
     border-radius: 5px;
     border: none;
@@ -660,6 +699,11 @@ p {
 
 
 /* service delevery */
+@media only screen and (max-width:767px) {
+    #service-delivery .service-delivery-p2{
+        font-size: 24px !important;
+    }
+}
 
 #service-delivery {
     background-color: rgb(230, 232, 236);
@@ -672,18 +716,20 @@ p {
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
-
-.Service-delivary-2 {
+#service-delivery-p{
     padding: 10px;
 }
 
-#service-delivery .service-delivery-p2 {
+#Service-delivary-2 {
+    padding: 10px;
+}
+
+#service-delivery-p .service-delivery-p2 {
     text-align: center;
     color: #222222;
     font-size: 45px;
     font-weight: bold;
     line-height: 1.2em;
-    font-family: "Josefin Sans"sans-serif;
     margin-bottom: 10px;
 }
 
@@ -800,9 +846,31 @@ p {
     line-height: 1.5em;
     color: #FFFFFF;
 }
+@media only screen and (max-width:767px) {
+    .Team1{
+        text-align: center;
+    }
+}
 
 
 /* about */
+@media only screen and (max-width:767px) {
+ .main-heading h2{
+    font-size: 20px !important;
+    
+ }
+ .main-heading1 h4{
+    font-size: 18px !important;
+ }
+ .our-story{
+    font-size: 28px !important;
+ }
+ .our-story-p{
+    text-align: center !important;
+    padding-bottom: 15px;
+ }
+ 
+}
 
 .main-about-section {
     padding: 100px 35px 100px 35px;

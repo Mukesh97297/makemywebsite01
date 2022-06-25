@@ -17,9 +17,12 @@ function ServiceDelivery() {
                     <i className="fa-solid fa-circle-dot"></i>Service Delivery With A Sense Of
                     Pride
                 </p>
-                <p className='service-delivery-p2'>
-                    We’re trusted by these industry experts Australia-wide!
-                </p>
+                <div id='service-delivery-p'>
+                    <p className='service-delivery-p2'>
+                        We’re trusted by these industry experts Australia-wide!
+                    </p>
+                </div>
+
                 <div className='row justify-content-center Service-delivary-2'>
                     <div className="col-lg-2 Service-delivary-1"  >
                         <img src={unitedlogo} alt="unitedlogo" className='img-fluid logo' />

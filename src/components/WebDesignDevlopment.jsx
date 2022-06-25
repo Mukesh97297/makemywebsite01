@@ -4,9 +4,7 @@ import webdesign from '../images/web-design-and-development.png'
 import webDesign from '../animation/WebDesign.json'
 import Lottie from "lottie-react";
 import ServiceDelivery from './ServiceDelivery';
-import aos from 'aos';
-import 'aos/dist/aos.css';
-aos.init();
+
 function WebDesignDevlopment() {
   return (
     <div>

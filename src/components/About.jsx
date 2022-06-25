@@ -34,14 +34,10 @@ function About() {
                             experiences for them to ace in their fields of expertise. We take pride in having
                             successful associations across Australia whilst adopting innovative practices and
                             fostering creativity to do what it takes to deliver the best.
-
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <div className='container-fluid'>
-               <Caraousel/>
-            </div> */}
             <div className='container-fluid' style={{ padding: "100px 35px 100px 35px" }}>
                 <div className='container'>
                     <div className='row justify-content-center'>
