@@ -4,9 +4,6 @@ import design from '../images/web-design-portfolio-1.png'
 import graphic from '../images/graphic-portfolio.png'
 import photography from '../images/photography-portfolio.png'
 import CaseStudy from '../images/case-studies.png'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
 function OurPortfolio() {
     return (
         <div>

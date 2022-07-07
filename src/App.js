@@ -25,12 +25,12 @@ import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
 import WebDesignPortfolio from './components/WebDesignPortfolio';
 
+
 function App() {
   return (
     <div className="App">
-    
-     <BrowserRouter>
-       <Navbar />
+      <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -46,21 +46,16 @@ function App() {
           <Route path="/service/PhotoGraphyVideoGraphy" element={<PhotoGraphyVideoGraphy />} />
           <Route path="/service/CustomerCare" element={<CustomerCare />} />
           <Route path="/ourportfolio" element={<OurPortfolio />} />
-          <Route path='/WebDesignPortfolio' element={<WebDesignPortfolio/>}/>
+          <Route path='/WebDesignPortfolio' element={<WebDesignPortfolio />} />
           <Route path="/Casestudy" element={<Casestudy />} />
           <Route path="/VedioPortfolio" element={<VedioGraphyPortfolio />} />
           <Route path="/phtographyportfolio" element={<PhotographyPortfolio />} />
           <Route path="/Graphicportfolio" element={<GraohicPortfolio />} />
           <Route path="/Blog" element={<Blog />} />
-          <Route path="/ContactUs" element={<ContactUs />} /> 
-        </Routes> 
-        <Footer/>
+          <Route path="/ContactUs" element={<ContactUs />} />
+        </Routes>
+        <Footer />
       </BrowserRouter>
-       
-
- 
-       
-     
     </div>
   );
 }

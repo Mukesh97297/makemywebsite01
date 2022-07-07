@@ -1001,7 +1001,6 @@ h6 {
     position: absolute;
     overflow: hidden;
     z-index: 0;
-    direction: ltr;
     object-fit: cover;
 }
 
@@ -1024,4 +1023,129 @@ h6 {
 
 .autoscroll2:hover {
     background-position: bottom;
+}
+/* carousal */
+.Carousal-vedio-tag{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media only screen and (max-width:900px){
+    .Carousal-vedio-tag{
+        height: 80vh !important;
+    }
+}
+@media only screen and (max-width:767px){
+    .Carousal-vedio-tag{
+        height: 80vh;
+        width: 100%;
+        object-fit: cover;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .OwlCarousal-about-tag .item h2{
+       padding: 0px 5px 0px 5px;
+     }
+     .OwlCarousal-about-tag .item a{
+        padding: 0px 5px 0px 5px;
+        font-size: 15px !important;
+    }
+}
+
+.OwlCarousal-about-tag .item h2{
+   font-size: 22px;
+   font-family:"Montserrat", Sans-serif;
+   font-weight: 800;
+   color: rgb(255, 255, 255);
+   line-height: 32px;
+}
+.OwlCarousal-about-tag .item a{
+    text-decoration: underline white 1px;
+    color:rgb(255, 255, 255);
+    font-family:Montserrat !important;
+    font-weight: 400;
+    font-size: 17px;
+}
+.OwlCarousal-about-tag .item a img:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.OwlCarousal-about-tag{
+    color:rgb(255, 255, 255);
+    position: absolute !important;
+    top: 0;
+}
+
+/* WhatWeDo */
+
+@media only screen and (max-width:767px) {
+    .What-we-do-vedio{
+        text-align: center;
+        display: none;
+    }
+    .what-we-do-heading h2{
+        font-size: 26px !important;
+        padding-bottom: 5% !important;
+     }
+     .what-we-do-paragraph{
+        font-size: 16px !important;
+     }
+     .discreption .container{
+        padding-top: 0px !important;
+    }
+    .What-we-do-main{
+         height: 70vh !important;
+     }
+}
+
+.What-we-do-vedio{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.discreption{
+    position: absolute;
+    top: 0; 
+}
+.what-we-do-heading h2{
+   text-align: center;
+   font-size: 5.209rem;
+   font-weight: 600;
+   color: #222222;
+}
+.what-we-do-paragraph{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #545454;
+    font-weight: 400;
+}
+.What-we-do-main{
+   background-image: url('./images/abstract-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+    opacity: 0.50;
+}
+.discreption .container{
+    padding-top: 15%;
+  
+}
+.What-we-do-overlay{
+background-color: #ffffff;
+opacity: 0.64;
+position: absolute;
 }
