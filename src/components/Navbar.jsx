@@ -72,7 +72,7 @@ function Navbar() {
                 <a href="/ContactUs" className="nav-link active" id='nav-link'> CONTACT US</a>
               </li>
               <li className="nav-item">
-                <a href="/" id='navbar-btn' className="btn active"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
+                <a href="tel:1300769303" id='navbar-btn' className="btn active"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
               </li>
             </ul>
           </div>
