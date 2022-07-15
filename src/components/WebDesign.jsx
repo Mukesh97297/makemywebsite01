@@ -71,30 +71,30 @@ function WebDesign() {
                         <div className='col-lg-3 py-5'>
                             <div className='counter'>
                                 <img src={experience} alt="experience" height="60px" width="60px" />
-                                <div className='about-count-h pt-4'><CountUp start={0} end={10} duration={1} />+</div>
-                                <h4 className='about-counter-p py-2'>Year Of Expertise</h4>
+                                <div className='about-count-h pt-4'><CountUp start={0} end={10} duration={5} />+</div>
+                                <h4 className='about-counter-p py-2'>Years Of Expertise</h4>
                             </div>
                         </div>
                         <div className='col-lg-3 py-5' >
                             <div className='counter'>
                                 <img src={owned} alt="owned" height="60px" width="60px" />
-                                <div className='about-count-h pt-4'><CountUp start={0} end={100} duration={1} />%</div>
+                                <div className='about-count-h pt-4'><CountUp start={0} end={100} duration={5} />%</div>
                                 <h4 className='about-counter-p py-2'>Australian Owned</h4>
                             </div>
                         </div>
                         <div className='col-lg-3 py-5' >
                             <div className='counter'>
                                 <img src={design} alt="design" height="60px" width="60px" />
-                                <div className='about-count-h pt-4'> <CountUp start={0} end={5} duration={1} />-Star rated</div>
-                                <h4 className='about-counter-p py-2'>Web design agency</h4>
+                                <div className='about-count-h pt-4'> <CountUp start={0} end={5} duration={5} />-Star rated</div>
+                                <h4 className='about-counter-p py-2'>Web Design Agency</h4>
                             </div>
                         </div>
                         <div className='col-lg-3 py-5' >
                             <div>
                                 <img src={client} alt="clients" height="60px" width="60px" />
                                 <div className='about-count-h pt-4'>
-                                    <CountUp start={0} end={800} duration={1} />+</div>
-                                <h4 className='about-counter-p py-2' >Saticefied clients</h4>
+                                    <CountUp start={0} end={800} duration={5} />+</div>
+                                <h4 className='about-counter-p py-2' >Satisfied Clients</h4>
                             </div>
                         </div>
                     </div>

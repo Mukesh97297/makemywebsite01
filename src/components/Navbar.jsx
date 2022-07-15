@@ -3,12 +3,12 @@ import { useState, useEffect } from 'react'
 import logo from '../images/mmw-light-logo-min.png'
 
 function Navbar() {
-   const [color, setColor] = useState(false);
+  const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY > 50) {
-      setColor(false)
-    } else {
+    if (window.scrollY >= 80) {
       setColor(true)
+    } else {
+      setColor(false)
     }
   }
   useEffect(() => {
@@ -16,20 +16,19 @@ function Navbar() {
     return () => {
       window.removeEventListener('scroll', changeColor)
     }
-   }, [])
-
+  }, []);
   return (
     <div>
       <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
-        <div className="container-fluid">
+        <div className="container">
           <a href='/' className="navbar-brand">
-            <img src={logo} height="50px" alt="" />
+            <img src={logo} height="60px" alt="" />
           </a>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="mainNavigation">
-            <ul className="navbar-nav ml-auto">
+          <div className="collapse navbar-collapse justify-content-end" id="mainNavigation">
+            <ul className="navbar-nav">
               <li className="nav-item">
                 <a href="/" className="nav-link active" id='nav-link'>HOME</a>
               </li>
@@ -37,11 +36,11 @@ function Navbar() {
                 <a href="/about" className="nav-link active" id='nav-link'>ABOUT US</a>
               </li>
               <li className="nav-item dropdown">
-                <a href="/service" className="nav-link active"  id='nav-link'>SERVICE +</a>
+                <a href="/service" className="nav-link active" id='nav-link'>SERVICE +</a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li ><a href="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
                   <li className='dropdown ' >
-                    <a href="/service/DigitalMarkeing" className='dropdown-item mb-2'>Digital Marketing +</a>
+                    <a href="/service/DigitalMarkeing" className='dropdown-item mb-2 dropdwon-1'>Digital Marketing +</a>
                     <ul className='dropdown-menu shadow dropdwnleft'>
                       <li><a href="/DigitalMarkeing/SearchEngine" className='dropdown-item' >Search Engine Optimization</a></li>
                       <li><a href="/WebDesignDelovpment/SocialMedia" className='dropdown-item'>Social Media Marketing</a></li>
@@ -58,12 +57,12 @@ function Navbar() {
               <li className="nav-item  dropdown">
                 <a href="/ourportfolio" className="nav-link active" id='nav-link'> OUR PORTFOLIO +</a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                      <li ><a href="/WebDesignPortfolio" className='dropdown-item' >Web Design Portfolio</a></li>
-                      <li ><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
-                      <li ><a href="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</a></li>
-                      <li ><a href="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</a></li>
-                      <li ><a href="/Casestudy" className='dropdown-item'>Case Studies</a></li>
-                    </ul>
+                  <li ><a href="/WebDesignPortfolio" className='dropdown-item' >Web Design Portfolio</a></li>
+                  <li ><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
+                  <li ><a href="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</a></li>
+                  <li ><a href="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</a></li>
+                  <li ><a href="/Casestudy" className='dropdown-item'>Case Studies</a></li>
+                </ul>
               </li>
               <li className="nav-item">
                 <a href="/Blog" className="nav-link active" id='nav-link'> BLOG</a>
@@ -72,12 +71,12 @@ function Navbar() {
                 <a href="/ContactUs" className="nav-link active" id='nav-link'> CONTACT US</a>
               </li>
               <li className="nav-item">
-                <a href="tel:1300769303" id='navbar-btn' className="btn active"><i className='	fas fa-phone' id='navbar-btn'></i>1300 769 302</a>
+                <a href="tel:1300769303" id='navbar-btn' className="btn "><i className='fas fa-phone'></i>1300 769 302</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav > 
+      </nav >
     </div>
 
   )

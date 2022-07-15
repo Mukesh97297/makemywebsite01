@@ -7,11 +7,6 @@ import onestepcare from '../images/onestepcare.png'
 import lalunavintage from '../images/lalunavintage.png'
 import propertyselect from '../images/propertyselect.png'
 import sunshinec from '../images/sunshinec.png'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
-
-
 function Customer() {
     return (
         <div className='container-fluid' style={{ backgroundColor: "#060709", padding: "100px 35px 100px 35px" }}>
@@ -23,17 +18,17 @@ function Customer() {
                             Customer Feedback
                         </p>
                         <div id='Heading2'>
-                            <h3>
+                            <p>
                                 Hear from those who’ve had first-hand experiences with us
-                            </h3>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div className='container'>
-                    <Carousel showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}>
+                    <Carousel showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}  autoPlay={true} infiniteLoop={true}>
                         <div className='row'>
                             <div className='col-lg-6'>
-                                <p id='titlebtn' className='button py-1'>Dal</p>
+                                <p id='titlebtn' className='button py-1'>DAL</p>
                                 <div id='content'>
                                     “Make My Website in Melbourne is the place to go for your new website!
                                     After MONTHS of procrastinating and wanting to change our clunky outdated site l reached out to the team at MMW, within 5 minutes I was on the phone speaking with Mayank. MMW took care of all the hard work and made the transition so EASY!! Ash and Puneet look after

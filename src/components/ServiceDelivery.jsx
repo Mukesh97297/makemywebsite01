@@ -19,7 +19,8 @@ function ServiceDelivery() {
                 </p>
                 <div id='service-delivery-p'>
                     <p className='service-delivery-p2'>
-                        We’re trusted by these industry experts Australia-wide!
+                        We’re trusted by these industry experts
+                        <br /> Australia-wide!
                     </p>
                 </div>
 
