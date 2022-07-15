@@ -693,30 +693,45 @@ p {
 
 .view-btn:hover {
     color: #FFFFFF;
-
+    animation-name: bob;
+    animation-duration: 1.25s;
 }
+@keyframes bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
 
 .view-project-all {
     animation-name: bounceIn;
     animation-duration: 1.25s;
 }
-
-@keyframes Bob {
+@keyframes bounceIn {
     0% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+       opacity: 0;
+       transform: scale(.3);
     }
-
     50% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
+       opacity: 1; 
+       transform: scale(1.05);
     }
-
+    70% {
+       transform: scale(.9);
+    }
     100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+       transform: scale(1);
     }
-}
+ }
+
 
 
 /* customer feedback */
@@ -793,6 +808,7 @@ p {
     line-height: 1.75em;
     font-weight: 400;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .album-img img {
@@ -938,6 +954,11 @@ p {
     box-shadow: 0px 0px 20px 0px rgb(177 89 105 / 20%);
     padding: 10px 20px 10px 20px;
     text-transform: uppercase;
+    text-decoration: none;
+}
+.heading-button .get-quits:hover{
+    background-color: #ED1C24;
+    color: #ffffff;
 }
 
 .Teams {
@@ -947,7 +968,7 @@ p {
 
 .Team {
     margin-bottom: 20px;
-    font-size: 46px;
+    font-size: 2.7rem;
     text-align: center;
     color: #FFFFFF;
     font-weight: 600;
@@ -962,7 +983,7 @@ p {
     line-height: 1.5em;
     color: #FFFFFF;
     text-align: center;
-    padding: 0em 6em 0em 6em;
+    padding: 0em 4em 0em 4em;
 }
 
 @media only screen and (max-width:767px) {
