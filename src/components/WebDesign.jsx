@@ -18,7 +18,7 @@ function WebDesign() {
                         </div>
                         <div className='col-lg-7 about_section-3'>
                             <h1 className='about-p mb-4'>
-                                <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melborne
+                                <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </h1>
                             <div id="demo" className="carousel slide about-crousal mb-4" data-ride="carousel">
                                 <div className="carousel-inner">
