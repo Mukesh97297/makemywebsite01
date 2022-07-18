@@ -49,8 +49,8 @@ p {
     align-content: center;
     align-items: center;
     padding: 10px 35px 10px 35px;
-    background-color: rgba(34, 34, 34, 0.62);
-    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(34, 34, 34, 0.62) !important;
+    backdrop-filter: saturate(180%) blur(20px) !important;
 }
 
 .nav_blue {
@@ -605,43 +605,75 @@ p {
 }
 
 .works.works1 {
-    background: url(../src/images/United-Tools.jpg);
+    background: url(../src/images/United-Tools-screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works1:hover{
+    filter: none;
 }
 
 .works.works2 {
-    background: url(../src/images/dal.jpg);
+    background: url(../src/images/dal-wesite-screenshot-home-scaled-1.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works2:hover{
+    filter: none;
 }
 
 .works.works3 {
-    background: url(../src/images/Coburns-Rise.jpg);
+    background: url(../src/images/Coburns-Rise–screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works3:hover{
+    filter: none;
 }
 
 .works.works4 {
-    background: url(../src/images/RG-Land.jpg);
+    background: url(../src/images/RG-Land\ \(1\).jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works4:hover{
+    filter: none;
 }
 
 .works.works5 {
-    background: url(../src/images/Sunshine-Collectables.jpg);
+    background: url(../src/images/Sunshine-Collectables-screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works5:hover{
+    filter: none;
 }
 
 .works.works6 {
-    background: url(../src/images/TIC-Group.jpg);
+    background: url(../src/images/TIC-Group-screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works6:hover{
+    filter: none;
 }
 
 .works.works7 {
-    background: url(../src/images/Carrabbas-Group.jpg);
+    background: url(../src/images/Carrabbas-Group-screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works7:hover{
+    filter: none;
 }
 
 .works.works8 {
-    background: url(../src/images/Darebin-Gas.jpg);
+    background: url(../src/images/Darebin-Gas-screenshot.jpg);
     background-size: cover;
+    filter: grayscale(1);
+}
+.works.works8:hover{
+    filter: none;
 }
 
 .works:hover {
@@ -665,6 +697,7 @@ p {
     opacity: 1;
     text-transform: uppercase;
     text-decoration: none !important;
+  
    
 }
 .ovelay1:hover{
