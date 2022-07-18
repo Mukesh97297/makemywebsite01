@@ -7,7 +7,6 @@ import socialmedia from '../images/social-media-marketing-icon.png'
 import seo from '../images/seo-icon.png'
 import content from '../images/content-icon.png'
 import ServiceDelivery from './ServiceDelivery';
-import { Link } from 'react-router-dom';
 
 function DigitalMarkeing() {
     return (

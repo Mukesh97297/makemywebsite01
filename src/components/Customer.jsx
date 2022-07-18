@@ -11,7 +11,7 @@ import sunshinec from '../images/sunshinec.png'
 function Customer() {
     const Option = {
         items: 1,
-        nav: ["color:white"],
+        nav: ["color:white !important"],
         center: true,
         autoplay: true,
         responsive: {
