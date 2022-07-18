@@ -5,7 +5,7 @@ import logo from '../images/mmw-light-logo-min.png'
 function Navbar() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY > 80) {
       setColor(true)
     } else {
       setColor(false)
@@ -36,7 +36,7 @@ function Navbar() {
                 <a href="/about" className="nav-link active" id='nav-link'>ABOUT US</a>
               </li>
               <li className="nav-item dropdown">
-                <a href="/service" className="nav-link active" id='nav-link'>SERVICE +</a>
+                <a href="/service" className="nav-link active" id='nav-link'>SERVICES +</a>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li ><a href="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
                   <li className='dropdown ' >
