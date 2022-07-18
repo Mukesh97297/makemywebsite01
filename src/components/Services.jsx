@@ -32,7 +32,7 @@ function Services() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6  devlopments' >
-                            <h3>Web Design And Developments</h3>
+                            <h3>Web Design And Development</h3>
                             <p>Web design is a medium that reflects the value you are adding as a business. It should be engaging, innovative, humanistic, and have a story to tell. <br />
                                 Make My Website embraces technological advancement and puts forth what’s the best for your brand. Your online presence is important to your business, and we exhibit our passion and creativity.</p>
                             <p>An impressive design is synonymous with a brilliant mind that harnesses innovation beyond imagination. At Make My Website, we boast of brilliance.</p>

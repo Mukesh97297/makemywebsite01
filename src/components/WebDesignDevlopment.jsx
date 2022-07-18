@@ -23,7 +23,7 @@ function WebDesignDevlopment() {
       <div className='WebDesignDevlopment'>
         <div className='container-fluid bg-white'>
           <div className='container'>
-            <div className='row tell'>
+            <div className='row tell mb-5'>
               <p>Web design is a medium that reflects the value you are adding as a business. It should be engaging, innovative, humanistic, and have a story to tell.</p>
             </div>
           </div>
@@ -43,9 +43,8 @@ function WebDesignDevlopment() {
             </div>
           </div>
         </div>
-        <div className='container-fluid' >
-          <div className='container'>
-            <div className='row online-presence py-5' >
+        <div className='container' >
+            <div className='row online-presence py-3' >
               <h3>Design & development to stimulate your online presence</h3>
             </div>
             <div className='row'>
@@ -70,7 +69,7 @@ function WebDesignDevlopment() {
               <p className='py-2'>Let’s create what you have envisioned for your online space- simple or complex, we are here to help! Drop us a line and we’d be the happiest to help you out.</p>
             </div>
           </div>
-        </div>
+        
       </div>
       <ServiceDelivery />
 

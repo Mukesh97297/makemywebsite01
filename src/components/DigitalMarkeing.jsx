@@ -7,9 +7,7 @@ import socialmedia from '../images/social-media-marketing-icon.png'
 import seo from '../images/seo-icon.png'
 import content from '../images/content-icon.png'
 import ServiceDelivery from './ServiceDelivery';
-import aos from 'aos';
-import 'aos/dist/aos.css'
-aos.init();
+import { Link } from 'react-router-dom';
 
 function DigitalMarkeing() {
     return (
@@ -41,7 +39,7 @@ function DigitalMarkeing() {
                                  simpler process than normal. </p>
                             <p>Our services are aimed at helping your brand to gain visibility, and establish a strong
                                 presence amidst a wider audience where you get noticed for all the good work you are doing.
-                                <strong>Digital marketing</strong> is nothing but the umbrella term for marketing methodologies
+                                <a href='/'>Digital marketing</a> is nothing but the umbrella term for marketing methodologies
                                 used to grow your business on the web. </p>
                         </div>
                         <div className='col-lg-5'>
@@ -56,9 +54,9 @@ function DigitalMarkeing() {
                             us hit the bullseye. Having said that, it is a gradual process that requires
                             sheer commitment, and continuous work.</p>
                         <p >If we had to describe Digital Marketing in one line, it would simply be, <br />
-                            <i>“ Digital marketing is a marathon and not a sprint race.”</i> <br />
+                           <strong> <i>“ Digital marketing is a marathon and not a sprint race.”</i></strong> <br />
                             Because certainly, <br />
-                            <i> “ Great things take time.”</i></p>
+                            <strong><i> “ Great things take time.”</i></strong></p>
                     </div>
                 </div>
             </div>
@@ -70,19 +68,19 @@ function DigitalMarkeing() {
                     </div>
                     <div className='row py-5'>
                         <div className='col-lg-3 seo'>
-                            <img  src={seo} alt="" height='170' width='170' />
+                            <img  src={seo} alt="" height='150' width='150' />
                             <h5   className='py-4'><u>Search Engine Optimization</u></h5>
                         </div>
                         <div className='col-lg-3 socialmedia'>
-                            <img  src={socialmedia} alt="" height='170' width='170' />
-                            <h5   className='py-4'><u>Google Ads & Pay Per Click</u></h5>
+                            <img  src={socialmedia} alt="" height='150' width='150' />
+                            <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
                         <div className='col-lg-3 content'>
-                            <img  src={content} alt="" height='170' width='170'/>
+                            <img  src={content} alt="" height='150' width='150'/>
                             <h5   className='py-4'><u>Content Marketing</u></h5>
                         </div>
                         <div className='col-lg-3 ppc'>
-                            <img  src={ppc } alt=""height='170' width='170' />
+                            <img  src={ppc } alt=""height='150' width='150' />
                             <h5   className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
                     </div>
