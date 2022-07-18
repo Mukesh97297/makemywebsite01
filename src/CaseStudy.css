@@ -42,51 +42,54 @@
 .casestudy.casestudy7:hover {
     filter: none;
 }
+.casestudy.casestudy8:hover {
+    filter: none;
+}
 
 .casestudy.casestudy1 {
-    background: url(../src/images/United-Tools.jpg);
+    background: url(../src/images/United-Tools-screenshot.jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy2 {
-    background: url(../src/images/dal.jpg);
+    background: url(../src/images/dal-wesite-screenshot-home-scaled-1.jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy3 {
-    background: url(../src/images/Coburns-Rise.jpg);
+    background: url(../src/images/Coburns-Rise–screenshot.jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy4 {
-    background: url(../src/images/RG-Land.jpg);
-    background-size: cover;
-    filter: grayscale(1);
-}
-
-.casestudy.casestudy5 {
-    background: url(../src/images/Sunshine-Collectables.jpg);
+    background: url(../src/images/RG-Land\ \(1\).jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy6 {
-    background: url(../src/images/TIC-Group.jpg);
+    background: url(../src/images/TIC-Group-screenshot.jpg);
+    background-size: cover;
+    filter: grayscale(1);
+}
+
+.casestudy.casestudy5 {
+    background: url(../src/images/Sunshine-Collectables-screenshot.jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy7 {
-    background: url(../src/images/Carrabbas-Group.jpg);
+    background: url(../src/images/Carrabbas-Group-screenshot.jpg);
     background-size: cover;
     filter: grayscale(1);
 }
 
 .casestudy.casestudy8 {
-    background: url(../src/images/Darebin-Gas.jpg);
+    background: url(../src/images/Darebin-Gas-screenshot.jpg);
     background-size: cover;
     filter: grayscale(1);
 }

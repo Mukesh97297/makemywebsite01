@@ -65,13 +65,13 @@ function Branding() {
                     </div>
                     <div className='row py-5'>
                         <div className='graphic'>
-                            <h4  className='py-2'>Why Graphic Design is the backbone of every business’s representative <br /> qualitative:</h4>
+                            <h4  className='py-2'>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> It speaks to your audience without having to speak</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Gives your brand the attention it deserves</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you graphically depict your brand’s vision and ideals</p>
                             <p  ><i className="fa-solid fa-circle-check  brand-i"></i> Builds a solid brand identity that connects people with you</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Allows you to establish a familiarity with your audience</p>
-                            <h5  className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E- <br /> books and more!</h5>
+                            <h5  className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
                         </div>
                     </div>
                 </div>

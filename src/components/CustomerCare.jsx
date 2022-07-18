@@ -8,7 +8,6 @@ import ServiceDelivery from './ServiceDelivery'
 function CustomerCare() {
     return (
         <div>
-         
             <div className="container-fluid" id="about-container">
                 <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
@@ -16,7 +15,7 @@ function CustomerCare() {
                             Customer Care<hr className='hr'></hr>
                         </h1>
                         <h2>
-                            An End-To-End Service Aimed At <br /> Managing Your Tech-Driven Platforms
+                            An End-To-End Service Aimed At Managing Your Tech-Driven Platforms
                         </h2>
                     </div>
                 </div>
@@ -56,7 +55,7 @@ function CustomerCare() {
                                 <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
                             </div>
                             <div className='col-lg-12'>
-                                <input type="submit" className='btn submit-btn' value='submit' />
+                                <input type="Submit" className='btn submit-btn' value='Submit' />
                             </div>
                         </div>
                     </form>

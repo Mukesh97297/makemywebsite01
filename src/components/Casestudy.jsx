@@ -1,8 +1,5 @@
 import React from 'react'
 import '../CaseStudy.css'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
 function Casestudy() {
     return (
         <div>
@@ -50,15 +47,6 @@ function Casestudy() {
                         </div>
                     </div>
                     <div className="col-md-3 mb-4">
-                        <div className='casestudy casestudy5' >
-                            <div className='overlay2' >
-                                <h3>
-                                    <a href="/"> Sunshine Collactables</a>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 mb-4">
                         <div className='casestudy casestudy6'>
                             <div className='overlay2'>
                                 <h3>
@@ -67,6 +55,17 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="col-md-3 mb-4">
+                        <div className='casestudy casestudy5' >
+                            <div className='overlay2' >
+                                <h3>
+                                    <a href="/"> Sunshine Collactables</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="col-md-3 mb-4">
                         <div className='casestudy casestudy7'>
                             <div className='overlay2' >
@@ -79,8 +78,8 @@ function Casestudy() {
                     <div className="col-md-3 mb-4">
                         <div className='casestudy casestudy8' >
                             <div className='overlay2' >
-                             <h3>
-                                <a href="/">Darbin Gas</a>
+                                <h3>
+                                    <a href="/">Darebin Gas</a>
                                 </h3>
                             </div>
                         </div>
@@ -88,9 +87,9 @@ function Casestudy() {
                     <div className="col-md-3 mb-4">
                         <div className='casestudy casestudy1' >
                             <div className='overlay2' >
-                               <h3>
-                                <a href="/"> United Tools</a>
-                               </h3>
+                                <h3>
+                                    <a href="/"> United Tools</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
