@@ -4,10 +4,6 @@ import shopify from '../images/Shopify-licon.png'
 import commerce from '../images/woocommerce-licon.png'
 import wordpress from '../images/wordpress-licon.png'
 import magento from '../images/Magento-licon.png'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
-
 function MmwFront() {
   return (
     <div className='front-banner'>

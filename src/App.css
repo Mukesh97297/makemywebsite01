@@ -148,10 +148,10 @@ p {
     font-size: 1.1vw;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6em;
-    -webkit-animation: btnWiggle 5s infinite;
-    -moz-animation: btnWiggle 5s infinite;
-    -o-animation: btnWiggle 5s infinite;
-    animation: btnWiggle 5s infinite;
+    -webkit-animation: btnWiggle 2s infinite;
+    -moz-animation: btnWiggle 2s infinite;
+    -o-animation: btnWiggle 2s infinite;
+    animation: btnWiggle 2s infinite;
 }
 
 @keyframes btnWiggle {
