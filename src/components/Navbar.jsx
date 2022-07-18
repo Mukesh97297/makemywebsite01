@@ -5,10 +5,10 @@ import logo from '../images/mmw-light-logo-min.png'
 function Navbar() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY > 80) {
+    if (window.scrollY < 80) {
       setColor(true)
     } else {
-      setColor(false)
+      setColor()
     }
   }
   useEffect(() => {
@@ -19,10 +19,10 @@ function Navbar() {
   }, []);
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
+      <nav id='navbar' className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
         <div className="container">
           <a href='/' className="navbar-brand">
-            <img src={logo} height="60px" alt="" />
+            <img src={logo} height="70px"  alt="" />
           </a>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
             <span className="navbar-toggler-icon"></span>

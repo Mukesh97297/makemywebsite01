@@ -24,6 +24,7 @@ import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
 import WebDesignPortfolio from './components/WebDesignPortfolio';
+import WhatWeDo from './components/WhatWeDo';
 
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </BrowserRouter> 
+
     </div>
   );
 }

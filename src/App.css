@@ -50,13 +50,14 @@ p {
     align-items: center;
     padding: 10px 35px 10px 35px;
     background-color: rgba(34, 34, 34, 0.62) !important;
-    backdrop-filter: saturate(180%) blur(20px) !important;
+    backdrop-filter:  blur(20px);
+   
 }
+
 
 .nav_blue {
-    background-color: transparent;
+    background-color: transparent !important;   
 }
-
 .navbar-nav li:hover>.dropdown-menu {
     display: block;
 }
@@ -1299,11 +1300,7 @@ h6 {
     height: 100vh;
     width: 100%;
     object-fit: cover;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    opacity: 0.50;
 }
 
 .discreption {
@@ -1316,6 +1313,8 @@ h6 {
     font-size: 5.209rem;
     font-weight: 600;
     color: #222222;
+    padding-top: 15%;
+
 }
 
 .what-we-do-paragraph {
@@ -1324,6 +1323,7 @@ h6 {
     font-size: 1.2rem;
     color: #545454;
     font-weight: 400;
+    padding: 0% 7% 0% 7%;
 }
 
 .What-we-do-main {
@@ -1331,12 +1331,6 @@ h6 {
     background-size: cover;
     height: 100vh;
     margin-bottom: 0;
-    opacity: 0.50;
-}
-
-.discreption .container {
-    padding-top: 15%;
-
 }
 
 .What-we-do-overlay {
