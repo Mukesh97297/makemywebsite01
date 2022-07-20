@@ -17,12 +17,26 @@ function Navbar() {
       window.removeEventListener('scroll', changeColor)
     }
   }, []);
+  window.onscroll = function(){
+       scrollDown()
+  }
+  function scrollDown(){
+    var Logo = document.getElementById("Logo");
+    var Navbar = document.getElementById("navbar");
+    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+      Logo.style.height = "50px";
+      Navbar.style.padding = "15px 0px 15px 0px"
+    }
+    else{
+      Logo.style.height = "65px"
+    }
+  }
   return (
     <div>
       <nav id='navbar' className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
         <div className="container">
           <a href='/' className="navbar-brand">
-            <img src={logo} height="70px"  alt="" />
+            <img src={logo} height="65px"  alt="logo" id='Logo' />
           </a>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
             <span className="navbar-toggler-icon"></span>
