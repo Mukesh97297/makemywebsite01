@@ -65,7 +65,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <WhatWeDo/>
+            <WhatWeDo />
             <Customer />
             <ServiceDelivery />
 

@@ -13,7 +13,25 @@ function WebDesign() {
             <section className='about_section'>
                 <div className="container">
                     <div className="row  about_section-2">
+                        
                         <div className="col-lg-5">
+                        {/* <div className='trusted-box rounded-pill'>
+                            <div className='trusted-container'>
+                                <div className='trusted-1'>
+                                    <div>
+                                        <span className='trusted-1-span'>
+                                            <span>trusted by</span>
+                                        </span>
+                                        <p className='trusted-p-tag'>
+                                            800+
+                                            <br />
+                                        </p>
+                                        <p className='trusted-p-tag-1'>clients</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
                             <img src={about} alt="about" className="img-fluid rounded-pill" />
                         </div>
                         <div className='col-lg-7 about_section-3'>

@@ -25,7 +25,7 @@ function Navbar() {
     var Navbar = document.getElementById("navbar");
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
       Logo.style.height = "50px";
-      Navbar.style.padding = "15px 0px 15px 0px"
+      Navbar.style.padding = "15px 0px 15px 0px";
     }
     else{
       Logo.style.height = "65px"

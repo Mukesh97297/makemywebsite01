@@ -40,7 +40,7 @@ p {
 /* Navbar */
 
 .navbar ul li {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px !important;
 }
 
 .navbar {
@@ -49,8 +49,8 @@ p {
     align-content: center;
     align-items: center;
     padding: 10px 35px 10px 35px;
-    background-color: rgba(34, 34, 34, 0.62) !important;
-    backdrop-filter:  blur(20px);
+    background: rgba(34, 34, 34, 0.62);
+    /* backdrop-filter:  blur(20px); */
    
 }
 
@@ -184,6 +184,35 @@ p {
 
 
 /* about */
+/* .trusted-box{
+    top: 25%;
+    z-index: 2;
+   
+}
+.trusted-container{
+    padding: 7% 7% 4% 7%;
+    background-color: #1E1E22;
+    border-radius: 50px;
+   
+}
+.trusted-1{
+    text-align: center;
+}
+.trusted-1-span{
+    font-size: 1rem;
+    font: bold;
+    color: #ed1c24;
+    text-align: center;
+}
+.trusted-p-tag{
+    font-family: "Poppins", Sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+}
+.trusted-p-tag-1{
+    color: white;
+} */
 @media only screen and (max-width:767px) {
     .about_section-3 .paragraph {
         text-align: center;
