@@ -30,7 +30,7 @@ function Caraousel() {
         <div>
             <div style={{position:"relative"}}>
                 <video className='Carousal-vedio-tag' src="https://www.makemywebsite.com.au/wp-content/uploads/2021/03/ccc.mp4" autoPlay muted loop type="video/mp4"></video>
-                <OwlCarousel {...Option} className='owl-theme OwlCarousal-about-tag' loop margin={50}>
+                <OwlCarousel dots={false} {...Option} className='owl-theme OwlCarousal-about-tag' loop margin={50}>
                     <div className='item pt-5'>
                         <a href="/">
                             <img src={a} className="img-fluid" alt="" />

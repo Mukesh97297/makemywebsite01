@@ -8,9 +8,9 @@ import WhatWeDo from './WhatWeDo'
 function About() {
     return (
         <div>
-            <div className="container-fluid " id="about-container">
+            <div className="container-fluid" id="about-container">
                 <div className="row paragraph1">
-                    <div className="col-md-6  paragraph">
+                    <div className="col-lg-6 paragraph">
                         <h1>
                             About Us <hr className='hr'></hr>
                         </h1>
@@ -18,9 +18,19 @@ function About() {
                             A Team Of Experts United By The Passion For
                             Technology-Led Solutions
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
+                   
+                      
+                   
+                    {/* <div id="about-main-elemontor">
+                        <div id="about-rcircle">
+                            <div id="about-welcome-shape-1"></div>
+                            <div id="about-welcome-shape-2"></div>
+                        </div>
+                    </div> */}
                 </div>
-
             </div>
             <div className="container-fluid main-about-section ">
                 <div className='container'>

@@ -40,7 +40,7 @@ function Customer() {
                         </div>
                     </div>
                 </div>
-                <OwlCarousel {...Option} className='owl-theme' loop margin={50}>
+                <OwlCarousel {...Option} dots={false} className='owl-theme' loop margin={50}>
                     <div className='row item'>
                         <div className='col-lg-6'>
                             <p id='titlebtn' className='button py-1'>DAL</p>

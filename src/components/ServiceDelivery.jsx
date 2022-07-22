@@ -25,36 +25,36 @@ function ServiceDelivery() {
                 </div>
 
                 <div className='row justify-content-center Service-delivary-2'>
-                    <div className="col-lg-2 Service-delivary-1"  >
+                    <div className="col-md-2 Service-delivary-1"  >
                         <img src={unitedlogo} alt="unitedlogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1"  >
+                    <div className="col-md-2 Service-delivary-1"  >
                         <img src={pursuelogo} alt="pursuelogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={ticlogo} alt="ticlogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={dallogo} alt="dallogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1"  >
+                    <div className="col-md-2 Service-delivary-1"  >
                         <img src={rglandlogo} alt="rglandlogo" className='img-fluid logo' />
                     </div>
                 </div>
                 <div className="row justify-content-center ">
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={malvernlogo} alt="malvernlogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={marksqualitylogo} alt="marksqualitylogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={coburnslogo} alt="coburnslogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={augmentlogo} alt="augmentlogo" className='img-fluid logo' />
                     </div>
-                    <div className="col-lg-2 Service-delivary-1" >
+                    <div className="col-md-2 Service-delivary-1" >
                         <img src={propertylogo} alt="propertylogo" className='img-fluid logo' />
                     </div>
                 </div>

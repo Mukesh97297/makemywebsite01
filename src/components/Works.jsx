@@ -10,56 +10,56 @@ function Works() {
                         </div>
                     </div>
                     <div className='row py-5'>
-                        <div className=" col-lg-3 mb-4">
+                        <div className=" col-xl-3 col-md-6 mb-4">
                             <p className='works works1'>
                                 <a href='/' className='works-overlay'>
                                     United Tools
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" >
+                        <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works2'>
                                 <a href='/' className='works-overlay'>
                                     Dal
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4 " >
+                        <div className=" col-xl-3 col-md-6 mb-4 " >
                             <p className='works works3'>
                                 <a href='/' className='works-overlay'>
                                     Coburns Rise
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4 " >
+                        <div className=" col-xl-3 col-md-6 mb-4 " >
                             <p className='works works4'>
                                 <a href='/' className='works-overlay'>
                                     Rg Land
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" >
+                        <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works5'>
                                 <a href='/' className='works-overlay'>
                                     Sunshine Collactables
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" >
+                        <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works6'>
                                 <a href='/' className='works-overlay'>
                                     Tic Group
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4">
+                        <div className=" col-xl-3 col-md-6 mb-4">
                             <p className='works works7'>
                                 <a href='/' className='works-overlay'>
                                     Carrabba's Group
                                 </a>
                             </p>
                         </div>
-                        <div className=" col-lg-3 mb-4" >
+                        <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works8'>
                                 <a href='/' className='works-overlay'>
                                     Darebin gas

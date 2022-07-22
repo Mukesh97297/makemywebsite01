@@ -2,7 +2,7 @@ import React from 'react'
 
 function WhatWeDo() {
     return (
-        <div style={{ position: "relative" }}>
+        <div style={{ position: "relative" }} className="what-we-do-top-div">
             <div className='What-we-do-main'>
                 <video className='What-we-do-vedio' autoPlay muted loop src="https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4" type="video/mp4"></video>
                 <div className='What-we-do-overlay'></div>

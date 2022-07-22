@@ -12,13 +12,13 @@ function Service() {
             <section className='Our-service'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-9'>
+                        <div className='col-md-9'>
                             <h2 className='service-h2'>Our Services</h2>
                             <div className='service-paragraph'>Our focus is on designing stunning, professional, and optimised <br></br>
                                 websites to help you meet your business goals and succeed online.
                             </div>
                         </div>
-                        <div className='col-lg-3 service-btn'>
+                        <div className='col-md-3 service-btn mb-3'>
                             <button className='btn viewbtn'>VIEW ALL SERVICES</button>
                         </div>
 
@@ -26,7 +26,7 @@ function Service() {
                 </div>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4' >
+                        <div className='col-md-4' >
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={design} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>
@@ -42,7 +42,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-md-4'>
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={digital} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>
@@ -59,7 +59,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4' >
+                        <div className='col-md-4' >
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={branding} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>
@@ -76,7 +76,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-md-4'>
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={email} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>
@@ -92,7 +92,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-md-4'>
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={photography} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>
@@ -108,7 +108,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-md-4'>
                             <div className='card service-card pt-3'>
                                 <Lottie animationData={customer} loop={true} autoplay={true} style={{ height: "250px", width: "100%" }} />
                                 <div className='service-title'>

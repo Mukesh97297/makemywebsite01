@@ -13,33 +13,19 @@ function WebDesign() {
             <section className='about_section'>
                 <div className="container">
                     <div className="row  about_section-2">
-                        
-                        <div className="col-lg-5">
-                        {/* <div className='trusted-box rounded-pill'>
-                            <div className='trusted-container'>
-                                <div className='trusted-1'>
-                                    <div>
-                                        <span className='trusted-1-span'>
-                                            <span>trusted by</span>
-                                        </span>
-                                        <p className='trusted-p-tag'>
-                                            800+
-                                            <br />
-                                        </p>
-                                        <p className='trusted-p-tag-1'>clients</p>
-                                       
-                                    </div>
-                                </div>
+                        <div className="col-lg-5  col-sm-12">
+                            <div className='shape'>
+                                <img src={about} alt="about" className="img-fluid rounded-pill" />
+                                <span className='shape-2'></span>
+                                <span className='shape-3'></span>
                             </div>
-                        </div> */}
-                            <img src={about} alt="about" className="img-fluid rounded-pill" />
                         </div>
-                        <div className='col-lg-7 about_section-3'>
+                        <div className='col-lg-7 col-sm-12 about_section-3'>
                             <h1 className='about-p mb-4'>
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </h1>
-                            <div id="demo" className="carousel slide about-crousal mb-4" data-ride="carousel">
-                                <div className="carousel-inner">
+                            <div id="demo" className="carousel slide about-crousal mb-5" data-ride="carousel">
+                                <div className="carousel-inner mb-4">
                                     <div className="carousel-item active">
                                         <div className='carousel-h'>Complete Web Solution  In Australia</div>
                                     </div>
@@ -58,13 +44,13 @@ function WebDesign() {
                                 </div>
                             </div>
                             <div className='row mb-4'>
-                                <div className='col-md-5 web-design-btn-col '>
+                                <div className='col-xl-6 col-lg-8 web-design-btn-col '>
                                     <div className='d-flex web-design-btn'>
                                         <i aria-hidden={true} className="fas fa-check " />
                                         <span>High-end solutions for <br /> small & large business</span>
                                     </div>
                                 </div>
-                                <div className='col-md-5 web-design-btn-col'>
+                                <div className='col-xl-6 col-lg-8 web-design-btn-col'>
                                     <div className='d-flex web-design-btn'>
                                         <i aria-hidden={true} className="fas fa-check" />
                                         <span>Helping local <br /> businesses go online</span>
@@ -77,7 +63,7 @@ function WebDesign() {
                                 Innovation is the key to creating designs that don’t  let users hit the “back” button, and that is what we strive for at Make My Website.
                             </div>
                             <div>
-                            <p className='paragraph'>
+                                <p className='paragraph'>
                                     If you’ve envisioned to be the foremost choice for your clients- it’s time to make a decision.
                                     We are curious to know about your goals, and venture
                                     into helping you to achieve those, using the digital space. So let’s get in touch and build a stunning website for you.
@@ -86,28 +72,28 @@ function WebDesign() {
                         </div>
                     </div>
                     <div className='row justify-content-center about-counter-row'>
-                        <div className='col-lg-3 py-5'>
+                        <div className='col-lg-3 col-md-6 py-5 c'>
                             <div className='counter'>
                                 <img src={experience} alt="experience" height="60px" width="60px" />
                                 <div className='about-count-h pt-4'><CountUp start={0} end={10} duration={5} />+</div>
                                 <h4 className='about-counter-p py-2'>Years Of Expertise</h4>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' >
+                        <div className='col-lg-3 col-md-6 py-5 c' >
                             <div className='counter'>
                                 <img src={owned} alt="owned" height="60px" width="60px" />
                                 <div className='about-count-h pt-4'><CountUp start={0} end={100} duration={5} />%</div>
                                 <h4 className='about-counter-p py-2'>Australian Owned</h4>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' >
+                        <div className='col-lg-3 col-md-6 py-5 c' >
                             <div className='counter'>
                                 <img src={design} alt="design" height="60px" width="60px" />
                                 <div className='about-count-h pt-4'> <CountUp start={0} end={5} duration={5} />-Star rated</div>
                                 <h4 className='about-counter-p py-2'>Web Design Agency</h4>
                             </div>
                         </div>
-                        <div className='col-lg-3 py-5' >
+                        <div className='col-lg-3 col-md-6 py-5 c' >
                             <div>
                                 <img src={client} alt="clients" height="60px" width="60px" />
                                 <div className='about-count-h pt-4'>

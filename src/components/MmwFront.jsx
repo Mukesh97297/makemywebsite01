@@ -8,9 +8,14 @@ function MmwFront() {
   return (
     <div className='front-banner'>
       <div className='container-fluid front-banner1'>
-        <div className='row' >
-          <div className='col-lg-6'>
+        <div className='row mmw-row-1'  >
+
+          <div className='col-xl-6 col-md-12 mmw-col-1'>
             <div className='project'>
+         
+                  <span className='mmw-shape-2'></span>
+                  <span className='mmw-shape-3'></span>
+              
               <div className='heading'>
                 <p>Have A Project In Mind?</p>
                 <div className='heading-info1'> Want to collaborate and give wings to your dream project?</div>
@@ -27,14 +32,14 @@ function MmwFront() {
           </div>
         </div>
       </div>
-      <div className='container-fluid' style={{ backgroundColor: "#000000D1",padding:"20px 0px 20px 0px" }} >
+      <div className='container-fluid' style={{ backgroundColor: "#000000D1", padding: "20px 0px 20px 0px" }} >
         <div className='container'>
           <div className='Teams'>
             <div className='row justify-content-center '>
               <div className='Team'>	We team up with the leading names of the industry</div>
               <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring the best to every business, every time.	</div>
             </div>
-            <div className='row justify-content-center' style={{padding:"20px 0px 20px 0px" }}>
+            <div className='row justify-content-center' style={{ padding: "20px 0px 20px 0px" }}>
               <div className='col-lg-2 mmw-logos-1' >
                 <img src={google} alt="google" className='img-fluid' />
               </div>
