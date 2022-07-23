@@ -189,10 +189,10 @@ p {
 }
 
 
-/* about */
-.paragraph1 .par{
-    flex: 0 0 70%;
-    max-width: 70%;
+/*home about */
+.paragraph1 .paragraph{
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
 }
 @media only screen and (max-width:1024px) {
     .shape-2 {
@@ -1406,7 +1406,7 @@ p {
 }
 
 .trusted-1 {
-    padding: 25px 50px 25px 50px;
+    padding: 30px 40px 30px 40px;
     text-align: center;
 }
 
@@ -1651,10 +1651,7 @@ p {
     padding: 100px 35px 100px 35px;
 }
 
-.paragraph1 .paragraph {
-    flex: 0 0 70%;
-    max-width: 70%;
-}
+
 
 .paragraph1 {
     min-height: 50vh;
