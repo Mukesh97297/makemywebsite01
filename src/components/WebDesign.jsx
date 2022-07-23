@@ -14,6 +14,13 @@ function WebDesign() {
                 <div className="container">
                     <div className="row  about_section-2">
                         <div className="col-lg-5  col-sm-12">
+                            <div className='trusted'>
+                                <div className='trusted-1'>
+                                    <span>Trusted by</span>
+                                    <p className='p-800'>800+</p>
+                                    <p>Clients</p>
+                                </div>
+                            </div>
                             <div className='shape'>
                                 <img src={about} alt="about" className="img-fluid rounded-pill" />
                                 <span className='shape-2'></span>
