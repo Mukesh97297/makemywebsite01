@@ -21,6 +21,8 @@ function WebEmailHosting() {
                         <h2>
                             For A Hassle-Free, And Cost-Effectives Management Of Your Online Portals
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>

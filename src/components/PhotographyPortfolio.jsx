@@ -2,7 +2,6 @@ import React from 'react'
 import '../PhotographyPortfolio.css'
 import Photography from './Photography'
 import { useState } from 'react'
-
 function PhotographyPortfolio() {
     const [images, setImages] = useState(Photography)
 
@@ -18,7 +17,6 @@ function PhotographyPortfolio() {
         })
         setImages(finalData)
     }
-
     return (
         <div>
             <div className="container-fluid" id="about-container">
@@ -31,6 +29,8 @@ function PhotographyPortfolio() {
                         <h2>
                             Glimpses Of Commercial Photoshoots For Our Esteemed Clients
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,6 @@ function PhotographyPortfolio() {
                     }
                 </div>
             </div>
-
         </div>
     )
 }

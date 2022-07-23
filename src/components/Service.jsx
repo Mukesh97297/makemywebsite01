@@ -21,7 +21,6 @@ function Service() {
                         <div className='col-md-3 service-btn mb-3'>
                             <button className='btn viewbtn'>VIEW ALL SERVICES</button>
                         </div>
-
                     </div>
                 </div>
                 <div className='container'>

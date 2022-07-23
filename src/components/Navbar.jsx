@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import logo from '../images/mmw-light-logo-min.png'
-
 function Navbar() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
@@ -92,7 +91,6 @@ function Navbar() {
         </div>
       </nav >
     </div>
-
   )
 }
 

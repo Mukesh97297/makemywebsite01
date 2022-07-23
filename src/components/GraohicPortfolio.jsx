@@ -28,6 +28,8 @@ function GraohicPortfolio() {
                         <h2 >
                             Balancing Art & Technology To Create Modern & Contemporary Branding Collateral
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>

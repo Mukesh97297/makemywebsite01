@@ -24,9 +24,6 @@ import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
 import WebDesignPortfolio from './components/WebDesignPortfolio';
-
-
-
 function App() {
   return (
     <div className="App">
@@ -57,7 +54,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter> 
-
     </div>
   );
 }

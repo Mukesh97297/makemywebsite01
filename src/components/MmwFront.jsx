@@ -9,13 +9,10 @@ function MmwFront() {
     <div className='front-banner'>
       <div className='container-fluid front-banner1'>
         <div className='row mmw-row-1'  >
-
           <div className='col-xl-6 col-md-12 mmw-col-1'>
             <div className='project'>
-         
                   <span className='mmw-shape-2'></span>
                   <span className='mmw-shape-3'></span>
-              
               <div className='heading'>
                 <p>Have A Project In Mind?</p>
                 <div className='heading-info1'> Want to collaborate and give wings to your dream project?</div>

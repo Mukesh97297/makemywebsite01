@@ -32,7 +32,7 @@ function WebDesign() {
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </h1>
                             <div id="demo" className="carousel slide about-crousal mb-5" data-ride="carousel">
-                                <div className="carousel-inner mb-4">
+                                <div className="carousel-inner p">
                                     <div className="carousel-item active">
                                         <div className='carousel-h'>Complete Web Solution  In Australia</div>
                                     </div>

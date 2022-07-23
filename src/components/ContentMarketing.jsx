@@ -19,6 +19,8 @@ function ContentMarketing() {
                         <h2>
                             Strengthening The Backbone Of All <br /> Marketing Endeavours
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>

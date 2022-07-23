@@ -23,7 +23,6 @@ function ServiceDelivery() {
                         <br /> Australia-wide!
                     </p>
                 </div>
-
                 <div className='row justify-content-center Service-delivary-2'>
                     <div className="col-md-2 Service-delivary-1"  >
                         <img src={unitedlogo} alt="unitedlogo" className='img-fluid logo' />

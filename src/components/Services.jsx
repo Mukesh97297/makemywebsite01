@@ -18,6 +18,8 @@ function Services() {
                         <h2>
                             A Full-Service Digital Agency To Help You Grow Online.
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -28,7 +30,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
+            <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6  devlopments' >
@@ -48,7 +50,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-           
+
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
                     <div className='row'>
@@ -65,7 +67,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-             
+
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
                     <div className='row'>
@@ -87,7 +89,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-          
+
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
                     <div className='row'>
@@ -105,7 +107,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-             
+
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
                     <div className='row'>

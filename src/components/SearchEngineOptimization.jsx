@@ -2,7 +2,6 @@ import React from 'react'
 import sco1 from '../images/seo1.png'
 import '../SearchEngineOptimization.css'
 import ServiceDelivery from './ServiceDelivery'
-
 function SearchEngineOptimization() {
     return (
         <div>
@@ -16,6 +15,8 @@ function SearchEngineOptimization() {
                         <h2 className='mb-2'>
                             An Amalgamation Of Consistency And Knowledge To Enhance Your Online Presence
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -43,14 +44,14 @@ function SearchEngineOptimization() {
             </div>
             <div className='container-fluid search-engine-3 py-5'>
                 <h3 >How can Make My Website help you with your rankings?</h3>
-                <p><i className="fa-solid fa-circle-check search-icon"/> We work on several different keyboards as per your niche and set up analytics to monitor the traffic and website performance.</p>
-                <p><i className="fa-solid fa-circle-check search-icon"/> We continuously work on link-building and cater for on-page and off-page optimization.</p>
-                <p><i className="fa-solid fa-circle-check search-icon"/> We write fresh, copyrighted content, depending on the extent of service you choose us for.</p>
-                <p><i className="fa-solid fa-circle-check search-icon"/> We take care of local citations, title tags, and meta tags.</p>
-                <p><i className="fa-solid fa-circle-check search-icon"/> We ensure transparency by sharing monthly reports with you for review.</p>
+                <p><i className="fa-solid fa-circle-check search-icon" /> We work on several different keyboards as per your niche and set up analytics to monitor the traffic and website performance.</p>
+                <p><i className="fa-solid fa-circle-check search-icon" /> We continuously work on link-building and cater for on-page and off-page optimization.</p>
+                <p><i className="fa-solid fa-circle-check search-icon" /> We write fresh, copyrighted content, depending on the extent of service you choose us for.</p>
+                <p><i className="fa-solid fa-circle-check search-icon" /> We take care of local citations, title tags, and meta tags.</p>
+                <p><i className="fa-solid fa-circle-check search-icon" /> We ensure transparency by sharing monthly reports with you for review.</p>
                 <a href="/" className='btn btn-dark' role="button">CLICK HERE FOR FREE SEO AUDIT REPORT</a>
             </div>
-            <ServiceDelivery/>
+            <ServiceDelivery />
         </div>
     )
 }

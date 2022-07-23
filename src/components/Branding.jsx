@@ -4,13 +4,10 @@ import Lottie from 'lottie-react'
 import brand from '../animation/Branding.json';
 import ServiceDelivery from './ServiceDelivery';
 import BrandAni from '../animation/BrandingAni.json'
-import aos from 'aos';
-import 'aos/dist/aos.css'
-aos.init()
 function Branding() {
     return (
         <div>
-            <div className="container-fluid" id="about-container">  
+            <div className="container-fluid" id="about-container">
                 <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
                         <h1>
@@ -19,6 +16,8 @@ function Branding() {
                         <h2>
                             Designs That Communicate The <br /> Essence Of Your Brand
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -65,34 +64,34 @@ function Branding() {
                     </div>
                     <div className='row py-5'>
                         <div className='graphic'>
-                            <h4  className='py-2'>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
+                            <h4 className='py-2'>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> It speaks to your audience without having to speak</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Gives your brand the attention it deserves</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you graphically depict your brand’s vision and ideals</p>
                             <p  ><i className="fa-solid fa-circle-check  brand-i"></i> Builds a solid brand identity that connects people with you</p>
                             <p  ><i className="fa-solid fa-circle-check brand-i"></i> Allows you to establish a familiarity with your audience</p>
-                            <h5  className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
+                            <h5 className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='container'>
-                <h3  className='wordplay-identity'>Brand’s Wordplay Identity</h3>
+                <h3 className='wordplay-identity'>Brand’s Wordplay Identity</h3>
                 <div className='row py-5'>
                     <div className='col-lg-7 Design'>
                         <p >A Brand’s vision is translated through its graphic representations but at
-                           the same time is supported through its taglines, slogan, and foremost
-                           the name that you hold. Every print and even your main brand logo is only a supporting agent of
-                           the name and brand tagline that you speak to your audiences with.
+                            the same time is supported through its taglines, slogan, and foremost
+                            the name that you hold. Every print and even your main brand logo is only a supporting agent of
+                            the name and brand tagline that you speak to your audiences with.
                         </p>
                         <p  >An intelligently named venture, speaks directly to the demand of the market, addresses it,
-                           and translates into high conversion rates of your leads. The work of business taglines
-                           and titles is to hold the audiences the minute they hear of your business’s utility and deliverables.
-                           Without the support of taglines, the graphic designs would lack depth and overall meaning.
+                            and translates into high conversion rates of your leads. The work of business taglines
+                            and titles is to hold the audiences the minute they hear of your business’s utility and deliverables.
+                            Without the support of taglines, the graphic designs would lack depth and overall meaning.
                         </p>
                     </div>
                     <div className='col-lg-5'>
-                    <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
+                        <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                     </div>
                 </div>
                 <div className='business mb-5'>

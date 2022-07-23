@@ -19,6 +19,8 @@ function SocialMediaMarketing() {
                         <h2>
                             Improvise Your Social Branding With Experts Who Know It All
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -34,15 +36,15 @@ function SocialMediaMarketing() {
 
                 </div>
             </div>
-            <div className='container-fluid' style={{backgroundColor:'#f5f5f5'}}>
+            <div className='container-fluid' style={{ backgroundColor: '#f5f5f5' }}>
                 <div className='container py-5'>
                     <div className='social-media-marketing-1'>
-                        <h3  className='py-2'>Why SMM builds your presence like none other:</h3>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing"/> Helps your business get in touch with your audience in real-time</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing"/> Let’s you understand your audience’s demand better</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing"/> Allows you to communicate and connect better</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing"/> Builds your unique identity and goodwill as a brand</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing"/> Builds your unique identity and goodwill as a brand</p>
+                        <h3 className='py-2'>Why SMM builds your presence like none other:</h3>
+                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Helps your business get in touch with your audience in real-time</p>
+                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Let’s you understand your audience’s demand better</p>
+                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Allows you to communicate and connect better</p>
+                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Builds your unique identity and goodwill as a brand</p>
+                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Builds your unique identity and goodwill as a brand</p>
                     </div>
                 </div>
             </div>
@@ -53,7 +55,7 @@ function SocialMediaMarketing() {
                     <p >At Make My Website, we position you as a brand and create your own space where you can engage with your target audience.</p>
                 </div>
             </div>
-            <ServiceDelivery/>
+            <ServiceDelivery />
 
         </div>
     )

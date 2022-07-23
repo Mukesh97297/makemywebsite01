@@ -2,9 +2,6 @@ import React from 'react'
 import '../GoggleAdsPay.css'
 import GooglePay from '../images/ppc1.png'
 import ServiceDelivery from './ServiceDelivery'
-import aos from 'aos';
-import 'aos/dist/aos.css'
-aos.init();
 function GoogleAdsPay() {
   return (
     <div>
@@ -18,6 +15,8 @@ function GoogleAdsPay() {
             <h2>
               Working Meticulously To Get You A <br /> Return On Every Dollar You Spend
             </h2>
+            <span className='shape-about-1'></span>
+            <span className='shape-about-2'></span>
           </div>
         </div>
       </div>

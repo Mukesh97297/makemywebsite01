@@ -16,9 +16,11 @@ function OurPortfolio() {
                         <h2>
                             Showcasing Our Best Work In Various Domains
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
-            </div> 
+            </div>
             <section className='main'>
                 <div className='container'>
                     <div className='ourportfolio'>
@@ -135,7 +137,6 @@ function OurPortfolio() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     )

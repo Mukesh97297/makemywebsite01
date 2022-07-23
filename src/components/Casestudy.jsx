@@ -12,6 +12,8 @@ function Casestudy() {
                         <h2 >
                             A Detailed Insight On Our Capabilities And Associations
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>

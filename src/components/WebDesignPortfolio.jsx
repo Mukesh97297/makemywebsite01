@@ -28,6 +28,8 @@ function WebDesignPortfolio() {
                         <h2>
                             A Vast Portfolio Of Websites That Showcase Our Credibility
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>

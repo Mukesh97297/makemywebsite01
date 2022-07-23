@@ -7,13 +7,11 @@ import socialmedia from '../images/social-media-marketing-icon.png'
 import seo from '../images/seo-icon.png'
 import content from '../images/content-icon.png'
 import ServiceDelivery from './ServiceDelivery';
-
 function DigitalMarkeing() {
     return (
         <div>
-           
             <div className="container-fluid" id="about-container">
-               <div className="row paragraph1">
+                <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
                         <h1>
                             Digital Marketing <hr className='hr'></hr>
@@ -21,6 +19,8 @@ function DigitalMarkeing() {
                         <h2>
                             Cutting-Edge Strategies To Level Up <br /> Businesses Digitally
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -29,13 +29,13 @@ function DigitalMarkeing() {
                     <div className='row py-5'>
                         <div className='col-lg-7 animated-section'>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets no
-                                 audience to avail the purposes it is built for. By marketing digitally, as a business owner,
-                                 you reach out to the right demographic thus making conversion a much faster and simpler
-                                 process than normal.</p>
+                                audience to avail the purposes it is built for. By marketing digitally, as a business owner,
+                                you reach out to the right demographic thus making conversion a much faster and simpler
+                                process than normal.</p>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets
-                                 no audience to avail the purposes it is built for. By marketing digitally, as a business
-                                 owner, you reach out to the right demographic thus making conversion a much faster and
-                                 simpler process than normal. </p>
+                                no audience to avail the purposes it is built for. By marketing digitally, as a business
+                                owner, you reach out to the right demographic thus making conversion a much faster and
+                                simpler process than normal. </p>
                             <p>Our services are aimed at helping your brand to gain visibility, and establish a strong
                                 presence amidst a wider audience where you get noticed for all the good work you are doing.
                                 <a href='/'>Digital marketing</a> is nothing but the umbrella term for marketing methodologies
@@ -53,7 +53,7 @@ function DigitalMarkeing() {
                             us hit the bullseye. Having said that, it is a gradual process that requires
                             sheer commitment, and continuous work.</p>
                         <p >If we had to describe Digital Marketing in one line, it would simply be, <br />
-                           <strong> <i>“ Digital marketing is a marathon and not a sprint race.”</i></strong> <br />
+                            <strong> <i>“ Digital marketing is a marathon and not a sprint race.”</i></strong> <br />
                             Because certainly, <br />
                             <strong><i> “ Great things take time.”</i></strong></p>
                     </div>
@@ -67,26 +67,26 @@ function DigitalMarkeing() {
                     </div>
                     <div className='row py-5'>
                         <div className='col-lg-3 seo'>
-                            <img  src={seo} alt="" height='150' width='150' />
-                            <h5   className='py-4'><u>Search Engine Optimization</u></h5>
+                            <img src={seo} alt="" height='150' width='150' />
+                            <h5 className='py-4'><u>Search Engine Optimization</u></h5>
                         </div>
                         <div className='col-lg-3 socialmedia'>
-                            <img  src={socialmedia} alt="" height='150' width='150' />
+                            <img src={socialmedia} alt="" height='150' width='150' />
                             <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
                         <div className='col-lg-3 content'>
-                            <img  src={content} alt="" height='150' width='150'/>
-                            <h5   className='py-4'><u>Content Marketing</u></h5>
+                            <img src={content} alt="" height='150' width='150' />
+                            <h5 className='py-4'><u>Content Marketing</u></h5>
                         </div>
                         <div className='col-lg-3 ppc'>
-                            <img  src={ppc } alt=""height='150' width='150' />
-                            <h5   className='py-4'><u>Google Ads & Pay Per Click</u></h5>
+                            <img src={ppc} alt="" height='150' width='150' />
+                            <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <ServiceDelivery/>
-         
+            <ServiceDelivery />
+
         </div>
     )
 }

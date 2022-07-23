@@ -17,6 +17,8 @@ function WebDesignDevlopment() {
             <h2>
               Building Future-Proof Designs For Companies That Envision Growth.
             </h2>
+            <span className='shape-about-1'></span>
+            <span className='shape-about-2'></span>
           </div>
         </div>
       </div>
@@ -44,32 +46,32 @@ function WebDesignDevlopment() {
           </div>
         </div>
         <div className='container' >
-            <div className='row online-presence py-3' >
-              <h3>Design & development to stimulate your online presence</h3>
+          <div className='row online-presence py-3' >
+            <h3>Design & development to stimulate your online presence</h3>
+          </div>
+          <div className='row'>
+            <div className='col-lg-6 Design-creativity' >
+              <p >We know what it takes to design a website that stands out and works for your business. Whatever industry you are in, we can cater to your web design needs and utilize our expertise to provide you with a professional web design and development solution that showcases functional design and creativity. </p>
+              <p >Every project we undertake is a new association strongly built on trust, and all the good work we do. This is one of the many reasons why we are highly rated for our work.</p>
+              <p >Whatever your requirement may be, we deliver the best and ensure constant transparency throughout the project.</p>
             </div>
-            <div className='row'>
-              <div className='col-lg-6 Design-creativity' >
-                <p >We know what it takes to design a website that stands out and works for your business. Whatever industry you are in, we can cater to your web design needs and utilize our expertise to provide you with a professional web design and development solution that showcases functional design and creativity. </p>
-                <p >Every project we undertake is a new association strongly built on trust, and all the good work we do. This is one of the many reasons why we are highly rated for our work.</p>
-                <p >Whatever your requirement may be, we deliver the best and ensure constant transparency throughout the project.</p>
-              </div>
-              <div className='col-lg-6' >
-                <img src={webdesign} alt="" className='img-fluid' />
-              </div>
-            </div>
-            <div className='row design-provider py-5'>
-              <p >A brilliant website consists of three main things, the best user experience, easy navigation, and a responsive design compatible with all devices, along with overall consistency in typography, graphics, and colours. </p>
-              <p >The prime area of focus for us whilst designing and developing any website for you is its usability and creating functionality that suits your business needs.  </p>
-              <h3 className='py-3'>Why Make My Website is your go-to web design provider</h3>
-              <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We wore our creative hats years ago and decided to never get rid of them.</p>
-              <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We maintain constant communication to understand your exact needs and design preferences.</p>
-              <p ><i className="fa-solid fa-circle-check design-provider-i"></i> Our specialized team manages projects seamlessly- one of the many reasons why we can deliver more websites.</p>
-              <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We have worked with clients from every industry, hence, we exactly know what you are after.</p>
-              <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We follow the agile approach and continue to work closely with all the stakeholders involved, to provide the desired solution.</p>
-              <p className='py-2'>Let’s create what you have envisioned for your online space- simple or complex, we are here to help! Drop us a line and we’d be the happiest to help you out.</p>
+            <div className='col-lg-6' >
+              <img src={webdesign} alt="" className='img-fluid' />
             </div>
           </div>
-        
+          <div className='row design-provider py-5'>
+            <p >A brilliant website consists of three main things, the best user experience, easy navigation, and a responsive design compatible with all devices, along with overall consistency in typography, graphics, and colours. </p>
+            <p >The prime area of focus for us whilst designing and developing any website for you is its usability and creating functionality that suits your business needs.  </p>
+            <h3 className='py-3'>Why Make My Website is your go-to web design provider</h3>
+            <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We wore our creative hats years ago and decided to never get rid of them.</p>
+            <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We maintain constant communication to understand your exact needs and design preferences.</p>
+            <p ><i className="fa-solid fa-circle-check design-provider-i"></i> Our specialized team manages projects seamlessly- one of the many reasons why we can deliver more websites.</p>
+            <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We have worked with clients from every industry, hence, we exactly know what you are after.</p>
+            <p ><i className="fa-solid fa-circle-check design-provider-i"></i> We follow the agile approach and continue to work closely with all the stakeholders involved, to provide the desired solution.</p>
+            <p className='py-2'>Let’s create what you have envisioned for your online space- simple or complex, we are here to help! Drop us a line and we’d be the happiest to help you out.</p>
+          </div>
+        </div>
+
       </div>
       <ServiceDelivery />
 

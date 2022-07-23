@@ -7,7 +7,7 @@ function PhotoGraphyVideoGraphy() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-               <div className="row paragraph1">
+                <div className="row paragraph1">
                     <div className="col-md-6 paragraph">
                         <h1>
                             Photography & Videography<hr className='hr'></hr>
@@ -15,6 +15,8 @@ function PhotoGraphyVideoGraphy() {
                         <h2>
                             The Art Of Storytelling To Showcase Your Business To The World
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -35,7 +37,7 @@ function PhotoGraphyVideoGraphy() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' style={{ backgroundColor:"black"}}>
+            <div className='container-fluid' style={{ backgroundColor: "black" }}>
                 <div className='container'>
                     <div className='row VedioGraphy py-5' >
                         <p>We are your local creative team with one of the largest photo studios in the western suburbs of Melbourne, in Truganina.</p>
@@ -47,7 +49,7 @@ function PhotoGraphyVideoGraphy() {
                     </div>
                 </div>
             </div>
-            <ServiceDelivery/>
+            <ServiceDelivery />
 
         </div>
     )

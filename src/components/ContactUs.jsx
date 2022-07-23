@@ -14,6 +14,8 @@ function ContactUs() {
                         <h2>
                             Take Your First Step Towards Creating An Impact
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@ function ContactUs() {
                                 <a href="https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ">
                                     <i className="fa-brands fa-youtube"></i>
                                 </a>
-                               
+
                             </div>
                         </div>
                     </div>

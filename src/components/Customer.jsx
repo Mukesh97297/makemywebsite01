@@ -129,7 +129,6 @@ function Customer() {
                         </div>
                     </div>
                 </OwlCarousel>
-
             </div>
         </div>
     )

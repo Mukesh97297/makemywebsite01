@@ -3,8 +3,6 @@ import '../CustomerCare.css'
 import Lottie from 'lottie-react'
 import support from '../animation/CustomerCare.json'
 import ServiceDelivery from './ServiceDelivery'
-
-
 function CustomerCare() {
     return (
         <div>
@@ -17,6 +15,8 @@ function CustomerCare() {
                         <h2>
                             An End-To-End Service Aimed At Managing Your Tech-Driven Platforms
                         </h2>
+                        <span className='shape-about-1'></span>
+                        <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
@@ -86,8 +86,8 @@ function CustomerCare() {
                     </div>
                 </div>
             </div>
-            <ServiceDelivery/>
-          
+            <ServiceDelivery />
+
         </div>
     )
 }

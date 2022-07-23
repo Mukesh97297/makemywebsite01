@@ -14,10 +14,12 @@ function VedioGraphyPortfolio() {
             <h2>
               Our Finest Pieces Of Work Right Here
             </h2>
+            <span className='shape-about-1'></span>
+            <span className='shape-about-2'></span>
           </div>
         </div>
       </div>
-      <div className='container' style={{marginBottom:"100px",marginTop:"100px"}}>
+      <div className='container' style={{ marginBottom: "100px", marginTop: "100px" }}>
         <div className='row'>
           <div className='col-md-4' >
             <a href="https://www.youtube.com/watch?v=xmKsJp1Y2Is">
