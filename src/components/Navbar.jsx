@@ -33,7 +33,7 @@ function Navbar() {
   return (
     <div>
       <nav id='navbar' className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
-        <div className="container">
+        <div className="container navbar-container">
           <a href='/' className="navbar-brand">
             <img src={logo} height="65px"  alt="logo" id='Logo' />
           </a>

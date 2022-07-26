@@ -45,9 +45,9 @@ p {
     align-content: center;
     align-items: center;
     padding: 10px 35px 10px 35px;
-    /* background: rgba(34, 34, 34, 0.62); */
+    background: rgba(34, 34, 34, 0.62);
     /* backdrop-filter: blur(20px); */
-    background: #222222;
+
 
 }
 
@@ -97,8 +97,6 @@ p {
     .dropdown-item {
         font-size: 16px;
     }
-
-
     .dropdown-item:hover {
         background-color: #FFFFFF;
     }
@@ -110,6 +108,14 @@ p {
     .navbar ul li {
         padding: 0px 11px 0px 11px !important;
     }
+}
+
+@media only screen and (max-width:4480px) {
+    #navbar .container {
+        max-width: 4080px !important;
+        padding: 0% 5% 0% 5%;
+    }
+   
 }
 
 .dropdown-item {
@@ -548,12 +554,20 @@ p {
     cursor: pointer;
     border-bottom: 2px solid #fff;
 }
+.footer1-left-lg-4 a:hover{
+    text-decoration: none;
+    color: #ED1C24;
+    border-bottom: 2px solid #ED1C24
+}
 
 #social-links a i {
     margin-right: calc(100px/2);
     color: #ED1C24;
     font-size: 25px;
     width: 1.25rem;
+}
+#social-links a i:hover{
+    color: #FFFFFF !important;
 }
 
 #fotterh4 {
@@ -583,20 +597,29 @@ p {
 }
 
 .Quick-links i {
-    color: #f1f1f1;
     width: 1.25rem;
     top: 6;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .Quick-links span {
     align-self: center;
     text-align: left;
-    color: #f1f1f1;
+    cursor: pointer;
     font-family: "Josefin Sans", Sans-serif;
     line-height: 1.75em;
     font-size: 16px;
     font-weight: 400;
+}
+.Quick-links:hover{
+    color: #ED1C24;
+}
+.Quick-links{
+    color: #f1f1f1;;
+}
+.footer-web-design :hover{
+    color: #ED1C24;
 }
 
 .footer-web-design i {

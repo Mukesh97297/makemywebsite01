@@ -60,7 +60,7 @@ function Footer() {
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
                             <div className='Quick-links pt-4'>
-                                <i className="fa-solid fa-circle-check" ></i>
+                                 <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
                             </div>
                             <div className='Quick-links'>
