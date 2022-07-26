@@ -12,7 +12,6 @@
     width: 1.25em;
     font-size: 26px;
     top: 6px;
-    color: #000000;
     font-weight: 900;
 }
 .contact-form-1 a{
@@ -22,12 +21,19 @@
     font-size: 26px;
     font-weight: 800;
 }
+.contact-form-1 a:hover{
+    text-decoration: none;
+    color: #FB3F69;
+}
+
 .contact-envelope-i{
     width: 1.25em;
     font-size: 32px;
     position: relative !important;
     top: 6px;
-    color: #000000;
+}
+.contact-envelope-i:hover{
+    color: #c36;
 }
 .contact-us-animations h3{
     font-weight: 800;

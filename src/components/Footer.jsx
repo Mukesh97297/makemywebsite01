@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import footer1 from '../images/client-partners-verified.png'
 import demo from '../images/demotext.jpg'
+
 function Footer() {
     return (
         <div>
@@ -59,26 +61,30 @@ function Footer() {
                         </div>
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
-                            <div className='Quick-links pt-4'>
+                            <a href="/about" className='Quick-links pt-4'>
                                  <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
-                            </div>
-                            <div className='Quick-links'>
+                            </a>
+                            <br />
+                            <a href='faq' className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>FAQs</span>
-                            </div>
-                            <div className='Quick-links'>
+                            </a>
+                            <br />
+                            <a href="/ourportfolio" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Our Portfolio</span>
-                            </div>
-                            <div className='Quick-links'>
+                            </a>
+                            <br />
+                            <a href="/service" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Services</span>
-                            </div>
-                            <div className='Quick-links'>
+                            </a>
+                            <br />
+                            <a href="/Blog" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Blog</span>
-                            </div>
+                            </a>
                         </div>
                         <div className="col-lg-4">
                             <div className='footer-left-lg-4'>

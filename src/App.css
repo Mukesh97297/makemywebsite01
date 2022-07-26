@@ -614,9 +614,11 @@ p {
 }
 .Quick-links:hover{
     color: #ED1C24;
+    text-decoration: none;
 }
 .Quick-links{
-    color: #f1f1f1;;
+    color: #f1f1f1;
+   
 }
 .footer-web-design :hover{
     color: #ED1C24;
