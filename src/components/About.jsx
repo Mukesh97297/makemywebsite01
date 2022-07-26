@@ -21,8 +21,6 @@ function About() {
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
                     </div>
-
-
                 </div>
             </div>
             <div className="container-fluid main-about-section ">
@@ -57,7 +55,6 @@ function About() {
                                 What first started as an idea has now transformed into a vision and as we continue to expand our horizons- our commitment towards providing high standards of service has just gotten stronger.
                                 As a digital agency with clients in every single state and territory of Australia, our establishment as a renowned company has been worthwhile.
                                 <br /><br />
-
                                 Our dynamic team has delivered 600+ websites, created ingenious strategies and helped numerous
                                 businesses in this digital space. We are ready to take up any challenge and strive to provide the best customer service.
                             </div>

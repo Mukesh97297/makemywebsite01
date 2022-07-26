@@ -50,7 +50,6 @@ function AutoScroll() {
                             )
                         })
                     }
-
                 </div>
             </div>
         </div>

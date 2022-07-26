@@ -1,10 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import logo from '../images/mmw-light-logo-min.png'
+import { Link } from 'react-router-dom';
 function Navbar() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY < 80  || window.Navbar) {
+    if (window.scrollY < 80 || window.Navbar) {
       setColor(true)
     } else {
       setColor()
@@ -16,17 +17,17 @@ function Navbar() {
       window.removeEventListener('scroll', changeColor)
     }
   }, []);
-  window.onscroll = function(){
-       scrollDown()
+  window.onscroll = function () {
+    scrollDown()
   }
-  function scrollDown(){
+  function scrollDown() {
     var Logo = document.getElementById("Logo");
     var Navbar = document.getElementById("navbar");
-    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       Logo.style.height = "50px";
       Navbar.style.padding = "15px 0px 15px 0px";
     }
-    else{
+    else {
       Logo.style.height = "65px"
     }
   }
@@ -34,57 +35,70 @@ function Navbar() {
     <div>
       <nav id='navbar' className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
         <div className="container navbar-container">
-          <a href='/' className="navbar-brand">
-            <img src={logo} height="65px"  alt="logo" id='Logo' />
-          </a>
+          <Link to='/' className="navbar-brand">
+            <img src={logo} height="65px" alt="logo" id='Logo' />
+          </Link>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="mainNavigation">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="/" className="nav-link active" id='nav-link'>HOME</a>
+                <Link to="/" className="nav-link active" id='nav-link'>HOME</Link>
               </li>
               <li className="nav-item">
-                <a href="/about" className="nav-link active" id='nav-link'>ABOUT US</a>
+                <Link to="/about" className="nav-link active" id='nav-link'>ABOUT US</Link> 
               </li>
-              <li className="nav-item dropdown">
-                <a href="/service" className="nav-link active" id='nav-link'>SERVICES <span>+</span></a>
+              <li className="nav-item dropdown">            
+                <Link to="/service" className="nav-link active" id='nav-link'>SERVICES +</Link> 
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <li ><a href="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</a></li>
+                  <li >
+                    <Link to="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</Link>
+                  </li>
                   <li className='dropdown ' >
-                    <a href="/service/DigitalMarkeing" className='dropdown-item mb-2 dropdwon-1'>Digital Marketing +</a>
+                    <Link to="/service/DigitalMarkeing" className='dropdown-item mb-2 dropdwon-1'>Digital Marketing +</Link>
                     <ul className='dropdown-menu shadow dropdwnleft'>
-                      <li><a href="/DigitalMarkeing/SearchEngine" className='dropdown-item' >Search Engine Optimization</a></li>
-                      <li><a href="/WebDesignDelovpment/SocialMedia" className='dropdown-item'>Social Media Marketing</a></li>
-                      <li><a href="/WebDesignDelovpment/ContentMarketing" className='dropdown-item'>Content-Marketing</a></li>
-                      <li><a href="/WebDesignDelovpment/GooglePay" className='dropdown-item'>Google Ads & Pay Per Click</a></li>
+                      <li>
+                        <Link to="/DigitalMarkeing/SearchEngine" className='dropdown-item' >Search Engine Optimization</Link>
+                      </li>
+                      <li><Link to="/WebDesignDelovpment/SocialMedia" className='dropdown-item'>Social Media Marketing</Link></li>
+                      <li><Link to="/WebDesignDelovpment/ContentMarketing" className='dropdown-item'>Content-Marketing</Link></li>
+                      <li><Link to="/WebDesignDelovpment/GooglePay" className='dropdown-item'>Google Ads & Pay Per Click</Link></li>
                     </ul>
                   </li>
-                  <li ><a href="/service/branding" className='dropdown-item'>Branding</a></li>
-                  <li ><a href="/service/WebEmailHosting" className='dropdown-item'>Web And Email Hosting</a></li>
-                  <li ><a href="/service/PhotoGraphyVideoGraphy" className='dropdown-item'>Photography and Vediography</a></li>
-                  <li ><a href="/service/CustomerCare" className='dropdown-item'>Customer Care</a></li>
+                  <li><Link to="/service/branding" className='dropdown-item'>Branding</Link></li>
+                  <li><Link to="/service/WebEmailHosting" className='dropdown-item'>Web And Email Hosting</Link></li>
+                  <li><Link to="/service/PhotoGraphyVideoGraphy" className='dropdown-item'>Photography and Vediography</Link></li>
+                  <li><Link to="/service/CustomerCare" className='dropdown-item'>Customer Care</Link></li>
                 </ul>
               </li>
               <li className="nav-item  dropdown">
-                <a href="/ourportfolio" className="nav-link active" id='nav-link'> OUR PORTFOLIO +</a>
+                <Link to="/ourportfolio" className="nav-link active" id='nav-link'> OUR PORTFOLIO +</Link>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <li ><a href="/WebDesignPortfolio" className='dropdown-item' >Web Design Portfolio</a></li>
-                  <li ><a href="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</a></li>
-                  <li ><a href="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</a></li>
-                  <li ><a href="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</a></li>
-                  <li ><a href="/Casestudy" className='dropdown-item'>Case Studies</a></li>
+                  <li >
+                    <Link to="/WebDesignPortfolio" className='dropdown-item'>Web Design Portfolio</Link>
+                  </li>
+                  <li >
+                    <Link to="/Graphicportfolio" className='dropdown-item'>Graphic Portfolio</Link>
+                  </li>
+                  <li >
+                    <Link to="/phtographyportfolio" className='dropdown-item'>Photography Portfolio</Link>
+                  </li>
+                  <li > <Link to="/VedioPortfolio" className='dropdown-item'>Vedio Portfolio</Link>
+                  </li>
+                  <li >
+                    <Link to="/Casestudy" className='dropdown-item'>Case Studies</Link>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="/Blog" className="nav-link active" id='nav-link'> BLOG</a>
+                <Link to="/Blog" className="nav-link active" id='nav-link'>BLOG</Link>
               </li>
               <li className="nav-item">
-                <a href="/ContactUs" className="nav-link active" id='nav-link'> CONTACT US</a>
+                <Link to='/ContactUs' className="nav-link active" id='nav-link'>CONTACT US</Link>
               </li>
               <li className="nav-item">
-                <a href="tel:1300769303" id='navbar-btn' className="btn "><i className='fas fa-phone'></i>1300 769 302</a>
+                <Link to="tel:1300769303" id='navbar-btn' className="btn"><i className='fas fa-phone'></i>1300 769 302</Link>
               </li>
             </ul>
           </div>
