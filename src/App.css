@@ -516,9 +516,12 @@ p {
 
     .fotter-bottom-part-img a img {
         height: 40px;
-        width: 150px;
+        width: 130px;
         padding-top: 0px !important;
-        padding: 0px 2px 0px 2px;
+        padding: 5px 2px 0px 2px;
+    }
+    .fotter-bottom-part-img{
+       padding-top: 10px;
     }
 
     #social-links a i {
@@ -820,7 +823,7 @@ p {
     }
 
     #works {
-        padding: 35px;
+        padding: 100px 0px 100px 0px !important;
     }
 }
 

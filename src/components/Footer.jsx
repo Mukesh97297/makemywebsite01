@@ -128,6 +128,8 @@ function Footer() {
                                     <img src={demo} alt="client" height='61px' width='210px' className='demo pt-1' />
                                 </a>
                             </div>
+                            {/* <a href="/"><span>Privacy</span></a>
+                            <span>Term and conditions</span> */}
                         </div>
                     </div>
                     <div className='col-lg-4 footer-bottom-part-1'>
