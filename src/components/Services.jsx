@@ -116,7 +116,7 @@ function Services() {
                             <p>Support is highly crucial when running a website for your business and it is not feasible to handle all of it by yourself. Offering support for a domain and running its various functionalities optimally requires skill, expertise, and experience.</p>
                             <p> Holistic support for your website involves monthly management involving resolution of security issues, updating the plugins, changes in website as per demand, dynamic platform establishment, and making new updates as per search engine’s upgraded amdorithms.</p>
                             <div className='py-2'>
-                                <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
+                                <a href="/" className='btn learn-more' role='button'>LEARN MORE</a>
                             </div>
                         </div>
                         <div className='col-md-6 '>

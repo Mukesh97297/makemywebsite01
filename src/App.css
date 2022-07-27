@@ -532,7 +532,23 @@ p {
     }
     
 }
-
+.term-conditions{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.term-conditions a{
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family: "Josefin Sans", Sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.term-conditions a span{
+    color: #E6E6E6;
+}
+.term-conditions a span:hover{
+    color: #ED1C24;
+}
 .Footer {
     padding: 70px 35px 40px 35px;
 }
@@ -721,6 +737,7 @@ p {
 .viewbtn:hover {
     background-color: red;
     color: white;
+    box-shadow: none;
 }
 
 .service-btn {
@@ -790,21 +807,28 @@ p {
 .overlay-btn {
     font-size: 16px;
     line-height: 28px;
-    border: none;
     outline: none;
+    box-shadow: none;
     color: white;
     font-family: "Poppins", Sans-serif;
     font-weight: 500;
     background-color: #00000000;
     border-width: 0px 0px 0px 0px;
     border-color: #FFFFFF;
-    padding: 10px 30px 10px 30px;
-    width: 75%;
+    padding: 10px 20px 10px 20px;
+    width: 50%;
     border-radius: 0px;
+   
 }
 
 .overlay-btn:hover {
-    background-color: rgb(109, 107, 107);
+  background-color: #1E1E22;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+   
+}
+.overlay-btn:active{
     color: white;
 }
 

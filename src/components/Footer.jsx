@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import footer1 from '../images/client-partners-verified.png'
 import demo from '../images/demotext.jpg'
 
@@ -61,30 +61,30 @@ function Footer() {
                         </div>
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
-                            <a href="/about" className='Quick-links pt-4'>
-                                 <i className="fa-solid fa-circle-check" ></i>
+                            <NavLink to="/about" className='Quick-links pt-4'>
+                                <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
-                            </a>
+                            </NavLink>
                             <br />
-                            <a href='faq' className='Quick-links'>
+                            <NavLink to='faq' className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>FAQs</span>
-                            </a>
+                            </NavLink>
                             <br />
-                            <a href="/ourportfolio" className='Quick-links'>
+                            <NavLink to="/ourportfolio" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Our Portfolio</span>
-                            </a>
+                            </NavLink>
                             <br />
-                            <a href="/service" className='Quick-links'>
+                            <NavLink to="/service" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Services</span>
-                            </a>
+                            </NavLink>
                             <br />
-                            <a href="/Blog" className='Quick-links'>
+                            <NavLink to="/Blog" className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Blog</span>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="col-lg-4">
                             <div className='footer-left-lg-4'>
@@ -128,8 +128,14 @@ function Footer() {
                                     <img src={demo} alt="client" height='61px' width='210px' className='demo pt-1' />
                                 </a>
                             </div>
-                            {/* <a href="/"><span>Privacy</span></a>
-                            <span>Term and conditions</span> */}
+                        </div>
+                        <div className='row'>
+                            <div className='term-conditions'>
+                                <a href="/"><span>Term and conditions</span> </a>
+                            </div>
+                            <div className='term-conditions'>
+                                <a href="/"><span>Privacy policy</span></a>
+                            </div>
                         </div>
                     </div>
                     <div className='col-lg-4 footer-bottom-part-1'>
