@@ -50,7 +50,8 @@ p {
     
 }
 .nav_blue {
-    backdrop-filter: blur(20px); 
+    backdrop-filter: saturate(180%) blur(20px); 
+    background-color: rgba(34, 34, 34, 0.62)
 }
 
 .navbar-nav li:hover>.dropdown-menu {
@@ -523,6 +524,10 @@ p {
     #social-links a i {
         margin-right: calc(90px/2) !important;
     }
+    .Footer {
+        padding: 70px 0px 40px 0px !important;
+    }
+    
 }
 
 .Footer {
@@ -664,11 +669,11 @@ p {
 
 @media only screen and (max-width: 767px) {
     .service-paragraph {
-        font-size: 16px;
+        padding: 0px !important;
     }
 
     .service-h2 {
-        font-size: 20px !important;
+        font-size: 26px !important;
         text-align: center;
     }
 
@@ -678,9 +683,14 @@ p {
         justify-content: center;
         padding: 25px;
     }
-
     .service-paragraph {
         text-align: center;
+    }
+    .Our-service {
+        padding: 100px 0px 100px 0px !important;
+    }
+    .overlay{
+        padding: 0px 10px 0px 10px;
     }
 }
 
@@ -1019,8 +1029,17 @@ p {
     #Heading2 h3 {
         font-size: 24px !important;
     }
+    #Heading2 p{
+        font-size: 24px !important;
+    }
+    .customer-feedback-container{
+        padding: 100px 0px 100px 0px !important;
+    }
 }
-
+.customer-feedback-container{
+    background: #060709;
+    padding: 100px 35px 100px 35px;
+}
 #Heading {
     text-align: center;
     align-items: center;
@@ -1113,6 +1132,9 @@ p {
 @media only screen and (max-width:767px) {
     #service-delivery .service-delivery-p2 {
         font-size: 24px !important;
+    }
+    #service-delivery { 
+        padding: 100px 0px 100px 0px !important;
     }
 }
 
@@ -1289,7 +1311,7 @@ p {
 
     .mmw-shape-3 {
         bottom: -77px;
-        right: -3%;
+        right: -18%;
     }
 
     .project {
@@ -1374,8 +1396,11 @@ p {
 }
 
 .Teams {
-    padding: 60px 0px 15px 0px;
-    ;
+    padding: 60px 0px 15px 0px; 
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .Team {
@@ -1401,6 +1426,11 @@ p {
 @media only screen and (max-width:767px) {
     .Team1 {
         text-align: center;
+        font-size: 13px;
+        padding: 0em 0em 0em 0em;
+    }
+    .Team{
+        font-size: 24px;
     }
 }
 
@@ -1589,7 +1619,7 @@ p {
 .shape-about-2 {
     position: absolute;
     bottom: -87px;
-    right: -401px;
+    right: -49%;
     height: 185px;
     width: 185px;
     background-color: var(--moniz-primary, #ed1c24);

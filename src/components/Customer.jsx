@@ -25,7 +25,7 @@ function Customer() {
     }
 
     return (
-        <div className='container-fluid' style={{ backgroundColor: "#060709", padding: "100px 35px 100px 35px" }}>
+        <div className='container-fluid customer-feedback-container' >
             <div className='container'>
                 <div className='row justify-content-center'>
                     <div id='Heading'>
