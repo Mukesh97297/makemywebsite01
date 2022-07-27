@@ -5,21 +5,20 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY < 80 || window.Navbar) {
+    if (window.scrollY >=2 ) {
       setColor(true)
     } else {
-      setColor()
+      setColor(false)
     }
-  }
+  };
   useEffect(() => {
     window.addEventListener('scroll', changeColor)
-    return () => {
-      window.removeEventListener('scroll', changeColor)
-    }
+  
   }, []);
   window.onscroll = function () {
     scrollDown()
   }
+
   function scrollDown() {
     var Logo = document.getElementById("Logo");
     var Navbar = document.getElementById("navbar");
@@ -47,10 +46,10 @@ function Navbar() {
                 <Link to="/" className="nav-link active" id='nav-link'>HOME</Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link active" id='nav-link'>ABOUT US</Link> 
+                <Link to="/about" className="nav-link active" id='nav-link'>ABOUT US</Link>
               </li>
-              <li className="nav-item dropdown">            
-                <Link to="/service" className="nav-link active" id='nav-link'>SERVICES +</Link> 
+              <li className="nav-item dropdown">
+                <Link to="/service" className="nav-link active" id='nav-link'>SERVICES +</Link>
                 <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                   <li >
                     <Link to="/service/WebDesignDelovpment" className='dropdown-item'>Web Design & Development</Link>

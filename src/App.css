@@ -41,19 +41,16 @@ p {
 
 .navbar {
     position: fixed;
+    top: 0;
     width: 100%;
     align-content: center;
     align-items: center;
     padding: 10px 35px 10px 35px;
-    background: rgba(34, 34, 34, 0.62);
-    /* backdrop-filter: blur(20px); */
-
-
+    backdrop-filter: none;
+    
 }
-
-
 .nav_blue {
-    background-color: transparent !important;
+    backdrop-filter: blur(20px); 
 }
 
 .navbar-nav li:hover>.dropdown-menu {
@@ -97,13 +94,14 @@ p {
     .dropdown-item {
         font-size: 16px;
     }
-    .dropdown-item:hover {
+
+    /* .dropdown-item:hover {
         background-color: #FFFFFF;
     }
 
     .dropdown-menu li:hover {
         background-color: #FFFFFF;
-    }
+    } */
 
     .navbar ul li {
         padding: 0px 11px 0px 11px !important;
@@ -115,7 +113,6 @@ p {
         max-width: 4080px !important;
         padding: 0% 5% 0% 5%;
     }
-   
 }
 
 .dropdown-item {
@@ -126,7 +123,6 @@ p {
     padding-top: 10px;
     font-weight: 400;
     padding-bottom: 10px;
-    color: #000000;
     text-shadow: none;
 }
 
@@ -146,10 +142,12 @@ p {
     color: #FFFFFF;
 }
 
-.dropdown-item:hover {
-    background-color: #000000;
-    color: #FFFFFF;
+.dropdown-menu li a:hover {
+    background-color: black;
+    margin: 0;
 }
+
+
 
 #navbar-btn {
     background-color: #ED1C24;
@@ -213,10 +211,7 @@ p {
         bottom: 316px !important;
         right: 108px !important;
     }
-
-
 }
-
 
 @media only screen and (max-width:991px) {
     .shape-2 {
@@ -554,7 +549,8 @@ p {
     cursor: pointer;
     border-bottom: 2px solid #fff;
 }
-.footer1-left-lg-4 a:hover{
+
+.footer1-left-lg-4 a:hover {
     text-decoration: none;
     color: #ED1C24;
     border-bottom: 2px solid #ED1C24;
@@ -566,7 +562,8 @@ p {
     font-size: 25px;
     width: 1.25rem;
 }
-#social-links a i:hover{
+
+#social-links a i:hover {
     color: #FFFFFF !important;
 }
 
@@ -612,15 +609,18 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
-.Quick-links:hover{
+
+.Quick-links:hover {
     color: #ED1C24;
     text-decoration: none;
 }
-.Quick-links{
+
+.Quick-links {
     color: #f1f1f1;
-   
+
 }
-.footer-web-design :hover{
+
+.footer-web-design :hover {
     color: #ED1C24;
 }
 
