@@ -4,6 +4,11 @@ import footer1 from '../images/client-partners-verified.png'
 import demo from '../images/demotext.jpg'
 
 function Footer() {
+    const goToTop = () => {
+        window.scrollTo({
+          top: 0,
+        });
+      };
     return (
         <div>
             <div style={{ background: "#000000" }}>
@@ -61,27 +66,27 @@ function Footer() {
                         </div>
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
-                            <NavLink to="/about" className='Quick-links pt-4'>
+                            <NavLink onClick={goToTop} to="/about" className='Quick-links pt-4'>
                                 <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
                             </NavLink>
                             <br />
-                            <NavLink to='faq' className='Quick-links'>
+                            <NavLink to='faq' onClick={goToTop} className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>FAQs</span>
                             </NavLink>
                             <br />
-                            <NavLink to="/ourportfolio" className='Quick-links'>
+                            <NavLink to="/ourportfolio" onClick={goToTop} className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Our Portfolio</span>
                             </NavLink>
                             <br />
-                            <NavLink to="/service" className='Quick-links'>
+                            <NavLink to="/service" onClick={goToTop} className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Services</span>
                             </NavLink>
                             <br />
-                            <NavLink to="/Blog" className='Quick-links'>
+                            <NavLink to="/Blog" onClick={goToTop} className='Quick-links'>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span>Blog</span>
                             </NavLink>

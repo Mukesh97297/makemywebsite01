@@ -6,8 +6,11 @@ import digital from '../animation/DigitalMarketing.json'
 import email from '../animation/EmailHost.json'
 import photography from '../animation/Photography.json'
 import Lottie from "lottie-react";
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 function Service() {
+    function goToTop() {
+        window.scrollTo({ top: 0 })
+    }
     return (
         <div>
             <section className='Our-service'>
@@ -20,7 +23,7 @@ function Service() {
                             </div>
                         </div>
                         <div className='col-md-3 service-btn mb-3'>
-                            <NavLink to="/service" className='btn viewbtn'>VIEW ALL SERVICES</NavLink>
+                            <NavLink to="/service" onClick={goToTop} className='btn viewbtn'>VIEW ALL SERVICES</NavLink>
                         </div>
                     </div>
                 </div>
@@ -36,7 +39,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/WebDesignDelovpment' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/WebDesignDelovpment' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -52,7 +55,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/DigitalMarkeing' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/DigitalMarkeing' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +71,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/branding' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/branding' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +87,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/WebEmailHosting' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/WebEmailHosting' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +103,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/PhotoGraphyVideoGraphy' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/PhotoGraphyVideoGraphy' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +119,7 @@ function Service() {
                                     <div className="text">Make My Website embraces technological advancement and puts forth
                                         what’s the best for your brand. Your online presence is important to your business, and to us for it exhibits our passion and creativity.
                                         <div className='pt-3'>
-                                            <NavLink to='/service/CustomerCare' className='btn overlay-btn'>Read More</NavLink>
+                                            <NavLink to='/service/CustomerCare' onClick={goToTop} className='btn overlay-btn'>Read More</NavLink>
                                         </div>
                                     </div>
                                 </div>
@@ -124,10 +127,8 @@ function Service() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </div>
     )
 }
-
 export default Service

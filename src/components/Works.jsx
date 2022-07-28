@@ -1,5 +1,9 @@
 import React from 'react';
+import { Link} from 'react-router-dom';
 function Works() {
+    function goToTop(){
+        window.scrollTo({top:0})
+    }
     return (
         <div>
             <div className='container-fluid' id='works'>
@@ -69,7 +73,7 @@ function Works() {
                     </div>
                     <div className="row justify-content-center">
                         <div className='view-project-all'>
-                            <a className='btn view-btn' href='/'>View All Projects</a>
+                            <Link onClick={goToTop} className='btn view-btn' to='/WebDesignPortfolio'>View All Projects</Link>
                         </div>
                     </div>
                 </div>
