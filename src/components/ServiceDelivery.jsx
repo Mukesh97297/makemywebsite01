@@ -9,6 +9,7 @@ import marksqualitylogo from '../images/Marks-Quality-Cakes-logo.jpg'
 import coburnslogo from '../images/coburnsrise-logo.jpg'
 import augmentlogo from '../images/Augment-Group-logo.jpg'
 import propertylogo from '../images/Property-Select-Advisory.jpg'
+import { Link } from 'react-router-dom'
 function ServiceDelivery() {
     return (
         <div>
@@ -25,36 +26,36 @@ function ServiceDelivery() {
                 </div>
                 <div className='row justify-content-center Service-delivary-2'>
                     <div className="col-md-2 Service-delivary-1"  >
-                        <img src={unitedlogo} alt="unitedlogo" className='img-fluid logo' />
+                        <Link to="/" onClick={()=>{window.open("https://www.unitedtools.com.au/")}}><img src={unitedlogo} alt="unitedlogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1"  >
-                        <img src={pursuelogo} alt="pursuelogo" className='img-fluid logo' />
+                    <Link to="/" onClick={()=>{window.open("https://www.pursueability.com/")}}><img src={pursuelogo} alt="pursuelogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={ticlogo} alt="ticlogo" className='img-fluid logo' />
+                       <img src={ticlogo} alt="ticlogo" className='img-fluid logo' />
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={dallogo} alt="dallogo" className='img-fluid logo' />
+                       <Link to="/" onClick={()=>{window.open("https://www.dal.com.au/")}}><img src={dallogo} alt="dallogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1"  >
-                        <img src={rglandlogo} alt="rglandlogo" className='img-fluid logo' />
+                       <Link to="/" onClick={()=>{window.open("https://www.rgland.com.au/")}}><img src={rglandlogo} alt="rglandlogo" className='img-fluid logo' /></Link>
                     </div>
                 </div>
                 <div className="row justify-content-center ">
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={malvernlogo} alt="malvernlogo" className='img-fluid logo' />
+                    <Link to="/" onClick={()=>{window.open("https://www.malvernneurology.com.au/")}}><img src={malvernlogo} alt="malvernlogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={marksqualitylogo} alt="marksqualitylogo" className='img-fluid logo' />
+                      <img src={marksqualitylogo} alt="marksqualitylogo" className='img-fluid logo' />
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={coburnslogo} alt="coburnslogo" className='img-fluid logo' />
+                        <Link to="/" onClick={()=>{window.open("https://www.coburnsrise.com.au/")}}><img src={coburnslogo} alt="coburnslogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={augmentlogo} alt="augmentlogo" className='img-fluid logo' />
+                      <Link to="/" onClick={()=>{window.open("https://www.augmentgroup.com.au/")}}><img src={augmentlogo} alt="augmentlogo" className='img-fluid logo' /></Link>
                     </div>
                     <div className="col-md-2 Service-delivary-1" >
-                        <img src={propertylogo} alt="propertylogo" className='img-fluid logo' />
+                       <Link to="/" onClick={()=>{window.open("https://www.propertyselectadvisory.com/")}}><img src={propertylogo} alt="propertylogo" className='img-fluid logo' /></Link>
                     </div>
                 </div>
 
