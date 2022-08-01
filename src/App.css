@@ -36,7 +36,10 @@ p {
 /* Navbar */
 
 .navbar ul li {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
+}
+.navbar ul li #navbar-btn:last-child{
+   text-align: end;
 }
 
 .navbar {
@@ -47,6 +50,7 @@ p {
     align-items: center;
     padding: 10px 35px 10px 35px;
     backdrop-filter: none;
+    letter-spacing: 1px;
     
 }
 .nav_blue {
@@ -77,6 +81,7 @@ p {
     line-height: 20px;
     align-items: center;
     font-family: 'Josefin Slab', sans-serif;
+    letter-spacing: 1px;
 }
 
 @media only screen and (max-width:1024px) {
@@ -125,6 +130,7 @@ p {
     font-weight: 400;
     padding-bottom: 10px;
     text-shadow: none;
+    letter-spacing: 1px;
 }
 
 @media only screen and (max-width:991px) {
@@ -147,8 +153,6 @@ p {
     background-color: black;
     margin: 0;
 }
-
-
 
 #navbar-btn {
     background-color: #ED1C24;
