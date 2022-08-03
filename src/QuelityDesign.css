@@ -1,0 +1,266 @@
+.Ouelity-Design{
+    background-color: #E8E8E8;
+    padding: 100px 35px 100px 35px;
+}
+.Quality-paragraph p{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #222222;
+    font-family: "Montserrat", Sans-serif !important;
+    margin-bottom: 10px;
+}
+.Queality-web-design-services span h2{
+    font-size: 18px;
+    color: #413f40;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 5px;
+}
+.Queality-web-design-services span i{
+    color: #ED1C24;
+}
+.a-tailored-web-design span i{
+    color: #ED1C24;
+}
+.a-tailored-web-design span h2{
+    font-size: 18px;
+    color: #413f40;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 5px;
+}
+.a-tailored-web-design span i{
+    color: #ED1C24;
+}
+.a-tailored-web-design-section{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.a-tailored-paragraph p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #222222;
+    margin-bottom: 10px;
+   
+}
+.a-credible-agency{
+    padding: 50% 0% 50% 0%;
+}
+.a-credible-agency p{
+    text-align: right;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #222222;
+}
+.a-credible-agency .a-credible-agency-para{
+    text-align: right;
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-top: 15px;
+}
+.border-line{
+    border-bottom: 3px solid #222222;
+    margin: 0 auto;
+    margin-right: 0;
+    width: 46%;
+}
+.empowering-local-businesses{
+    padding: 50% 0% 0% 0%;
+}
+.empowering-local-businesses p{
+    text-align: left;
+    color: #ED1C24;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+.empowering-local-businesses .empowering-local-businesses-para{
+    text-align: left;
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-top: 15px;
+}
+.robust-methodologies{
+    padding: 0% 0% 0% 0%;
+}
+.robust-methodologies p{
+    text-align: left;
+    color: #ED1C24;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+.robust-methodologies .robust-methodologies-para{
+    text-align: left;
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding-top: 15px;
+}
+.border-line-red{
+    border-bottom: 3px solid #ED1C24;
+    width: 46%;
+}
+.img-and-para-section{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+/* expert-web-designer */
+.exeprt-web-designer{
+    background: url(./images/digital-experiences.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px 80px 0px;
+}
+.expert-title{
+    padding: 10px;
+}
+.expert-title span i{
+    color: #ED1C24;
+}
+.expert-title span h2{
+    font-size: 18px;
+    color: #413f40;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 5px;
+}
+.expert-para{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.expert-para p{
+    text-align: left;
+    color:#222222;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.expert-para .red-border{
+    border-bottom: 2px solid #ED1C24;
+    width: 20%;
+}
+.expert-full-para{
+ margin-bottom: 20px;
+ padding: 10px;
+}
+.expert-full-para div{
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #222222;
+}
+.high-perform-img-section{
+    text-align: center;
+}
+.we-design-partner span i{
+    color: #ED1C24;
+}
+.we-design-partner span h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.growing-online{
+    padding: 80px 0px 80px 0px;
+}
+.talk-to-expert{
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #7A7A7A;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+    padding: 15px 35px 15px 35px;
+    background: #222222;
+    color: #fff;
+}
+.talk-to-expert span{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+.talk-to-expert:hover{
+    background: #ED1C24;
+    text-decoration: none;
+    color: #ffffff;
+}
+.expert-full-para .first{
+  color: #222222;
+}
+.expert-full-para .second{
+    color: #545454;
+}
+/* friquently-ask-questions */
+
+.friquently-ask-questions{
+    padding: 100px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.asked-questions{
+    align-content: center;
+    align-items: center;
+    padding: 0% 13% 0% 13%;
+}
+.asked-questions h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #222222;
+}
+.What-web-design{
+    border-width: 1px;
+    border-color: #D2D2D2;
+    padding: 30px 30px 30px 30px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline: none;
+}
+.wordpress-website{
+    background: #F0F0F0;
+    padding: 50px 0px 0px 0px;
+}
+.geelong-para p{
+    font-size: 50px;
+    text-align: left;
+    color:#222222;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.geelong-para .red-border{
+    border-bottom: 2px solid #ED1C24;
+    width: 16%;
+}
+.geelong-para{
+    padding: 10px;
+}

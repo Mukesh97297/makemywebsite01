@@ -24,13 +24,21 @@ import ContentMarketing from './components/ContentMarketing';
 import GoogleAdsPay from './components/GoogleAdsPay';
 import ContactUs from './components/ContactUs';
 import WebDesignPortfolio from './components/WebDesignPortfolio';
+import Sydney from './components/Sydney';
+import WebBrisbane from './components/WebBrisbane';
+import DesignPerth from './components/DesignPerth';
+import AdalaideDesign from './components/AdalaideDesign';
+import GeelongDesign from './components/GeelongDesign';
+import GoldCost from './components/GoldCost';
+import ModernWorld from './components/ModernWorld';
 function App() {
   return (
     <div className="App">
+
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Services />} />
           <Route path="/service/WebDesignDelovpment" element={<WebDesignDevlopment />} />
@@ -51,9 +59,16 @@ function App() {
           <Route path="/Graphicportfolio" element={<GraohicPortfolio />} />
           <Route path="/Blog" element={<Blog />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Sydney" element={<Sydney />} />
+          <Route path="/WebBrisbane" element={<WebBrisbane />} />
+          <Route path='/DesignPerth' element={<DesignPerth />} />
+          <Route path='/AdalaideDesign' element={<AdalaideDesign />} />
+          <Route path="/GeelongDesign" element={<GeelongDesign />} />
+          <Route path="/GoldCost" element={<GoldCost />} />
+          <Route path="/ModernWorld" element={<ModernWorld />} />
         </Routes>
         <Footer />
-      </BrowserRouter> 
+      </BrowserRouter>
     </div>
   );
 }

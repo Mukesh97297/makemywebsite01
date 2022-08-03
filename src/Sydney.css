@@ -1,0 +1,51 @@
+.Sydney-main-div{
+    background: url(./images/banner-web_designer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.Sydney-first-row{
+    padding: 10px;
+}
+.Sydney-first-col-7 h2{
+ font-size: 50px;
+ font-weight: 700;
+ line-height: 1.2em;
+ color: #FFFFFF;
+}
+.Sydney-first-col-7 h2 span{
+    color: #ed1c24;
+}
+.Sydney-first-col-7 div{
+    margin-bottom: 20px;
+}
+.Sydney-first-col-7 div p{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.Sydney-first-col-7 .get-a-free-btn{
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+}
+.Sydney-first-col-7 .get-a-free-btn a{
+    text-decoration: none;
+    text-align: center;
+}
+.Sydney-first-col-7 .get-a-free-btn a span span{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-family: "Poppins", Sans-serif;
+    background: #ed1c24;
+    color: #FFFFFF;
+    border-width: 0px 0px 0px 0px;
+    border-color: #7A7A7A;
+    padding: 15px 35px 15px 35px;;
+}

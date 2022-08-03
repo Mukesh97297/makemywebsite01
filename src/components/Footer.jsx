@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link, NavLink} from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import footer1 from '../images/client-partners-verified.png'
 import demo from '../images/demotext.jpg'
 
 function Footer() {
     const goToTop = () => {
         window.scrollTo({
-          top: 0,
+            top: 0,
         });
-      };
+    };
     return (
         <div>
             <div style={{ background: "#000000" }}>
@@ -34,33 +34,47 @@ function Footer() {
                             </div>
                             <div className='row pt-4'>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Sydney</span>
+                                    <NavLink to="/Sydney">
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Sydney</span>
+                                    </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Brisbane</span>
+                                    <NavLink to="/WebBrisbane" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Brisbane</span>
+                                    </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Perth</span>
+                                    <NavLink to="/DesignPerth" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Perth</span>
+                                    </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Newcastle</span>
+                                    <NavLink to="/ModernWorld" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Newcastle</span>
+                                    </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Adelaide</span>
+                                    <NavLink to="/AdalaideDesign" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Adelaide</span>
+                                    </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Geelong</span>
+                                    <NavLink to="/GeelongDesign" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Geelong</span>
+                                    </NavLink>
                                 </div>
 
                                 <div className='footer-web-design'>
-                                    <i className='fas fa-dot-circle'></i>
-                                    <span>Web Design Gold Coast</span>
+                                    <NavLink to="/GoldCost" onClick={goToTop}>
+                                        <i className='fas fa-dot-circle'></i>
+                                        <span>Web Design Gold Coast</span>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -96,22 +110,22 @@ function Footer() {
                                 Creating future-proof digital experiences is what we do. Tell us about your needs, we’d love to collaborate with you.
                             </div>
                             <div className='footer1-left-lg-4 pt-4'>
-                                <Link to="/" onClick={()=>{window.open("mailto:info@makemywebsite.com.au")}}><span>info@makemywebsite.com.au</span></Link>
+                                <Link to="/" onClick={() => { window.open("mailto:info@makemywebsite.com.au") }}><span>info@makemywebsite.com.au</span></Link>
                             </div>
                             <div className="py-4" id="social-links">
-                                <Link to="/" onClick={()=>{window.open("https://www.facebook.com/makemywebsite.com.au")}}>
+                                <Link to="/" onClick={() => { window.open("https://www.facebook.com/makemywebsite.com.au") }}>
                                     <i className="fa-brands fa-facebook"></i>
                                 </Link>
-                                <Link to="/" onClick={()=>{window.open("https://www.instagram.com/makemywebsite.mmw/")}}>
+                                <Link to="/" onClick={() => { window.open("https://www.instagram.com/makemywebsite.mmw/") }}>
                                     <i className="fa-brands fa-instagram"></i>
                                 </Link>
-                                <Link to="/" onClick={()=>{window.open("https://www.linkedin.com/company/make-my-website-pty-ltd/")}}>
+                                <Link to="/" onClick={() => { window.open("https://www.linkedin.com/company/make-my-website-pty-ltd/") }}>
                                     <i className="fa-brands fa-linkedin"></i>
                                 </Link>
-                                <Link to="/" onClick={()=>{window.open("https://twitter.com/makemywebsite16")}}>
+                                <Link to="/" onClick={() => { window.open("https://twitter.com/makemywebsite16") }}>
                                     <i className="fa-brands fa-twitter-square"></i>
                                 </Link>
-                                <Link to="/" onClick={()=>{window.open("https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ")}}>
+                                <Link to="/" onClick={() => { window.open("https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ") }}>
                                     <i className="fa-brands fa-youtube"></i>
                                 </Link>
                             </div>
