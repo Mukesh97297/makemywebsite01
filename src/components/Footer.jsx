@@ -150,7 +150,7 @@ function Footer() {
                         </div>
                         <div className='row'>
                             <div className='term-conditions'>
-                                <Link to="/termsCondition"><span>Term and conditions</span> </Link>
+                                <Link to="/termsCondition" onClick={goToTop}><span>Term and conditions</span> </Link>
                             </div>
                             <div className='term-conditions'>
                                 <Link to="/privacyPolicy" onClick={goToTop}><span>Privacy policy</span></Link>
