@@ -110,7 +110,7 @@ function TermsCondition() {
                             <p>We disclaim any liability for restoring the data of your website subject to your disagreement with us for managing your website for a monthly cost. This condition holds true with an exception of a situation where the data loss arises out of negligence by Make My Website or its employees.</p>
                         </div>
                         <div className='we-value-your'>
-                            <h5>18. Governing Law</h5>
+                            <h5>19. Governing Law</h5>
                             <p>The agreement constituted by these terms and conditions and any contract that we commence is sure to be interpreted as per the Victorian laws and is certainly governed by the same.</p>
                             <p>The client and Make My Website together submit to the non-exclusive jurisdiction of the courts in and of Victoria for any dispute that arises in unprecedented circumstances under these terms and conditions or about any of the services that we deliver to you.</p>
                         </div>

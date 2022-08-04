@@ -1,5 +1,6 @@
 import React from 'react'
 import '../ContactUs.css';
+import {Link} from "react-router-dom"
 import Lottie from 'lottie-react';
 import contact from '../animation/ContactUs.json';
 function ContactUs() {
@@ -32,21 +33,21 @@ function ContactUs() {
                                 </div>
                             </div>
                             <div className='ContactUs-Social-Media-icons'>
-                                <a href="https://www.facebook.com/makemywebsite.com.au">
+                            <Link to="/" onClick={() => { window.open("https://www.facebook.com/makemywebsite.com.au") }}>
                                     <i className="fa-brands fa-facebook"></i>
-                                </a>
-                                <a href="https://www.instagram.com/makemywebsite.mmw/">
+                                </Link>
+                                <Link to="/" onClick={() => { window.open("https://www.instagram.com/makemywebsite.mmw/") }}>
                                     <i className="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/make-my-website-pty-ltd/">
-                                    <i className="fa-brands fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://twitter.com/makemywebsite16">
+                                </Link>
+                                <Link to="/" onClick={() => { window.open("https://www.linkedin.com/company/make-my-website-pty-ltd/") }}>
+                                    <i className="fa-brands fa-linkedin"></i>
+                                </Link>
+                                <Link to="/" onClick={() => { window.open("https://twitter.com/makemywebsite16") }}>
                                     <i className="fa-brands fa-twitter-square"></i>
-                                </a>
-                                <a href="https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ">
+                                </Link>
+                                <Link to="/" onClick={() => { window.open("https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ") }}>
                                     <i className="fa-brands fa-youtube"></i>
-                                </a>
+                                </Link>
 
                             </div>
                         </div>
