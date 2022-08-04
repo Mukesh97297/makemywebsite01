@@ -38,7 +38,8 @@ p {
 .navbar ul .nav-item {
     padding: 0px 10px 0px 10px;
 }
-.navbar ul .nav-item:last-child{
+
+.navbar ul .nav-item:last-child {
     text-align: end;
     padding-left: 60px;
 }
@@ -52,10 +53,11 @@ p {
     /* padding: 10px 35px 10px 35px; */
     backdrop-filter: none;
     letter-spacing: 1px;
-    
+
 }
+
 .nav_blue {
-    backdrop-filter: saturate(180%) blur(20px); 
+    backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(34, 34, 34, 0.62)
 }
 
@@ -87,7 +89,7 @@ p {
 
 @media only screen and (max-width:1024px) {
     #nav-link {
-        font-size: 50px;
+        font-size: 0.9vw;
     }
 
     #navbar-btn {
@@ -101,8 +103,9 @@ p {
     .dropdown-item {
         font-size: 16px;
     }
-    .navbar ul .nav-item:last-child{
-       text-align: start;
+
+    .navbar ul .nav-item:last-child {
+        text-align: start;
         padding-left: auto;
     }
 
@@ -124,7 +127,7 @@ p {
     font-family: 'Josefin Slab', serif;
     font-size: 0.9vw;
     font-weight: 400;
-    color:#000000;
+    color: #000000;
     padding-bottom: 8px;
     text-shadow: none;
     letter-spacing: 1px;
@@ -136,12 +139,13 @@ p {
 }
 
 
-.dropdown .dropdown-menu li > a:hover{
-   padding: 10px 20px;
-   background-color: black;
-   border-radius:0;
-   color: white;
+.dropdown .dropdown-menu li>a:hover {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 0;
+    color: white;
 }
+
 /* .dropdown-menu li > a:hover,
 .dropdown-menu li > a:active{
     color: transparent !important;
@@ -151,7 +155,7 @@ p {
     border-radius: none;
 }  */
 
- /* .dropdown li a:hover {
+/* .dropdown li a:hover {
     background-color: black;
     color: white;
     z-index: 1;
@@ -168,6 +172,7 @@ p {
         font-size: 16px !important;
     }
 }
+
 #navbar-btn {
     background-color: #ED1C24;
     border-style: solid;
@@ -186,7 +191,8 @@ p {
     animation: btnWiggle 2s infinite;
     padding: 5px;
 }
-#navbar-btn:hover{
+
+#navbar-btn:hover {
     text-decoration: none;
 }
 
@@ -542,35 +548,42 @@ p {
         padding-top: 0px !important;
         padding: 5px 2px 0px 2px;
     }
-    .fotter-bottom-part-img{
-       padding-top: 10px;
+
+    .fotter-bottom-part-img {
+        padding-top: 10px;
     }
 
     #social-links a i {
         margin-right: calc(90px/2) !important;
     }
+
     .Footer {
         padding: 70px 0px 40px 0px !important;
     }
-    
+
 }
-.term-conditions{
+
+.term-conditions {
     margin-left: 10px;
     margin-right: 10px;
 }
-.term-conditions a{
+
+.term-conditions a {
     font-size: 14px;
     line-height: 1.2em;
     font-family: "Josefin Sans", Sans-serif;
     cursor: pointer;
     text-decoration: none;
 }
-.term-conditions a span{
+
+.term-conditions a span {
     color: #E6E6E6;
 }
-.term-conditions a span:hover{
+
+.term-conditions a span:hover {
     color: #ED1C24;
 }
+
 .Footer {
     padding: 70px 35px 40px 35px;
 }
@@ -725,13 +738,16 @@ p {
         justify-content: center;
         padding: 25px;
     }
+
     .service-paragraph {
         text-align: center;
     }
+
     .Our-service {
         padding: 100px 0px 100px 0px !important;
     }
-    .overlay{
+
+    .overlay {
         padding: 0px 10px 0px 10px;
     }
 }
@@ -841,17 +857,18 @@ p {
     padding: 10px 20px 10px 20px;
     width: 50%;
     border-radius: 0px;
-   
+
 }
 
 .overlay-btn:hover {
-  background-color: #1E1E22;
+    background-color: #1E1E22;
     box-shadow: none;
     outline: none;
     color: #fff;
-   
+
 }
-.overlay-btn:active{
+
+.overlay-btn:active {
     color: white;
 }
 
@@ -868,6 +885,7 @@ p {
     #heroTag p {
         font-size: 24px;
     }
+
     #works {
         padding: 100px 0px 100px 0px !important;
     }
@@ -1077,17 +1095,21 @@ p {
     #Heading2 h3 {
         font-size: 24px !important;
     }
-    #Heading2 p{
+
+    #Heading2 p {
         font-size: 24px !important;
     }
-    .customer-feedback-container{
+
+    .customer-feedback-container {
         padding: 100px 0px 100px 0px !important;
     }
 }
-.customer-feedback-container{
+
+.customer-feedback-container {
     background: #060709;
     padding: 100px 35px 100px 35px;
 }
+
 #Heading {
     text-align: center;
     align-items: center;
@@ -1181,7 +1203,8 @@ p {
     #service-delivery .service-delivery-p2 {
         font-size: 24px !important;
     }
-    #service-delivery { 
+
+    #service-delivery {
         padding: 100px 0px 100px 0px !important;
     }
 }
@@ -1444,9 +1467,10 @@ p {
 }
 
 .Teams {
-    padding: 60px 0px 15px 0px; 
+    padding: 60px 0px 15px 0px;
 }
-.row{
+
+.row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
@@ -1477,7 +1501,8 @@ p {
         font-size: 13px;
         padding: 0em 0em 0em 0em;
     }
-    .Team{
+
+    .Team {
         font-size: 24px;
     }
 }
@@ -1997,8 +2022,9 @@ h6 {
         height: 100vh !important;
     }
 }
+
 @media only screen and (max-width:1024px) {
-    .what-we-do-heading h2{
+    .what-we-do-heading h2 {
         font-size: 3rem !;
     }
 }
@@ -2045,3 +2071,71 @@ h6 {
     opacity: 0.74;
     position: absolute;
 }
+
+/* privacy-policy-section */
+.Privacy-policy {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.Privacy-policy-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Privacy-policy-title h2 {
+    font-size: 5.209rem;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #222222;
+}
+
+.privay-divider span {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #545454;
+    width: 10%;
+}
+
+.privacy-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy-heading p {
+    color: #545454;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.we-value-your {
+    margin-bottom: 20px;
+}
+
+.we-value-your h5 {
+    font-size: 1.333rem;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 1rem;
+}
+
+.we-value-your p {
+    color: #545454;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.we-value-your a:hover {
+    color: #FF3366;
+    text-decoration: none;
+}
+
+.we-value-your a {
+    color: #000000;
+    line-height: 1.75em;
+    font-size: 1.2rem;
+}
+

@@ -31,6 +31,8 @@ import AdalaideDesign from './components/AdalaideDesign';
 import GeelongDesign from './components/GeelongDesign';
 import GoldCost from './components/GoldCost';
 import ModernWorld from './components/ModernWorld';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsCondition from './components/TermsCondition';
 function App() {
   return (
     <div className="App">
@@ -66,6 +68,8 @@ function App() {
           <Route path="/GeelongDesign" element={<GeelongDesign />} />
           <Route path="/GoldCost" element={<GoldCost />} />
           <Route path="/ModernWorld" element={<ModernWorld />} />
+          <Route path="/privacyPolicy" element={<PrivacyPolicy/>} />
+          <Route path="/termsCondition" element={<TermsCondition/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

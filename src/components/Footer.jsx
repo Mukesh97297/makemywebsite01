@@ -58,7 +58,7 @@ function Footer() {
                                     </NavLink>
                                 </div>
                                 <div className='footer-web-design'>
-                                    <NavLink to="/AdalaideDesign" onClick={goToTop}>
+                                    <NavLink to="/LinkdalaideDesign" onClick={goToTop}>
                                         <i className='fas fa-dot-circle'></i>
                                         <span>Web Design Adelaide</span>
                                     </NavLink>
@@ -80,7 +80,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
-                            <NavLink onClick={goToTop} to="/about" className='Quick-links pt-4'>
+                            <NavLink onClick={goToTop} to="/Linkbout" className='Quick-links pt-4'>
                                 <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
                             </NavLink>
@@ -138,22 +138,22 @@ function Footer() {
                     <div className='col-lg-8'>
                         <div className='row'>
                             <div className='fotter-bottom-part-img'>
-                                <a href="/">
+                                <Link to="/">
                                     <img src={footer1} alt="client" height='65px' width='210px' />
-                                </a>
+                                </Link>
                             </div>
                             <div className='fotter-bottom-part-img'>
-                                <a href="/">
+                                <Link to="/">
                                     <img src={demo} alt="client" height='61px' width='210px' className='demo pt-1' />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className='row'>
                             <div className='term-conditions'>
-                                <a href="/"><span>Term and conditions</span> </a>
+                                <Link to="/termsCondition"><span>Term and conditions</span> </Link>
                             </div>
                             <div className='term-conditions'>
-                                <a href="/"><span>Privacy policy</span></a>
+                                <Link to="/privacyPolicy" onClick={goToTop}><span>Privacy policy</span></Link>
                             </div>
                         </div>
                     </div>
