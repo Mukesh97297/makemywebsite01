@@ -27,7 +27,7 @@ function Navbar() {
       Navbar.style.padding = "15px 0px 15px 0px";
     }
     else {
-      Logo.style.height = "65px"
+      Logo.style.height = "80px"
     }
   }
   const goToTop = () => {
@@ -41,7 +41,7 @@ function Navbar() {
       <nav id='navbar' className={`navbar navbar-expand-lg navbar-dark fixed-top ${color && 'nav_blue'}`}>
         <div className="container navbar-container">
           <Link to='/' className="navbar-brand">
-            <img src={logo} height="65px" alt="logo" id='Logo' />
+            <img src={logo} height="80px"  alt="logo" id='Logo' />
           </Link>
           <button className="navbar-toggler" data-toggle="collapse" type="button" data-target="#mainNavigation" area-control="mainNavigation" area-expanded="false">
             <span className="navbar-toggler-icon"></span>

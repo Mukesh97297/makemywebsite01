@@ -2,9 +2,6 @@ import React from 'react'
 import contentMarketing from '../images/content-writing.png'
 import '../ContentMarketing.css'
 import ServiceDelivery from './ServiceDelivery'
-import aos from 'aos';
-import 'aos/dist/aos.css'
-aos.init();
 
 function ContentMarketing() {
     return (

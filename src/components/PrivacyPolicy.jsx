@@ -80,7 +80,7 @@ function PrivacyPolicy() {
                             <h5>8. Questions Regarding Privacy</h5>
                             <p><span>If you have any questions about this Privacy Policy, our privacy practices, or your dealings with us, you can contact us directly at:</span> <strong>Online Privacy Coordinator-</strong> <a href="mailto:info@makemywebsite.com.au">info@makemywebsite.com.au</a></p>
                         </div>
-                        <div className='we-value-your'>
+                        <div className='we-value-your mb-0'>
                             <h5>9. Updates To Privacy Policy</h5>
                             <p>The privacy policy can be updated at any time whenever it is deemed as necessary by Make My Website, without any prior notice to the users. It is your responsibility to view the updated privacy policy every time you choose to access the website. Every time you continue to use, access and browse on this website, you give your consent to the updated privacy policy.</p>
                         </div>

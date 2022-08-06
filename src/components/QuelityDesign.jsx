@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HighPerformance from "../images/high-performing.png";
 import branding from '../animation/Branding.json'
 import design from '../animation/WebDesign.json'
@@ -22,7 +22,6 @@ function QuelityDesign() {
     function goToTop() {
         window.scrollTo({ top: 0 })
     }
-    const [show, setShow] = useState(false);
     return (
         <div>
             <section className='Ouelity-Design'>

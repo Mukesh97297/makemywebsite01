@@ -36,17 +36,16 @@ import TermsCondition from './components/TermsCondition';
 function App() {
   return (
     <div className="App">
-
-      <BrowserRouter>
-        <Navbar />
+     <BrowserRouter>
+      <Navbar/>
         <Routes>
-           <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Services />} />
           <Route path="/service/WebDesignDelovpment" element={<WebDesignDevlopment />} />
           <Route path="/service/DigitalMarkeing" element={<DigitalMarkeing />} />
           <Route path="/DigitalMarkeing/SearchEngine" element={<SearchEngineOptimization />} />
-          <Route path="/DigitalMarkeing/SocialMedia" element={<SocialMediaMarketing />} />
+          <Route path="/WebDesignDelovpment/SocialMedia" element={<SocialMediaMarketing />} />
           <Route path="/WebDesignDelovpment/ContentMarketing" element={<ContentMarketing />} />
           <Route path="/WebDesignDelovpment/GooglePay" element={<GoogleAdsPay />} />
           <Route path="/service/branding" element={<Branding />} />

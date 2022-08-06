@@ -19,12 +19,8 @@ import shopify from '../images/Shopify-licon.png'
 import commerce from '../images/woocommerce-licon.png'
 import wordpress from '../images/wordpress-licon.png'
 import magento from '../images/Magento-licon.png'
-import HireEmployes from "../images/hire-an-employee-24x7-1.png"
-import Customer from './Customer';
 import ServiceDelivery from './ServiceDelivery';
-import wordpressDesign from "../images/WordPress-website-design-Converted.png"
 import eCommerce from "../images/eCommerce-website-design-Converted-1.png"
-import customWebsite from "../images/Custom-website-design-Converted.png"
 function AdalaideDesign() {
     function goToTop() {
         window.scrollTo({ top: 0 })

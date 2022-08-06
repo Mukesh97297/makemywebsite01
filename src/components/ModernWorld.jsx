@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../Sydney.css"
 import Landing from "../animation/Landing.json"
-import WebDesign from './WebDesign'
 import HighPerformance from "../images/high-performing.png";
 import branding from '../animation/Branding.json'
 import design from '../animation/WebDesign.json'
@@ -20,11 +19,7 @@ import commerce from '../images/woocommerce-licon.png'
 import wordpress from '../images/wordpress-licon.png'
 import magento from '../images/Magento-licon.png'
 import HireEmployes from "../images/hire-an-employee-24x7-1.png"
-import Customer from './Customer';
 import ServiceDelivery from './ServiceDelivery';
-import wordpressDesign from "../images/WordPress-website-design-Converted.png"
-import eCommerce from "../images/eCommerce-website-design-Converted-1.png"
-import customWebsite from "../images/Custom-website-design-Converted.png"
 function ModernWorld() {
     function goToTop() {
         window.scrollTo({ top: 0 })
