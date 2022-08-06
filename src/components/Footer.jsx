@@ -136,7 +136,7 @@ function Footer() {
             <div className='container-fluid footer-bottom-part'>
                 <div className='row m-0'>
                     <div className='col-lg-8'>
-                        <div className='row'>
+                        <div className='row footer-images'>
                             <div className='fotter-bottom-part-img'>
                                 <Link to="/">
                                     <img src={footer1} alt="client" height='65px' width='210px' />
@@ -148,7 +148,7 @@ function Footer() {
                                 </Link>
                             </div>
                         </div>
-                        <div className='row'>
+                        <div className='row footer-images'>
                             <div className='term-conditions'>
                                 <Link to="/termsCondition" onClick={goToTop}><span>Term and conditions</span> </Link>
                             </div>
@@ -157,7 +157,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 footer-bottom-part-1'>
+                    <div className='col-lg-4 footer-bottom-part-1 mb-0'>
                         <span>Copyright © 2022 Make My Website. All Rights Reserved</span>
                         <br />
                         <span>Web Design Melbourne Make My Website</span>

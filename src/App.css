@@ -586,6 +586,9 @@ p {
         text-align: center !important;
         padding: 10px 0px 10px 0px;
     }
+    .footer-images{
+        justify-content: center;
+    }
 
     .fotter-bottom-part-img a img {
         height: 40px;
@@ -788,6 +791,7 @@ p {
     line-height: 1.2em;
     font-family: "Josefin Sans", Sans-serif;
     font-weight: 400;
+    padding-top: 5%;
 }
 
 
