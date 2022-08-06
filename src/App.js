@@ -63,7 +63,7 @@ function App() {
           <Route path="/Sydney" element={<Sydney />} />
           <Route path="/WebBrisbane" element={<WebBrisbane />} />
           <Route path='/DesignPerth' element={<DesignPerth />} />
-          <Route path='/AdalaideDesign' element={<AdalaideDesign />} />
+          <Route path='/LinkdalaideDesign' element={<AdalaideDesign />} />
           <Route path="/GeelongDesign" element={<GeelongDesign />} />
           <Route path="/GoldCost" element={<GoldCost />} />
           <Route path="/ModernWorld" element={<ModernWorld />} />

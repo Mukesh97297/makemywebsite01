@@ -11,9 +11,9 @@ function DigitalMarkeing() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-                <div className="row paragraph1">
-                    <div className="col-md-6 paragraph">
-                        <h1>
+            <div className='row paragraph1 pt-5'>
+                    <div className="col-md-6 paragraph pt-5">
+                        <h1 className='pt-5'>
                             Digital Marketing <hr className='hr'></hr>
                         </h1>
                         <h2>

@@ -34,7 +34,7 @@ function Footer() {
                             </div>
                             <div className='row pt-4'>
                                 <div className='footer-web-design'>
-                                    <NavLink to="/Sydney">
+                                    <NavLink to="/Sydney" onClick={goToTop}>
                                         <i className='fas fa-dot-circle'></i>
                                         <span>Web Design Sydney</span>
                                     </NavLink>
