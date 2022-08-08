@@ -2,12 +2,10 @@
     .Customer-Care p{
         font-size: 16px !important;
     }
-    .customer{
-        padding: 100px 0px 80px 0px !important;
-       
-    }
+    
     .input-fields{
         padding: 0px 0px 0px 0px !important;
+        margin-bottom: 20px;
     }
     .input-fields .input-fields1{
         padding-left: 0px !important;
@@ -21,9 +19,25 @@
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .why-support{
+        font-size: 18px !important;
+        line-height: 1.4em !important;
+        margin-bottom: 20px;
+    }
+}
+.customer{
+    padding: 100px 0px 80px 0px !important;
+   
+}
+.support-higly{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .input-fields{
     padding: 0px 90px 0px 90px;
+}
+.input-fields1{
+    margin-bottom: 20px;
 }
 .form-span {
     color: #33475b;
@@ -64,6 +78,7 @@
     line-height: 1.2em;
     text-align: center;
     color: #222222;
+    margin-bottom: 20px;
 }
 
 .Customer-Care p {
@@ -82,8 +97,8 @@
     line-height: 1.5em;
 }
 
-.Customer-Care div h3 {
-    font-size: 1.777rem !important;
+.CustomerCare-section div h3 {
+    font-size: 1.777rem;
     font-weight: 600;
     line-height: 1.3em;
 }

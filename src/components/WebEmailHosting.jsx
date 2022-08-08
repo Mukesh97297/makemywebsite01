@@ -3,19 +3,13 @@ import '../WebEmailHosting.css'
 import emailhost from '../animation/EmailHost.json'
 import Lottie from 'lottie-react'
 import ServiceDelivery from './ServiceDelivery'
-import aos from 'aos'
-import 'aos/dist/aos.css'
-aos.init();
-
-
 function WebEmailHosting() {
     return (
         <div>
-
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1 pt-5'>
-                    <div className="col-md-6 paragraph pt-5">
-                        <h1 className='pt-5'>
+            <div className='row paragraph1'>
+                    <div className="col-md-6 paragraph">
+                        <h1>
                             Web & Email Hosting<hr className='hr'></hr>
                         </h1>
                         <h2>

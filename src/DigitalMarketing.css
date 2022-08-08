@@ -1,4 +1,61 @@
 /* DigitalMarketing */
+@media only screen and (max-width:1024px) {
+    .Digitalmarketing-p{
+        margin-top: 40px !important;
+       margin-bottom: 40px !important;
+    }
+}
+@media only screen and (max-width:767px) {
+    .digital-market {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        padding: 0px 15px 0px 15px !important;
+    }
+    .digital-market .container{
+        padding: auto 0px auto 0px !important;
+    }
+    .animated-section{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    }
+    .animated-section p{
+        font-size: 16px !important;
+    }
+    .Digitalmarketing-p p{
+        font-size: 16px !important;
+    }
+    .Digitalmarketing-p{
+        padding: 0px 20px 0px 20px !important;
+    }
+    .DigitalMarkeing span{
+        font-size: 18px !important;
+        margin-bottom: 20px;
+    }
+    .seo h5{
+        font-size: 18px !important;
+    }
+    .digital-explore{
+        padding: 50px 0px 50px 0px !important;
+    }
+}
+.marketing-section{
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.digital-explore{
+    padding: 5% 0% 5% 0%;
+}
+.Digitalmarketing-p{
+    padding: 2% 0% 5% 0%;
+}
+.seo{
+    padding: 10px;
+}
+
+.digital-market {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
 
 .DigitalMarkeing h1 {
     font-family: "Montserrat", Sans-serif;
@@ -24,15 +81,18 @@
     font-weight: 400;
     line-height: 1.5em;
 }
-.Digitalmarketing-p p strong{
+
+.Digitalmarketing-p p strong {
     font-weight: bolder;
 }
-.animated-section p a{
+
+.animated-section p a {
     text-decoration: none;
     font-weight: bolder;
     color: #000000;
 }
-.animated-section p a:hover{
+
+.animated-section p a:hover {
     color: #c36;
 }
 
@@ -57,42 +117,13 @@
     margin-bottom: 1rem;
     line-height: 1.75em;
 }
-
-.ppc {
-    text-align: center;
+.DigitalMarkeing span{
+    margin-bottom: 20px;
+}
+.DigitalMarkeing{
+    margin-bottom: 20px;
 }
 
-.ppc h5 {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Josefin Sans", Sans-serif;
-    color: #222222;
-    margin-bottom: 1rem;
-    line-height: 1.75em;
-}
 
-.socialmedia {
-    text-align: center;
-}
 
-.socialmedia h5 {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Josefin Sans", Sans-serif;
-    color: #222222;
-    margin-bottom: 1rem;
-    line-height: 1.75em;
-}
 
-.content {
-    text-align: center;
-}
-
-.content h5 {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Josefin Sans", Sans-serif;
-    color: #222222;
-    margin-bottom: 1rem;
-    line-height: 1.75em;
-}

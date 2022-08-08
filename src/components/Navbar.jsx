@@ -103,7 +103,7 @@ function Navbar() {
                 <Link to='/ContactUs' onClick={goToTop} className="nav-link active" id='nav-link'>CONTACT US</Link>
               </li>
               <li className="nav-item">
-                <Link to="tel:1300769303" onClick={goToTop} id='navbar-btn' className="btn"><i className='fas fa-phone'></i>1300 769 302</Link>
+                <a href="tel:1300769303" onClick={goToTop} id='navbar-btn' className="btn"><i className='fas fa-phone'></i>1300 769 302</a>
               </li>
             </ul>
           </div>

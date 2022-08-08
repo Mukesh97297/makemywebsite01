@@ -11,9 +11,9 @@ function DigitalMarkeing() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1 pt-5'>
-                    <div className="col-md-6 paragraph pt-5">
-                        <h1 className='pt-5'>
+            <div className='row paragraph1'>
+                    <div className="col-md-6 paragraph">
+                        <h1>
                             Digital Marketing <hr className='hr'></hr>
                         </h1>
                         <h2>
@@ -24,9 +24,9 @@ function DigitalMarkeing() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' >
-                <div className='container py-5'>
-                    <div className='row py-5'>
+            <div className='container-fluid marketing-section'>
+                <div className='container'>
+                    <div className='row digital-market'>
                         <div className='col-lg-7 animated-section'>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets no
                                 audience to avail the purposes it is built for. By marketing digitally, as a business owner,
@@ -60,25 +60,25 @@ function DigitalMarkeing() {
                 </div>
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
-                <div className='container'>
-                    <div className='row justify-content-center DigitalMarkeing py-5'>
+                <div className='container digital-explore'>
+                    <div className='row justify-content-center DigitalMarkeing'>
                         <span>Explore an array of services that we offer under Digital Marketing,
                             and reach <br /> out to us for a quick chat- let’s develop a growth strategy for you.</span>
                     </div>
-                    <div className='row py-5'>
+                    <div className='row'>
                         <div className='col-lg-3 seo'>
                             <img src={seo} alt="" height='150' width='150' />
                             <h5 className='py-4'><u>Search Engine Optimization</u></h5>
                         </div>
-                        <div className='col-lg-3 socialmedia'>
+                        <div className='col-lg-3 seo'>
                             <img src={socialmedia} alt="" height='150' width='150' />
                             <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
-                        <div className='col-lg-3 content'>
+                        <div className='col-lg-3 seo'>
                             <img src={content} alt="" height='150' width='150' />
                             <h5 className='py-4'><u>Content Marketing</u></h5>
                         </div>
-                        <div className='col-lg-3 ppc'>
+                        <div className='col-lg-3 seo'>
                             <img src={ppc} alt="" height='150' width='150' />
                             <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
