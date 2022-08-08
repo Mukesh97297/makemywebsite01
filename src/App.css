@@ -1888,6 +1888,8 @@ p {
 .paragraph1 {
     align-items: flex-end;
     padding: 0em 0em 2em 2.8em;
+    min-height: 50vh;
+
 }
 
 .paragraph h1 {
