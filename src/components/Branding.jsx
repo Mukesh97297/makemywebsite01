@@ -8,7 +8,7 @@ function Branding() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1 pt-5'>
+                <div className='row paragraph1 pt-5'>
                     <div className="col-md-6 paragraph pt-5">
                         <h1 className='pt-5'>
                             Branding <hr className='hr'></hr>
@@ -22,8 +22,8 @@ function Branding() {
                 </div>
             </div>
             <div className='container-fluid'>
-                <div className='container py-5'>
-                    <div className='row branding-info py-5'>
+                <div className='container'>
+                    <div className='row branding-info'>
                         <p>Branding in itself takes a lot of understanding of brand values and the identity you want the world to
                             remember you with as a brand. Branding has various realms including designing logos, business cards,
                             letterheads, brochures that stretches onto creating business taglines, prints, and finalizing on fonts
@@ -75,34 +75,37 @@ function Branding() {
                     </div>
                 </div>
             </div>
-            <div className='container'>
-                <h3 className='wordplay-identity'>Brand’s Wordplay Identity</h3>
-                <div className='row py-5'>
-                    <div className='col-lg-7 Design'>
-                        <p>A Brand’s vision is translated through its graphic representations but at
-                            the same time is supported through its taglines, slogan, and foremost
-                            the name that you hold. Every print and even your main brand logo is only a supporting agent of
-                            the name and brand tagline that you speak to your audiences with.
-                        </p>
-                        <p>An intelligently named venture, speaks directly to the demand of the market, addresses it,
-                            and translates into high conversion rates of your leads. The work of business taglines
-                            and titles is to hold the audiences the minute they hear of your business’s utility and deliverables.
-                            Without the support of taglines, the graphic designs would lack depth and overall meaning.
-                        </p>
+            <div className='container-fluid'>
+                <div className='container'>
+                    <h3 className='wordplay-identity'>Brand’s Wordplay Identity</h3>
+                    <div className='row'>
+                        <div className='col-lg-7 Design'>
+                            <p>A Brand’s vision is translated through its graphic representations but at
+                                the same time is supported through its taglines, slogan, and foremost
+                                the name that you hold. Every print and even your main brand logo is only a supporting agent of
+                                the name and brand tagline that you speak to your audiences with.
+                            </p>
+                            <p>An intelligently named venture, speaks directly to the demand of the market, addresses it,
+                                and translates into high conversion rates of your leads. The work of business taglines
+                                and titles is to hold the audiences the minute they hear of your business’s utility and deliverables.
+                                Without the support of taglines, the graphic designs would lack depth and overall meaning.
+                            </p>
+                        </div>
+                        <div className='col-lg-5'>
+                            <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
+                        </div>
                     </div>
-                    <div className='col-lg-5'>
-                        <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
+                    <div className='business mb-5'>
+                        <h4 className='py-3'>How your brand’s wordplay and identity establish your value as a business:</h4>
+                        <p><i className="fa-solid fa-circle-check brand-i"></i> It allows your brand to stand up to its authenticity with the audience</p>
+                        <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you establish your purposefulness and goal-oriented task forces</p>
+                        <p><i className="fa-solid fa-circle-check brand-i"></i> Motivates your team and professionals to match up to the brand ideals</p>
+                        <p><i className="fa-solid fa-circle-check brand-i"></i> Gives you a clear & distinctive path to follow in delivering</p>
+                        <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you create an exclusive style of functionality</p>
                     </div>
-                </div>
-                <div className='business mb-5'>
-                    <h4 className='py-3'>How your brand’s wordplay and identity establish your value as a business:</h4>
-                    <p><i className="fa-solid fa-circle-check brand-i"></i> It allows your brand to stand up to its authenticity with the audience</p>
-                    <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you establish your purposefulness and goal-oriented task forces</p>
-                    <p><i className="fa-solid fa-circle-check brand-i"></i> Motivates your team and professionals to match up to the brand ideals</p>
-                    <p><i className="fa-solid fa-circle-check brand-i"></i> Gives you a clear & distinctive path to follow in delivering</p>
-                    <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you create an exclusive style of functionality</p>
                 </div>
             </div>
+
             <ServiceDelivery />
         </div>
     )

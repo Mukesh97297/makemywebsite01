@@ -23,7 +23,7 @@ function ContentMarketing() {
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-7 Content-Marketing py-5'>
+                    <div className='col-md-7 Content-Marketing'>
                         <p >Content is and will always reign as the king when it comes to marketing as it is the backbone of all marketing tactics and strategies. When it comes to content, simply producing fresh and trendy content doesn’t break the ice, it’s important to be smart with the content in a way that is evergreen as well as relevant for the audience you’re catering to.</p>
                         <p >Content ought to be curated in a way that it can be circulated on different platforms for a reach that isn’t too obvious but highly influential. We believe in creating content that touches people and offers them what they need in real-time while helping brands connect with them. We help you customize your content to fit every space optimally whether it’s marketing through your newsletter, emails, social media handles, business and personal blog or website campaigns.</p>
                     </div>
@@ -33,15 +33,15 @@ function ContentMarketing() {
                 </div>
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#f5f5f5" }}>
-                <div className='container py-5'>
+                <div className='container'>
                     <div className='Content-Marketing-1'>
-                        <h3 className='py-3'>Why focusing on Content Marketing would yield unparalleled results:</h3>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> Quality content provides you with the necessary platform to build from You never run out of campaigns and promotional stuff for your audience</p>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> Helps you effectively and proficiently reach out to your audiences</p>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> Let’s you build a network and client base that truly engages with your brand</p>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> Let’s you build a network and client base that truly engages with your brand</p>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> We have mastered content marketing, and know what your time-poor audience would like, to gain their 3 seconds and leave a long-lasting impression.</p>
-                        <p ><i className="fa-solid fa-circle-check Content-marketing" /> We create content that resonates with your brand, values, and the services you offer, hence, if the content is the king, we are the kingmakers.</p>
+                        <h3>Why focusing on Content Marketing would yield unparalleled results:</h3>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span> Quality content provides you with the necessary platform to build from You never run out of campaigns and promotional stuff for your audience</span> </p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span>Helps you effectively and proficiently reach out to your audiences</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span>Let’s you build a network and client base that truly engages with your brand</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span>Let’s you build a network and client base that truly engages with your brand</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span>We have mastered content marketing, and know what your time-poor audience would like, to gain their 3 seconds and leave a long-lasting impression.</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check Content-marketing" /> <span> We create content that resonates with your brand, values, and the services you offer, hence, if the content is the king, we are the kingmakers.</span></p>
                     </div>
                 </div>
             </div>

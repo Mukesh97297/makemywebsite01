@@ -36,12 +36,13 @@ import TermsCondition from './components/TermsCondition';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
-      <Navbar/>
+      <BrowserRouter>
+      
+       <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Services />} />
+           <Route path="/" element={<Home />} /> 
+       <Route path="/about" element={<About />} />
+         <Route path="/service" element={<Services />} />
           <Route path="/service/WebDesignDelovpment" element={<WebDesignDevlopment />} />
           <Route path="/service/DigitalMarkeing" element={<DigitalMarkeing />} />
           <Route path="/DigitalMarkeing/SearchEngine" element={<SearchEngineOptimization />} />
@@ -68,9 +69,9 @@ function App() {
           <Route path="/GoldCost" element={<GoldCost />} />
           <Route path="/ModernWorld" element={<ModernWorld />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy/>} />
-          <Route path="/termsCondition" element={<TermsCondition/>} />
-        </Routes>
-        <Footer />
+          <Route path="/termsCondition" element={<TermsCondition/>} /> 
+         </Routes>
+       <Footer />
       </BrowserRouter>
     </div>
   );

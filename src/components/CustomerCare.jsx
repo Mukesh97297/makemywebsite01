@@ -7,7 +7,7 @@ function CustomerCare() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1 pt-5'>
+                <div className='row paragraph1 pt-5'>
                     <div className="col-md-6 paragraph pt-5">
                         <h1 className='pt-5'>
                             Customer Care<hr className='hr'></hr>
@@ -20,41 +20,41 @@ function CustomerCare() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
-                <div className='container'>
-                    <div className='row justify-content-center py-5'>
+            <div className='container-fluid' style={{ backgroundColor: "#F5F5F5" }}>
+                <div className='container customer'>
+                    <div className='row justify-content-center'>
                         <div className='Customer-Care'>
                             <h1>Hi! Need Some Help?</h1>
                             <p>Question not answered yet? We are here to help!</p>
                         </div>
                     </div>
                     <form>
-                        <div className='row py-5'>
-                            <div className='col-lg-6 mb-5'>
-                                <label for="inputEmail4" className='form-span'>First Name</label>
-                                <input type="text" className="form-control" required />
+                        <div className='row justify-content-center  input-fields'>
+                            <div className='col-lg-6 input-fields1'>
+                                    <label for="inputEmail4" className='form-span'>First Name</label>
+                                    <input type="text" className="form-control" required />
                             </div>
-                            <div className='col-lg-6 mb-5'>
-                                <label for="inputEmail4" className='form-span'>Last Name</label>
-                                <input type="text" className="form-control" required />
+                            <div className='col-lg-6 input-fields1'>                               
+                                    <label for="inputEmail4" className='form-span'>Last Name</label>
+                                    <input type="text" className="form-control" required />                             
                             </div>
-                            <div className='col-lg-6 mb-5'>
-                                <label for="inputEmail4" className='form-span'>Phone Number</label>
-                                <input type="text" className="form-control" required />
+                            <div className='col-lg-6 input-fields1'>                            
+                                    <label for="inputEmail4" className='form-span'>Phone Number</label>
+                                    <input type="text" className="form-control" required />                            
                             </div>
-                            <div className='col-lg-6 mb-5'>
-                                <label for="inputEmail4" className='form-span'>Email</label>
-                                <input type="text" className="form-control" required />
+                            <div className='col-lg-6 input-fields1'>                           
+                                    <label for="inputEmail4" className='form-span'>Email</label>
+                                    <input type="text" className="form-control" required />                              
                             </div>
-                            <div className='col-lg-12 mb-5'>
-                                <label for="inputEmail4" className='form-span'>Issue</label>
-                                <input type="text" className="form-control" required />
+                            <div className='col-lg-12 input-fields1'>                               
+                                    <label for="inputEmail4" className='form-span'>Issue</label>
+                                    <input type="text" className="form-control" required />
                             </div>
-                            <div className='col-lg-12 mb-5'>
-                                <label for="inputEmail4" className='form-span'>Details</label>
-                                <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
+                            <div className='col-lg-12 input-fields1'>
+                                    <label for="inputEmail4" className='form-span'>Details</label>
+                                    <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
                             </div>
-                            <div className='col-lg-12'>
+                            <div className='col-lg-12 input-fields1'>
                                 <input type="Submit" className='btn submit-btn' value='Submit' />
                             </div>
                         </div>
@@ -62,8 +62,8 @@ function CustomerCare() {
                 </div>
             </div>
             <div className='container-fluid'>
-                <div className='container py-5'>
-                    <div className='row py-5'>
+                <div className='container'>
+                    <div className='row'>
                         <div className='col-lg-6 CustomerCare-section'>
                             <p>Support is highly crucial when running a website for your business and it is not feasible to handle all of it by yourself. Offering support for a domain and running its various functionalities optimally requires skill, expertise and experience. Holistic support for your website involves monthly management involving resolution of security issues, updating the plugins, changes in website as per demand, dynamic platform establishment, and making new updates as per search engine’s upgraded algorithms.</p>
                             <p>We offer monthly support for a website that requires to be managed more closely and efficiently and also offer other support packages depending on the requirements of your business and client demands. We truly believe that support is offered in its real essence when it fulfils the need of the hour which is why our custom-tailored packages aim at reaching out to everyone and meeting you where you are!</p>

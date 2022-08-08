@@ -1,3 +1,36 @@
+@media only screen and (max-width:767px) {
+   .branding-info{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 0px 0px 0px 0px !important;
+   }
+   .Graphic-design h3{
+    font-size: 28px !important;
+   }
+   .Graphic-design {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 0px 0px 0px 0px !important;
+   }
+   .graphic h4{
+    font-size: 18px !important;
+   }
+   .wordplay-identity{
+    font-size: 26px !important;
+    margin: 0px 15px 20px 0px;
+   }
+   .Design{
+    padding: 30px 0px 30px 0px !important;
+   }
+   .business h4{
+    font-size: 18px !important;
+   }
+}
+
+.branding-info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .branding-info p {
     color: #545454;
     font-size: 1.2rem;
@@ -40,7 +73,7 @@
 }
 
 .brand-i {
-    color: #333;
+    color: #545454;
     position: relative !important;
     top: 6px;
 }
@@ -63,7 +96,6 @@
 .business h4 {
     font-size: 1.777rem;
     line-height: 1.4em;
-    font-family: "Montserrat", Sans-serif;
     font-weight: 600;
     color: #222222;
 }
