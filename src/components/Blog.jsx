@@ -41,7 +41,7 @@ function Blog() {
             </div>
             <div className='container main-blog'>
                 <div className='row'>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -53,7 +53,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog2} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -65,7 +65,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6  mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog1} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -77,7 +77,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog3} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -89,7 +89,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog4} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -101,7 +101,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog5} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -113,7 +113,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design1} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -125,7 +125,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design2} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -137,7 +137,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design3} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -149,7 +149,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design4} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -161,7 +161,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={design5} alt="" />
                             <div className='abc-btn py-1 px-3'>Design</div>
@@ -173,7 +173,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco1} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -185,7 +185,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' >
+                    <div className='col-xl-4 col-md-6 mb-4' >
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -197,7 +197,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' >
+                    <div className='col-xl-4 col-md-6 mb-4' >
                         <div className='card blogs-card' >
                             <img src={sco2} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -209,7 +209,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco3} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -221,7 +221,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card' >
                             <img src={sco4} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -233,7 +233,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4' >
+                    <div className='col-xl-4 col-md-6 mb-4' >
                         <div className='card blogs-card' >
                             <img src={sco5} alt="" />
                             <div className='abc-btn py-1 px-3'>Sco</div>
@@ -245,7 +245,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business1} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -257,7 +257,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business2} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -269,7 +269,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business3} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -281,7 +281,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business4} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>
@@ -293,7 +293,7 @@ function Blog() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-4'>
+                    <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={business5} alt="" />
                             <div className='abc-btn py-1 px-3'>Business</div>

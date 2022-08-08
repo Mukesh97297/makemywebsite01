@@ -1,3 +1,33 @@
+@media only screen and (max-width:767px) {
+    .contact-column h3{
+        font-size: 22px !important;
+    }
+    .ContactUs-col-left{
+        padding: 30px 20px 30px 20px !important;
+    }
+    .contact-form  h3{
+        font-size: 22px !important;
+    }
+    .ContactUs-col-right{
+        padding: 50px 0px 30px 0px !important;
+    }
+    .contact-form-1 a{
+        font-size: 16px !important;
+    }
+    .contact-form-input-list{
+        padding-right:0px !important ;
+        padding-left: 0px !important;
+    }
+    .Contact-us-submit{
+        width: 50% !important;
+    }
+    .contact-us-lottie div .lottie{
+        height: 600px !important;
+    }
+}
+
+
+
 .contact-form h3{
     font-weight: 800;
     line-height: 1.3em;

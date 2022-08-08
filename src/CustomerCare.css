@@ -1,3 +1,30 @@
+@media only screen and (max-width:767px) {
+    .Customer-Care p{
+        font-size: 16px !important;
+    }
+    .customer{
+        padding: 100px 0px 80px 0px !important;
+       
+    }
+    .input-fields{
+        padding: 0px 0px 0px 0px !important;
+    }
+    .input-fields .input-fields1{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .CustomerCare-section p{
+        font-size: 16px !important;
+    }
+    .CustomerCare-section{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+.input-fields{
+    padding: 0px 90px 0px 90px;
+}
 .form-span {
     color: #33475b;
     font-family: 'Helvetica 35 Thin', sans-serif;

@@ -12,12 +12,12 @@ function Home() {
         <video className='home-vedio' autoPlay muted loop  src="https://makemywebsiteaustralia.com.au/mmw/wp-content/uploads/2021/01/banner-07-01-2021_1.mp4" type="video/mp4">
         </video>
       </div>
-      <WebDesign />
+      {/* <WebDesign />
       <Service />
       <Works />
       <MmwFront />
       <Customer />
-      <ServiceDelivery />
+      <ServiceDelivery /> */}
     </div>
   )
 }

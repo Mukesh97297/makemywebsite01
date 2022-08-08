@@ -29,7 +29,7 @@ function ContactUs() {
                             </div>
                             <div className='contact-us-lottie'>
                                 <div>
-                                    <Lottie animationData={contact} loop={true} autoplay={true} style={{ height: "700px", width: "100%" }} />
+                                    <Lottie className='lottie' animationData={contact} loop={true} autoplay={true} style={{ height: "700px", width: "100%" }} />
                                 </div>
                             </div>
                             <div className='ContactUs-Social-Media-icons'>

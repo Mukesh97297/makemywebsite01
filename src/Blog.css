@@ -1,11 +1,6 @@
 .main-blog {
     padding: 100px 0px 250px 0px;
 }
-
-/* .row {
-    margin-right: 0px !important;
-} */
-
 .blogs-card {
     height: 400px;
     text-align: center;
@@ -35,7 +30,6 @@
 
 .blogs-card .card-body h4 {
     text-align: center;
-    font-family: "Montserrat", Sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.3;
