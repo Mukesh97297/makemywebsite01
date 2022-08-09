@@ -1,38 +1,93 @@
-.WebEmailHosting p{
+@media only screen and (max-width:767px) {
+    .WebEmailHosting {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .WebEmailHosting p{
+        font-size: 16px !important;
+    }
+    .WebHosting h3{
+        font-size: 25px !important;
+    }
+    .WebHosting{
+        padding-left: 0px !important; padding-right: 0px !important;
+    }
+    .WebHosting p{
+        font-size: 16px !important;
+    }
+    .Web-Hosting{
+        padding: 30px 0px 30px 0px !important;
+    }
+    .Web-Hosting h4{
+        font-size: 18px !important;
+        line-height: 1.2em !important;
+    }
+    .Web-Hosting p{
+        font-size: 16px !important;
+    }
+    .Email-Hosting p{
+        font-size: 16px !important;
+    }
+    .Email-Hosting h3{
+        font-size: 25px !important;
+    }
+}
+@media only screen and (max-width:1024px) {
+    /* .WebEmailHosting {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding: 20px 20px 20px 20px !important;
+    } */
+}
+
+.WebEmailHosting {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.WebEmailHosting p {
     color: #545454;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
 }
-.WebHosting p{
+
+.WebHosting p {
     color: #545454;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
 }
-.WebHosting h3{
-    font-size:3.5rem;
+
+.WebHosting h3 {
+    font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.3em;
+    margin-bottom: 20px;
 }
-.Web-Hosting p{
+
+.Web-Hosting p {
     color: #545454;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
 }
-.Web-Hosting h4{
+
+.Web-Hosting h4 {
     font-size: 1.777rem;
     line-height: 1.4em;
     font-weight: 600;
     color: #222222;
+    margin-bottom: 20px ;
 }
-.Email-Hosting h3{
+
+.Email-Hosting h3 {
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.3em;
 }
-.Email-Hosting p{
+
+.Email-Hosting p {
     color: #545454;
     font-size: 1.2rem;
     font-weight: 400;
