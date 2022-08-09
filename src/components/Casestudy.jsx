@@ -10,7 +10,7 @@ function Casestudy() {
                             Case Studies<hr className='hr'></hr>
                         </h1>
                         <h2 >
-                            A Detailed Insight On Our Capabilities And Associations
+                            A Detailed Insight On Our Capabilities <br /> And Associations
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
@@ -18,7 +18,7 @@ function Casestudy() {
                 </div>
             </div>
             <div className='container-fluid' id='casestudy'>
-                <div className='row'>
+                <div className='row rows'>
                     <div className=" col-md-3 mb-4">
                         <div className='casestudy casestudy2' >
                             <div className='overlay2'>

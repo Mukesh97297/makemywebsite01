@@ -1,3 +1,11 @@
+@media only screen and (max-width:767px) {
+  .web-design-portfolio{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 20px 15px 20px 15px !important;
+  }
+}
+
 button:hover{
   outline: none;
   color: #FB3F69;

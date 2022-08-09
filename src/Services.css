@@ -122,6 +122,7 @@
       text-transform: uppercase;
       line-height: 28px;
       border-radius: 0px 0px 0px 0px; 
+      color: #fff;
   }
   .learn-more:hover{ 
     background-color: red;

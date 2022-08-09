@@ -25,8 +25,8 @@ function DigitalMarkeing() {
                 </div>
             </div>
             <div className='container-fluid marketing-section'>
-                <div className='container'>
-                    <div className='row digital-market'>
+                <div className='container digital-market'>
+                    <div className='row '>
                         <div className='col-lg-7 animated-section'>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets no
                                 audience to avail the purposes it is built for. By marketing digitally, as a business owner,

@@ -65,11 +65,11 @@ function Branding() {
                     <div className='row py-5'>
                         <div className='graphic'>
                             <h4 className='py-2'>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
-                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> It speaks to your audience without having to speak</p>
-                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Gives your brand the attention it deserves</p>
-                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Let’s you graphically depict your brand’s vision and ideals</p>
-                            <p  ><i className="fa-solid fa-circle-check  brand-i"></i> Builds a solid brand identity that connects people with you</p>
-                            <p  ><i className="fa-solid fa-circle-check brand-i"></i> Allows you to establish a familiarity with your audience</p>
+                            <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>It speaks to your audience without having to speak</span></p>
+                            <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Gives your brand the attention it deserves</span></p>
+                            <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Let’s you graphically depict your brand’s vision and ideals</span></p>
+                            <p className='d-flex'><i className="fa-solid fa-circle-check  brand-i"></i> <span className='ml-2'>Builds a solid brand identity that connects people with you</span></p>
+                            <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Allows you to establish a familiarity with your audience</span></p>
                             <h5 className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
                         </div>
                     </div>
@@ -95,13 +95,13 @@ function Branding() {
                             <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
-                    <div className='business mb-5'>
+                    <div className='business'>
                         <h4 className='py-3'>How your brand’s wordplay and identity establish your value as a business:</h4>
-                        <p><i className="fa-solid fa-circle-check brand-i"></i> It allows your brand to stand up to its authenticity with the audience</p>
-                        <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you establish your purposefulness and goal-oriented task forces</p>
-                        <p><i className="fa-solid fa-circle-check brand-i"></i> Motivates your team and professionals to match up to the brand ideals</p>
-                        <p><i className="fa-solid fa-circle-check brand-i"></i> Gives you a clear & distinctive path to follow in delivering</p>
-                        <p><i className="fa-solid fa-circle-check brand-i"></i> Let’s you create an exclusive style of functionality</p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>It allows your brand to stand up to its authenticity with the audience</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Let’s you establish your purposefulness and goal-oriented task forces</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Motivates your team and professionals to match up to the brand ideals</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Gives you a clear & distinctive path to follow in delivering</span></p>
+                        <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Let’s you create an exclusive style of functionality</span></p>
                     </div>
                 </div>
             </div>

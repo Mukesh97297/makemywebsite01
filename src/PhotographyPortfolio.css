@@ -1,3 +1,8 @@
+@media only screen and (max-width:767px) {
+  /* .filter-links li button{
+    font-size: 16px !important;
+  } */
+}
 .img-container{
     box-sizing: border-box;
     width: 100%;
@@ -11,7 +16,7 @@ button:hover{
     color: #ED1C24 !important;
     font-weight: 700 !important;
   }
-  .web-design-portfolio{
+  .photography-portfolio{
     margin-top: 100px;
     margin-bottom: 100px;
   }

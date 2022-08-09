@@ -34,7 +34,7 @@ function PhotographyPortfolio() {
                     </div>
                 </div>
             </div>
-            <div className='container web-design-portfolio'>
+            <div className='container photography-portfolio'>
                 <div className='row btn-section'>
                     <div className='child'>
                         <ul className='filter-links'>

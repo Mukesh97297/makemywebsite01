@@ -4,6 +4,9 @@
     margin-bottom: 20px !important;
     padding: 0px 0px 0px 0px !important;
    }
+   .branding-info p{
+    font-size: 16px !important;
+   }
    .Graphic-design h3{
     font-size: 28px !important;
    }
@@ -12,18 +15,33 @@
     margin-bottom: 20px !important;
     padding: 0px 0px 0px 0px !important;
    }
+   .Graphic-design p{
+    font-size: 16px !important;
+   }
    .graphic h4{
     font-size: 18px !important;
+   }
+   .graphic p{
+    font-size: 16px !important;
    }
    .wordplay-identity{
     font-size: 26px !important;
     margin: 0px 15px 20px 0px;
    }
    .Design{
-    padding: 30px 0px 30px 0px !important;
+    padding: 30px 0px 0px 0px !important;
+   }
+   .Design p{
+    font-size: 16px !important;
    }
    .business h4{
     font-size: 18px !important;
+   }
+   .business p{
+    font-size: 16px !important;
+   }
+   .business{
+    margin-bottom: 0px !important;
    }
 }
 
@@ -98,6 +116,9 @@
     line-height: 1.4em;
     font-weight: 600;
     color: #222222;
+}
+.business{
+    margin-bottom: 20px;
 }
 
 .business p {

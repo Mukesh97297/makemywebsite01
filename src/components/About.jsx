@@ -42,15 +42,15 @@ function About() {
                 </div>
             </div>
             <Caraousel />
-            <div className='container-fluid' style={{ padding: "100px 35px 100px 35px" }}>
+            <div className='container-fluid story-ours'>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <h2 className='our-story' >
                             Our Story
                         </h2>
                     </div>
-                    <div className='row justify-content-center py-5'>
-                        <div className='col-lg-6' >
+                    <div className='row justify-content-center what-first'>
+                        <div className='col-lg-6 column' >
                             <div className='our-story-p'>
                                 What first started as an idea has now transformed into a vision and as we continue to expand our horizons- our commitment towards providing high standards of service has just gotten stronger.
                                 As a digital agency with clients in every single state and territory of Australia, our establishment as a renowned company has been worthwhile.
@@ -59,7 +59,7 @@ function About() {
                                 businesses in this digital space. We are ready to take up any challenge and strive to provide the best customer service.
                             </div>
                         </div>
-                        <div className='col-lg-6' >
+                        <div className='col-lg-6 column' >
                             <img src={storyoffice} alt="our-story" className='img-fluid' />
                         </div>
                     </div>

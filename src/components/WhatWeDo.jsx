@@ -7,6 +7,7 @@ function WhatWeDo() {
                 <video className='What-we-do-vedio' autoPlay muted loop src="https://www.makemywebsite.com.au/wp-content/uploads/2022/01/MVI_4003_Trim1.mp4" type="video/mp4"></video>
                 <div className='What-we-do-overlay'></div>
                 <div className='discreption'>
+                    <div className='container'>
                     <div className='what-we-do-heading'>
                         <h2>What We Do</h2>
                     </div>
@@ -17,9 +18,9 @@ function WhatWeDo() {
                         <br />
                         Are yosu looking for a cutting-edge website? We are here to help!
                     </div>
+                    </div>
                 </div>
             </div>
-
         </div>
     )
 }

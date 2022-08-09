@@ -1,54 +1,71 @@
 /* DigitalMarketing */
 @media only screen and (max-width:1024px) {
-    .Digitalmarketing-p{
+    .Digitalmarketing-p {
         margin-top: 40px !important;
-       margin-bottom: 40px !important;
+        margin-bottom: 40px !important;
     }
 }
+
 @media only screen and (max-width:767px) {
     .digital-market {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
-        padding: 0px 15px 0px 15px !important;
+        /* padding: 0px 15px 0px 15px !important; */
     }
-    .digital-market .container{
-        padding: auto 0px auto 0px !important;
+
+    .digital-market .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
-    .animated-section{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+
+    .animated-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
-    .animated-section p{
+
+    .animated-section p {
         font-size: 16px !important;
     }
-    .Digitalmarketing-p p{
+
+    .Digitalmarketing-p p {
         font-size: 16px !important;
     }
-    .Digitalmarketing-p{
+
+    .marketing-section {
+        margin-top: 0px !important;
+    }
+
+    /* .Digitalmarketing-p{
         padding: 0px 20px 0px 20px !important;
-    }
-    .DigitalMarkeing span{
+    } */
+    .DigitalMarkeing span {
         font-size: 18px !important;
         margin-bottom: 20px;
     }
-    .seo h5{
+
+    .seo h5 {
         font-size: 18px !important;
     }
-    .digital-explore{
+
+    .digital-explore {
         padding: 50px 0px 50px 0px !important;
     }
 }
-.marketing-section{
+
+.marketing-section {
     margin-top: 100px;
     margin-bottom: 0px;
 }
-.digital-explore{
+
+.digital-explore {
     padding: 5% 0% 5% 0%;
 }
-.Digitalmarketing-p{
+
+.Digitalmarketing-p {
     padding: 2% 0% 5% 0%;
 }
-.seo{
+
+.seo {
     padding: 10px;
 }
 
@@ -117,13 +134,11 @@
     margin-bottom: 1rem;
     line-height: 1.75em;
 }
-.DigitalMarkeing span{
+
+.DigitalMarkeing span {
     margin-bottom: 20px;
 }
-.DigitalMarkeing{
+
+.DigitalMarkeing {
     margin-bottom: 20px;
 }
-
-
-
-

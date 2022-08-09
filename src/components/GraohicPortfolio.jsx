@@ -26,14 +26,14 @@ function GraohicPortfolio() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2 >
-                            Balancing Art & Technology To Create Modern & Contemporary Branding Collateral
+                            Balancing Art & Technology To Create <br /> Modern & Contemporary Branding <br /> Collateral
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
-            <div className='container web-design-portfolio'>
+            <div className='container graphic-design-portfolio'>
                 <div className='row btn-section'>
                     <div className='child'>
                         <ul className='filter-links'>
@@ -53,12 +53,12 @@ function GraohicPortfolio() {
                     </div>
                 </div>
             </div>
-            <div className='container'>
+            <div className='container mb-5'>
                 <div className='row '>
                     {
                         images.map((value) => {
                             return (
-                                <div className='col-md-3 mb-4'  >
+                                <div className='col-md-3 graphic-images'  >
                                     <img height="250px" width="100%" src={value.image} alt="images" />
                                 </div>
                             )
