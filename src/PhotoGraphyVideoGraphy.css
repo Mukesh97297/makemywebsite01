@@ -1,3 +1,8 @@
+@media only screen and (max-width:767px) {
+    .PhotoGraphy p,.VedioGraphy p{
+        font-size: 16px !important;
+    }
+}
 .PhotoGraphy p{
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;

@@ -1,8 +1,5 @@
 @media only screen and (max-width:767px) {
 
-    /* .portfolio-items{
-        text-align: center;
-    } */
     .Portfolio-design-child h3 {
         font-size: 28px !important;
     }
@@ -31,7 +28,15 @@
     .main {
         margin-top: 50px !important;
         margin-bottom: 50px !important;
-        /* padding: 0% 3% 0% 3% !important; */
+    }
+    .ourportfolio .ourportfolio-child {
+        text-align: center !important;
+    }
+    .Portfolio-design-child div,.heading-pragraph {
+       font-size: 16px !important;
+    }
+    .portfolio-items{
+        padding: 0% 3% 0% 3% !important
     }
 }
 
@@ -48,8 +53,7 @@
 
 .ourportfolio .ourportfolio-child {
     padding: 10px;
-    text-align: center;
-
+    text-align: left;
 }
 
 .heading-pragraph {

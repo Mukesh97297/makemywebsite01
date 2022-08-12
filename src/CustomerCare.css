@@ -24,6 +24,9 @@
         line-height: 1.4em !important;
         margin-bottom: 20px;
     }
+    .support-higly{
+        margin-bottom: 0px !important;
+    }
 }
 .customer{
     padding: 100px 0px 80px 0px !important;

@@ -1,137 +1,184 @@
-.Services-heading{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.5em;
-      
+@media only screen and (max-width:767px) {
+  .our-services{
+    padding: 40px 0px 0px 0px !important;
   }
-  .web-design{
-    background-color: white;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 2% 0% 2% 0%;
+  .our-services .container{
+    padding-left: 0px !important;padding-right: 0px !important;
   }
-  .digital-marketing{
-    background-color: #E8E8E86B;
+  .Services-heading{
+    font-size: 16px !important;
+    padding:10px !important;
+    text-align: center !important;
   }
-  .branding{
-    background-color: white;
+  .web-design {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 10px 0px 10px 0px !important;
   }
-  .email-hosting{
-    background-color: #E8E8E86B;
-  }
-  .customer-care{
-    background-color: white;
-  }
-  .photography-vediography{
-    background-color:#E8E8E86B;
-  }
-  .photography h3{
-    font-weight: 500;
-      line-height: 1.3em;
-      font-family: "Montserrat", Sans-serif;
-      font-size: 42px;
-  }
-  .photography p{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-  .customer p{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-  .customer h3{
-    font-weight: 500;
-    line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 42px;
-  }
-  .emails-host p{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-  .emails-host h3{
-    font-weight: 500;
-    line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 42px;
-  }
-  .brand p{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-  .brand h3{
-    font-weight: 500;
-    line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 42px;
-  }
-  .marketing p{
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-  }
-  .marketing h3{
-    font-weight: 500;
-    line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 42px;
-  }
-  .devlopments{
-    margin-bottom: 20px;
+  .devlopments h3 {
+    font-size: 28px !important;
   }
   .devlopments p{
-    color: #545454;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-    margin-bottom: 10px;
-    
+    font-size: 16px !important;
   }
-  .devlopments h3{
-    color: #222222;
-    font-size: 2.369rem;
-    font-weight: 600;
-    line-height: 1.3em;
+  .devlopments .highlight{
+    font-size: 1.3rem !important;
   }
-  .learn-more{
-    background-color: #222222;
-      border-style: solid;
-      border-width: 0px 0px 0px 0px;
-      border-color: #7A7A7A;
-      box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
-      padding: 15px 35px 15px 35px;
-      font-family: "Poppins", Sans-serif;
-      font-size: 1rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      line-height: 28px;
-      border-radius: 0px 0px 0px 0px; 
-      color: #fff;
+  .web-design .container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
-  .learn-more:hover{ 
-    background-color: red;
-  }
-  @media only screen and (max-width:767px) {
-    .Services-heading{
-      text-align: center;
-    }
-    .web-design{
-      text-align: center;
-    }
-  }
+
+}
+
+.Services-heading {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.web-design {
+  background-color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2% 0% 2% 0%;
+}
+
+.digital-marketing {
+  background-color: #E8E8E86B;
+}
+
+.branding {
+  background-color: white;
+}
+
+.email-hosting {
+  background-color: #E8E8E86B;
+}
+
+.customer-care {
+  background-color: white;
+}
+
+.photography-vediography {
+  background-color: #E8E8E86B;
+}
+
+.photography h3 {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+}
+
+.photography p {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  
+}
+
+.customer p {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.customer h3 {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+}
+
+.emails-host p {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.emails-host h3 {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+}
+
+.brand p {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.brand h3 {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+}
+
+.marketing p {
+  color: #545454;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.marketing h3 {
+  font-weight: 500;
+  line-height: 1.3em;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+}
+
+.devlopments {
+  margin-bottom: 20px;
+}
+
+.devlopments p {
+  color: #545454;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+
+}
+
+.devlopments h3 {
+  color: #222222;
+  font-size: 2.369rem;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+.learn-more {
+  background-color: #222222;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #7A7A7A;
+  box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 50%);
+  padding: 15px 35px 15px 35px;
+  font-family: "Poppins", Sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 28px;
+  border-radius: 0px 0px 0px 0px;
+  color: #fff;
+}
+
+.learn-more:hover {
+  background-color: red;
+}
+

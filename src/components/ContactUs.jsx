@@ -13,7 +13,7 @@ function ContactUs() {
                             Contact Us <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Take Your First Step Towards Creating An Impact
+                            Take Your First Step Towards Creating <br /> An Impact
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

@@ -13,7 +13,7 @@ function PhotoGraphyVideoGraphy() {
                             Photography & Videography<hr className='hr'></hr>
                         </h1>
                         <h2>
-                            The Art Of Storytelling To Showcase Your Business To The World
+                            The Art Of Storytelling To Showcase <br /> Your Business To The World
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

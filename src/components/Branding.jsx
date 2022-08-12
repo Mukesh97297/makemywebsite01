@@ -43,7 +43,7 @@ function Branding() {
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
                 <div className='container'>
-                    <div className='row py-5'>
+                    <div className='row'>
                         <div className='col-lg-7 Graphic-design'>
                             <h3 >Graphic Design</h3>
                             <p >When it comes to graphic designs, the sky’s the limit as everything that takes some
@@ -62,24 +62,24 @@ function Branding() {
                             <Lottie animationData={brand} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
-                    <div className='row py-5'>
+                    <div className='row'>
                         <div className='graphic'>
-                            <h4 className='py-2'>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
+                            <h4>Why Graphic Design is the backbone of every business’s representative qualitative:</h4>
                             <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>It speaks to your audience without having to speak</span></p>
                             <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Gives your brand the attention it deserves</span></p>
                             <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Let’s you graphically depict your brand’s vision and ideals</span></p>
                             <p className='d-flex'><i className="fa-solid fa-circle-check  brand-i"></i> <span className='ml-2'>Builds a solid brand identity that connects people with you</span></p>
                             <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Allows you to establish a familiarity with your audience</span></p>
-                            <h5 className='py-2'>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
+                            <h5>We design everything from Logos, Business Cards, Letterheads, and Brochures to Staff books, Handbooks, E-books and more!</h5>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='container-fluid'>
-                <div className='container'>
-                    <h3 className='wordplay-identity'>Brand’s Wordplay Identity</h3>
+                <div className='container brand-wordplay' >
                     <div className='row'>
-                        <div className='col-lg-7 Design'>
+                        <div className='col-lg-7 Graphic-design'>
+                            <h3>Brand’s Wordplay Identity</h3>
                             <p>A Brand’s vision is translated through its graphic representations but at
                                 the same time is supported through its taglines, slogan, and foremost
                                 the name that you hold. Every print and even your main brand logo is only a supporting agent of
@@ -95,8 +95,8 @@ function Branding() {
                             <Lottie animationData={BrandAni} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
-                    <div className='business'>
-                        <h4 className='py-3'>How your brand’s wordplay and identity establish your value as a business:</h4>
+                    <div className='graphic'>
+                        <h4>How your brand’s wordplay and identity establish your value as a business:</h4>
                         <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>It allows your brand to stand up to its authenticity with the audience</span></p>
                         <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Let’s you establish your purposefulness and goal-oriented task forces</span></p>
                         <p className='d-flex'><i className="fa-solid fa-circle-check brand-i"></i> <span className='ml-2'>Motivates your team and professionals to match up to the brand ideals</span></p>
@@ -105,7 +105,6 @@ function Branding() {
                     </div>
                 </div>
             </div>
-
             <ServiceDelivery />
         </div>
     )

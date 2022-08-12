@@ -13,7 +13,7 @@ function SearchEngineOptimization() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2 className='mb-2'>
-                            An Amalgamation Of Consistency And Knowledge To Enhance Your Online Presence
+                            An Amalgamation Of Consistency And <br /> Knowledge To Enhance Your Online <br /> Presence
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
@@ -27,7 +27,7 @@ function SearchEngineOptimization() {
                 </div>
             </div>
             <div className='container-fluid search-engine-1'>
-                <h3 data-aos="slide-bottom" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false" className='py-4'>How can Make My Website help you with your rankings?</h3>
+                <h3 className='py-4'>What Makes SEO crucial for your website’s growth</h3>
                 <div className='row py-4'>
                     <div className='col-md-7 search-engine-2'>
                         <p><i className="fa-solid fa-circle-check search-icon"></i> It markets your products/services to the right audience</p>

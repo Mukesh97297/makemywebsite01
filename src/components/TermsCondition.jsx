@@ -25,7 +25,7 @@ function TermsCondition() {
                         <span></span>
                     </div>
                     <div className='row justify-content-center privacy-heading'>
-                        <p className='mb-5'><strong>Terms and Conditions of Make My Website or Make My Website Pty Ltd.</strong></p>
+                        <p className='mb-4'><strong>Terms and Conditions of Make My Website or Make My Website Pty Ltd.</strong></p>
                         <p className='mb-5'>With the commencement of your association with Make My Website as your web designer and/or web developer, it is deemed that you abide by all the terms and conditions mentioned on www.makemywebsite.com.au.</p>
                         <p className='mb-4'>The following are the standard terms and conditions that are put forward by Make My Website and apply to all work and contracts that the company undertakes for its clients. The employees of Make My Website adhere to these terms and conditions and so do the clients of Make My Website.</p>
                     </div>

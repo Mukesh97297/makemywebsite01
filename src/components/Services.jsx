@@ -16,28 +16,28 @@ function Services() {
                             Our Services <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            A Full-Service Digital Agency To Help You Grow Online.
+                            A Full-Service Digital Agency To Help <br /> You Grow Online.
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' style={{ padding: "4% 5% 4% 5%" }}>
+            <div className='container-fluid our-services' style={{ padding: "4% 5% 4% 5%" }}>
                 <div className='container'>
                     <div className='row justify-content-center Services-heading' >
-                        Elevate Your Businesses Capabilities By Taking The First Step Towards Enhancing Your Online Presence.
+                        <div>Elevate Your Businesses Capabilities By Taking The First Step Towards Enhancing Your Online Presence.</div>
                     </div>
                 </div>
             </div>
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-md-6  devlopments' >
                             <h3>Web Design And Development</h3>
                             <p>Web design is a medium that reflects the value you are adding as a business. It should be engaging, innovative, humanistic, and have a story to tell. <br />
                                 Make My Website embraces technological advancement and puts forth what’s the best for your brand. Your online presence is important to your business, and we exhibit our passion and creativity.</p>
-                            <p>An impressive design is synonymous with a brilliant mind that harnesses innovation beyond imagination. At Make My Website, we boast of brilliance.</p>
+                            <p className='highlight'>An impressive design is synonymous with a brilliant mind that harnesses innovation beyond imagination. At Make My Website, we boast of brilliance.</p>
                             <div>
                                 <a href="/" className='btn btn-dark learn-more' role='button'>LEARN MORE</a>
                             </div>
@@ -70,7 +70,7 @@ function Services() {
 
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-md-6 devlopments' >
                             <h3>Branding</h3>
                             <p>Branding in itself takes a lot of understanding of brand values and the identity you want the world to remember you with as a brand. </p>
@@ -110,7 +110,7 @@ function Services() {
 
             <div className='container-fluid web-design' style={{ padding: "20px 0px 20px 0px" }}>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-md-6 devlopments' >
                             <h3>Customer Care</h3>
                             <p>Support is highly crucial when running a website for your business and it is not feasible to handle all of it by yourself. Offering support for a domain and running its various functionalities optimally requires skill, expertise, and experience.</p>

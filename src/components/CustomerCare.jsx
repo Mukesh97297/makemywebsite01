@@ -13,7 +13,7 @@ function CustomerCare() {
                             Customer Care<hr className='hr'></hr>
                         </h1>
                         <h2>
-                            An End-To-End Service Aimed At Managing Your Tech-Driven Platforms
+                            An End-To-End Service Aimed At <br /> Managing Your Tech-Driven Platforms
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

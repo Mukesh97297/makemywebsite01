@@ -1,12 +1,22 @@
 @media only screen and (max-width:767px) {
-  /* .filter-links li button{
-    font-size: 16px !important;
-  } */
+ .img-container img{
+  height: 300px !important;
+  background-position: center top !important;
+  background-size: cover !important;
+  
+ }
+}
+.img-container img{
+ height: 250px;
+ width: 100%;
 }
 .img-container{
     box-sizing: border-box;
     width: 100%;
     box-shadow: 0 0 13px 0 rgb(0 0 0 / 11%);
+}
+.photography-images{
+  margin-bottom: 50px;
 }
 button:hover{
     outline: none;

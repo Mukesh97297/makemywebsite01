@@ -1,3 +1,13 @@
+@media only screen and (max-width:767px) {
+    .search-engine-1 h3,.search-engine-3 h3{
+        font-size: 22px !important;
+    }
+    .search-engine-2 p,.search-engine-3 p,.search-engine p{
+        font-size: 16px!important;
+    }
+}
+
+
 .search-engine p{
     color: #545454;
   font-family: "Josefin Sans", Sans-serif;

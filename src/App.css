@@ -100,7 +100,6 @@ p {
 }
 
 .navbar ul .nav-item:last-child {
-    text-align: end;
     padding-left: 60px;
 }
 
@@ -114,7 +113,12 @@ p {
 .plus-icon-navbar i {
     pointer-events: none;
 }
-
+@media only screen and (max-width:767px) {
+    .navbar{
+        backdrop-filter: saturate(180%) blur(20px) !important;
+        background-color: rgba(34, 34, 34, 0.62) !important;
+    }
+}
 
 .navbar {
     position: fixed;
@@ -124,7 +128,6 @@ p {
     padding: 13px 0px 13px 0px !important;
     backdrop-filter: none;
     letter-spacing: 1px;
-
 }
 
 .nav_blue {
@@ -2214,6 +2217,18 @@ h6 {
 }
 
 /* privacy-policy-section */
+@media only screen and (max-width:767px) {
+    .Privacy-policy-title h2{
+        font-size: 25px !important;
+    }
+    .Privacy-policy p,.Privacy-policy p strong{
+      font-size: 16px !important;
+    }
+    .Privacy-policy{
+        margin-top: 30px !important;
+        margin-bottom: 0px !important;
+    }
+}
 .Privacy-policy {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -2241,6 +2256,12 @@ h6 {
 .privacy-heading {
     text-align: center;
     margin-bottom: 20px;
+}
+.Privacy-policy p{
+    color: #545454;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
 .privacy-heading p strong {

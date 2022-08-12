@@ -12,7 +12,6 @@
    }
    .Graphic-design {
     margin-top: 20px !important;
-    margin-bottom: 20px !important;
     padding: 0px 0px 0px 0px !important;
    }
    .Graphic-design p{
@@ -43,6 +42,9 @@
    .business{
     margin-bottom: 0px !important;
    }
+   /* .brand-wordplay{
+    padding: 0px 20px 0px 20px !important;
+   } */
 }
 
 .branding-info{
@@ -60,6 +62,7 @@
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.3em;
+    margin-bottom: 20px;
 }
 
 .Graphic-design p {
@@ -68,12 +71,17 @@
     font-weight: 400;
     line-height: 1.5em;
 }
+.Graphic-design{
+    padding-right: 0px ;
+    padding-left: 0px ;
+}
 
 .graphic h4 {
     font-size: 1.777rem;
     line-height: 1.4em;
     font-weight: 600;
     color: #222222;
+    margin-bottom: 20px;
 }
 
 .graphic h5 {
@@ -96,35 +104,5 @@
     top: 6px;
 }
 
-.wordplay-identity {
-    font-size: 52px;
-    font-family: "Montserrat", Sans-serif;
-    font-weight: 600;
-    line-height: 1.3em;
-}
 
-.Design p {
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-}
 
-.business h4 {
-    font-size: 1.777rem;
-    line-height: 1.4em;
-    font-weight: 600;
-    color: #222222;
-}
-.business{
-    margin-bottom: 20px;
-}
-
-.business p {
-    color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-}

@@ -27,7 +27,7 @@ function PhotographyPortfolio() {
                             <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Glimpses Of Commercial Photoshoots For Our Esteemed Clients
+                            Glimpses Of Commercial Photoshoots <br /> For Our Esteemed Clients
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
@@ -64,12 +64,12 @@ function PhotographyPortfolio() {
                 </div>
             </div>
             <div className='container'>
-                <div className='row '>
+                <div className='row photography-images'>
                     {
                         images.map((value) => {
                             return (
-                                <div className='col-md-3 mb-4 img-container' >
-                                    <img height="250px" width="100%" src={value.image} alt="images" />
+                                <div className='col-md-3 img-container' style={{marginBottom:"50px",paddingRight:"15px"}} >
+                                    <img  src={value.image} alt="images" />
                                 </div>
                             )
                         })
