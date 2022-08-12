@@ -33,7 +33,11 @@ p {
 
 
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:767px) {
+    .home-main-div{
+        padding-top: 140px !important;
+    }
+}
 
 @media only screen and (max-width:1024px) {
 
@@ -76,6 +80,7 @@ p {
     #nav-link {
         font-size: 16px !important;
     }
+  
 }
 
 

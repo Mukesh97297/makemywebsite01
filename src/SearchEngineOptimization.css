@@ -1,55 +1,98 @@
 @media only screen and (max-width:767px) {
-    .search-engine-1 h3,.search-engine-3 h3{
+
+    .search-engine-1 h3,
+    .search-engine-3 h3 {
         font-size: 22px !important;
+        padding: 10px !important;
     }
-    .search-engine-2 p,.search-engine-3 p,.search-engine p{
-        font-size: 16px!important;
+
+    .search-engine {
+        margin-bottom: 0px !important;
+        padding: 30px 15px 30px 15px !important;
     }
+
+    .search-engine-1 {
+        padding: 30px 20px 30px 20px !important;
+    }
+
+    .search-engine-3 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        padding: 0px 20px 50px 20px!important;
+    }
+
+    .search-engine-2 p,
+    .search-engine-3 p,
+    .search-engine p {
+        font-size: 16px !important;
+        line-height: 1.2em;
+    }
+
+    .search-engine-2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .search-engine-3 a{
+        font-size: 14px !important;
+        padding: 10px 13px 10px 13px !important;
+    }
+}
+.search-engine{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-
-.search-engine p{
-    color: #545454;
-  font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-}
-.search-engine-1{
-    background-color: #F5F5F5;
-}
-.search-engine-1 h3{
-    font-weight: 600;
-    line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
-    color: #222222;
-    font-size: 36px;
-}
-.search-icon{
-    color: #222222;
-}
-.search-engine-2{
-    color: #545454;
-     font-family: "Josefin Sans", Sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5em;
-}
-.search-engine-3 p{
+.search-engine p {
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.5em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
 }
-.search-engine-3 h3{
+
+.search-engine-1 {
+    background-color: #F5F5F5;
+}
+
+.search-engine-1 h3 {
     font-weight: 600;
     line-height: 1.3em;
     font-family: "Montserrat", Sans-serif;
     color: #222222;
     font-size: 36px;
+    margin-bottom: 20px;
 }
-.search-engine-3 a{
+
+.search-icon {
+    color: #222222;
+}
+
+.search-engine-2 {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.search-engine-3 p {
+    color: #545454;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.search-engine-3 h3 {
+    font-weight: 600;
+    line-height: 1.3em;
+    font-family: "Montserrat", Sans-serif;
+    color: #222222;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.search-engine-3 a {
     font-family: "Poppins", Sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -62,4 +105,10 @@
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0px 0px 20px 0px rgb(177 89 105 / 20%);
     padding: 12px 39px 12px 39px;
+}
+.search-engine-3{
+    padding: 5% 0% 5% 0%;
+}
+.search-engine-1{
+    padding: 5% 0% 5% 0%;
 }
