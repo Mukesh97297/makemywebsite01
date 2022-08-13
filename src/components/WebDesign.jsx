@@ -27,7 +27,7 @@ function WebDesign() {
                                 <span className='shape-3'></span>
                             </div>
                         </div>
-                        <div className='col-lg-7 col-sm-12 about_section-3'>
+                        <div className='col-xl-7 col-md-12 about_section-3'>
                             <h1 className='about-p mb-4'>
                                 <i className='fas fa-dot-circle dot-cercle'></i> Web Design Melbourne
                             </h1>
@@ -51,13 +51,13 @@ function WebDesign() {
                                 </div>
                             </div>
                             <div className='row mb-4'>
-                                <div className='col-xl-6 col-lg-8 web-design-btn-col '>
+                                <div className='col-xl-6 web-design-btn-col '>
                                     <div className='d-flex web-design-btn'>
-                                        <i aria-hidden={true} className="fas fa-check " />
+                                         <span> <i aria-hidden={true} className="fas fa-check " /></span>
                                         <span>High-end solutions for <br /> small & large business</span>
                                     </div>
                                 </div>
-                                <div className='col-xl-6 col-lg-8 web-design-btn-col'>
+                                <div className='col-xl-6  web-design-btn-col'>
                                     <div className='d-flex web-design-btn'>
                                         <i aria-hidden={true} className="fas fa-check" />
                                         <span>Helping local <br /> businesses go online</span>

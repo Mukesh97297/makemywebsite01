@@ -34,7 +34,7 @@ p {
 
 
 @media only screen and (max-width:767px) {
-    .home-main-div{
+    .home-main-div {
         padding-top: 140px !important;
     }
 }
@@ -57,12 +57,14 @@ p {
     .dropdown-item {
         font-size: 16px !important;
     }
-    .navbar ul li {
+
+    /* .navbar ul li {
         padding: 0px 11px 0px 11px !important;
-    }
+    } */
 }
 
 @media only screen and (max-width:1250px) {}
+
 @media only screen and (min-width:1280px) and (max-width:5000px) {
     #navbar .container {
         padding: 0% 5% 0% 5%;
@@ -70,6 +72,7 @@ p {
     }
 
 }
+
 @media only screen and (max-width:991px) {
 
     #navbar .container {
@@ -80,7 +83,7 @@ p {
     #nav-link {
         font-size: 16px !important;
     }
-  
+
 }
 
 
@@ -118,8 +121,9 @@ p {
 .plus-icon-navbar i {
     pointer-events: none;
 }
+
 @media only screen and (max-width:767px) {
-    .navbar{
+    .navbar {
         backdrop-filter: saturate(180%) blur(20px) !important;
         background-color: rgba(34, 34, 34, 0.62) !important;
     }
@@ -165,10 +169,11 @@ p {
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .dropdown-item {
     line-height: 20px;
     align-items: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 0.9vw;
     font-weight: 400;
     color: #000000;
@@ -189,6 +194,7 @@ p {
     border-radius: 0;
     color: white;
 }
+
 @media only screen and (max-width:991px) {
 
     #navbar .container {
@@ -303,10 +309,11 @@ p {
     transform-origin: center bottom;
     animation-fill-mode: both;
     animation-name: bounce;
-    animation-timing-function: ease-out; 
+    animation-timing-function: ease-out;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
 @keyframes bounce {
 
     0%,
@@ -436,7 +443,7 @@ p {
     }
 
     .web-design-btn-col {
-        margin-bottom: 10px;
+        width: 50% ;
     }
 
     .about_section-2 {
@@ -485,7 +492,7 @@ p {
 .web-design-btn span {
     font-size: 16px;
     line-height: 1.3em;
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     padding-left: 12px;
     color: #FFFFFF;
 }
@@ -803,10 +810,16 @@ p {
 
     .service-paragraph {
         text-align: center;
+        font-size: 16px !important;
     }
 
     .overlay {
         padding: 0px 10px 0px 10px;
+    }
+
+    .cards-section-scroll-container {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
 }
 
@@ -952,6 +965,11 @@ p {
 @media only screen and (max-width: 767px) {
     #heroTag p {
         font-size: 24px;
+    }
+
+    #works .container-fluid {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
@@ -1169,7 +1187,8 @@ p {
         margin-bottom: 0px !important;
         padding: 20px 0px 0px 0px !important;
     }
-    #content{
+
+    #content {
         font-size: 15px !important;
 
     }
@@ -1672,9 +1691,10 @@ p {
         flex: 0 0 70% !important;
         max-width: 70% !important;
     }
+
     .paragraph1 {
         align-items: flex-end;
-        padding: 0em!important;
+        padding: 0em !important;
         min-height: 45vh;
     }
 }
@@ -1712,12 +1732,12 @@ p {
 
 @media only screen and (max-width:550px) {
     .trusted {
-        top: -30%;
+        top: -4% !important;
         left: 0px;
     }
 
     .trusted-1 {
-        padding: 10px 20px 10px 20px;
+        padding: 25px 25px 25px 25px;
     }
 
     .trusted-1 .p-800 {
@@ -1740,15 +1760,18 @@ p {
         bottom: -178px !important;
         right: 88px !important;
     }
+
     .paragraph1 {
         align-items: flex-end;
-        padding: 150px 0px 20px 0px!important;
+        padding: 150px 0px 20px 0px !important;
         min-height: 40vh;
     }
-    .paragraph1 .paragraph{
+
+    .paragraph1 .paragraph {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+
     .paragraph h2 {
         font-size: 1.5rem !important;
     }
@@ -1850,20 +1873,23 @@ p {
         transform: rotate3d(0, 1, 0, 0deg);
     }
 }
+
 @media only screen and (max-width:1024px) {
-    .story-ours{
+    .story-ours {
         padding: 40px 0px 0px 0px !important;
     }
 }
+
 @media only screen and (max-width:767px) {
     .main-heading h2 {
         font-size: 28px !important;
     }
-  
+
     .main-heading1 h4 {
         font-size: 18px !important;
     }
-    .main-heading2{
+
+    .main-heading2 {
         font-size: 16px !important;
     }
 
@@ -1875,6 +1901,7 @@ p {
         text-align: center !important;
         padding-bottom: 15px;
     }
+
     .paragraph h2 {
         font-size: 1.5rem !important;
     }
@@ -1883,38 +1910,47 @@ p {
         flex: 0 0 100% !important;
         max-width: 100% !important;
     }
-    .main-about-section{
+
+    .main-about-section {
         margin-top: 0px !important;
         margin-bottom: 0px !important;
         padding: 10px 10px 20px 10px !important;
     }
-    .story-ours{
+
+    .story-ours {
         margin-top: 20px !important;
         margin-bottom: 0px !important;
         padding: 0px 0px 0px 0px !important;
     }
-    .what-first{
+
+    .what-first {
         padding: 0px !important;
     }
-    .what-first .column{
+
+    .what-first .column {
         padding-left: 0px !important;
-        padding-right: 0px!important;
+        padding-right: 0px !important;
     }
 }
-.what-first{
+
+.what-first {
     padding: 3% 0% 0% 0%;
 }
-.story-ours{
-   margin-top: 0px;
+
+.story-ours {
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 100px 0px 100px 0px
 }
-.main-heading1{
+
+.main-heading1 {
     margin-bottom: 20px;
 }
-.main-heading{
+
+.main-heading {
     margin-bottom: 20px;
 }
+
 .main-about-section {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -2223,17 +2259,21 @@ h6 {
 
 /* privacy-policy-section */
 @media only screen and (max-width:767px) {
-    .Privacy-policy-title h2{
+    .Privacy-policy-title h2 {
         font-size: 25px !important;
     }
-    .Privacy-policy p,.Privacy-policy p strong{
-      font-size: 16px !important;
+
+    .Privacy-policy p,
+    .Privacy-policy p strong {
+        font-size: 16px !important;
     }
-    .Privacy-policy{
+
+    .Privacy-policy {
         margin-top: 30px !important;
         margin-bottom: 0px !important;
     }
 }
+
 .Privacy-policy {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -2262,7 +2302,8 @@ h6 {
     text-align: center;
     margin-bottom: 20px;
 }
-.Privacy-policy p{
+
+.Privacy-policy p {
     color: #545454;
     font-size: 1.2rem;
     font-weight: 400;

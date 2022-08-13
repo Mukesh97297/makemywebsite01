@@ -27,7 +27,7 @@ function Service() {
                         </div>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container cards-section-scroll-container'>
                     <div className='row'>
                         <div className='col-md-4' >
                             <div className='card service-card pt-3'>
