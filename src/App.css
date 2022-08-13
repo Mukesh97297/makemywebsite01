@@ -107,7 +107,7 @@ p {
     padding: 0px 10px 0px 10px;
 }
 
-.navbar ul .nav-item:last-child {
+ .navbar ul .nav-item:last-child {
     padding-left: 60px;
 }
 
@@ -127,6 +127,9 @@ p {
         backdrop-filter: saturate(180%) blur(20px) !important;
         background-color: rgba(34, 34, 34, 0.62) !important;
     }
+    .navbar ul .nav-item:last-child {
+        padding-left: 0px;
+    }
 }
 
 .navbar {
@@ -136,7 +139,7 @@ p {
     align-items: center;
     padding: 13px 0px 13px 0px !important;
     backdrop-filter: none;
-    letter-spacing: 1px;
+   
 }
 
 .nav_blue {
@@ -173,13 +176,12 @@ p {
 .dropdown-item {
     line-height: 20px;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', serif;
     font-size: 0.9vw;
     font-weight: 400;
     color: #000000;
     padding-bottom: 8px;
     text-shadow: none;
-    letter-spacing: 1px;
     z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
