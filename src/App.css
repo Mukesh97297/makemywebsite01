@@ -122,7 +122,7 @@ p {
     pointer-events: none;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:1024px) {
     .navbar {
         backdrop-filter: saturate(180%) blur(20px) !important;
         background-color: rgba(34, 34, 34, 0.62) !important;
@@ -186,13 +186,13 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 
 .dropdown .dropdown-menu li>a:hover {
     padding: 10px 20px;
-    background-color: black;
+    background-color: #222222;
     border-radius: 0;
     color: white;
 }
@@ -443,9 +443,6 @@ p {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-
-    
-
     .about_section-2 {
         padding: 3em 4em 0em 4em;
     }
@@ -465,7 +462,6 @@ p {
     background-color: #222222;
     overflow: hidden;
 }
-
 
 .about_section {
     background-color: black;
@@ -1695,7 +1691,7 @@ p {
     .paragraph1 {
         align-items: flex-end;
         padding: 0em !important;
-        min-height: 45vh;
+        min-height: 35vh !important;
     }
 }
 
@@ -1764,7 +1760,7 @@ p {
     .paragraph1 {
         align-items: flex-end;
         padding: 150px 0px 20px 0px !important;
-        min-height: 40vh;
+        min-height: 40vh !important;
     }
 
     .paragraph1 .paragraph {
@@ -1956,8 +1952,6 @@ p {
     margin-bottom: 100px;
     padding: 0% 4% 0% 4%;
 }
-
-
 
 .paragraph1 {
     align-items: flex-end;
@@ -2212,6 +2206,9 @@ h6 {
 @media only screen and (max-width:1024px) {
     .what-we-do-heading h2 {
         font-size: 3rem !;
+    }
+    .What-we-do-vedio {
+        height: 50vh !important;
     }
 }
 
