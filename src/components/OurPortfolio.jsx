@@ -14,7 +14,7 @@ function OurPortfolio() {
                             Our Portfolio <hr className='hr'></hr>
                         </h1>
                         <h2>
-                            Showcasing Our Best Work In Various Domains
+                            Showcasing Our Best Work In Various <br /> Domains
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

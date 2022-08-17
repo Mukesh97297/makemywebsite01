@@ -51,5 +51,4 @@ function WhatWeDo() {
         </section>
     )
 }
-
 export default WhatWeDo
