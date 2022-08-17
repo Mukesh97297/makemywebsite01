@@ -80,7 +80,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-2">
                             <p id="fotterh4">Quick Links</p>
-                            <NavLink onClick={goToTop} to="/Linkbout" className='Quick-links pt-4'>
+                            <NavLink onClick={goToTop} to="/about" className='Quick-links pt-4'>
                                 <i className="fa-solid fa-circle-check" ></i>
                                 <span>About Us</span>
                             </NavLink>

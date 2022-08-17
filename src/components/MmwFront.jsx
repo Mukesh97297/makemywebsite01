@@ -4,30 +4,43 @@ import shopify from '../images/Shopify-licon.png'
 import commerce from '../images/woocommerce-licon.png'
 import wordpress from '../images/wordpress-licon.png'
 import magento from '../images/Magento-licon.png'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
+import Popup from './Popup'
 function MmwFront() {
+  const [model, setModel] = useState(false)
+  const toggleModel = () => {
+    setModel(!model)
+  }
   return (
     <div className='front-banner'>
       <div className='container-fluid front-banner1'>
         <div className='row mmw-row-1'  >
           <div className='col-xl-6 col-md-12 mmw-col-1'>
             <div className='project'>
-                  <span className='mmw-shape-2'></span>
-                  <span className='mmw-shape-3'></span>
+              <span className='mmw-shape-2'></span>
+              <span className='mmw-shape-3'></span>
               <div className='heading'>
                 <p>Have A Project In Mind?</p>
                 <div className='heading-info1'> Want to collaborate and give wings to your dream project?</div>
                 <div className='heading-info1'>Let’s talk!</div>
                 <div className='heading-button'>
-                  <a href="/" className='btn-link get-quits' role='button'>
+                  <Link to="/" className='btn-link get-quits' onClick={toggleModel} role='button'>
                     <span>
                       <span>Get a Quote</span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
+          {
+          model && (
+            <Popup />
+          )
+        }
         </div>
+       
       </div>
       <div className='container-fluid we-team' style={{ backgroundColor: "#000000D1", padding: "20px 0px 20px 0px" }} >
         <div className='container'>

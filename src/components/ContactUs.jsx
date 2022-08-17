@@ -1,13 +1,13 @@
 import React from 'react'
 import '../ContactUs.css';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import Lottie from 'lottie-react';
 import contact from '../animation/ContactUs.json';
 function ContactUs() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             Contact Us <hr className='hr'></hr>
@@ -33,7 +33,7 @@ function ContactUs() {
                                 </div>
                             </div>
                             <div className='ContactUs-Social-Media-icons'>
-                            <Link to="/" onClick={() => { window.open("https://www.facebook.com/makemywebsite.com.au") }}>
+                                <Link to="/" onClick={() => { window.open("https://www.facebook.com/makemywebsite.com.au") }}>
                                     <i className="fa-brands fa-facebook"></i>
                                 </Link>
                                 <Link to="/" onClick={() => { window.open("https://www.instagram.com/makemywebsite.mmw/") }}>

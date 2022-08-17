@@ -1688,11 +1688,6 @@ p {
         max-width: 70% !important;
     }
 
-    .paragraph1 {
-        align-items: flex-end;
-        padding: 0em !important;
-        min-height: 35vh !important;
-    }
 }
 
 @media only screen and (max-width:991px) {
@@ -1759,8 +1754,9 @@ p {
 
     .paragraph1 {
         align-items: flex-end;
-        padding: 150px 0px 20px 0px !important;
-        min-height: 40vh !important;
+        padding-top: 40% !important;
+        padding-left: 0px !important;
+       
     }
 
     .paragraph1 .paragraph {
@@ -1874,6 +1870,11 @@ p {
     .story-ours {
         padding: 40px 0px 0px 0px !important;
     }
+    .paragraph1{
+       padding-top: 20% !important;
+       padding-left: 0px !important;
+    }
+  
 }
 
 @media only screen and (max-width:767px) {
@@ -1897,7 +1898,7 @@ p {
         text-align: center !important;
         padding-bottom: 15px;
     }
-
+   
     .paragraph h2 {
         font-size: 1.5rem !important;
     }
@@ -1927,6 +1928,10 @@ p {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .paragraph1{
+        padding-top: 50% !important;
+        padding-left: 0px !important;
+     }
 }
 
 .what-first {
@@ -1956,7 +1961,7 @@ p {
 .paragraph1 {
     align-items: flex-end;
     padding: 0em 0em 2em 2.8em;
-    min-height: 50vh;
+    padding-top: 10%;   
 
 }
 
@@ -2178,7 +2183,7 @@ h6 {
 
 /* WhatWeDo */
 
-@media only screen and (max-width:767px) {
+/* @media only screen and (max-width:767px) {
     .What-we-do-vedio {
         text-align: center;
         display: none;
@@ -2252,7 +2257,7 @@ h6 {
     background-color: #FFFFFF;
     opacity: 0.74;
     position: absolute;
-}
+} */
 
 /* privacy-policy-section */
 @media only screen and (max-width:767px) {

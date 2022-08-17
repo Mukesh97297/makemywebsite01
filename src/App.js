@@ -33,12 +33,11 @@ import GoldCost from './components/GoldCost';
 import ModernWorld from './components/ModernWorld';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsCondition from './components/TermsCondition';
-import Popup from './components/Popup';
+import Faq from './components/Faq';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -71,6 +70,7 @@ function App() {
           <Route path="/ModernWorld" element={<ModernWorld />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/termsCondition" element={<TermsCondition />} />
+          <Route path='/faq' element={<Faq />} />
         </Routes>
         <Footer />
       </BrowserRouter>
