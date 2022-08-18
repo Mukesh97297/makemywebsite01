@@ -23,7 +23,7 @@ function PhotographyPortfolio() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             Photography Portfolio
@@ -66,13 +66,32 @@ function PhotographyPortfolio() {
                     </div>
                 </div>
             </div>
+            {/* <div className="container">
+                <div className="row">
+                    {
+                        images.map((value) => {
+                            console.log("fbhjajfasjflhnasf=>",value);
+                            <div className="col-md-4 col-md-offset-4 content">
+                                <div className="screen">
+                                    <img src={value.image} className="img-fluid" alt="images" />
+                                    {
+                                        console.log("output=>",value.image)
+                                    }
+                                </div>
+                            </div>
+                        })
+                    }
+                </div>
+            </div> */}
             <div className='container'>
                 <div className='row photography-images'>
                     {
                         images.map((value) => {
                             return (
                                 <div className='col-md-3 img-container' style={{marginBottom:"50px",paddingRight:"15px"}} >
-                                    <img  src={value.image} alt="images" />
+                                   <div className='screen'>
+                                   <img  src={value.image} alt="images" />
+                                   </div>
                                 </div>
                             )
                         })

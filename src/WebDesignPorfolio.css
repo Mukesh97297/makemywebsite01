@@ -4,9 +4,6 @@
     margin-bottom: 0px !important;
     padding: 20px 15px 20px 15px !important;
   }
-  .filter-links li button{
-    font-size: 16px !important;
-  }
 }
 
 button:hover{
@@ -19,7 +16,10 @@ button:focus,button.active{
 }
 .abc {
   height: 300px;
-  overflow: scroll;
+  overflow: hidden;
+}
+.abc:hover{
+ background-position: bottom;
 }
 .web-design-portfolio{
   margin-top: 100px;
