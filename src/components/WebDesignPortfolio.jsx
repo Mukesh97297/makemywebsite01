@@ -41,7 +41,7 @@ function WebDesignPortfolio() {
                                 <button href="/" className='button All' onClick={allItem}>All</button>
                             </li>
                             <li>
-                                <button href="/" className='button Account' onClick={() => Data("Account")}>Account</button>
+                                <button href="/" className='button Account' onClick={() => Data("Account")}>Accounting</button>
                             </li>
                             <li>
                                 <button href="/" className='button Beauty / Solon' onClick={() => Data("Salon")}>Beauty / Solon</button>

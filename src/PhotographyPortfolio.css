@@ -3,7 +3,9 @@
   height: 300px !important;
   background-position: center top !important;
   background-size: cover !important;
-  
+ }
+ .filter-links li button{
+  font-size: 16px !important;
  }
 }
 .img-container img{

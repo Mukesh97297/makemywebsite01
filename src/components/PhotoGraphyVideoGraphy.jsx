@@ -20,10 +20,10 @@ function PhotoGraphyVideoGraphy() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' >
+            <div className='container-fluid photovedio' >
                 <div className='container'>
-                    <div className='row py-5'>
-                        <div className='col-lg-7 PhotoGraphy mb-5' >
+                    <div className='row'>
+                        <div className='col-lg-7 PhotoGraphy' >
                             <p>Photography & Videography is a medium to visually represent your business. Make My Website and Make My Memories work collaboratively with a visionary approach to enhance your brand presence. </p>
                             <p>Whether you are a service provider or run a product-based business, you would need a professional team to capture its true essence so you can share it with your potential customers.</p>
                             <p>There is no denying the fact that content in terms of photographs and videos lets you tell a story without even uttering a word- and that is what we are all about! We create stories that instantly connect to your target audience.</p>

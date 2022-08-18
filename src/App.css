@@ -37,6 +37,9 @@ p {
     .home-main-div {
         padding-top: 140px !important;
     }
+    .dropdown-menu{
+        width: 12em !important;
+    }
 }
 
 @media only screen and (max-width:1024px) {
@@ -156,6 +159,7 @@ p {
     padding: 0;
     margin: 0;
     border-radius: 0;
+    width: auto;
 }
 
 .dropdwnleft {
@@ -176,22 +180,20 @@ p {
 .dropdown-item {
     line-height: 20px;
     align-items: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Sans', serif;
     font-size: 0.9vw;
     font-weight: 400;
     color: #000000;
     padding-bottom: 8px;
     text-shadow: none;
     z-index: 1;
-    padding-left: 20px;
-    padding-right: 20px;
     padding: 10px 20px;
     background-color: #FFFFFF;
 }
 
 
 .dropdown .dropdown-menu li>a:hover {
-    padding: 10px 20px;
+    padding: 13px 20px;
     background-color: #222222;
     border-radius: 0;
     color: white;
@@ -389,6 +391,7 @@ p {
 @media only screen and (max-width:768px) {
     .about_section-3 .paragraph {
         padding: 0px;
+        font-size: 16px !important;
     }
 
     .about_section-3 {
@@ -1480,7 +1483,7 @@ p {
     }
 }
 
-@media only screen and (max-width:764px) {
+@media only screen and (max-width:767px) {
     .project {
         width: 100% !important;
     }
@@ -1493,6 +1496,12 @@ p {
         margin-top: 35px !important;
         margin-bottom: 0px !important;
         padding: 20px 0px 0px 0px !important;
+    }
+    .project .heading .heading-info1{
+        font-size: 16px !important;
+    }
+    .project .heading p{
+        font-size: 24px !important;
     }
 
     .we-team {
@@ -1895,8 +1904,9 @@ p {
     }
 
     .our-story-p {
-        text-align: center !important;
+      
         padding-bottom: 15px;
+        font-size: 16px !important;
     }
    
     .paragraph h2 {

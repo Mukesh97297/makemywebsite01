@@ -4,7 +4,10 @@ import Photography from './Photography'
 import { useState } from 'react'
 function PhotographyPortfolio() {
     const [images, setImages] = useState(Photography)
-
+    // const [polor,setColor] = useState();
+    // const colorChange = () =>{
+    //     setColor(current => !current)
+    // } 
     const allItem = () => {
         const finalData = Photography.filter((value) => {
             return value;
@@ -42,10 +45,10 @@ function PhotographyPortfolio() {
                                 <button href="/" className='button All' onClick={allItem}>All</button>
                             </li>
                             <li>
-                                <button className='button Commercial' onClick={() => Data("Commercial")}>Commercial</button>
+                                <button className='button Headshot/Portraits' onClick={() => Data("Headshot")}>Headshot/Portraits</button>
                             </li>
                             <li>
-                                <button className='button Headshot/Portraits' onClick={() => Data("Headshot")}>Headshot/Portraits</button>
+                                <button className='button Commercial' onClick={() => Data("Commercial")}>Commercial</button>
                             </li>
                             <li>
                                 <button className='button Products' onClick={() => Data("Product")}>Products</button>

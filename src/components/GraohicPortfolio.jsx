@@ -41,10 +41,10 @@ function GraohicPortfolio() {
                                 <button href="/" className='button All' onClick={allItem}>All</button>
                             </li>
                             <li>
-                                <button className='button Business Card' onClick={() => Data("Card")}>Business Card</button>
+                                <button className='button Logo' onClick={() => Data("Logo")}>Logo</button>
                             </li>
                             <li>
-                                <button className='button Logo' onClick={() => Data("Logo")}>Logo</button>
+                                <button className='button Business Card' onClick={() => Data("Card")}>Business Card</button>
                             </li>
                             <li>
                                 <button className='button Brochure' onClick={() => Data("Brochure")}>Brochure</button>

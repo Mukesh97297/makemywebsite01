@@ -1,16 +1,30 @@
 @media only screen and (max-width:767px) {
-    .PhotoGraphy p,.VedioGraphy p{
+
+    .PhotoGraphy p,
+    .VedioGraphy p {
         font-size: 16px !important;
     }
+
+    .photovedio {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding: 20px 0px 20px 0px !important;
+    }
+    .photovedio .container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
 }
-.PhotoGraphy p{
+
+.PhotoGraphy p {
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
 }
-.VedioGraphy p{
+
+.VedioGraphy p {
     color: #FFFFFF;
     font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;

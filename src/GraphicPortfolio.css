@@ -4,6 +4,9 @@
         margin-top: 50px !important;
        margin-bottom: 50px !important;
     }
+    .filter-links li button{
+        font-size: 16px !important;
+    }
 }
 
 button:hover {

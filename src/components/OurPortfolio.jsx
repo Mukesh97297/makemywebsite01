@@ -22,7 +22,7 @@ function OurPortfolio() {
                 </div>
             </div>
             <section className='main'>
-                <div className='container'>
+                <div className='container our-extensive'>
                     <div className='ourportfolio'>
                         <div className='ourportfolio-child'>
                             <div className='heading-pragraph'>
