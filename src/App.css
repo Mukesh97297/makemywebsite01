@@ -37,9 +37,7 @@ p {
     .home-main-div {
         padding-top: 140px !important;
     }
-    .dropdown-menu{
-        width: 12em !important;
-    }
+   
 }
 
 @media only screen and (max-width:1024px) {
@@ -395,7 +393,8 @@ p {
     }
 
     .about_section-3 {
-        padding: 10PX;
+        padding: 30px 10px 25px 10px;
+        
     }
 
     .web-design-btn-col {
