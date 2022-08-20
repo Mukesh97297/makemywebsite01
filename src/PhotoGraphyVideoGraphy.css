@@ -1,19 +1,25 @@
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:820px) {
+  
+    .photovedio{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding: 30px 15px 30px 15px !important;
+    } 
 
+}
+@media only screen and (max-width:767px) {
     .PhotoGraphy p,
     .VedioGraphy p {
         font-size: 16px !important;
-    }
-
-    .photovedio {
-        margin-top: 0px !important;
-        margin-bottom: 0px !important;
-        padding: 20px 0px 20px 0px !important;
     }
     .photovedio .container{
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+}
+.photovedio{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .PhotoGraphy p {

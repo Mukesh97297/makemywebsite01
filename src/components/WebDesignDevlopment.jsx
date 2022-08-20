@@ -30,7 +30,7 @@ function WebDesignDevlopment() {
             </div>
           </div>
         </div>
-        <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
+        <div className='container-fluid technologiacal'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-7 animated-section'>
@@ -60,7 +60,7 @@ function WebDesignDevlopment() {
           </div>
           <div className='row design-provider'>
             <p >A brilliant website consists of three main things, the best user experience, easy navigation, and a responsive design compatible with all devices, along with overall consistency in typography, graphics, and colours. </p>
-            <p className='special' >The prime area of focus for us whilst designing and developing any website for you is its usability and creating functionality that suits your business needs.  </p>
+            <p className='special mb-5' >The prime area of focus for us whilst designing and developing any website for you is its usability and creating functionality that suits your business needs.  </p>
              <div className='row provider'>
                <h3>Why Make My Website is your go-to web design provider</h3>
              </div>

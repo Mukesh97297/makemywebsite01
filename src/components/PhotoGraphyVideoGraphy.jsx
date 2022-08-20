@@ -37,7 +37,7 @@ function PhotoGraphyVideoGraphy() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid' style={{ backgroundColor: "black" }}>
+            <div className='container-fluid' style={{ backgroundColor: "#222222" }}>
                 <div className='container'>
                     <div className='row VedioGraphy py-5' >
                         <p>We are your local creative team with one of the largest photo studios in the western suburbs of Melbourne, in Truganina.</p>

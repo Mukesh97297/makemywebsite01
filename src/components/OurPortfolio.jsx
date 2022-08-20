@@ -4,6 +4,7 @@ import design from '../images/web-design-portfolio-1.png'
 import graphic from '../images/graphic-portfolio.png'
 import photography from '../images/photography-portfolio.png'
 import CaseStudy from '../images/case-studies.png'
+import { Link } from 'react-router-dom'
 function OurPortfolio() {
     return (
         <div>
@@ -52,20 +53,25 @@ function OurPortfolio() {
                                     The team at Make My Website has evolved with technology and continues to build systems that work!
                                 </div>
                                 <div>
-                                    <a href="/" className='btn btn-dark View-portfolio' role='button'><span>View Portfolio</span></a>
+                                    <Link to="/WebDesignPortfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+
                                 </div>
                             </div>
 
                         </div>
-                        <div className='col-md-6'>
-                            <img src={design} alt="" className='img-fluid' />
+                        <div className='col-md-6 port-col'>
+                            <div className='row justify-content-center half-img-part'>
+                                <img src={design} alt="" className='img-fluid' />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className='container portfolio-items'>
+                <div className='container portfolio-items' style={{background:"#E8E8E86B"}}>
                     <div className='row'>
-                        <div className='col-md-6'>
-                            <img src={graphic} alt="" className='img-responsive' height="400px" />
+                        <div className='col-md-6 '>
+                            <div className='row justify-content-center half-img-part'>
+                                <img src={graphic} alt="" className='img-responsive' height="400px" />
+                            </div>
                         </div>
                         <div className='col-md-6 port-col'>
                             <div className='Portfolio-design-child'>
@@ -80,7 +86,8 @@ function OurPortfolio() {
                                     best pieces for you to have a look at!
                                 </div>
                                 <div>
-                                    <a href="/" className='btn btn-dark View-portfolio' role='button'><span>View Portfolio</span></a>
+                                    <Link to="/Graphicportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+
                                 </div>
                             </div>
                         </div>
@@ -101,20 +108,24 @@ function OurPortfolio() {
                                     we have carried out professional photography and drone shoots to amp up their branding.
                                 </div>
                                 <div>
-                                    <a href="/" className='btn btn-dark View-portfolio' role='button'><span>View Portfolio</span></a>
+                                    <Link to="/phtographyportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                 </div>
                             </div>
 
                         </div>
-                        <div className='col-md-6'>
-                            <img src={photography} alt="" className='img-fluid' />
+                        <div className='col-md-6 port-col'>
+                            <div className='row justify-content-center half-img-part'>
+                                <img src={photography} alt="" className='img-fluid' />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className='container portfolio-items'>
+                <div className='container portfolio-items' style={{background:"#E8E8E86B"}}>
                     <div className='row'>
-                        <div className='col-md-6'>
-                            <img src={CaseStudy} alt="" className='img-fluid' />
+                        <div className='col-md-6 port-col'>
+                            <div className='row justify-content-center half-img-part'>
+                                <img src={CaseStudy} alt="" className='img-fluid' />
+                            </div>
                         </div>
                         <div className='col-md-6 port-col'>
                             <div className='Portfolio-design-child'>
@@ -129,7 +140,7 @@ function OurPortfolio() {
                                     of work we deliver.
                                 </div>
                                 <div>
-                                    <a href="/" className='btn btn-dark View-portfolio' role='button'><span>View Portfolio</span></a>
+                                    <Link to="/Casestudy" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                 </div>
                             </div>
 
