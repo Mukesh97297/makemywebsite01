@@ -27,7 +27,7 @@ function DigitalMarkeing() {
             <div className='container-fluid marketing-section'>
                 <div className='container digital-market'>
                     <div className='row '>
-                        <div className='col-lg-7 animated-section'>
+                        <div className='col-md-7 animated-section'>
                             <p>Even the best of websites without a good reach, drop bland into the market since it gets no
                                 audience to avail the purposes it is built for. By marketing digitally, as a business owner,
                                 you reach out to the right demographic thus making conversion a much faster and simpler
@@ -41,7 +41,7 @@ function DigitalMarkeing() {
                                 <a href='/'>Digital marketing</a> is nothing but the umbrella term for marketing methodologies
                                 used to grow your business on the web. </p>
                         </div>
-                        <div className='col-lg-5'>
+                        <div className='col-md-5'>
                             <Lottie animationData={Digitalmarketing} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
                         </div>
                     </div>
@@ -63,23 +63,23 @@ function DigitalMarkeing() {
                 <div className='container digital-explore'>
                     <div className='row justify-content-center DigitalMarkeing'>
                         <span>Explore an array of services that we offer under Digital Marketing,
-                            and reach <br /> out to us for a quick chat- let’s develop a growth strategy for you.</span>
+                            and reach out to us for a quick chat- let’s develop a growth strategy for you.</span>
                     </div>
                     <div className='row'>
-                        <div className='col-lg-3 seo'>
-                            <img src={seo} alt="" height='150' width='150' />
+                        <div className='col-md-3 seo'>
+                            <img src={seo} alt="" className='ngsgsg' />
                             <h5 className='py-4'><u>Search Engine Optimization</u></h5>
                         </div>
-                        <div className='col-lg-3 seo'>
-                            <img src={socialmedia} alt="" height='150' width='150' />
+                        <div className='col-md-3 seo'>
+                            <img src={socialmedia} alt="" className='ngsgsg' />
                             <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
-                        <div className='col-lg-3 seo'>
-                            <img src={content} alt="" height='150' width='150' />
+                        <div className='col-md-3 seo'>
+                            <img src={content} alt="" className='ngsgsg' />
                             <h5 className='py-4'><u>Content Marketing</u></h5>
                         </div>
-                        <div className='col-lg-3 seo'>
-                            <img src={ppc} alt="" height='150' width='150' />
+                        <div className='col-md-3 seo'>
+                            <img src={ppc} alt="" className='ngsgsg' />
                             <h5 className='py-4'><u>Google Ads & Pay Per Click</u></h5>
                         </div>
                     </div>

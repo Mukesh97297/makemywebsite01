@@ -2,7 +2,6 @@
    .branding-info{
     margin-top: 20px !important;
     margin-bottom: 20px !important;
-    padding: 0px 0px 0px 0px !important;
    }
    .branding-info p{
     font-size: 16px !important;
@@ -46,10 +45,31 @@
     padding: 0px 20px 0px 20px !important;
    } */
 }
+@media only screen and (max-width:1024px) {
+    .branding-top-container-fluid{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .Graphic-design{
+        padding: 10% 0% 5% 0% !important;
+    }
+    .graphic-design-part-container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .brand-wordplay{
+        padding: 0px !important;
+    }
+    .graphic{
+        padding: 5% 0% 5% 0% !important;
+    }
+   
+}
 
 .branding-info{
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 10px;
 }
 .branding-info p {
     color: #545454;

@@ -4,19 +4,34 @@
         margin-top: 40px !important;
         margin-bottom: 40px !important;
     }
-}
-
-@media only screen and (max-width:767px) {
-    .digital-market {
-        margin-top: 30px !important;
-        margin-bottom: 30px !important;
-        /* padding: 0px 15px 0px 15px !important; */
+    .marketing-section {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
     }
-
-    .digital-market .container {
+    .digital-market {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .DigitalMarkeing {
+        padding: 0% 15% 0% 15% !important;
+    }
+    .DigitalMarkeing span{
+        font-size: 1.5rem !important;
+        margin-bottom: 20px !important;
+    }
+    .ngsgsg{
+        height: auto !important;
+        width: 100px !important;
+        max-width: 100% !important;
+    }
+    .digital-explore {
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
 
     .animated-section {
         padding-left: 0px !important;
@@ -31,25 +46,20 @@
         font-size: 16px !important;
     }
 
-    .marketing-section {
-        margin-top: 0px !important;
-    }
+   
 
     /* .Digitalmarketing-p{
         padding: 0px 20px 0px 20px !important;
     } */
-    .DigitalMarkeing span {
-        font-size: 18px !important;
-        margin-bottom: 20px;
-    }
+   
 
     .seo h5 {
         font-size: 18px !important;
     }
 
-    .digital-explore {
+    /* .digital-explore {
         padding: 50px 0px 50px 0px !important;
-    }
+    } */
 }
 
 .marketing-section {
@@ -137,8 +147,14 @@
 
 .DigitalMarkeing span {
     margin-bottom: 20px;
+
 }
 
 .DigitalMarkeing {
     margin-bottom: 20px;
+    padding: 0% 15% 0% 15%;
+}
+.ngsgsg{
+    height: 150px;
+    width: 150px;
 }

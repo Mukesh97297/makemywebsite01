@@ -21,7 +21,7 @@ function Branding() {
                     </div>
                 </div>
             </div>
-            <div className='container-fluid'>
+            <div className='container-fluid branding-top-container-fluid'>
                 <div className='container'>
                     <div className='row branding-info'>
                         <p>Branding in itself takes a lot of understanding of brand values and the identity you want the world to
@@ -42,7 +42,7 @@ function Branding() {
                 </div>
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
-                <div className='container'>
+                <div className='container graphic-design-part-container'>
                     <div className='row'>
                         <div className='col-lg-7 Graphic-design'>
                             <h3 >Graphic Design</h3>

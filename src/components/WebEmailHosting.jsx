@@ -29,7 +29,7 @@ function WebEmailHosting() {
                 </div>
             </div>
             <div className='container-fluid' style={{ backgroundColor: "#E8E8E86B" }}>
-                <div className='container'>
+                <div className='container WebHosting-top-container'>
                     <div className='row'>
                         <div className='col-lg-7 WebHosting'>
                             <h3>Web Hosting Plans</h3>
@@ -54,7 +54,7 @@ function WebEmailHosting() {
                 </div>
             </div>
             <div className='container-fluid'>
-                <div className='container'>
+                <div className='container Email-Hosting-top-container'>
                     <div className='row Email-Hosting'>
                         <h3>Email Hosting</h3>
                         <p >Our services for email hosting cover most of your mail management needs by offering round the clock technical support and email management that prevails over all programmes and versions of software. Usually, we recommend using Google workspace (formerly known as G Suite) or Microsoft for professional emails, and can set up those for you as per your requirements. </p>

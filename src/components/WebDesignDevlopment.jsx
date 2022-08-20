@@ -39,14 +39,16 @@ function WebDesignDevlopment() {
                 <p >We understand the nitty-gritty of the online space and work towards our vision to provide you with a stunning website along with a user-friendly experience that radiates ease of use, and professionalism. We intertwine flexibility and customization to provide you with services tailored to your business. To put it simply, our approach has always been customer-centric, and solution-oriented and being problem-solvers for years now, we have mastered the art of web design.</p>
               </div>
               <div className='col-lg-5 animated-section1'>
-                <Lottie animationData={webDesign} loop={true} autoplay={true} className="lottiesections"/>
+                <Lottie animationData={webDesign} loop={true} autoplay={true} className="lottiesections" />
               </div>
             </div>
           </div>
         </div>
         <div className='container' >
           <div className='row online-presence' >
-            <h3>Design & development to stimulate your online presence</h3>
+            <div className='col-lg-12'>
+              <h3>Design & development to stimulate your online presence</h3>
+            </div>
           </div>
           <div className='row'>
             <div className='col-lg-6 Design-creativity' >
@@ -55,15 +57,17 @@ function WebDesignDevlopment() {
               <p >Whatever your requirement may be, we deliver the best and ensure constant transparency throughout the project.</p>
             </div>
             <div className='col-lg-6' >
-              <img src={webdesign} alt="" className='img-fluid' />
+              <div className='row justify-content-center'>
+                <img src={webdesign} alt="" className='img-fluid' />
+              </div>
             </div>
           </div>
           <div className='row design-provider'>
             <p >A brilliant website consists of three main things, the best user experience, easy navigation, and a responsive design compatible with all devices, along with overall consistency in typography, graphics, and colours. </p>
             <p className='special mb-5' >The prime area of focus for us whilst designing and developing any website for you is its usability and creating functionality that suits your business needs.  </p>
-             <div className='row provider'>
-               <h3>Why Make My Website is your go-to web design provider</h3>
-             </div>
+            <div className='row provider'>
+              <h3>Why Make My Website is your go-to web design provider</h3>
+            </div>
             <p className='d-flex'><i className="fa-solid fa-circle-check design-provider-i pt-1"></i> <span className='ml-2'>We wore our creative hats years ago and decided to never get rid of them.</span></p>
             <p className='d-flex'><i className="fa-solid fa-circle-check design-provider-i pt-1"></i><span className='ml-2'> We maintain constant communication to understand your exact needs and design preferences.</span></p>
             <p className='d-flex'><i className="fa-solid fa-circle-check design-provider-i pt-1"></i> <span className='ml-2'>Our specialized team manages projects seamlessly- one of the many reasons why we can deliver more websites.</span></p>
