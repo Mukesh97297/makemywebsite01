@@ -40,7 +40,7 @@ function OurPortfolio() {
                     </div>
                 </div>
                 <div className='container portfolio-items'>
-                    <div className='row flex-column-reverse flex-lg-row'>
+                    <div className='row flex-column-reverse flex-md-row'>
                         <div className='col-md-6 port-col'>
                             <div className='Portfolio-design-child'>
                                 <div>
@@ -87,7 +87,7 @@ function OurPortfolio() {
                     </div>
                 </div>
                 <div className='container portfolio-items'>
-                    <div className='row flex-column-reverse flex-lg-row'>
+                    <div className='row flex-column-reverse flex-md-row'>
                         <div className='col-md-6 port-col'>
                             <div className='Portfolio-design-child'>
                                 <div>
