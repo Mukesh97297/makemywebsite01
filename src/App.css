@@ -1880,7 +1880,15 @@ p {
        padding-top: 20% !important;
        padding-left: 0px !important;
     }
-  
+    .main-heading h2{
+        font-size: 3rem !important;
+    }
+    .our-story{
+        font-size: 3rem !important;
+    }
+    .column1{
+        padding-bottom: 6% !important;
+     }
 }
 
 @media only screen and (max-width:767px) {
@@ -1939,10 +1947,11 @@ p {
         padding-top: 50% !important;
         padding-left: 0px !important;
      }
+    
 }
 
 .what-first {
-    padding: 3% 0% 0% 0%;
+    padding: 3% 0% 3% 0%;
 }
 
 .story-ours {

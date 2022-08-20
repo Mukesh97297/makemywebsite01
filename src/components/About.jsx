@@ -49,7 +49,7 @@ function About() {
                             Our Story
                         </h2>
                     </div>
-                    <div className='row justify-content-center what-first'>
+                    <div className='row justify-content-center flex-column-reverse flex-lg-row what-first'>
                         <div className='col-lg-6 column' >
                             <div className='our-story-p'>
                                 What first started as an idea has now transformed into a vision and as we continue to expand our horizons- our commitment towards providing high standards of service has just gotten stronger.
@@ -59,8 +59,10 @@ function About() {
                                 businesses in this digital space. We are ready to take up any challenge and strive to provide the best customer service.
                             </div>
                         </div>
-                        <div className='col-lg-6 column' >
-                            <img src={storyoffice} alt="our-story" className='img-fluid' />
+                        <div className='col-lg-6 column column1' >
+                           <div className='row justify-content-center'>
+                           <img src={storyoffice} alt="our-story" className='img-fluid' />
+                           </div>
                         </div>
                     </div>
                 </div>

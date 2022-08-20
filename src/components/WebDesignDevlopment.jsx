@@ -38,8 +38,8 @@ function WebDesignDevlopment() {
                 <p >An impressive design is synonymous with a brilliant mind that harnesses innovation beyond imagination. At Make My Website, we boast of brilliance.</p>
                 <p >We understand the nitty-gritty of the online space and work towards our vision to provide you with a stunning website along with a user-friendly experience that radiates ease of use, and professionalism. We intertwine flexibility and customization to provide you with services tailored to your business. To put it simply, our approach has always been customer-centric, and solution-oriented and being problem-solvers for years now, we have mastered the art of web design.</p>
               </div>
-              <div className='col-lg-5'>
-                <Lottie animationData={webDesign} loop={true} autoplay={true} style={{ height: "100%", width: "100%" }} />
+              <div className='col-lg-5 animated-section1'>
+                <Lottie animationData={webDesign} loop={true} autoplay={true} className="lottiesections"/>
               </div>
             </div>
           </div>
