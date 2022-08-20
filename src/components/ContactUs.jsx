@@ -70,11 +70,11 @@ function ContactUs() {
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="email" className=''>Email</label>
-                                    <input type="Email" className='form-control' />
+                                    <input type="email" className='form-control' required />
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="number" className=''>Phone</label>
-                                    <input type="Phone" className='form-control' />
+                                    <input type="number" minLength={10} className='form-control' />
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="sub" className=''>Subject</label>

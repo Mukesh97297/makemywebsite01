@@ -31,23 +31,23 @@ function CustomerCare() {
                     <form>
                         <div className='row justify-content-center  input-fields'>
                             <div className='col-md-6 input-fields1'>
-                                    <label for="inputEmail4" className='form-span'>First Name</label>
+                                    <label for="inputEmail4" className='form-span'>First Name<span className='required'>*</span></label>
                                     <input type="text" className="form-control" required />
                             </div>
                             <div className='col-md-6 input-fields1'>                               
-                                    <label for="inputEmail4" className='form-span'>Last Name</label>
+                                    <label for="inputEmail4" className='form-span'>Last Name<span className='required'>*</span></label>
                                     <input type="text" className="form-control" required />                             
                             </div>
                             <div className='col-md-6 input-fields1'>                            
-                                    <label for="inputEmail4" className='form-span'>Phone Number</label>
+                                    <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
                                     <input type="text" className="form-control" required />                            
                             </div>
                             <div className='col-md-6 input-fields1'>                           
-                                    <label for="inputEmail4" className='form-span'>Email</label>
+                                    <label for="inputEmail4" className='form-span'>Email<span className='required'>*</span></label>
                                     <input type="text" className="form-control" required />                              
                             </div>
                             <div className='col-md-12 input-fields1'>                               
-                                    <label for="inputEmail4" className='form-span'>Issue</label>
+                                    <label for="inputEmail4" className='form-span'>Issue<span className='required'>*</span></label>
                                     <input type="text" className="form-control" required />
                             </div>
                             <div className='col-md-12 input-fields1'>

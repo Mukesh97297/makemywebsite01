@@ -114,3 +114,8 @@
     font-weight: 600;
     line-height: 1.3em;
 }
+.input-fields1 label span{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: red;
+}
