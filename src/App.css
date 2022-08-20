@@ -71,11 +71,9 @@ p {
         padding: 0% 5% 0% 5%;
         max-width: 5000px !important;
     }
-
 }
 
 @media only screen and (max-width:991px) {
-
     #navbar .container {
         padding: 15px;
         padding-left: 15px;
@@ -96,7 +94,7 @@ p {
 }
 
 .home-vedio {
-    height: 100%;
+    
     width: 100%;
     background-size: cover;
 }
@@ -178,7 +176,7 @@ p {
 .dropdown-item {
     line-height: 20px;
     align-items: center;
-    font-family: 'Josefin Sans', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 0.9vw;
     font-weight: 400;
     color: #000000;
