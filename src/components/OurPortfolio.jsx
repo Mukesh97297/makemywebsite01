@@ -12,7 +12,7 @@ function OurPortfolio() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Our Portfolio 
+                            Our Portfolio
                         </h1>
                         <div className='red-devider-top'></div>
                         <h2>
@@ -67,28 +67,30 @@ function OurPortfolio() {
                         </div>
                     </div>
                 </div>
-                <div className='container portfolio-items' style={{background:"#E8E8E86B"}}>
-                    <div className='row'>
-                        <div className='col-md-6 '>
-                            <div className='row justify-content-center half-img-part'>
-                                <img src={graphic} alt="" className='img-responsive' height="400px" />
+                <div className='container-fluid' style={{ background: "#E8E8E86B", }}>
+                    <div className='container portfolio-items'>
+                        <div className='row'>
+                            <div className='col-md-6 '>
+                                <div className='row justify-content-center half-img-part'>
+                                    <img src={graphic} alt="" className='img-responsive' height="400px" />
+                                </div>
                             </div>
-                        </div>
-                        <div className='col-md-6 port-col'>
-                            <div className='Portfolio-design-child'>
-                                <div>
-                                    <h3>Graphic Portfolio</h3>
-                                </div>
-                                <div>
-                                    Our extensive graphic portfolio is built on creativity and our vision to not only
-                                    create designs and logos but an impact that speaks volumes. We’ve designed logos
-                                    for brands from various industries and domains, and have always ensured that every
-                                    design aligns with their branding. Our graphic designers have put together their
-                                    best pieces for you to have a look at!
-                                </div>
-                                <div>
-                                    <Link to="/Graphicportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+                            <div className='col-md-6 port-col'>
+                                <div className='Portfolio-design-child'>
+                                    <div>
+                                        <h3>Graphic Portfolio</h3>
+                                    </div>
+                                    <div>
+                                        Our extensive graphic portfolio is built on creativity and our vision to not only
+                                        create designs and logos but an impact that speaks volumes. We’ve designed logos
+                                        for brands from various industries and domains, and have always ensured that every
+                                        design aligns with their branding. Our graphic designers have put together their
+                                        best pieces for you to have a look at!
+                                    </div>
+                                    <div>
+                                        <Link to="/Graphicportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -121,35 +123,34 @@ function OurPortfolio() {
                         </div>
                     </div>
                 </div>
-                <div className='container portfolio-items' style={{background:"#E8E8E86B"}}>
-                    <div className='row'>
-                        <div className='col-md-6 port-col'>
-                            <div className='row justify-content-center half-img-part'>
-                                <img src={CaseStudy} alt="" className='img-fluid' />
-                            </div>
-                        </div>
-                        <div className='col-md-6 port-col'>
-                            <div className='Portfolio-design-child'>
-                                <div>
-                                    <h3>Case Studies</h3>
-                                </div>
-                                <div>
-                                    We’re here to dive deep into what it takes to make every project a success. At Make My Website,
-                                    we believe in stimulating the growth of businesses by means of our expertise and the efforts we
-                                    put in at every step. We’ve analyzed some of our prestigious projects to have some insights for
-                                    ourselves and our potential clients to develop an understanding of our approach, and the quality
-                                    of work we deliver.
-                                </div>
-                                <div>
-                                    <Link to="/Casestudy" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+                <div className='container-fluid' style={{ background: "#E8E8E86B",marginBottom:"0px" }}>
+                    <div className='container portfolio-items' >
+                        <div className='row'>
+                            <div className='col-md-6 port-col'>
+                                <div className='row justify-content-center half-img-part'>
+                                    <img src={CaseStudy} alt="" className='img-fluid' />
                                 </div>
                             </div>
-
+                            <div className='col-md-6 port-col'>
+                                <div className='Portfolio-design-child'>
+                                    <div>
+                                        <h3>Case Studies</h3>
+                                    </div>
+                                    <div>
+                                        We’re here to dive deep into what it takes to make every project a success. At Make My Website,
+                                        we believe in stimulating the growth of businesses by means of our expertise and the efforts we
+                                        put in at every step. We’ve analyzed some of our prestigious projects to have some insights for
+                                        ourselves and our potential clients to develop an understanding of our approach, and the quality
+                                        of work we deliver.
+                                    </div>
+                                    <div>
+                                        <Link to="/Casestudy" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
-
             </section>
         </div>
     )
