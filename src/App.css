@@ -422,7 +422,7 @@ p {
 
     .about_section {
         background-color: #222222;
-        padding: 8% 0% 5% 0% !important;
+        padding: 5% 0% 5% 0% !important;
     }
 }
 
@@ -800,6 +800,9 @@ p {
         justify-content: center;
         padding: 25px;
     }
+    .service-h2{
+        text-align: center;
+    }
 
     .service-paragraph {
         text-align: center;
@@ -822,7 +825,6 @@ p {
     }
     .service-h2 {
         font-size: 26px !important;
-        text-align: center;
     }
 }
 
