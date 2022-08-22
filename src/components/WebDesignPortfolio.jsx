@@ -23,10 +23,11 @@ function WebDesignPortfolio() {
             <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Web Design Portfolio <hr className='hr'></hr>
+                            Web Design Portfolio
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            A Vast Portfolio Of Websites That <br /> Showcase Our Credibility
+                            A Vast Portfolio Of Websites That Showcase Our Credibility
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

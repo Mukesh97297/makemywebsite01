@@ -7,10 +7,11 @@ function Casestudy() {
             <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Case Studies<hr className='hr'></hr>
+                            Case Studies
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2 >
-                            A Detailed Insight On Our Capabilities <br /> And Associations
+                            A Detailed Insight On Our Capabilities And Associations
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

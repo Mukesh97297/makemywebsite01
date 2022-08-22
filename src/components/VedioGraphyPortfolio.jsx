@@ -9,8 +9,8 @@ function VedioGraphyPortfolio() {
           <div className="col-md-6 paragraph">
             <h1>
               Video Portfolio
-              <hr className='hr'></hr>
             </h1>
+            <div className='red-devider-top'></div>
             <h2>
               Our Finest Pieces Of Work Right Here
             </h2>

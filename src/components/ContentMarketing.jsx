@@ -11,10 +11,10 @@ function ContentMarketing() {
                     <div className="col-md-6 paragraph">
                         <h1>
                             Content Marketing
-                            <hr className='hr'></hr>
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Strengthening The Backbone Of All <br /> Marketing Endeavours
+                            Strengthening The Backbone Of All Marketing Endeavours
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

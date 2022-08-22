@@ -12,10 +12,11 @@ function WebDesignDevlopment() {
         <div className='row paragraph1'>
           <div className="col-md-6 paragraph">
             <h1>
-              Web Design & Development <hr className='hr'></hr>
+              Web Design & Development
             </h1>
+            <div className='red-devider-top'></div>
             <h2>
-              Building Future-Proof Designs For <br /> Companies That Envision Growth.
+              Building Future-Proof Designs For Companies That Envision Growth.
             </h2>
             <span className='shape-about-1'></span>
             <span className='shape-about-2'></span>

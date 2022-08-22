@@ -12,10 +12,11 @@ function OurPortfolio() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Our Portfolio <hr className='hr'></hr>
+                            Our Portfolio 
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Showcasing Our Best Work In Various <br /> Domains
+                            Showcasing Our Best Work In Various Domains
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

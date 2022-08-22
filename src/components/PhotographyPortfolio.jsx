@@ -27,10 +27,10 @@ function PhotographyPortfolio() {
                     <div className="col-md-6 paragraph">
                         <h1>
                             Photography Portfolio
-                            <hr className='hr'></hr>
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Glimpses Of Commercial Photoshoots <br /> For Our Esteemed Clients
+                            Glimpses Of Commercial Photoshoots For Our Esteemed Clients
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

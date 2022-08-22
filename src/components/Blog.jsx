@@ -29,10 +29,10 @@ function Blog() {
                     <div className="col-md-6 paragraph">
                         <h1>
                             Blog
-                            <hr className='hr'></hr>
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Adding Value To Your Business By <br /> Spilling Facts, And Sharing Knowledge
+                            Adding Value To Your Business By Spilling Facts, And Sharing Knowledge
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

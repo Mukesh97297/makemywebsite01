@@ -23,10 +23,10 @@ function GraohicPortfolio() {
                     <div className="col-md-6 paragraph">
                         <h1>
                             Graphic Portfolio
-                            <hr className='hr'></hr>
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2 >
-                            Balancing Art & Technology To Create <br /> Modern & Contemporary Branding <br /> Collateral
+                            Balancing Art & Technology To Create Modern & Contemporary Branding <br /> Collateral
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

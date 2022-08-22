@@ -35,7 +35,7 @@ p {
 
 @media only screen and (max-width:768px) {
     .home-main-div {
-        padding-top: 140px !important;
+        padding-top: 115px !important;
     }
    
 }
@@ -75,7 +75,7 @@ p {
 
 @media only screen and (max-width:991px) {
     #navbar .container {
-        padding: 15px;
+    
         padding-left: 15px;
     }
 
@@ -198,7 +198,7 @@ p {
 @media only screen and (max-width:991px) {
 
     #navbar .container {
-        padding: 15px;
+      
         padding-left: 15px;
     }
 
@@ -260,8 +260,8 @@ p {
 
 /*home about */
 .paragraph1 .paragraph {
-    flex: 0 0 70% !important;
-    max-width: 70% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
 }
 
 @media only screen and (max-width:1024px) {
@@ -1684,7 +1684,7 @@ p {
 
     .shape-about-1 {
         bottom: -106px;
-        right: -49%;
+        right: -40% !important;
     }
 
     .shape-about-2 {
@@ -1720,12 +1720,12 @@ p {
     }
 
     .shape-about-1 {
-        bottom: -90px !important;
-        right: -55% !important;
+        bottom: -115px !important;
+        right: -50% !important;
     }
 
     .shape-about-2 {
-        bottom: -92px !important;
+        bottom: -115px !important;
         right: -268px !important;
     }
 }
@@ -1781,7 +1781,7 @@ p {
 .shape-about-1 {
     position: absolute;
     bottom: -106px;
-    right: -49%;
+    right: -110%;
     width: 255px;
     height: 236px;
     border-style: solid;
@@ -1827,7 +1827,7 @@ p {
 .shape-about-2 {
     position: absolute;
     bottom: -87px;
-    right: -49%;
+    right: -110%;
     height: 185px;
     width: 185px;
     background-color: var(--moniz-primary, #ed1c24);
@@ -1991,13 +1991,12 @@ p {
     color: white;
 }
 
-.hr {
+.red-devider-top{
+    border-top: 1px solid red;
     width: 8%;
-    background-color: red;
-    text-align: left;
-    padding: 0.5px;
-    margin-left: 0px;
-    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .paragraph h2 {

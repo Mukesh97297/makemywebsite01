@@ -14,10 +14,11 @@ function DigitalMarkeing() {
             <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Digital Marketing <hr className='hr'></hr>
+                            Digital Marketing 
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Cutting-Edge Strategies To Level Up <br /> Businesses Digitally
+                            Cutting-Edge Strategies To Level Up Businesses Digitally
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

@@ -11,10 +11,11 @@ function Branding() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Branding <hr className='hr'></hr>
+                            Branding
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Designs That Communicate The <br /> Essence Of Your Brand
+                            Designs That Communicate The Essence Of Your Brand
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

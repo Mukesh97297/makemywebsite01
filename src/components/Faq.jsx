@@ -8,11 +8,11 @@ function Faq() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            FAQ <hr className='hr'></hr>
+                            FAQ
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Addressing Your Queries,<br />
-                            One Question At A Time.
+                            Addressing Your Queries,One Question At A Time.
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
@@ -238,7 +238,7 @@ function Faq() {
                 </div>
             </section>
             <section>
-                <ServiceDelivery/>
+                <ServiceDelivery />
             </section>
         </div>
     )

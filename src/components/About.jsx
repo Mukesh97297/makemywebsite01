@@ -12,8 +12,9 @@ function About() {
             <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            About Us <hr className='hr'></hr>
+                            About Us
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
                             A Team Of Experts United By The Passion For
                             Technology-Led Solutions

@@ -10,10 +10,11 @@ function CustomerCare() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Customer Care<hr className='hr'></hr>
+                            Customer Care
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            An End-To-End Service Aimed At <br /> Managing Your Tech-Driven Platforms
+                            An End-To-End Service Aimed At Managing Your Tech-Driven Platforms
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

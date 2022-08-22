@@ -10,10 +10,11 @@ function ContactUs() {
                 <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
-                            Contact Us <hr className='hr'></hr>
+                            Contact Us 
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            Take Your First Step Towards Creating <br /> An Impact
+                            Take Your First Step Towards Creating An Impact
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

@@ -19,10 +19,11 @@ function Services() {
                 <div className='row paragraph1'>
                     <div className="col-lg-6 paragraph">
                         <h1>
-                            Our Services <hr className='hr'></hr>
+                            Our Services
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2>
-                            A Full-Service Digital Agency To Help <br /> You Grow Online.
+                            A Full-Service Digital Agency To Help You Grow Online.
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

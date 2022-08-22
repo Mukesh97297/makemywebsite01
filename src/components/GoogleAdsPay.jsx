@@ -10,10 +10,10 @@ function GoogleAdsPay() {
           <div className="col-md-6 paragraph">
             <h1>
               Google Ads & Pay Per Click
-              <hr className='hr'></hr>
             </h1>
+            <div className='red-devider-top'></div>
             <h2>
-              Working Meticulously To Get You A <br /> Return On Every Dollar You Spend
+              Working Meticulously To Get You A Return On Every Dollar You Spend
             </h2>
             <span className='shape-about-1'></span>
             <span className='shape-about-2'></span>

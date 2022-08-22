@@ -10,10 +10,10 @@ function SearchEngineOptimization() {
                     <div className="col-md-6 paragraph">
                         <h1>
                             Search Engine Optimization
-                            <hr className='hr'></hr>
                         </h1>
+                        <div className='red-devider-top'></div>
                         <h2 className='mb-2'>
-                            An Amalgamation Of Consistency And <br /> Knowledge To Enhance Your Online <br /> Presence
+                            An Amalgamation Of Consistency And Knowledge To Enhance Your Online <br /> Presence
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
