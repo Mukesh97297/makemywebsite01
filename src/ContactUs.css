@@ -72,7 +72,7 @@
     font-size: 32px;
 }
 .Contact-us-submit{
-    background-color: #222222;
+    background-color: #222222 !important;
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-color: #7A7A7A;
@@ -85,9 +85,11 @@
     line-height: 28px;
     width: 100%;
     border-radius: 0px 0px 0px 0px; 
+    color: white !important;
 }
 .Contact-us-submit:hover{
-    background-color: red;
+    background-color: #ED1C24;
+    text-decoration: none;
 }
 .divider{
     display: flex;
@@ -147,6 +149,8 @@
 }
 .ContactUs-col-white{
     background-color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .ContactUs-col-right{
     align-content: flex-start;
@@ -169,7 +173,6 @@
     text-align: center;
 }
 .contact-us-map h5{
-    font-family: "Montserrat", Sans-serif;
     font-size: 1.333rem;
     font-weight: 600;
     color: #222222;
@@ -177,7 +180,6 @@
 .contact-us-map p{
     margin-bottom: 10px;
     color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
@@ -200,7 +202,7 @@
 }
 .contact-form-input-list{
     align-items: center;
-    padding-right:0px ;
+    padding-left: 0px;
 }
 .contact-form-input-list label{
     cursor: pointer;

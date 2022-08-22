@@ -64,10 +64,11 @@ function ContactUs() {
                             <div className='contact-form-1 mb-5'>
                                 <a href="mailto:info@makemywebsite.com.au"><i className="fa-solid fa-envelope contact-envelope-i"></i> info@makemywebsite.com.au</a>
                             </div>
+                            <form>
                             <div className='row'>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="Name" className=''>Name</label>
-                                    <input type="Name" className='form-control' />
+                                    <input type="name" className='form-control' required />
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="email" className=''>Email</label>
@@ -75,20 +76,21 @@ function ContactUs() {
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="number" className=''>Phone</label>
-                                    <input type="number" minLength={10} className='form-control' />
+                                    <input type="number" className='form-control' required/>
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="sub" className=''>Subject</label>
-                                    <input type="text" className='form-control' />
+                                    <input type="text" className='form-control'  />
                                 </div>
                                 <div className='col-md-12 contact-form-input-list'>
                                     <label htmlFor="discription" className=''>Project Description or Message</label>
                                     <textarea type="text" className="form-control" style={{ height: "100px" }}></textarea>
                                 </div>
                                 <div className='col-md-4 pt-2 contact-form-input-list'>
-                                    <a href="/" className='btn btn-dark Contact-us-submit' role='button'>SUBMIT</a>
+                                    <input type="Submit" className='btn Contact-us-submit' value='Submit' />
                                 </div>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>

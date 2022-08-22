@@ -16,13 +16,13 @@ function Service() {
             <section className='Our-service'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-9'>
+                        <div className='col-md-6'>
                             <h2 className='service-h2'>Our Services</h2>
-                            <div className='service-paragraph'>Our focus is on designing stunning, professional, and optimised <br></br>
+                            <div className='service-paragraph'>Our focus is on designing stunning, professional, and optimised
                                 websites to help you meet your business goals and succeed online.
                             </div>
                         </div>
-                        <div className='col-md-3 service-btn mb-3'>
+                        <div className='col-md-6 service-btn mb-3'>
                             <NavLink to="/service" onClick={goToTop} className='btn viewbtn'>VIEW ALL SERVICES</NavLink>
                         </div>
                     </div>

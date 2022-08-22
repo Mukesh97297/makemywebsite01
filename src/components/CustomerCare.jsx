@@ -1,4 +1,3 @@
-import React from 'react'
 import '../CustomerCare.css'
 import Lottie from 'lottie-react'
 import support from '../animation/CustomerCare.json'
@@ -32,28 +31,28 @@ function CustomerCare() {
                     <form>
                         <div className='row justify-content-center  input-fields'>
                             <div className='col-md-6 input-fields1'>
-                                    <label for="inputEmail4" className='form-span'>First Name<span className='required'>*</span></label>
-                                    <input type="text" className="form-control" required />
+                                <label for="inputEmail4" className='form-span'>First Name<span className='required'>*</span></label>
+                                <input type="text" className="form-control" required />
                             </div>
-                            <div className='col-md-6 input-fields1'>                               
-                                    <label for="inputEmail4" className='form-span'>Last Name<span className='required'>*</span></label>
-                                    <input type="text" className="form-control" required />                             
+                            <div className='col-md-6 input-fields1'>
+                                <label for="inputEmail4" className='form-span'>Last Name<span className='required'>*</span></label>
+                                <input type="text" className="form-control" required />
                             </div>
-                            <div className='col-md-6 input-fields1'>                            
-                                    <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
-                                    <input type="text" className="form-control" required />                            
+                            <div className='col-md-6 input-fields1'>
+                                <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
+                                <input type="text" className="form-control" required />
                             </div>
-                            <div className='col-md-6 input-fields1'>                           
-                                    <label for="inputEmail4" className='form-span'>Email<span className='required'>*</span></label>
-                                    <input type="text" className="form-control" required />                              
-                            </div>
-                            <div className='col-md-12 input-fields1'>                               
-                                    <label for="inputEmail4" className='form-span'>Issue<span className='required'>*</span></label>
-                                    <input type="text" className="form-control" required />
+                            <div className='col-md-6 input-fields1'>
+                                <label for="inputEmail4" className='form-span'>Email<span className='required'>*</span></label>
+                                <input type="text" className="form-control" required />
                             </div>
                             <div className='col-md-12 input-fields1'>
-                                    <label for="inputEmail4" className='form-span'>Details</label>
-                                    <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
+                                <label for="inputEmail4" className='form-span'>Issue<span className='required'>*</span></label>
+                                <input type="text" className="form-control" required />
+                            </div>
+                            <div className='col-md-12 input-fields1'>
+                                <label for="inputEmail4" className='form-span'>Details</label>
+                                <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
                             </div>
                             <div className='col-md-12 input-fields1'>
                                 <input type="Submit" className='btn submit-btn' value='Submit' />
