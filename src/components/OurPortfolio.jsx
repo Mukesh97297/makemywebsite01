@@ -6,6 +6,11 @@ import photography from '../images/photography-portfolio.png'
 import CaseStudy from '../images/case-studies.png'
 import { Link } from 'react-router-dom'
 function OurPortfolio() {
+    const goToTop = () => {
+        window.scrollTo({
+          top: 0,
+        });
+      };
     return (
         <div>
             <div className="container-fluid" id="about-container">
@@ -54,11 +59,9 @@ function OurPortfolio() {
                                     The team at Make My Website has evolved with technology and continues to build systems that work!
                                 </div>
                                 <div>
-                                    <Link to="/WebDesignPortfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
-
+                                    <Link to="/WebDesignPortfolio" onClick={goToTop} className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                 </div>
                             </div>
-
                         </div>
                         <div className='col-md-6 port-col'>
                             <div className='row justify-content-center half-img-part'>
@@ -88,8 +91,7 @@ function OurPortfolio() {
                                         best pieces for you to have a look at!
                                     </div>
                                     <div>
-                                        <Link to="/Graphicportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
-
+                                        <Link to="/Graphicportfolio" onClick={goToTop} className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +113,7 @@ function OurPortfolio() {
                                     we have carried out professional photography and drone shoots to amp up their branding.
                                 </div>
                                 <div>
-                                    <Link to="/phtographyportfolio" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+                                    <Link to="/phtographyportfolio" onClick={goToTop} className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                 </div>
                             </div>
 
@@ -144,7 +146,7 @@ function OurPortfolio() {
                                         of work we deliver.
                                     </div>
                                     <div>
-                                        <Link to="/Casestudy" className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
+                                        <Link to="/Casestudy" onClick={goToTop} className='btn btn-dark View-portfolio' role='button' ><span>View Portfolio</span></Link>
                                     </div>
                                 </div>
                             </div>
