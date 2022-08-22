@@ -13,14 +13,12 @@
 .Goggle-pay-per-click-1 h3 {
     font-weight: 600;
     line-height: 1.3em;
-    font-family: "Montserrat", Sans-serif;
     color: #222222;
     font-size: 36px;
 }
 
 .Goggle-pay-per-click-1 p {
     color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4em;
@@ -28,8 +26,30 @@
 
 .Goggle-pay-per-click-2 p {
     color: #545454;
-    font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.3em;
 }
+@media only screen and (max-width:1024px) {
+    .Goggle-pay-per-click{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Goggle-pay-per-click p{
+        font-size: 16px;
+    }
+    .Goggle-pay-per-click-1 h3{
+        font-size: 22px;
+    }
+    .Goggle-pay-per-click-1 p{
+        font-size: 16px;
+    }
+    .Goggle-pay-per-click-1-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Goggle-pay-per-click-2 p{
+        font-size: 16px;
+    }
+}
+

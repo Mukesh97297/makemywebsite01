@@ -88,7 +88,7 @@ function PhotographyPortfolio() {
                     {
                         images.map((value) => {
                             return (
-                                <div className='col-md-3 img-container' style={{marginBottom:"50px",paddingRight:"15px"}} >
+                                <div className='col-md-4 col-lg-3 img-container' style={{marginBottom:"50px",paddingRight:"15px"}} >
                                    <div className='screen'>
                                    <img  src={value.image} alt="images" />
                                    </div>

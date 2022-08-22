@@ -30,7 +30,7 @@ function SearchEngineOptimization() {
                 <div className='container search-engine-1'>
                 <h3>What Makes SEO crucial for your website’s growth</h3>
                 <div className='row'>
-                    <div className='col-md-7 search-engine-2'>
+                    <div className='col-lg-7 search-engine-2'>
                         <p className='d-flex'><i className="fa-solid fa-circle-check search-icon pt-1"></i><span className='ml-2'>It markets your products/services to the right audience</span></p>
                         <p className='d-flex'><i className="fa-solid fa-circle-check search-icon pt-1"></i><span className='ml-2'>It boosts your conversion ratio</span></p>
                         <p className='d-flex'><i className="fa-solid fa-circle-check search-icon pt-1"></i><span className='ml-2'>Builds your goodwill in your demographic</span></p>
@@ -38,7 +38,7 @@ function SearchEngineOptimization() {
                         <p className='d-flex'><i className="fa-solid fa-circle-check search-icon pt-1"></i><span className='ml-2'>Rankings convert leads, thus boosting business</span></p>
                         <p>SEO is predominantly an organic way of ranking your website, and coming up in search results on major search engines. We cover every single aspect and follow ethical practices to do SEO for your business.</p>
                     </div>
-                    <div className='col-md-5' >
+                    <div className='col-lg-5' >
                         <img src={sco1} alt="" className='img-fluid' />
                     </div>
                 </div>
@@ -52,7 +52,9 @@ function SearchEngineOptimization() {
                 <p className="d-flex"><i className="fa-solid fa-circle-check search-icon pt-1" /> <span className="ml-2">We write fresh, copyrighted content, depending on the extent of service you choose us for.</span></p>
                 <p className="d-flex"><i className="fa-solid fa-circle-check search-icon pt-1" /> <span className="ml-2">We take care of local citations, title tags, and meta tags.</span></p>
                 <p className="d-flex"><i className="fa-solid fa-circle-check search-icon pt-1" /> <span className="ml-2">We ensure transparency by sharing monthly reports with you for review.</span></p>
-                <a href="/" className='btn btn-dark' role="button">CLICK HERE FOR FREE SEO AUDIT REPORT</a>
+                <div>
+                  <a href="/" className='btn btn-dark' role="button">CLICK HERE FOR FREE SEO AUDIT REPORT</a>
+                 </div>
                 </div>
             </div>
             <ServiceDelivery />

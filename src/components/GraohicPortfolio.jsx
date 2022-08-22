@@ -58,8 +58,8 @@ function GraohicPortfolio() {
                     {
                         images.map((value) => {
                             return (
-                                <div className='col-md-3 graphic-images'  >
-                                    <img height="250px" width="100%" src={value.image} alt="images" />
+                                <div className='col-lg-3 col-md-4 graphic-images'  >
+                                    <img width="100%" src={value.image} alt="images" />
                                 </div>
                             )
                         })

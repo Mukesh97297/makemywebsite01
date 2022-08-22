@@ -18,8 +18,8 @@ function Casestudy() {
                 </div>
             </div>
             <div className='container-fluid' id='casestudy'>
-                <div className='row rows'>
-                    <div className=" col-md-3 mb-4">
+                <div className='row rows justify-content-center'>
+                    <div className=" col-lg-3 col-md-4 mb-4">
                         <div className='casestudy casestudy2' >
                             <div className='overlay2'>
                                 <h3>
@@ -28,7 +28,7 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy3'>
                             <div className='overlay2'>
                                 <h3>
@@ -38,7 +38,7 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy4'>
                             <div className='overlay2'>
                                 <h3>
@@ -48,7 +48,7 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy6'>
                             <div className='overlay2'>
                                 <h3>
@@ -58,7 +58,7 @@ function Casestudy() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy5' >
                             <div className='overlay2' >
                                 <h3>
@@ -68,7 +68,7 @@ function Casestudy() {
                         </div>
                     </div>
 
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy7'>
                             <div className='overlay2' >
                                 <h3>
@@ -77,7 +77,7 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3 mb-4">
                         <div className='casestudy casestudy8' >
                             <div className='overlay2' >
                                 <h3>
@@ -86,7 +86,7 @@ function Casestudy() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 mb-4">
+                    <div className="col-md-4 col-lg-3">
                         <div className='casestudy casestudy1' >
                             <div className='overlay2' >
                                 <h3>

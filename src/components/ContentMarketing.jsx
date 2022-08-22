@@ -23,11 +23,11 @@ function ContentMarketing() {
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-7 Content-Marketing'>
+                    <div className='col-lg-7 Content-Marketing'>
                         <p >Content is and will always reign as the king when it comes to marketing as it is the backbone of all marketing tactics and strategies. When it comes to content, simply producing fresh and trendy content doesn’t break the ice, it’s important to be smart with the content in a way that is evergreen as well as relevant for the audience you’re catering to.</p>
                         <p >Content ought to be curated in a way that it can be circulated on different platforms for a reach that isn’t too obvious but highly influential. We believe in creating content that touches people and offers them what they need in real-time while helping brands connect with them. We help you customize your content to fit every space optimally whether it’s marketing through your newsletter, emails, social media handles, business and personal blog or website campaigns.</p>
                     </div>
-                    <div className='col-md-5 py-5' >
+                    <div className='col-lg-5 py-5' >
                         <img src={contentMarketing} alt="" className='img-fluid' />
                     </div>
                 </div>

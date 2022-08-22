@@ -21,20 +21,20 @@ function GoogleAdsPay() {
         </div>
       </div>
       <div className='container-fluid'>
-        <div className='container'>
+        <div className='container Goggle-pay-per-click-1-container'>
           <div className='row py-5'>
-            <div className='col-md-7 Goggle-pay-per-click'>
+            <div className='col-lg-7 Goggle-pay-per-click'>
               <p >Paid Promotions are as necessary as your organic marketing techniques. It’s a good blend of both that yields results on digital forums such as your website and your demographic’s online spaces of interest. Paid Ads on Google help you get the attention of the right people looking for your product or service and thus gets leads faster and easier.</p>
               <p >While managing all the ads requires some skill, running them in the places that are most effective and visible to your targeted audience takes some professional experience. Our team helps you manage your existing ads, publish new ones in the places that meet your requirements and collectively build a network that boosts engagements, conversion rates and improves your quality of communication with the client base.</p>
             </div>
-            <div className='col-md-5'>
+            <div className='col-lg-5'>
               <img src={GooglePay} alt="" className='img-fluid' />
             </div>
           </div>
         </div>
       </div>
       <div className='container-fluid' style={{ backgroundColor: "#f5f5f5" }}>
-        <div className='container py-5'>
+        <div className='container Goggle-pay-per-click-1-container py-5'>
           <div className='Goggle-pay-per-click-1'>
             <h3 >How Google Ads & PPC take you ahead in the game:</h3>
             <p ><i className="fa-solid fa-circle-check Google-pay" /> Let’s you reach out and hit your specific target group</p>

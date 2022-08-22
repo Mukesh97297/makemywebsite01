@@ -2,10 +2,6 @@ import React from 'react'
 import '../SocialMediaMarketing.css'
 import socialMediaIcon from '../images/social-media2.png'
 import ServiceDelivery from './ServiceDelivery'
-import aos from 'aos';
-import 'aos/dist/aos.css'
-aos.init();
-
 function SocialMediaMarketing() {
     return (
         <div>
@@ -26,11 +22,11 @@ function SocialMediaMarketing() {
             </div>
             <div className='container'>
                 <div className='row py-5'>
-                    <div className='col-md-7 social-media-marketing'>
+                    <div className='col-lg-7 social-media-marketing'>
                         <p >Social Media is the new trusted source of all kinds of information since it is mixed well with entertainment to build infotainment in a nutshell. With so many experts, tradesmen, and professionals using the platform to impart information and connect with their audience, there is no doubt in the vast reach of social media as a platform.</p>
                         <p >However, marketing for an audience on social media is different from doing it elsewhere. Our expert Social Media Marketing (SMM) team lets you connect with your audience in a real and holistic manner. We build campaigns that are truly meaningful and captivating, building your social identity and presence as a brand. The vast influence of social media is fascinating in several ways and that’s exactly what we build on.</p>
                     </div>
-                    <div className='col-md-5'>
+                    <div className='col-lg-5'>
                         <img src={socialMediaIcon} alt="" className='img-fluid' />
                     </div>
 
@@ -40,11 +36,11 @@ function SocialMediaMarketing() {
                 <div className='container py-5'>
                     <div className='social-media-marketing-1'>
                         <h3 className='py-2'>Why SMM builds your presence like none other:</h3>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Helps your business get in touch with your audience in real-time</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Let’s you understand your audience’s demand better</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Allows you to communicate and connect better</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Builds your unique identity and goodwill as a brand</p>
-                        <p data-aos="zoom-out" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror={true} data-aos-once="false"><i className="fa-solid fa-circle-check Social-marketing" /> Builds your unique identity and goodwill as a brand</p>
+                        <p ><i className="fa-solid fa-circle-check Social-marketing"/> Helps your business get in touch with your audience in real-time</p>
+                        <p ><i className="fa-solid fa-circle-check Social-marketing"/> Let’s you understand your audience’s demand better</p>
+                        <p ><i className="fa-solid fa-circle-check Social-marketing"/> Allows you to communicate and connect better</p>
+                        <p ><i className="fa-solid fa-circle-check Social-marketing"/> Builds your unique identity and goodwill as a brand</p>
+                        <p ><i className="fa-solid fa-circle-check Social-marketing"/> Builds your unique identity and goodwill as a brand</p>
                     </div>
                 </div>
             </div>

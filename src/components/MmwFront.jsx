@@ -46,7 +46,7 @@ function MmwFront() {
         <div className='container'>
           <div className='Teams'>
             <div className='row justify-content-center '>
-              <div className='Team'>	We team up with the leading names of the industry</div>
+              <div className='Team'>We team up with the leading names of the industry</div>
               <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring the best to every business, every time.	</div>
             </div>
             <div className='row justify-content-center' style={{ padding: "20px 0px 20px 0px" }}>

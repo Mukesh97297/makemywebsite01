@@ -33,7 +33,7 @@ p {
 
 
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .home-main-div {
         padding-top: 140px !important;
     }
@@ -570,7 +570,7 @@ p {
 
 
 /* footer */
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .footer-bottom-part-1 {
         text-align: center !important;
         padding: 10px 0px 10px 0px;
@@ -1169,7 +1169,7 @@ p {
 
 
 /* customer feedback */
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     #Heading2 h3 {
         font-size: 22px !important;
     }
@@ -1284,7 +1284,7 @@ p {
 
 
 /* service delevery */
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     #service-delivery .service-delivery-p2 {
         font-size: 24px !important;
     }
@@ -1478,15 +1478,21 @@ p {
     .project {
         width: 100% !important;
     }
+    .Team {
+        font-size: 26px !important;
+    }
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .project {
         width: 100% !important;
     }
 
     .front-banner1 {
         padding: 10% 5% 10% 5% !important;
+    }
+    .front-banner{
+        padding: 35px 0px 0px 0px !important; 
     }
 
     .Teams {
@@ -1555,7 +1561,7 @@ p {
     font-weight: bold;
     line-height: 1.2em;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .heading-button .get-quits {
@@ -1610,15 +1616,12 @@ p {
     padding: 0em 4em 0em 4em;
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .Team1 {
         text-align: center;
-        font-size: 13px;
         padding: 0em 0em 0em 0em;
-    }
+        font-size: 1.2rem !important;
 
-    .Team {
-        font-size: 24px;
     }
 }
 
@@ -1703,7 +1706,7 @@ p {
     }
 
     .trusted-1 {
-        padding: 20px 40px 10px 40px;
+        padding: 25px 40px 25px 40px;
     }
 
     .trusted-1 .p-800 {
@@ -2145,7 +2148,7 @@ h6 {
     }
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .Carousal-vedio-tag {
         width: 100%;
         object-fit: cover;
@@ -2199,7 +2202,7 @@ h6 {
 
 /* WhatWeDo */
 
-/* @media only screen and (max-width:767px) {
+/* @media only screen and (max-width:768px) {
     .What-we-do-vedio {
         text-align: center;
         display: none;
@@ -2276,7 +2279,7 @@ h6 {
 } */
 
 /* privacy-policy-section */
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .Privacy-policy-title h2 {
         font-size: 25px !important;
     }

@@ -16,9 +16,9 @@ function Works() {
                     <div className='row py-5'>
                         <div className=" col-xl-3 col-md-6 mb-4">
                             <p className='works works1'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/' className='works-overlay' onClick={() => { window.open("https://www.youtube.com/channel/UCWZs6OlOLKKFKQP7Ldn7jGQ") }}>
                                     United Tools
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4" >

@@ -1,4 +1,4 @@
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     .graphic-design-portfolio{
         padding: 0px 20px 0px 20px !important;
         margin-top: 50px !important;
@@ -6,6 +6,12 @@
     }
     .filter-links li button{
         font-size: 16px !important;
+    }
+    .graphic-images img{
+        height: 200px !important;
+    }
+    .graphic-design-portfolio .btn-section .child .filter-links {
+        text-align: center !important;
     }
 }
 
@@ -59,4 +65,7 @@ button.active {
     background-color: transparent;
     border-style: none;
     box-shadow: none;
+}
+.graphic-images img{
+    height: 250px;
 }
