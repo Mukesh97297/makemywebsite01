@@ -792,10 +792,7 @@ p {
         padding: 0px !important;
     }
 
-    .service-h2 {
-        font-size: 26px !important;
-        text-align: center;
-    }
+    
 
     .service-btn {
         text-align: center !important;
@@ -822,6 +819,10 @@ p {
 @media only screen and (max-width: 1024px) {
     .Our-service {
         padding: 5% 0% 0% 0% !important;
+    }
+    .service-h2 {
+        font-size: 26px !important;
+        text-align: center;
     }
 }
 
@@ -1992,7 +1993,8 @@ p {
 }
 
 .red-devider-top{
-    border-top: 1px solid red;
+    border-top: solid #ED1C24;
+    border-width: 2px;
     width: 8%;
     margin-bottom: 20px;
     padding-top: 2px;
