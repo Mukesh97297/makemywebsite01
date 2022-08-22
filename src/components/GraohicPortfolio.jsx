@@ -26,7 +26,7 @@ function GraohicPortfolio() {
                         </h1>
                         <div className='red-devider-top'></div>
                         <h2 >
-                            Balancing Art & Technology To Create Modern & Contemporary Branding <br /> Collateral
+                            Balancing Art & Technology To Create Modern & Contemporary Branding Collateral
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>
