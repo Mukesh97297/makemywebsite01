@@ -465,7 +465,7 @@ p {
 
 .about_section {
     background-color: black;
-    padding: 100px 0px 100px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .dropdown-item:hover {
@@ -830,7 +830,9 @@ p {
 
 .Our-service {
     background-color: #E8E8E8;
-    padding: 100px 35px 100px 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5% 0% 0% 0%;
 }
 
 .viewbtn {
@@ -974,7 +976,7 @@ p {
 
 #works {
     background-color: #060709;
-    padding: 100px 35px 100px 35px;
+    padding: 5% 5% 5% 5%;
 }
 
 .latest-work {
@@ -1287,7 +1289,7 @@ p {
 
 
 /* service delevery */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
     #service-delivery .service-delivery-p2 {
         font-size: 24px !important;
     }
@@ -1305,12 +1307,20 @@ p {
     #service-delivery-p {
         padding: 0px !important;
     }
-
+    .Service-delivary-1 {
+        width: 50% !important;
+    }
 }
+@media only screen and (max-width:1024px){
+    .service-delivery-p2{
+        font-size: 28px !important;
+    }
+}
+
 
 #service-delivery {
     background-color: rgb(230, 232, 236);
-    padding: 100px 15px 100px 15px;
+    padding: 3% 10% 3% 10%;
 }
 
 #service-delivery p {
@@ -1324,9 +1334,9 @@ p {
     padding: 10px;
 }
 
-#Service-delivary-2 {
+/* #Service-delivary-2 {
     padding: 10px;
-}
+} */
 
 #service-delivery-p .service-delivery-p2 {
     text-align: center;
@@ -1362,6 +1372,7 @@ p {
 
 .Service-delivary-1 {
     text-align: center;
+    width: 20%;
 }
 
 
@@ -1484,6 +1495,10 @@ p {
     .Team {
         font-size: 26px !important;
     }
+    .mmw-logos-1{
+        width: 33.33% !important;
+      }
+   
 }
 
 @media only screen and (max-width:768px) {
@@ -1509,13 +1524,18 @@ p {
     .project .heading p{
         font-size: 24px !important;
     }
-
     .we-team {
         padding: 0px !important;
     }
+    .mmw-logos-1{
+      width: 50% !important;
+    }
 }
 
-
+.mmw-logos-1 img{
+    max-width: 200px !important;
+    width: 100% !important;
+}
 
 .front-banner {
     background-image: url("./images/front-banner.jpg");
@@ -1537,6 +1557,7 @@ p {
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
+    width: 20%;
 }
 
 .project {

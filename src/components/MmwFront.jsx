@@ -50,20 +50,20 @@ function MmwFront() {
               <div className='Team1'>We have established a close channel with major technology brands across the world and it enables us to bring the best to every business, every time.	</div>
             </div>
             <div className='row justify-content-center' style={{ padding: "20px 0px 20px 0px" }}>
-              <div className='col-lg-3 col-xl-2 col-xs-6 mmw-logos-1' >
-                <img src={google} alt="google" className='img-fluid' />
+              <div className='mmw-logos-1' >
+                <img src={google} alt="google"/>
               </div>
-              <div className='col-lg-3 col-xl-2 col-xs-6  mmw-logos-1' >
-                <img src={shopify} alt="shopify" className='img-fluid' />
+              <div className='mmw-logos-1' >
+                <img src={shopify} alt="shopify" />
               </div>
-              <div className='col-lg-2  mmw-logos-1' >
-                <img src={commerce} alt="commerce" className='img-fluid' />
+              <div className='mmw-logos-1' >
+                <img src={commerce} alt="commerce"/>
               </div>
-              <div className='col-xl-2 col-lg-3 col-xs-6  mmw-logos-1' >
-                <img src={wordpress} alt="wordpress" className='img-fluid' />
+              <div className='mmw-logos-1' >
+                <img src={wordpress} alt="wordpress"/>
               </div>
-              <div className='col-lg-3 col-xl-2 col-xs-6  mmw-logos-1' >
-                <img src={magento} alt="magento" className='img-fluid' />
+              <div className='mmw-logos-1' >
+                <img src={magento} alt="magento"/>
               </div>
             </div>
           </div>

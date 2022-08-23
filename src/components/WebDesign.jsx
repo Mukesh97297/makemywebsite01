@@ -13,7 +13,7 @@ function WebDesign() {
             <section className='about_section'>
                 <div className="container">
                     <div className="row  about_section-2">
-                        <div className="col-lg-5  col-sm-12">
+                        <div className="col-xl-5  col-sm-12">
                             <div className='trusted'>
                                 <div className='trusted-1'>
                                     <span>Trusted by</span>
