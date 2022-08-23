@@ -2,7 +2,23 @@ import '../CustomerCare.css'
 import Lottie from 'lottie-react'
 import support from '../animation/CustomerCare.json'
 import ServiceDelivery from './ServiceDelivery'
+import { Formik } from "formik";
+import * as Yup from "yup"
 function CustomerCare() {
+    const validationSchema = Yup.object().shape({
+        name: Yup.string()
+            .required("Please complete this required field."),
+        lastName: Yup.string()
+            .required("Please complete this required field."),
+        phone: Yup.string()
+            .required("Please complete this required field.")
+            .min(50,"Must contain only numbers, +()-. and x."),
+        email: Yup.string()
+            .email("Please enter a valid email")
+            .required("Please complete this required field."),
+        issue: Yup.string()
+            .required("Please complete this required field."),
+    });
     return (
         <div>
             <div className="container-fluid" id="about-container">
@@ -28,37 +44,48 @@ function CustomerCare() {
                             <p>Question not answered yet? We are here to help!</p>
                         </div>
                     </div>
-                    <form>
-                        <div className='row justify-content-center  input-fields'>
-                            <div className='col-md-6 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>First Name<span className='required'>*</span></label>
-                                <input type="text" className="form-control" required />
-                            </div>
-                            <div className='col-md-6 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>Last Name<span className='required'>*</span></label>
-                                <input type="text" className="form-control" required />
-                            </div>
-                            <div className='col-md-6 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
-                                <input type="text" className="form-control" required />
-                            </div>
-                            <div className='col-md-6 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>Email<span className='required'>*</span></label>
-                                <input type="text" className="form-control" required />
-                            </div>
-                            <div className='col-md-12 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>Issue<span className='required'>*</span></label>
-                                <input type="text" className="form-control" required />
-                            </div>
-                            <div className='col-md-12 input-fields1'>
-                                <label for="inputEmail4" className='form-span'>Details</label>
-                                <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
-                            </div>
-                            <div className='col-md-12 input-fields1'>
-                                <input type="Submit" className='btn submit-btn' value='Submit' />
-                            </div>
-                        </div>
-                    </form>
+                    <Formik initialValues={{ email: "", lastName: "", name: "",issue: "",phone:""  }} validationSchema={validationSchema}>
+                        {({ values, errors, touched, handleChange, handleBlur, }) => {
+                            return (
+                                <form>
+                                    <div className='row justify-content-center  input-fields'>
+                                        <div className='col-md-6 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>First Name<span className='required'>*</span></label>
+                                            <input className="form-control" value={values.name} onChange={handleChange("name")} onBlur={handleBlur("name")} />
+                                            <div className='redalerterror'>{touched.name && errors.name}</div>
+                                        </div>
+                                        <div className='col-md-6 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>Last Name<span className='required'>*</span></label>
+                                            <input type="text" className="form-control" value={values.lastName} onChange={handleChange("lastName")} onBlur={handleBlur("lastName")} />
+                                            <div className='redalerterror'>{touched.lastName && errors.lastName}</div>
+                                        </div>
+                                        <div className='col-md-6 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
+                                            <input type="text" className="form-control" value={values.phone} onChange={handleChange("phone")} onBlur={handleBlur("phone")} />
+                                            <div className='redalerterror'>{touched.phone && errors.phone}</div>
+                                        </div>
+                                        <div className='col-md-6 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>Email<span className='required'>*</span></label>
+                                            <input type="text" className="form-control" value={values.email} onChange={handleChange("email")} onBlur={handleBlur("email")} />
+                                            <div className='redalerterror'>{touched.email && errors.email}</div>
+                                        </div>
+                                        <div className='col-md-12 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>Issue<span className='required'>*</span></label>
+                                            <input type="text" className="form-control" value={values.issue} onChange={handleChange("issue")} onBlur={handleBlur("issue")} />
+                                            <div className='redalerterror'>{touched.issue && errors.issue}</div>
+                                        </div>
+                                        <div className='col-md-12 input-fields1'>
+                                            <label for="inputEmail4" className='form-span'>Details</label>
+                                            <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
+                                        </div>
+                                        <div className='col-md-12 input-fields1'>
+                                            <input type="Submit" className='btn submit-btn' value='Submit' />
+                                        </div>
+                                    </div>
+                                </form>
+                            );
+                        }}
+                    </Formik>
                 </div>
             </div>
             <div className='container-fluid support-higly'>
