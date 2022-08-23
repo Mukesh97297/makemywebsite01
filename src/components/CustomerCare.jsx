@@ -4,7 +4,11 @@ import support from '../animation/CustomerCare.json'
 import ServiceDelivery from './ServiceDelivery'
 import { Formik } from "formik";
 import * as Yup from "yup"
+import ReCAPTCHA from "react-google-recaptcha";
 function CustomerCare() {
+    function onChange(value) {
+        console.log("Captcha value:",value );
+      }
     const validationSchema = Yup.object().shape({
         name: Yup.string()
             .required("Please complete this required field."),
@@ -12,7 +16,7 @@ function CustomerCare() {
             .required("Please complete this required field."),
         phone: Yup.string()
             .required("Please complete this required field.")
-            .min(50,"Must contain only numbers, +()-. and x."),
+            .min(50, "Must contain only numbers, +()-. and x."),
         email: Yup.string()
             .email("Please enter a valid email")
             .required("Please complete this required field."),
@@ -44,7 +48,7 @@ function CustomerCare() {
                             <p>Question not answered yet? We are here to help!</p>
                         </div>
                     </div>
-                    <Formik initialValues={{ email: "", lastName: "", name: "",issue: "",phone:""  }} validationSchema={validationSchema}>
+                    <Formik initialValues={{ email: "", lastName: "", name: "", issue: "", phone: "" }} validationSchema={validationSchema}>
                         {({ values, errors, touched, handleChange, handleBlur, }) => {
                             return (
                                 <form>
@@ -78,9 +82,16 @@ function CustomerCare() {
                                             <label for="inputEmail4" className='form-span'>Details</label>
                                             <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
                                         </div>
+                                        <div className='col-md-12'>
+                                            <ReCAPTCHA
+                                                sitekey="https://js.hsforms.net/forms-next/shell-recaptcha"
+                                                onChange={onChange}
+                                            />,
+                                        </div>
                                         <div className='col-md-12 input-fields1'>
                                             <input type="Submit" className='btn submit-btn' value='Submit' />
                                         </div>
+
                                     </div>
                                 </form>
                             );
