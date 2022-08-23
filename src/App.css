@@ -291,6 +291,7 @@ p {
 .shape {
     clip-path: circle();
     overflow: hidden;
+    margin-bottom: 20px ;
 }
 
 .shape-2 {
@@ -1532,10 +1533,10 @@ p {
     }
 }
 
-.mmw-logos-1 img{
-    max-width: 200px !important;
-    width: 100% !important;
-}
+ .mmw-logos-1 img{
+        max-width: 200px !important;
+        width: 100% !important;
+    }
 
 .front-banner {
     background-image: url("./images/front-banner.jpg");
