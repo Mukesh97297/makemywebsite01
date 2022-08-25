@@ -20,7 +20,7 @@ function WebDesignPortfolio() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             Web Design Portfolio
@@ -88,12 +88,12 @@ function WebDesignPortfolio() {
                 </div>
             </div>
             <div className='container web-design-portfolio'>
-                <div className='row justify-content-center'>
+                <div className='row'>
                     {
                         images.map((value) => {
                             return (
-                                <div className='col-md-4 mb-4'>
-                                    <div className="abc">
+                                <div className=' col-md-4 '>
+                                    <div className='image-wrap'>
                                         <img src={value.image} alt="" />
                                     </div>
                                 </div>

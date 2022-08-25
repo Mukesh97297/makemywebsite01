@@ -84,14 +84,13 @@ function CustomerCare() {
                                         </div>
                                         <div className='col-md-12'>
                                             <ReCAPTCHA
-                                                sitekey="https://js.hsforms.net/forms-next/shell-recaptcha"
+                                                sitekey=""
                                                 onChange={onChange}
                                             />,
                                         </div>
                                         <div className='col-md-12 input-fields1'>
                                             <input type="Submit" className='btn submit-btn' value='Submit' />
                                         </div>
-
                                     </div>
                                 </form>
                             );
@@ -125,7 +124,6 @@ function CustomerCare() {
                 </div>
             </div>
             <ServiceDelivery />
-
         </div>
     )
 }
