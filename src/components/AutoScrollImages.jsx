@@ -74,15 +74,11 @@ import sport1 from '../images/melbournesmashers.jpg'
 import sport2 from '../images/890-6-scaled.jpg'
 import sport3 from '../images/890-9-scaled.jpg'
 import sport4 from '../images/Laidley-Bowling-Club.jpg'
-
-
-
-
 const AutoScrollImages = [
     {
         id: 1,
         image: image1,
-        categary: "Account"
+        categary: "Account",
     },
     {
         id: 2,

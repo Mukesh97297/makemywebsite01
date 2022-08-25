@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import '../WebDesignPorfolio.css'
 import AutoScrollImages from './AutoScrollImages'
-
+import LazyLoad from 'react-lazy-load'
+import { Suspense } from 'react'
 
 function WebDesignPortfolio() {
     const [images, setImages] = useState(AutoScrollImages)
