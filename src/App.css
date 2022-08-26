@@ -15,9 +15,9 @@ body {
     overflow: overlay;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     background: transparent;
-}
+} */
 
 a {
     letter-spacing: initial;
@@ -1195,7 +1195,9 @@ p {
 
     }
 }
-
+.prew-slide{
+    color: white;
+}
 .customer-feedback-container {
     background: #060709;
     padding: 100px 0px 40px 0px;
