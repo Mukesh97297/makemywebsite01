@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Works() {
-    function goToTop(){
-        window.scrollTo({top:0})
+    function goToTop() {
+        window.scrollTo({ top: 0 })
     }
     return (
         <div>
@@ -23,51 +23,51 @@ function Works() {
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works2'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/dal-page' className='works-overlay' onClick={goToTop}>
                                     Dal
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4 " >
                             <p className='works works3'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/coburns-page' className='works-overlay' onClick={goToTop}>
                                     Coburns Rise
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4 " >
                             <p className='works works4'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/rg-land' className='works-overlay' onClick={goToTop}>
                                     Rg Land
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works5'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/sunshine' className='works-overlay' onClick={goToTop}>
                                     Sunshine Collactables
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works6'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/tic-group' className='works-overlay' onClick={goToTop}>
                                     Tic Group
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4">
                             <p className='works works7'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/carrabba' className='works-overlay' onClick={goToTop}>
                                     Carrabba's Group
-                                </a>
+                                </Link>
                             </p>
                         </div>
                         <div className=" col-xl-3 col-md-6 mb-4" >
                             <p className='works works8'>
-                                <a href='/' className='works-overlay'>
+                                <Link to='/darebin' className='works-overlay' onClick={goToTop}>
                                     Darebin gas
-                                </a>
+                                </Link>
                             </p>
                         </div>
                     </div>

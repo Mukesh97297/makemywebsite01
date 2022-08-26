@@ -1,0 +1,38 @@
+.main-darbin-section {
+    background: url(./images/darebingas-csbanner.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.darbin-ovelay {
+    opacity: 0.5;
+    background-image: linear-gradient(180deg, var( --e-global-color-741e0a2 ) 0%, var( --e-global-color-52d9715 ) 100%);
+    background-color: #060709;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.darbin-container-1 {
+    min-height: 65vh;
+    position: relative;
+}
+.darbin-h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.darbin-h1 h1 {
+    font-size: 5.209rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.2em;
+}
+@media only screen and (max-width:767px) {
+    .darbin-h1 h1 {
+        font-size: 26px !important;
+    }
+}

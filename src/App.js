@@ -35,12 +35,19 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsCondition from './components/TermsCondition';
 import Faq from './components/Faq';
 import UnitedTools from './components/UnitedTools';
+import Dal from './components/Dal'
+import Coburns from './components/Coburns';
+import TicGroup from './components/TicGroup';
+import Sunshine from './components/Sunshine';
+import RgLand from './components/RgLand';
+import Darbin from './components/Darbin';
+import Carrabba from './components/Carrabba';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      
-       <Navbar />
+
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -73,10 +80,16 @@ function App() {
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/termsCondition" element={<TermsCondition />} />
           <Route path='/faq' element={<Faq />} />
-           <Route path='/united-tools' element={<UnitedTools/>} />
+          <Route path='/united-tools' element={<UnitedTools />} />
+          <Route path='/Dal-page' element={<Dal />} />
+          <Route path='/coburns-page' element={<Coburns />} />
+          <Route path='/rg-land' element={<RgLand />} />
+          <Route path='/sunshine' element={<Sunshine />} />
+          <Route path='/tic-group' element={<TicGroup />} />
+          <Route path='/carrabba' element={<Carrabba />} />
+          <Route path='/darebin' element={<Darbin />} />
         </Routes>
-         
-         <Footer />
+        <Footer />
       </BrowserRouter>
     </div>
   );

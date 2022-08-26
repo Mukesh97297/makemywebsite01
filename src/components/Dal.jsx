@@ -1,20 +1,20 @@
 import React from 'react'
-import "../UnitedTools.css"
-import img1 from "../images/ut1.jpg"
-import img2 from "../images/ut4.jpg"
-import img3 from "../images/ut3.jpg"
-import img4 from "../images/ut2.jpg"
-import Globe from "../animation/Website-Glope.json"
+import "../Dal.css"
+import img4 from "../images/project-Dal-mobileasd.jpeg"
+import img1 from "../images/project-Dal123.jpeg"
+import img2 from "../images/project-Dal-laptopfsdf.jpeg"
+import img3 from "../images/project-Dal-tab-bffdf.jpeg"
 import Lottie from "lottie-react";
-function UnitedTools() {
-    return (
-        <div>
-            <section className='main-unitedtool-section'>
-                <div className='unitedtools-ovelay'></div>
-                <div className='container unitedtool-container-1'>
+import dal from "../animation/Website-Glope.json"
+function Dal() {
+  return (
+    <div>
+         <section className='main-dal-section'>
+                <div className='dal-ovelay'></div>
+                <div className='container dal-container-1'>
                     <div className='row justify-content-center'>
-                        <div className='united-h1'>
-                            <h1>United Tools</h1>
+                        <div className='dal-h1'>
+                            <h1>Dal</h1>
                         </div>
                     </div>
                 </div>
@@ -24,13 +24,13 @@ function UnitedTools() {
                     <section>
                         <div>
                             <div className='the-united-tool'>
-                                <h2>The United Tools Group is Australia’s most trusted group of tool experts.</h2>
-                                With over 35 stores across Australia, United Tools Group provides industry, trade, and DIY customers with access to premium quality tools at the most competitive prices. <br /><br />
-                                The United Tools Group are a buying group that provide independent tool stores with the opportunity to gain access to great buying opportunities, general business, and marketing support 24/7 all while remaining independent. <br /> <br />
-                                Our team diligently worked on building a professional website, and carried out photography and drone shoot to deliver a product that meets client expectations.
+                                <h2>Superior Labels At A Superior Price From Australia’s Premier Manufacturer</h2>
+                                DAL offers the best labels and printing supplies in Australia, at the lowest prices, with the quickest turnaround time. <br /><br />
+                                As one of the biggest and longest-running label manufacturers in the industry, they provide businesses with unrivalled products, support and service. <br /> <br />
+                                We partnered with Dial a Label to create a professional website that stimulates their growth and is highly user-friendly. The outcome was a stunning website as per client needs, a 5-star review, and a long-term relationship as a part of our other services including SEO, Social Media Marketing & Photography.
                                  <div className='row justify-content-center'>
                                  <div className='d-flex'>
-                                <Lottie animationData={Globe} loop={true} autoplay={true} className="website-globe"   />
+                                <Lottie animationData={dal} loop={true} autoplay={true} className="website-globe"   />
                                 <p className='visit-website-globe'><a href="/">Visit Website</a></p></div>
                                  </div>
                             </div>
@@ -96,8 +96,8 @@ function UnitedTools() {
                      </div>
                  </div>
              </section>
-     </div>
+    </div>
   )
 }
 
-export default UnitedTools
+export default Dal
