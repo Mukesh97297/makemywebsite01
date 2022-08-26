@@ -34,11 +34,13 @@ import ModernWorld from './components/ModernWorld';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsCondition from './components/TermsCondition';
 import Faq from './components/Faq';
+import UnitedTools from './components/UnitedTools';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+      
+       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -71,8 +73,10 @@ function App() {
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/termsCondition" element={<TermsCondition />} />
           <Route path='/faq' element={<Faq />} />
+           <Route path='/united-tools' element={<UnitedTools/>} />
         </Routes>
-        <Footer />
+         
+         <Footer />
       </BrowserRouter>
     </div>
   );

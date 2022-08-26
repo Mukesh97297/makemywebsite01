@@ -1,0 +1,296 @@
+@media only screen and (max-width:767px) {
+    .relate .title h3 {
+        font-size: 22px !important;
+    }
+
+    .relate .headings {
+        font-size: 16px !important;
+    }
+
+    .unitedtool-section-4 {
+        padding: 0% !important;
+    }
+
+    .unitedtool-section-4 .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .united-quite {
+        padding: 8px 15px 8px 15px !important;
+    }
+
+    .united-tool-section-2 section {
+        padding: 10px !important;
+        margin-top: 0px !important;
+    }
+
+    .united-tool-section-2 {
+        padding: 0px 5px 0px 5px !important;
+    }
+
+    .the-united-tool h2 {
+        font-size: 24px !important;
+        color: #fff;
+    }
+
+    .the-united-tool {
+        font-size: 18px !important;
+    }
+
+    .united-h1 h1 {
+        font-size: 26px !important;
+    }
+}
+
+.main-unitedtool-section {
+    background: url(./images/unitedtools-csbanner.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unitedtools-ovelay {
+    opacity: 0.5;
+    background-image: linear-gradient(180deg, var( --e-global-color-741e0a2 ) 0%, var( --e-global-color-52d9715 ) 100%);
+    background-color: #060709;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.unitedtool-container-1 {
+    min-height: 65vh;
+    position: relative;
+}
+
+.united-h1 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.united-h1 h1 {
+    font-size: 5.209rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.2em;
+}
+
+.united-tool-section-2 {
+    background: #060709;
+    position: relative;
+}
+
+.united-tool-section-2 {
+    padding: 20px;
+}
+
+.united-tool-section-2 section {
+    background-color: #060709;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -5em;
+    margin-bottom: 0em;
+    padding: 5em 5em 5em 5em
+}
+
+.main-unitedtool-section div section div {
+    padding: 10px;
+    justify-content: center;
+}
+
+.the-united-tool {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #fff;
+    font-family: "Josefin Sans", Sans-serif;
+}
+
+.the-united-tool h2 {
+    font-size: 2.209rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.unitedtool-section-3 {
+    position: relative;
+}
+
+.unitedtool-section-3 .container section {
+    padding: 0% 5% 0% 5%;
+}
+
+.unitedtool-section-4 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3% 5% 3% 5%;
+    background: #ffffff;
+
+}
+
+.overlay-section-united {
+    opacity: 0.68;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.background-attechment-div {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.background-attechment-div section {
+    background: url(./images/cta-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5% 0% 5% 0%;
+    position: relative;
+}
+
+.overlay-section-united1 {
+    opacity: 0.68;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    background-color: #060709;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.overlay-section-text {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    position: relative;
+
+}
+
+.overlay-section-text .relate {
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.overlay-section-text .relate .headings {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.relate .title h3 {
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+
+}
+
+.relate {
+    padding: 0;
+    justify-content: center;
+}
+
+.relate .title {
+    margin-bottom: 20px;
+}
+
+.relate .button {
+    width: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.united-quite {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 40px 15px 40px;
+    background-color: #FFFFFF;
+    color: #222222;
+    fill: #222222;
+}
+
+.united-quite span {
+    text-decoration: inherit;
+    justify-content: center;
+    text-align: center;
+}
+
+.united-quite span span {
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.united-quite:hover {
+    background-color: transparent;
+    border: solid 1px #FFFFFF;
+}
+
+.united-quite span span:hover {
+    color: #FFFFFF;
+}
+
+
+.overlay-section-text .button a span {
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+.container-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.visit-website-globe {
+    margin: auto;
+    width: 100%;
+}
+
+.visit-website-globe a {
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.website-globe {
+    height: 150px;
+}
