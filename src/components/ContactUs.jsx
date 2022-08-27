@@ -59,7 +59,7 @@ function ContactUs() {
                                 <h3>We’d love to hear from you! Reach out to us for all your queries.</h3>
                             </div>
                             <div className='contact-form-1'>
-                                <a href="tel:1300769302"><i className="fa-solid fa-phone contact-us-i"></i> 1300769302</a>
+                                <a href="tel:1300769302"><i className="fa-solid fa-phone contact-us-i"></i> <span>1300769302</span></a>
                             </div>
                             <div className='contact-form-1 mb-5'>
                                 <a href="mailto:info@makemywebsite.com.au"><i className="fa-solid fa-envelope contact-envelope-i"></i> info@makemywebsite.com.au</a>
@@ -76,7 +76,7 @@ function ContactUs() {
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="number" className=''>Phone</label>
-                                    <input type="number" className='form-control' required/>
+                                    <input type="phone" className='form-control' required/>
                                 </div>
                                 <div className='col-md-6 contact-form-input-list'>
                                     <label htmlFor="sub" className=''>Subject</label>

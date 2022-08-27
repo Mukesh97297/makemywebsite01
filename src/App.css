@@ -502,7 +502,7 @@ p {
 }
 
 .dot-cercle {
-    color: red;
+    color: #ED1C24;
     font-size: 15x;
 }
 
@@ -853,7 +853,7 @@ p {
 }
 
 .viewbtn:hover {
-    background-color: red;
+    background-color: #ED1C24;
     color: white;
     box-shadow: none;
 }
@@ -1287,7 +1287,7 @@ p {
 }
 
 #true-circle {
-    color: red;
+    color: #ED1C24;
 }
 
 

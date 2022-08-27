@@ -15,8 +15,8 @@ function Caraousel() {
         nav: true,
         center: true,
         autoplay: true,
-        
-        responsive: {navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        navText : ["<i class='fa fa-chevron-left prew-slide'></i>","<i class='fa fa-chevron-right prew-slide'></i>"],
+        responsive: {
             0: {
                 items: 1,
             },

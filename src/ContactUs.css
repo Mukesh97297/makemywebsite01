@@ -49,7 +49,7 @@
     line-height: 1.75em;
     font-family:  "Josefin Sans", Sans-serif;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .contact-form-1 a:hover{
     text-decoration: none;
@@ -88,7 +88,7 @@
     color: white !important;
 }
 .Contact-us-submit:hover{
-    background-color: #ED1C24;
+    background-color: #ED1C24 !important;
     text-decoration: none;
 }
 .divider{
@@ -97,6 +97,9 @@
     text-align: left;
     padding-top: 100px;
     padding-bottom: 100px;
+    --translateX: 0px;
+    --e-transform-transition-duration: 100ms;
+    transform: translateX(var(--translateX));
 }
 .devider-1{
     margin-top: 60px;
