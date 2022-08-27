@@ -42,6 +42,7 @@ import Sunshine from './components/Sunshine';
 import RgLand from './components/RgLand';
 import Darbin from './components/Darbin';
 import Carrabba from './components/Carrabba';
+import Thankyou from './components/Thankyou';
 function App() {
   return (
     <div className="App">
@@ -88,6 +89,7 @@ function App() {
           <Route path='/tic-group' element={<TicGroup />} />
           <Route path='/carrabba' element={<Carrabba />} />
           <Route path='/darebin' element={<Darbin />} />
+          <Route path='/thankyou' element={<Thankyou />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,0 +1,95 @@
+.thankyou-section{
+    background-color: #060709;
+    background-image: linear-gradient(130deg, var( #222222 ) 0%, var( #060709 ) 89%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+} 
+.thankyou-overlay{
+    background-image: url(./images/Post-BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.15;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.thank-you-shape{
+    transform: rotate(180deg);
+    bottom: -1px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+.thank-you-shape svg{
+    width: calc(260% + 1.3px);
+    height: 120px;
+    transform: translateX(-50%) rotateY(180deg);
+    z-index: -1;
+    position: relative;
+    left: 50%;
+}
+.thank-you-shape svg path{
+    fill: #fff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+.thankyou-animation-section{
+    max-width: 900px !important;
+    min-height: 460px;
+}
+.thankyou-section-1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 150px 0px;
+}
+.thankyou-row-1{
+    padding: 10px;
+}
+.thank-you-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thank-you-title-div{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+.thank-you-title-div h1{
+    font-size: 5.209rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #222222;
+    text-transform: capitalize;
+}
+.thank-you-heading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.thank-you-heading p{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #222222;
+}
+.thank-you-json{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    
+}
+.thank-you-section-json-div{
+    padding: 0px 50px 0px 50px;
+  
+}
