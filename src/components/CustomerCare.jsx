@@ -6,9 +6,9 @@ import { Formik } from "formik";
 import * as Yup from "yup"
 import ReCAPTCHA from "react-google-recaptcha";
 function CustomerCare() {
-    function onChange(value) {
-        console.log("Captcha value:",value );
-      }
+    // function onChange(value) {
+    //     console.log("Captcha value:",value );
+    //   }
     const validationSchema = Yup.object().shape({
         name: Yup.string()
             .required("Please complete this required field."),
@@ -82,12 +82,12 @@ function CustomerCare() {
                                             <label for="inputEmail4" className='form-span'>Details</label>
                                             <textarea type="text" className="form-control" style={{ height: "70px" }}></textarea>
                                         </div>
-                                        <div className='col-md-12'>
+                                        {/* <div className='col-md-12'>
                                             <ReCAPTCHA
                                                 sitekey=""
                                                 onChange={onChange}
                                             />,
-                                        </div>
+                                        </div> */}
                                         <div className='col-md-12 input-fields1'>
                                             <input type="Submit" className='btn submit-btn' value='Submit' />
                                         </div>

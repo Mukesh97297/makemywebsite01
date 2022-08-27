@@ -80,7 +80,7 @@ function ContactUs() {
                                     </div>
                                     <div className='col-md-6 contact-form-input-list'>
                                         <label htmlFor="sub" className=''>Subject</label>
-                                        <input type="text" className='form-control' />
+                                        <input type="text" className='form-control'/>
                                     </div>
                                     <div className='col-md-12 contact-form-input-list'>
                                         <label htmlFor="discription" className=''>Project Description or Message</label>
