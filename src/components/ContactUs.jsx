@@ -87,9 +87,9 @@ function ContactUs() {
                                         <textarea type="text" className="form-control" style={{ height: "100px" }} required/>
                                     </div>
                                     <div className='col-md-4 pt-2 contact-form-input-list'>
-                                         {/* <Link to="/thankyou"> */}
-                                            <input type="Submit" className='btn Contact-us-submit' value='Submit' no />
-                                        {/* </Link>  */}
+                                         <Link to="/thankyou">
+                                            <input type="Submit" className='btn Contact-us-submit' value='Submit' />
+                                        </Link> 
                                     </div>
                                 </div>
                             </form>
