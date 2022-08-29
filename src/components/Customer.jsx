@@ -8,6 +8,7 @@ import onestepcare from '../images/onestepcare.png'
 import lalunavintage from '../images/lalunavintage.png'
 import propertyselect from '../images/propertyselect.png'
 import sunshinec from '../images/sunshinec.png'
+import { Link } from 'react-router-dom';
 function Customer() {
     const Option = {
         items: 1,
@@ -50,7 +51,8 @@ function Customer() {
                                 After MONTHS of procrastinating and wanting to change our clunky outdated site l reached out to the team at MMW, within 5 minutes I was on the phone speaking with Mayank. MMW took care of all the hard work and made the transition so EASY!! Ash and Puneet look after
                                 all our Web design, SEO and Social Media. Trust me, these guys are the best!”
                             </div>
-                            <div id='customername'>- Julia Edwards <a href='https://www.dal.com.au/'>https://www.dal.com.au/</a></div>
+                           
+                            <div id='customername'>- Julia Edwards  <Link to="/" onClick={() => { window.open("https://www.dal.com.au/") }}>https://www.dal.com.au/</Link></div>
                         </div>
                         <div className='col-lg-6'>
                             <img src={dal} className="img-fluid" alt='' />
@@ -64,7 +66,7 @@ function Customer() {
                                 I completely love my website and have had so much positive feedback from my customers about
                                 the website. I recommend Make My Website to anyone who is seeking to get a website done.”
                             </div>
-                            <div id='customername'>- Sami Bitar <a href="https://www.onestepcare.com.au/">https://www.onestepcare.com.au/</a></div>
+                            <div id='customername'>- Sami Bitar<Link to="/" onClick={() => { window.open("https://www.onestepcare.com.au/") }}>https://www.onestepcare.com.au/</Link></div>
                         </div>
                         <div className='col-lg-6'>
                             <img src={onestepcare} className="img-fluid" alt='' />
@@ -78,7 +80,7 @@ function Customer() {
                                 E-Commerce website. That’s when I came across Mike and his very capable team at Make My Website.
                                 Thank you for your professionalism and expertise!! Could not be happier!”
                             </div>
-                            <div id='customername'>- Jayden Healey <a href="https://www.sunshinec.com.au/">https://www.sunshinec.com.au/</a></div>
+                            <div id='customername'>- Jayden Healey <Link to="/" onClick={() => { window.open("https://www.sunshinec.com.au/") }}>https://www.sunshinec.com.au/</Link></div>
                         </div>
                         <div className='col-lg-6'>
                             <img src={sunshinec} className="img-fluid" alt='' />

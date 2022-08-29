@@ -80,16 +80,16 @@ function ContactUs() {
                                     </div>
                                     <div className='col-md-6 contact-form-input-list'>
                                         <label htmlFor="sub" className=''>Subject</label>
-                                        <input type="text" className='form-control'/>
+                                        <input type="text" className='form-control' required/>
                                     </div>
                                     <div className='col-md-12 contact-form-input-list'>
                                         <label htmlFor="discription" className=''>Project Description or Message</label>
-                                        <textarea type="text" className="form-control" style={{ height: "100px" }}></textarea>
+                                        <textarea type="text" className="form-control" style={{ height: "100px" }} required/>
                                     </div>
                                     <div className='col-md-4 pt-2 contact-form-input-list'>
-                                        <Link to="/thankyou">
-                                            <input type="Submit" className='btn Contact-us-submit' value='Submit' />
-                                        </Link>
+                                         {/* <Link to="/thankyou"> */}
+                                            <input type="Submit" className='btn Contact-us-submit' value='Submit' no />
+                                        {/* </Link>  */}
                                     </div>
                                 </div>
                             </form>

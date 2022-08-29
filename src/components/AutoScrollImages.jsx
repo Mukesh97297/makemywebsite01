@@ -79,338 +79,393 @@ const AutoScrollImages = [
         id: 1,
         image: image1,
         categary: "Account",
+        link: "https://www.kskaccounting.com.au/"
     },
     {
         id: 2,
         image: image3,
         categary: "Account",
-        link : "https://www.vantagewealth.com.au/"
+        link: "https://www.vantagewealth.com.au/"
     },
     {
         id: 3,
         image: image2,
-        categary: "Account"
+        categary: "Account",
+        link: "http://bjaccounting.com.au/"
     },
-   
+
     {
         id: 4,
         image: image4,
-        categary: "Account"
+        categary: "Account",
+        link: "https://emergingsolutions.com.au/"
     },
     {
         id: 5,
         image: image5,
-        categary: "Account"
+        categary: "Account",
+        link: "https://www.greenlandscapes.com.au/"
     },
     {
         id: 6,
         image: image6,
-        categary: "Account"
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
     },
     // solon
     {
         id: 1,
         image: Salon1,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://www.bonnielassbeauty.com.au/"
     },
     {
         id: 2,
         image: Salon2,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://www.aandhbarbers.com.au/"
     },
     {
         id: 3,
         image: Salon3,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://melishaircuts.com.au/"
     },
     {
         id: 4,
         image: Salon4,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://www.versacehair.com.au/"
     },
     {
         id: 5,
         image: Salon5,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
     },
     {
         id: 6,
         image: Salon6,
-        categary: "Salon"
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
     },
     //Business
     {
         id: 1,
         image: Buisness1,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.valhu.com.au/"
     },
     {
         id: 2,
         image: Buisness2,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.crowdofwisdom.com/"
     },
     {
         id: 3,
         image: Buisness3,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.makemywebsite.com.au/web-design-portfolio/"
     },
     {
         id: 4,
         image: Buisness4,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.royallivings.com.au/"
     },
     {
         id: 5,
         image: Buisness5,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.quobasystems.com.au/"
     },
     {
         id: 6,
         image: Buisness6,
-        categary: "Business"
+        categary: "Business",
+        link: "https://www.ezy-energy.com.au/"
     },
     //childcare
     {
         id: 1,
         image: childcare1,
-        categary: "childcare"
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
     },
     {
         id: 2,
         image: childcare2,
-        categary: "childcare"
+        categary: "childcare",
+        link: "https://www.teachatotfdc.com.au/"
     },
     {
         id: 3,
         image: childcare3,
-        categary: "childcare"
+        categary: "childcare",
+        link: "https://www.kidsoncrown.com.au/"
     },
     //driwing school
     {
         id: 1,
         image: driving1,
-        categary: "driving"
+        categary: "driving",
+        link: "https://www.galaxydrivingschool.com.au/"
     },
     {
         id: 2,
         image: driving2,
-        categary: "driving"
+        categary: "driving",
+        link: "https://www.makemywebsite.com.au/web-design-portfolio/Drivings%20Kool%20Onroad%20Perfection"
     },
     {
         id: 3,
         image: driving3,
-        categary: "driving"
+        categary: "driving",
+        link: "https://greenandgolddriving.com.au/"
     },
     //eccomerce
     {
         id: 1,
         image: Ecommerce1,
-        categary: "Ecommerce"
+        categary: "Ecommerce",
+        link: "https://www.furniturecastle.com.au/"
     },
     {
         id: 2,
         image: Ecommerce2,
-        categary: "Ecommerce"
+        categary: "Ecommerce",
+        link: "https://www.dal.com.au/"
     },
     {
         id: 3,
         image: Ecommerce3,
-        categary: "Ecommerce"
+        categary: "Ecommerce",
+        link: "https://www.marksqualitycakes.com.au/"
     },
     {
         id: 4,
         image: Ecommerce4,
-        categary: "Ecommerce"
+        categary: "Ecommerce",
+        link: "https://www.rareorganics.com.au/"
     },
     {
         id: 5,
         image: Ecommerce5,
-        categary: "Ecommerce"
+        categary: "Ecommerce",
+        link: "https://www.disamitrends.com.au/"
     },
     //food industory
     {
         id: 1,
         image: Food1,
-        categary: "FoodIndustary"
+        categary: "FoodIndustary",
+        link: "https://www.atmex.com.au/"
     },
     {
         id: 2,
         image: Food2,
-        categary: "FoodIndustary"
+        categary: "FoodIndustary",
+        link: "https://www.marksqualitycakes.com.au/"
     },
     {
         id: 3,
         image: Food3,
-        categary: "FoodIndustary"
+        categary: "FoodIndustary",
+        link: "https://coventryspantry.com.au/"
     },
     {
         id: 4,
         image: Food4,
-        categary: "FoodIndustary"
+        categary: "FoodIndustary",
+        link: "https://www.infinitycafebarlounge.com.au/"
     },
     {
         id: 5,
         image: Food5,
-        categary: "FoodIndustary"
+        categary: "FoodIndustary",
+        link: "https://wyndhamkebabsandcurry.com.au/"
     },
     //Medical
     {
         id: 1,
         image: Medical1,
-        categary: "Medical"
+        categary: "Medical",
+        link: "https://www.carescan.com.au/"
     },
     {
         id: 2,
         image: Medical2,
-        categary: "Medical"
+        categary: "Medical",
+        link: "https://www.nursescaring4you.com.au/"
     },
     {
         id: 3,
         image: Medical3,
-        categary: "Medical"
+        categary: "Medical",
+        link: "https://www.wdimaginggroup.com.au/"
     },
     {
         id: 4,
         image: Medical4,
-        categary: "Medical"
+        categary: "Medical",
+        link: "https://electrolyteandacidbase.com.au/"
     },
     {
         id: 5,
         image: Medical5,
-        categary: "Medical"
+        categary: "Medical",
+        link: "https://idia.com.au/"
     },
     //NDIS
     {
         id: 1,
         image: NDIS1,
-        categary: "NDIS2"
+        categary: "NDIS",
+        link: "https://www.pursueability.com/"
     },
     {
         id: 2,
         image: NDIS2,
-        categary: "NDIS"
+        categary: "NDIS",
+        link: "https://www.qualitylifecare.com.au/"
     },
     {
         id: 3,
         image: NDIS3,
-        categary: "NDIS"
+        categary: "NDIS",
+        link: " https://www.lifelongcare.com.au/"
     },
     {
         id: 4,
         image: NDIS4,
-        categary: "NDIS"
+        categary: "NDIS",
+        link: "https://www.diligentcareservices.com.au/"
     },
     //Other
     {
         id: 1,
         image: Other1,
-        categary: "Other"
+        categary: "Other",
+        link: "https://superyard.com.au/"
     },
     {
         id: 2,
         image: Other2,
-        categary: "Other"
+        categary: "Other",
+        link: "https://www.mhevents.com.au/"
     },
     {
         id: 3,
         image: Other3,
-        categary: "Other"
+        categary: "Other",
+        link: "https://www.thestylingempire.com.au/"
     },
     {
         id: 4,
         image: Other4,
-        categary: "Other"
+        categary: "Other",
+        link: "https://www.roccon.com.au/"
     },
     //painter
     {
         id: 1,
-        image:painter1,
-        categary: "painter"
+        image: painter1,
+        categary: "painter",
+        link: "https://swpd.com.au/"
     },
     {
         id: 2,
-        image:painter2,
-        categary: "painter"
+        image: painter2,
+        categary: "painter",
+        link: "https://doyleplumbinggroup.com.au/"
     },
     {
         id: 3,
-        image:painter3,
-        categary: "painter"
+        image: painter3,
+        categary: "painter",
+        link: "https://www.singhsaircon.com.au/"
     },
     {
         id: 4,
-        image:painter4,
-        categary: "painter"
+        image: painter4,
+        categary: "painter",
+        link: "https://www.directpointelectrical.com.au/"
     },
     //realestate
     {
         id: 1,
-        image:realestate1,
-        categary: "realestate"
+        image: realestate1,
+        categary: "realestate",
+        link: "https://www.coburnsrise.com.au/"
     },
     {
         id: 2,
-        image:realestate2,
-        categary: "realestate"
+        image: realestate2,
+        categary: "realestate",
+        link: "https://www.augmentgroup.com.au/"
     },
     {
-        id:3,
-        image:realestate3,
-        categary: "realestate"
+        id: 3,
+        image: realestate3,
+        categary: "realestate",
+        link: "https://www.propertyselectadvisory.com/"
     },
     {
         id: 4,
-        image:realestate4,
-        categary: "realestate"
+        image: realestate4,
+        categary: "realestate",
+        link: "https://www.credzone.com.au/"
     },
     //security
     {
         id: 1,
-        image:security1,
-        categary: "security"
+        image: security1,
+        categary: "security",
+        link: "https://www.wirelesscamerasolutions.com.au/"
     },
     {
         id: 2,
-        image:security2,
-        categary: "security"
+        image: security2,
+        categary: "security",
+        link: "https://www.visioncom.com.au/"
     },
     {
         id: 3,
         image: security3,
-        categary: "security"
+        categary: "security",
+        link: "https://www.limelitesecurity.com.au/"
     },
     {
         id: 4,
-        image:security4,
-        categary: "security"
+        image: security4,
+        categary: "security",
+        link: "https://www.sensorsecuritynsw.com.au/"
     },
     //sport
     {
         id: 1,
-        image:sport1,
-        categary: "sport"
+        image: sport1,
+        categary: "sport",
+        link: "https://www.melbournesmashers.com.au/"
     },
     {
         id: 2,
-        image:sport2,
-        categary: "sport"
+        image: sport2,
+        categary: "sport",
+        link: "https://www.cairnsbicycleworks.com/"
     },
     {
         id: 3,
-        image:sport3,
-        categary: "sport"
+        image: sport3,
+        categary: "sport",
+        link: "https://www.bakbakan.com/"
     },
     {
         id: 4,
-        image:sport4,
-        categary: "sport"
+        image: sport4,
+        categary: "sport",
+        link: "https://www.laidleybowlingclub.com.au/"
     },
-
-
-
-
-
- 
-
 ]
 export default AutoScrollImages 

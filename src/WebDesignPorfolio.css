@@ -85,9 +85,15 @@
  */
  .image-wrap {
    width: 100%;
+   position: relative;
    height: 300px;
    overflow: hidden;
    margin: 50px auto;
+ }
+ .image-wrap:hover .visit-button{
+  display: inline-block;
+  z-index: 1;
+
  }
 
  .image-wrap img {
@@ -101,6 +107,24 @@
  .image-wrap:hover img {
    object-position: bottom center;
  }
- .image-wrap:hover{
-  filter:contrast(60%);
+
+ .image-wrap:hover {
+   filter: contrast(60%);
+ }
+
+ .visit-button {
+   position: absolute;
+   top: 50%;
+   display: none;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: black;
+   color: #fff;
+   font-weight: 600;
+   padding: 0.5em 1em;
+   text-align: center;
+   border-radius: 3px;
+   transition: opacity .1s ease-in-out;
+   font-family: "Josefin Sans", Sans-serif;
+    line-height: 1.75em;
  }
