@@ -29,7 +29,7 @@ function Blog() {
                           console.log(value.text)
                             return (
                                 < div className='col-xl-4 col-md-6 mb-4' >
-                                   <a href={value.link}>
+                                   
                                    <div className='card blogs-card'>
                                         <img src={value.image} alt="" className='img-fluid' />
                                         <div className='abc-btn py-1 px-3'>{value.categary}</div>
@@ -40,7 +40,7 @@ function Blog() {
                                             <p>{value.date}</p>
                                         </div>
                                     </div>
-                                   </a>
+                                   
                                 </div>
                             )
                         })

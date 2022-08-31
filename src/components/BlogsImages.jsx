@@ -40,13 +40,13 @@ import business4 from '../images/instagram-update-affect-social-media-marketing.
 import business5 from '../images/1200x870.jpg'
 import business6 from '../images/computer-screen.jpg'
 import business7 from '../images/shutterstock_525688453.jpg'
-import business8 from '../images/wordpress.jpg'
+import business8 from '../images/wordpress (1).jpg'
 import business9 from '../images/shutterstock_765947833.jpg'
 import business10 from '../images/shutterstock_1904833777.jpg'
 import business11 from '../images/blog.jpg'
 import business12 from '../images/shutterstock_1407910754.jpg'
 import business13 from '../images/content-marketing.jpg'
-import business14 from '../images/e-commerce.jpg'
+import business14 from '../images/Responsive-web-design.jpg'
 import business15 from '../images/images-1.jpg'
 import business16 from '../images/Au-Direct-Domain-Name.jpg'
 import business17 from '../images/shutterstock_245818669.jpg'
@@ -125,20 +125,20 @@ import business89 from '../images/why-responsive-website.jpeg'
 import business90 from '../images/vector-design.jpg'
 import business91 from '../images/shutterstock_201.jpg'
 import business92 from '../images/blog-1.jpg'
-// import business93 from '../images/'
-// import business94 from '../images/'
-// import business95 from '../images/'
-// import business96 from '../images/'
-// import business97 from '../images/'
-// import business98 from '../images/'
-// import business99 from '../images/'
-// import business100 from '../images/'
-// import business101 from '../images/'
-// import business102 from '../images/'
-// import business103 from '../images/'
-// import business104 from '../images/'
-// import business105 from '../images/'
-// import business106 from '../images/'
+import business93 from '../images/e-commerce.jpg'
+import business94 from '../images/Business-Ranking.jpg'
+import business95 from '../images/business-brand.jpg'
+import business96 from '../images/Common-problems-faced-by-small-businesses-without-an-online-presence.jpg'
+import business97 from '../images/Web-Design-Content-Creative.jpg'
+import business98 from '../images/HTML-HTTP-Web-Design-Homepage.jpg'
+import business99 from '../images/top-5-benefits-of-blogging.jpg'
+import business100 from '../images/Keep-On-Blogging.jpg'
+import business101 from '../images/bushfire-blog.jpg'
+import business102 from '../images/google-business.jpg'
+import business103 from '../images/abc.jpg'
+import business104 from '../images/wordpress.jpg'
+import business105 from '../images/Responsive.jpg'
+
 //design
 // import design1 from '../images/Website-redesign.jpg'
 // import design2 from '../images/web-design-blacktown.jpg'
@@ -608,63 +608,63 @@ const AutoBlogs = [
         image: business1,
         categary: "business",
         link: "",
-        text: "abcfswgwg",
-        date: "twretgqwyur6ur6yurtyjurtyhrthrth"
+        text: "Instagram Vs Facebook: Metaverse Secrets for Brand Promotion",
+        date: "Admin  12/08/2022"
     },
     {
         id: 54,
         image: business2,
         categary: "business",
         link: "",
-        text: "wefwregfew",
-        date: "fewfqewfew"
+        text: "How To Most Effectively Use Hashtags On Instagram",
+        date: "Admin  18/12/2021"
     },
     {
         id: 55,
         image: business3,
         categary: "business",
         link: "",
-        text: "fewfewf",
-        date: "fewfew"
+        text: "How To Generate The Best Leads Via Instagram",
+        date: "Admin  08/10/2021"
     },
     {
         id: 56,
         image: business4,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How is the new Instagram update affecting social media marketing?",
+        date: "Admin  25/07/2019"
     },
     {
         id: 57,
         image: business5,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "9 Effective Ways to Build Your Brand’s Social Media Presence",
+        date: "Admin  17/08/2022"
     },
     {
         id: 58,
         image: business6,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The Importance of Website Security",
+        date: "Admin  26/07/2022"
     }, {
         id: 59,
         image: business7,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "11 Reasons Why Your WordPress Website Needs Maintenance",
+        date: "Admin  21/07/2022"
     },
     {
         id: 60,
         image: business8,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "4 Reasons Web Developers Use WordPress For Websites",
+        date: "Admin  29/05/2019"
     },
 
     {
@@ -672,39 +672,39 @@ const AutoBlogs = [
         image: business9,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Digital Marketing Trends you Need to know in 2022",
+        date: "Admin  06/07/2022"
     }, {
         id: 62,
         image: business10,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Essential Components for a Successful Small Business Website",
+        date: "Admin  27/06/2022"
     },
     {
         id: 63,
         image: business11,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to Choose a Web Hosting Provider?",
+        date: "Admin  18/06/2022"
     },
     {
         id: 64,
         image: business12,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "8 Reasons Your Business Needs Digital Marketing Strategies",
+        date: "Admin  10/06/2022"
     },
     {
         id: 65,
         image: business13,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Role of Content Marketing in Digital Marketing",
+        date: "Admin  31/05/2022"
     },
 
     {
@@ -712,16 +712,16 @@ const AutoBlogs = [
         image: business14,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How Good Web Design Can Increase Business Value?",
+        date: "Admin  12/04/2022"
     },
     {
         id: 67,
         image: business15,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Steps to Consider while Moving your Business Online during COVID-19",
+        date: "Admin  30/03/2022"
     },
 
     {
@@ -729,16 +729,16 @@ const AutoBlogs = [
         image: business16,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "4 Benefits Of The New .Au Direct Domain Name",
+        date: "Admin  15/01/2022"
     },
     {
         id: 69,
         image: business17,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Ace Up Your Content Game This Holiday Season?",
+        date: "Admin  03/12/2021"
     },
 
     {
@@ -746,72 +746,72 @@ const AutoBlogs = [
         image: business18,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Improve Your Blog Conversion Rate.",
+        date: "Admin  22/11/2021"
     },
     {
         id: 71,
         image: business19,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Most Affordable Digital Marketing Tools For SMEs & Start-Ups!",
+        date: "Admin  08/11/2021"
     },
     {
         id: 72,
         image: business20,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Winter Festive Marketing Ideas That Are Effective For All Businesses",
+        date: "Admin  02/11/2021"
     },
     {
         id: 73,
         image: business21,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How Paid Campaigns Can Boost Your Business",
+        date: "Admin  12/10/2021"
     },
     {
         id: 74,
         image: business22,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Free SEO Tools You Need",
+        date: "Admin  01/10/2021"
     },
     {
         id: 75,
         image: business23,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "5 ‘Must-Have’ Chrome Extensions For Your Business",
+        date: "Admin  24/09/2021"
     },
     {
         id: 76,
         image: business24,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Hacks To Social Media Marketing",
+        date: "Admin  30/08/2021"
     },
     {
         id: 77,
         image: business25,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Here’s What You Need To Know About The Latest Google Search Link Spam Update",
+        date: "Admin  02/08/2021"
     },
     {
         id: 78,
         image: business26,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to Enjoy Your Break While Being Active on Social Media",
+        date: "Admin  01/02/2021"
     },
 
     {
@@ -819,15 +819,15 @@ const AutoBlogs = [
         image: business27,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Level up your Email Marketing with these 5 tips",
+        date: "Admin  05/01/2021"
     }, {
         id: 80,
         image: business28,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Paid, Owned, and Earned Media: What are the Differences?",
+        date: "Admin  14/12/2020"
     },
 
     {
@@ -835,48 +835,48 @@ const AutoBlogs = [
         image: business29,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Paint the Town Red with These 6 Perfect Christmas Marketing Ideas",
+        date: "Admin  08/12/2020"
     },
     {
         id: 82,
         image: business30,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How Websites Changed The Face Of The Globe",
+        date: "Admin  29/10/2020"
     },
     {
         id: 83,
         image: business31,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "9¾ Ways to Hook Millennials to your Website",
+        date: "Admin  21/08/2020"
     },
     {
         id: 84,
         image: business32,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Social Media: A Major Jigsaw in the Picture of Website Optimization",
+        date: "Admin  07/08/2020"
     },
     {
         id: 85,
         image: business33,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "4 Things Your Customers Want You to Share",
+        date: "Admin  12/05/2020"
     },
     {
         id: 86,
         image: business34,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "4 Ways To Survive As A Business Owner During COVID-19",
+        date: "Admin  21/04/2020"
     },
 
     {
@@ -884,24 +884,24 @@ const AutoBlogs = [
         image: business35,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Giveaway Announcement!",
+        date: "Admin  20/05/2019"
     },
     {
         id: 88,
         image: business36,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to Redirect Social Media Traffic to Your Website?",
+        date: "Admin  07/05/2019"
     },
     {
         id: 89,
         image: business37,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Social Media & ROI",
+        date: "Admin  05/04/2019"
     },
 
     {
@@ -909,48 +909,48 @@ const AutoBlogs = [
         image: business38,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "5 WordPress Plugins Every Developer Must Choose",
+        date: "Admin  04/02/2019"
     },
     {
         id: 91,
         image: business39,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "5 best marketing strategies every restaurant should follow",
+        date: "Admin  10/01/2019"
     },
     {
         id: 91,
         image: business40,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The 5 to-do’s in 2019!",
+        date: "Admin  02/01/2019"
     },
     {
         id: 92,
         image: business41,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Thanking you with surprises on Christmas!",
+        date: "Admin  20/12/2018"
     },
     {
         id: 93,
         image: business42,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "What is the business value from your investment in a website?",
+        date: "Admin  28/11/2018"
     },
     {
         id: 94,
         image: business43,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Website Is A Medium To Showcase Your Business",
+        date: "Admin  01/09/2017"
     },
 
     {
@@ -958,8 +958,8 @@ const AutoBlogs = [
         image: business44,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Professional Images on Website are “Necessary” or “Nice to Have” Element",
+        date: "Admin  14/08/2018"
     },
 
     {
@@ -967,32 +967,32 @@ const AutoBlogs = [
         image: business45,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How active you should be on social media?",
+        date: "Admin  05/12/2018"
     },
     {
         id: 97,
         image: business46,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to make your online business successful?",
+        date: "Admin  12/12/2018"
     },
     {
         id: 98,
         image: business47,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Importance of having a brand logo",
+        date: "Admin  14/12/2018"
     },
     {
         id: 99,
         image: business48,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "An introduction to ranking higher on Google",
+        date: "Admin  22/01/2019"
     },
 
     {
@@ -1000,32 +1000,32 @@ const AutoBlogs = [
         image: business49,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Web Design in West Melbourne",
+        date: "Admin  31/01/2019"
     },
     {
         id: 101,
         image: business50,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Importance of HTTPS/SSL Certificate",
+        date: "Admin  24/01/2019"
     },
     {
         id: 102,
         image: business51,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to generate credibility on your website?",
+        date: "Admin  22/02/2019"
     },
     {
         id: 103,
         image: business52,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to Choose a Topic for your Blog?",
+        date: "Admin  20/02/2019"
     },
 
     {
@@ -1033,24 +1033,24 @@ const AutoBlogs = [
         image: business53,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Impact of Influencer Marketing",
+        date: "Admin  18/02/2019"
     },
     {
         id: 105,
         image: business54,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Online Marketing Services Melbourne",
+        date: "Admin  30/04/2019"
     },
     {
         id: 106,
         image: business55,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Easter’19 Surprise",
+        date: "Admin  10/04/2019"
     },
 
     {
@@ -1058,56 +1058,56 @@ const AutoBlogs = [
         image: business56,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Web design for Small Businesses   ",
+        date: "Admin  30/04/2019"
     },
     {
         id: 108,
         image: business57,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Build your eCommerce business: beginner’s guide",
+        date: "Admin  29/04/2019"
     },
     {
         id: 109,
         image: business58,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "5 Tricks to level up your social media",
+        date: "Admin  02/05/2019"
     },
     {
         id: 110,
         image: business59,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "EOFY’19 SALE- Countdown Begins",
+        date: "Admin  17/05/2019"
     },
     {
         id: 111,
         image: business60,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Gratitude From Make My Website  ",
+        date: " Admin  24/12/2019"
     },
     {
         id: 112,
         image: business61,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "5 things small businesses should do before holidays ",
+        date: "Admin  11/12/2019"
     },
     {
         id: 113,
         image: business62,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Whopping 25% off on web design this Christmas!",
+        date: "Admin  20/11/2019"
     },
 
     {
@@ -1115,48 +1115,48 @@ const AutoBlogs = [
         image: business63,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Open For Business: COVID-19 Update ",
+        date: "Admin  06/04/2020   "
     },
     {
         id: 115,
         image: business64,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "3 Ways To Retain Your Customers During COVID-19",
+        date: "Admin  27/04/2020"
     },
     {
         id: 116,
         image: business65,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "COVID-19 Update & Tips for Sydney Businesses",
+        date: "Admin  15/04/2020"
     },
     {
         id: 117,
         image: business66,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Don’t have a website yet? We have you covered.",
+        date: "Admin  01/07/2020"
     },
     {
         id: 118,
         image: business67,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Lockdown: The Only Way Is Through",
+        date: "Admin  10/08/2020"
     },
     {
         id: 119,
         image: business68,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How Being An Entrepreneur Changes You As A Person",
+        date: "Admin  27/11/2020"
     },
 
     {
@@ -1164,305 +1164,298 @@ const AutoBlogs = [
         image: business69,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Schedule Your Work Week Like The Best In Business",
+        date: "Admin  20/01/2021"
     },
     {
         id: 121,
         image: business70,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "10 Ways A Website Can Help A Small Business",
+        date: "Admin  27/01/2021"
     },
     {
         id: 122,
         image: business71,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The Tradies Guide to Succeeding Online",
+        date: "Admin  08/02/2021"
     },
     {
         id: 123,
         image: business72,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Why Your Website Is More Important Than Your Business Card",
+        date: "Admin  01/02/2021"
     },
     {
         id: 124,
         image: business73,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Find The Cues To Achieving An Excellent Website",
+        date: "Admin  02/04/2021"
     },
     {
         id: 125,
         image: business74,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Checklist For The First Month Of The New Financial Year 2021",
+        date: "Admin  07/07/2021"
     },
     {
         id: 126,
         image: business75,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "What Makes a Digital Space Exuberant – Based on excerpts from user’s experience",
+        date: "Admin  19/05/2021"
     },
     {
         id: 127,
         image: business76,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Make The Most Of Your Business Website",
+        date: "Admin  16/04/2021"
     },
     {
         id: 128,
         image: business77,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Build An Interactive & Creative User Interface For Your Website",
+        date: "Admin  12/08/2021"
     },
     {
         id: 129,
         image: business78,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The Importance Of Using Engaging Headshots On Your Website",
+        date: "Admin  11/08/2021"
     },
     {
         id: 130,
         image: business79,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The Final Call- Google’s Link Spam Update",
+        date: "Admin  31/08/2021"
     },
     {
         id: 131,
         image: business80,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "The Crucial Role Of Social Media In Building Your Business",
+        date: "Admin  02/09/2021"
     },
     {
         id: 132,
         image: business81,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How Email Marketing Can Significantly Boost Your Business.",
+        date: "Admin  05/10/2021"
     },
     {
         id: 133,
         image: business82,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Finding The Perfect Content Title? Not A Cakewalk.",
+        date: "Admin  19/10/2021"
     },
     {
         id: 134,
         image: business83,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Best Halloween Trends This October To Boost Your Sales",
+        date: "Admin  15/10/2021"
     },
     {
         id: 135,
         image: business84,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Social Media Monitoring & Management Tools",
+        date: "Admin  29/10/2021"
     },
     {
         id: 136,
         image: business85,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Countdown To Halloween With Genius Marketing Games",
+        date: "Admin  26/10/2021"
     },
     {
         id: 137,
         image: business86,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Ultimate Checklist When Choosing A Right Web Design Company",
+        date: "Admin  15/11/2021"
     },
     {
         id: 138,
         image: business87,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Why Do You Need An Expert To Manage Your Website?",
+        date: "Admin  23/12/2021"
     },
     {
         id: 139,
         image: business88,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How To Optimize Your Website For Google Voice Search?",
+        date: "Admin  04/01/2022"
     },
     {
         id: 140,
         image: business89,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Why is a Responsive Website the Best Business Investment?",
+        date: "Admin  26/02/2022"
     },
     {
         id: 141,
         image: business90,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Rank Math vs Yoast SEO – Which one to choose in 2022?",
+        date: "Admin  15/03/2022"
     },
     {
         id: 142,
         image: business91,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "How to Select the Perfect WordPress Theme?",
+        date: "Admin  25/03/2022"
     },
     {
         id: 143,
         image: business92,
         categary: "business",
         link: "",
-        text: "",
-        date: ""
+        text: "Top 9 Tips for Improved Web Design and Reduced Bounce Rates",
+        date: "Admin  22/06/2022"
     },
-    // {
-    //     id: 144,
-    //     image: business93,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 145,
-    //     image: business94,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 146,
-    //     image: business95,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 147,
-    //     image: business96,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 148,
-    //     image: business97,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 149,
-    //     image: business98,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 150,
-    //     image: business99,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 151,
-    //     image: business100,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 152,
-    //     image: business101,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 153,
-    //     image: business102,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 154,
-    //     image: business103,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 155,
-    //     image: business104,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 156,
-    //     image: business105,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
-    // {
-    //     id: 157,
-    //     image: business106,
-    //     categary: "business",
-    //     link: "",
-    //     text: "",
-    //     date: ""
-    // },
+    {
+        id: 144,
+        image: business93,
+        categary: "business",
+        link: "",
+        text: "PayPal vs Stripe for WooCommerce: Which One Should You Use",
+        date: "Admin  05/04/2022"
+    },
+    {
+        id: 145,
+        image: business94,
+        categary: "business",
+        link: "",
+        text: "Tips To Improve Your Google My Business Ranking",
+        date: "Admin  21/01/2022"
+    },
+    {
+        id: 146,
+        image: business95,
+        categary: "business",
+        link: "",
+        text: "What Makes Your Brand Name Your Best Bet At SEO Optimisation",
+        date: "Admin  17/09/2021"
+    },
+    {
+        id: 147,
+        image: business96,
+        categary: "business",
+        link: "",
+        text: "5 Common Problems Faced by Small Businesses Without an Online Presence",
+        date: "Admin  18/03/2021"
+    },
+    {
+        id: 148,
+        image: business97,
+        categary: "business",
+        link: "",
+        text: "Introduction to key areas in a Website",
+        date: "Admin . 25/02/2019"
+    },
+    {
+        id: 149,
+        image: business98,
+        categary: "business",
+        link: "",
+        text: "Keys to Innovative Web Design",
+        date: "Admin  17/01/2019"
+    },
+    {
+        id: 150,
+        image: business99,
+        categary: "business",
+        link: "",
+        text: "Top 5 benefits of blogging",
+        date: "Admin  09/01/2019"
+    },
+    {
+        id: 151,
+        image: business100,
+        categary: "business",
+        link: "",
+        text: "Top 3 Reasons for Businesses To Start A Blog",
+        date: "Admin  11/03/2020"
+    },
+    {
+        id: 152,
+        image: business101,
+        categary: "business",
+        link: "",
+        text: "Bushfire Relief Campaign",
+        date: "Admin  13/01/2020"
+    },
+    {
+        id: 153,
+        image: business102,
+        categary: "business",
+        link: "",
+        text: "Utilize your Google Business Page the right way",
+        date: "Admin  12/11/2019"
+    },
+    {
+        id: 154,
+        image: business103,
+        categary: "business",
+        link: "",
+        text: "Questions Answered: SEO & Web Design",
+        date: "Admin  19/06/2019"
+    },
+    {
+        id: 155,
+        image: business104,
+        categary: "business",
+        link: "",
+        text: "Why is WordPress the Most Popular Choice for Websites?",
+        date: "Admin  16/07/2022"
+    },
+    {
+        id: 156,
+        image: business105,
+        categary: "business",
+        link: "",
+        text: "Web Design in Werribee",
+        date: "Admin  21/12/2018"
+    },
+    
     //web design
     // {
     //     id: 158,
