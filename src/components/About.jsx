@@ -9,7 +9,7 @@ function About() {
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             About Us
@@ -61,9 +61,9 @@ function About() {
                             </div>
                         </div>
                         <div className='col-lg-6 column column1' >
-                           <div className='row justify-content-center'>
-                           <img src={storyoffice} alt="our-story" className='img-fluid' />
-                           </div>
+                            <div className='row justify-content-center'>
+                                <img src={storyoffice} alt="our-story" className='img-fluid' />
+                            </div>
                         </div>
                     </div>
                 </div>

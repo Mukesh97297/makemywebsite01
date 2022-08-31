@@ -13,6 +13,7 @@ function Caraousel() {
     const Option = {
         items: 2,
         nav: true,
+        TimeRanges:20,
         center: true,
         autoplay: true,
         navText : ["<i class='fa fa-chevron-left prew-slide'></i>","<i class='fa fa-chevron-right prew-slide'></i>"],

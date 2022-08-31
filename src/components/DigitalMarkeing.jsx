@@ -7,6 +7,7 @@ import socialmedia from '../images/social-media-marketing-icon.png'
 import seo from '../images/seo-icon.png'
 import content from '../images/content-icon.png'
 import ServiceDelivery from './ServiceDelivery';
+import { Link } from 'react-router-dom';
 function DigitalMarkeing() {
     return (
         <div>
@@ -39,7 +40,7 @@ function DigitalMarkeing() {
                                 simpler process than normal. </p>
                             <p>Our services are aimed at helping your brand to gain visibility, and establish a strong
                                 presence amidst a wider audience where you get noticed for all the good work you are doing.
-                                <a href='/'>Digital marketing</a> is nothing but the umbrella term for marketing methodologies
+                                <Link to='/service/DigitalMarkeing'>Digital marketing</Link> is nothing but the umbrella term for marketing methodologies
                                 used to grow your business on the web. </p>
                         </div>
                         <div className='col-md-5'>

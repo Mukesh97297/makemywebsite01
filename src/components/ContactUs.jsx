@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 import Lottie from 'lottie-react';
 import contact from '../animation/ContactUs.json';
 function ContactUs() {
+    function goToTop() {
+        window.scrollTo({ top: 0 })
+    }
     return (
         <div>
             <div className="container-fluid" id="about-container">
@@ -87,7 +90,7 @@ function ContactUs() {
                                         <textarea type="text" className="form-control" style={{ height: "100px" }} required/>
                                     </div>
                                     <div className='col-md-4 pt-2 contact-form-input-list'>
-                                         <Link to="/thankyou">
+                                         <Link to="/thankyou" onClick={goToTop}>
                                             <input type="Submit" className='btn Contact-us-submit' value='Submit' />
                                         </Link> 
                                     </div>

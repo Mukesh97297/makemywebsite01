@@ -1,43 +1,51 @@
-.Sydney-main-div{
+.Sydney-main-div {
     background: url(./images/banner-web_designer.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-   
+
 }
-.Sydney-first-row{
+
+.Sydney-first-row {
     padding: 10px;
 }
-.Sydney-first-col-7 h2{
- font-size: 50px;
- font-weight: 700;
- line-height: 1.2em;
- color: #FFFFFF;
+
+.Sydney-first-col-7 h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #FFFFFF;
 }
-.Sydney-first-col-7 h2 span{
+
+.Sydney-first-col-7 h2 span {
     color: #ed1c24;
 }
-.Sydney-first-col-7 div{
+
+.Sydney-first-col-7 div {
     margin-bottom: 20px;
 }
-.Sydney-first-col-7 div p{
+
+.Sydney-first-col-7 div p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
 }
-.Sydney-first-col-7 .get-a-free-btn{
-  margin: 10px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  text-align: left;
+
+.Sydney-first-col-7 .get-a-free-btn {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
 }
-.Sydney-first-col-7 .get-a-free-btn a{
+
+.Sydney-first-col-7 .get-a-free-btn a {
     text-decoration: none;
     text-align: center;
 }
-.Sydney-first-col-7 .get-a-free-btn a span span{
+
+.Sydney-first-col-7 .get-a-free-btn a span span {
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -47,5 +55,55 @@
     color: #FFFFFF;
     border-width: 0px 0px 0px 0px;
     border-color: #7A7A7A;
-    padding: 15px 35px 15px 35px;;
+    padding: 15px 35px 15px 35px;
+    ;
+}
+
+.Sydney-first-col-7 .get-a-free-btn a span span:hover {
+    background-color: #FFFFFF;
+    color: #222222;
+}
+
+.friquently-ask {
+    padding: 0% 13% 0% 13%;
+}
+
+.friquently-ask h3 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #222222;
+}
+
+.friquently-asked-questions {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 100px 0px 0px 0px;
+}
+
+@media only screen and (max-width:767px) {
+    .Sydney-first-col-7 h2{
+        font-size: 24px !important;
+    }
+    .Sydney-first-row{
+        padding: 0px !important;
+    }
+    .Sydney-first-col-7 div p{
+        font-size: 16px !important;
+    }
+    .Sydney-main-div{
+        padding: 50px 0px 50px 0px !important;
+    }
+    .friquently-asked-questions{
+        margin-top: 0px !important;
+    margin-bottom: 35px !important;
+    padding: 50px 20px 0px 20px !important;
+    }
+    .friquently-ask{
+        padding: 0% !important;
+    }
+    .friquently-ask h3{
+        font-size: 24px !important;
+    }
+    
 }

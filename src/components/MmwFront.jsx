@@ -40,7 +40,6 @@ function MmwFront() {
           )
         }
         </div>
-       
       </div>
       <div className='container-fluid we-team' style={{ backgroundColor: "#000000D1", padding: "20px 0px 20px 0px" }} >
         <div className='container'>

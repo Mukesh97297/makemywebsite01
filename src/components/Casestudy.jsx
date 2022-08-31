@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../CaseStudy.css'
 function Casestudy() {
+    function goToTop() {
+        window.scrollTo({ top: 0 })
+    }
     return (
-        <div>
+        <div style={{borderBottom:"2px solid #FFF-"}}>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             Case Studies
@@ -24,7 +28,7 @@ function Casestudy() {
                         <div className='casestudy casestudy2' >
                             <div className='overlay2'>
                                 <h3>
-                                    <a href="/">Dal</a>
+                                    <Link to="/Dal-page" onClick={goToTop}>Dal</Link>
                                 </h3>
                             </div>
                         </div>
@@ -33,7 +37,7 @@ function Casestudy() {
                         <div className='casestudy casestudy3'>
                             <div className='overlay2'>
                                 <h3>
-                                    <a href="/">Coburns Rise</a>
+                                    <Link to="/coburns-page" onClick={goToTop}>Coburns Rise</Link>
                                 </h3>
 
                             </div>
@@ -43,7 +47,7 @@ function Casestudy() {
                         <div className='casestudy casestudy4'>
                             <div className='overlay2'>
                                 <h3>
-                                    <a href="/"> Rg Land</a>
+                                    <Link to="/rg-land" onClick={goToTop}>Rg Land</Link>
                                 </h3>
 
                             </div>
@@ -53,7 +57,7 @@ function Casestudy() {
                         <div className='casestudy casestudy6'>
                             <div className='overlay2'>
                                 <h3>
-                                    <a href="/"> Tic Group</a>
+                                    <Link to="/tic-group" onClick={goToTop}>Tic Group</Link>
                                 </h3>
                             </div>
                         </div>
@@ -63,7 +67,7 @@ function Casestudy() {
                         <div className='casestudy casestudy5' >
                             <div className='overlay2' >
                                 <h3>
-                                    <a href="/"> Sunshine Collactables</a>
+                                    <Link to="/sunshine" onClick={goToTop}>Sunshine Collactables</Link>
                                 </h3>
                             </div>
                         </div>
@@ -73,7 +77,7 @@ function Casestudy() {
                         <div className='casestudy casestudy7'>
                             <div className='overlay2' >
                                 <h3>
-                                    <a href="/"> Carrabba's Group</a>
+                                    <Link to="/carrabba" onClick={goToTop}>Carrabba's Group</Link>
                                 </h3>
                             </div>
                         </div>
@@ -82,7 +86,7 @@ function Casestudy() {
                         <div className='casestudy casestudy8' >
                             <div className='overlay2' >
                                 <h3>
-                                    <a href="/">Darebin Gas</a>
+                                    <Link to="/darebin" onClick={goToTop}>Darebin Gas</Link>
                                 </h3>
                             </div>
                         </div>
@@ -91,7 +95,7 @@ function Casestudy() {
                         <div className='casestudy casestudy1' >
                             <div className='overlay2' >
                                 <h3>
-                                    <a href="/"> United Tools</a>
+                                    <Link to="/united-tools" onClick={goToTop}>United Tools</Link>
                                 </h3>
                             </div>
                         </div>

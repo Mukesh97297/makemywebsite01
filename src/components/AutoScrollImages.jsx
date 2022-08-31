@@ -4,6 +4,13 @@ import image3 from '../images/Vantagewealth-1.jpg'
 import image4 from '../images/Emerging-Solutions-1.jpg'
 import image5 from '../images/Green-Land-Scapes-scaled.jpg'
 import image6 from '../images/Kiosk-Accounting.jpg'
+import image7 from "../images/Taxation-One.jpg"
+import image8 from "../images/Stock-Trading-101-scaled.jpg"
+import image9 from "../images/Expert-Business-Accounting-Solutions (1).jpg"
+import image10 from "../images/Clarity-Acoustics-1.jpg"
+import image11 from "../images/Linear-Financial-Services.png"
+import image12 from "../images/Go-Book-Keeping.jpg"
+import image13 from "../images/Reliance-Accounting (1).jpg"
 // salon
 import Salon1 from '../images/bonnielassbeauty.jpg'
 import Salon2 from '../images/aandhbarbers.jpg'
@@ -11,6 +18,12 @@ import Salon3 from '../images/melishaircuts.jpg'
 import Salon4 from '../images/890-12.jpg'
 import Salon5 from '../images/ibrightcosmetics-au.jpg'
 import Salon6 from '../images/Blunt-Unisex-Salon.jpg'
+import Salon7 from '../images/glimmerandglowskin-au (1).jpg'
+import Salon8 from '../images/Indian-Beauty-Lounge (1).jpg'
+import Salon9 from '../images/Angels-Hair-Extensions.jpg'
+import Salon10 from '../images/Indian-Beauty-Secrets (1).jpg'
+import Salon11 from '../images/Jild.jpg'
+import Salon12 from '../images/Melis-Haircuts.jpg'
 // Business
 import Buisness1 from '../images/Valhu.jpg'
 import Buisness2 from '../images/Crowd-of-Wisdom1.jpg'
@@ -22,6 +35,19 @@ import Buisness6 from '../images/ezy-energy.jpg'
 import childcare1 from '../images/True-Maple-Learning.jpg'
 import childcare2 from '../images/Teach-A-Tot-Family-Day-Care.jpg'
 import childcare3 from '../images/Kidsoncrown-1.jpg'
+import childcare4 from '../images/screencapture-littlestarspreschool-au-2021-06-01-12_47_30.png'
+import childcare5 from '../images/tinytotslearning-au.jpg'
+import childcare6 from '../images/prodigyearlylearning-au.jpg'
+import childcare7 from '../images/nukidsearlylearning.jpg'
+import childcare8 from '../images/brightlyearlylearning-au.jpg'
+import childcare9 from '../images/littlebubsguildford-au.jpg'
+import childcare10 from '../images/somersparadekinder-au.jpg'
+import childcare11 from '../images/brightonrec-au.jpg'
+import childcare12 from '../images/paediatricspecialistcentre-au.jpg'
+import childcare13 from '../images/toyboxearlylearning.jpg'
+import childcare14 from '../images/blairmountkids-au (1).jpg'
+import childcare15  from "../images/890-scaled.jpg"
+import childcare16 from '../images/early-childhoodaus.jpg'
 //driving school
 import driving1 from '../images/galaxydrivingschool-au.jpg'
 import driving2 from '../images/dkop-au.jpg'
@@ -112,6 +138,48 @@ const AutoScrollImages = [
         categary: "Account",
         link: "https://www.kioskaccounting.com/"
     },
+    {
+        id: 7,
+        image: image7,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 8,
+        image: image8,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 9,
+        image: image9,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 10,
+        image: image10,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 11,
+        image: image11,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 12,
+        image: image12,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
+    {
+        id: 13,
+        image: image13,
+        categary: "Account",
+        link: "https://www.kioskaccounting.com/"
+    },
     // solon
     {
         id: 1,
@@ -146,6 +214,42 @@ const AutoScrollImages = [
     {
         id: 6,
         image: Salon6,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 7,
+        image: Salon7,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 8,
+        image: Salon8,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 9,
+        image: Salon9,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 10,
+        image: Salon10,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 11,
+        image: Salon11,
+        categary: "Salon",
+        link: "https://www.ibrightcosmetics.com/"
+    },
+    {
+        id: 12,
+        image: Salon12,
         categary: "Salon",
         link: "https://www.ibrightcosmetics.com/"
     },
@@ -204,6 +308,84 @@ const AutoScrollImages = [
         image: childcare3,
         categary: "childcare",
         link: "https://www.kidsoncrown.com.au/"
+    },
+    {
+        id: 4,
+        image: childcare4,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 5,
+        image: childcare5,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 6,
+        image: childcare6,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 7,
+        image: childcare7,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 8,
+        image: childcare8,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 9,
+        image: childcare9,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 10,
+        image: childcare10,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 11,
+        image: childcare11,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 12,
+        image: childcare12,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 13,
+        image: childcare13,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 14,
+        image: childcare14,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 15,
+        image: childcare15,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
+    },
+    {
+        id: 16,
+        image: childcare16,
+        categary: "childcare",
+        link: "https://www.truemaple.com.au/"
     },
     //driwing school
     {

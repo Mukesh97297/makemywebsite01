@@ -1,5 +1,4 @@
 import React from 'react'
-import HighPerformance from "../images/high-performing.png";
 import branding from '../animation/Branding.json'
 import design from '../animation/WebDesign.json'
 import customer from '../animation/CustomerCare.json'
@@ -10,6 +9,7 @@ import aiming from "../images/aiming-To.png"
 import Lottie from "lottie-react";
 import { NavLink } from "react-router-dom"
 import "../QuelityDesign.css"
+import tool from "../images/web-design-sydney-768x540.png"
 import google from '../images/google-partner-licon.png'
 import shopify from '../images/Shopify-licon.png'
 import commerce from '../images/woocommerce-licon.png'
@@ -18,6 +18,8 @@ import magento from '../images/Magento-licon.png'
 import HireEmployes from "../images/hire-an-employee-24x7-1.png"
 import Customer from './Customer';
 import ServiceDelivery from './ServiceDelivery';
+
+
 function QuelityDesign() {
     function goToTop() {
         window.scrollTo({ top: 0 })
@@ -146,12 +148,12 @@ function QuelityDesign() {
             </section>
             <section className='a-tailored-web-design-section'>
                 <div className='container'>
-                    <div className='row justify-content-center'>
+                    <div className='row'>
                         <div className='d-flex a-tailored-web-design mb-4'>
                             <span>
                                 <i className='fas fa-dot-circle'></i>
                             </span>
-                            <span><h2>Quality web design services </h2></span>
+                            <span><h2>A tailored web design approach </h2></span>
                         </div>
                         <div className='a-tailored-paragraph'>
                             <p>Aiming to create an impact differently with a holistic approach to help local businesses</p>
@@ -192,7 +194,7 @@ function QuelityDesign() {
             <section className='exeprt-web-designer'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 expert-web-designer'>
                             <div className='d-flex expert-title py-3'>
                                 <span> <i className='fas fa-dot-circle'></i></span>
                                 <span><h2>Expert Web designers in Sydney</h2></span>
@@ -214,7 +216,7 @@ function QuelityDesign() {
                         </div>
                         <div className='col-lg-5'>
                             <div className='high-perform-img-section'>
-                                <img src={HighPerformance} alt="highperforming" height="463" width="500" />
+                                <img src={tool} alt="highperforming" className='img-fluid' />
                             </div>
                         </div>
                     </div>
@@ -289,25 +291,116 @@ function QuelityDesign() {
             <section>
                 <Customer />
             </section>
-            {/* <section className='friquently-ask-questions'>
-                <div className='container'>
-                    <div className='asked-questions'>
-                        <h3>Frequently asked questions</h3>
-                    </div>
-                    <div className='hide-and-show'>
-                        <div className='container'>
-                            <div className='text-left'>
-                                <div className='mb-5'>
-                                    <div className='What-web-design'>
-                                    <span className='float-right'></span>
-                                       <NavLink to="/">What is WEB DESIGN?</NavLink>
-                                    </div>
+            <section className='friquently-asked-questions'>
+                <div className='row friquently-ask '>
+                    <h3>Frequently asked questions</h3>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>What is WEB DESIGN?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo">
+                                    <span><i className='fas fa-plus'></i></span>
                                 </div>
                             </div>
                         </div>
+                        <div id="demo" className="collapse qustions-simply">
+                            Web Design is an amalgamation of functional and exquisite elements, content, fonts, graphics, colours, and structuring a website to provide high quality user experience. <br /> <br />
+                            With the digital advancement, every business needs a high quality website to grow in the online space. An experienced web designer will know exactly how to design a website that adds value to your business. Web design plays a major role in determining how your brand is portrayed amongst your potential customers. If you were to define a good web design, it would be one that is easy to understand and use, aligns with the brand ethos, and is aesthetically appealing to the user.
+                        </div>
                     </div>
                 </div>
-            </section> */}
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>What allows Make My Website to stand out as a Web Design Agency in Sydney?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo1">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo1" className="collapse qustions-simply">
+                            Make My Website is a team of experts that is committed to creating high- quality, user-friendly designs to create seamless user experience. We have designed over 800 websites for clients in every state and territory of Australia and have received over 400 five star reviews on different platforms. We have established ourselves as a customer-centric company that delivers quality web design projects, has the quickest turnaround times, and addresses business requirements. <br /><br />
+                            Our team is passionate to work on projects from various domains and industries and have catered for a range of clients in the past- helping us stand out and have a competitive edge in the industry.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>What is the significance of having a high-quality WEB DESIGN?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo2">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo2" className="collapse qustions-simply">
+                            As stated above, having a high-quality web design is important for every business. But what makes it significant? It’s simple. Web design is what determines how your website- your brand’s digital identity, or your internet advertising billboard would look like! A fully-functional, user-friendly web design is beneficial for your business, as it allows users to navigate through your website with ease and gives them a chance to understand the solution you are offering to their problem.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>How does Make My Website help businesses?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo3">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo3" className="collapse qustions-simply">
+                            Make My Website is known in Australia to empower local businesses. We utilise our expertise to help businesses go online, and create an impact by optimising their presence on the world wide web. We are a web design agency with one of the best reviews in the country. We look after small, medium, and large businesses and understand their specific requirements to design a website that is unique to their needs. Our team takes the holistic approach and ensures that every website’s design is effective and helps stimulate their business.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>How much do you charge for a responsive web design?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo4">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo4" className="collapse qustions-simply">
+                            A web design project is a rather complex one, as it is expected (and does) to address all business requirements. The cost for a seamless web design depends on your requirements, and we always prefer having a detailed conversation to first understand your specifications, and then providing you with a solution. Rest assured we don’t give surprises with prices, and provide the final quote for a defined scope of work. Feel free to have a chat with us, share some insights of your business, gain some of ours and let’s get this started.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>Will I always need a web designer to manage my website?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo4">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo4" className="collapse qustions-simply">
+                            Yes and no. <br />
+                            If you have your website managed by us, we can take care of the security of your website, take regular backups, update plugins, and provide you with support you may need to make the changes on a live website. Alternatively, we can teach you how to make basic changes to your website so you can cater for those on your own, as you will have full ownership of your website.
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section>
                 <ServiceDelivery />
             </section>

@@ -1,8 +1,9 @@
-.Ouelity-Design{
+.Ouelity-Design {
     background-color: #E8E8E8;
     padding: 100px 35px 100px 35px;
 }
-.Quality-paragraph p{
+
+.Quality-paragraph p {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.2em;
@@ -10,7 +11,8 @@
     font-family: "Montserrat", Sans-serif !important;
     margin-bottom: 10px;
 }
-.Queality-web-design-services span h2{
+
+.Queality-web-design-services span h2 {
     font-size: 18px;
     color: #413f40;
     font-weight: normal;
@@ -19,13 +21,16 @@
     text-align: left;
     margin-left: 5px;
 }
-.Queality-web-design-services span i{
+
+.Queality-web-design-services span i {
     color: #ED1C24;
 }
-.a-tailored-web-design span i{
+
+.a-tailored-web-design span i {
     color: #ED1C24;
 }
-.a-tailored-web-design span h2{
+
+.a-tailored-web-design span h2 {
     font-size: 18px;
     color: #413f40;
     font-weight: normal;
@@ -34,33 +39,39 @@
     text-align: left;
     margin-left: 5px;
 }
-.a-tailored-web-design span i{
+
+.a-tailored-web-design span i {
     color: #ED1C24;
 }
-.a-tailored-web-design-section{
+
+.a-tailored-web-design-section {
     margin-top: 80px;
     margin-bottom: 0px;
 }
-.a-tailored-paragraph p{
+
+.a-tailored-paragraph p {
     font-family: "Montserrat", Sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 1.2em;
     color: #222222;
     margin-bottom: 10px;
-   
+
 }
-.a-credible-agency{
+
+.a-credible-agency {
     padding: 50% 0% 50% 0%;
 }
-.a-credible-agency p{
+
+.a-credible-agency p {
     text-align: right;
     font-family: "Montserrat", Sans-serif;
     font-size: 23px;
     font-weight: 600;
     color: #222222;
 }
-.a-credible-agency .a-credible-agency-para{
+
+.a-credible-agency .a-credible-agency-para {
     text-align: right;
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
@@ -69,23 +80,27 @@
     line-height: 1.5em;
     padding-top: 15px;
 }
-.border-line{
+
+.border-line {
     border-bottom: 3px solid #222222;
     margin: 0 auto;
     margin-right: 0;
     width: 46%;
 }
-.empowering-local-businesses{
+
+.empowering-local-businesses {
     padding: 50% 0% 0% 0%;
 }
-.empowering-local-businesses p{
+
+.empowering-local-businesses p {
     text-align: left;
     color: #ED1C24;
     font-family: "Montserrat", Sans-serif;
     font-size: 23px;
     font-weight: 600;
 }
-.empowering-local-businesses .empowering-local-businesses-para{
+
+.empowering-local-businesses .empowering-local-businesses-para {
     text-align: left;
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
@@ -94,17 +109,20 @@
     line-height: 1.5em;
     padding-top: 15px;
 }
-.robust-methodologies{
+
+.robust-methodologies {
     padding: 0% 0% 0% 0%;
 }
-.robust-methodologies p{
+
+.robust-methodologies p {
     text-align: left;
     color: #ED1C24;
     font-family: "Montserrat", Sans-serif;
     font-size: 23px;
     font-weight: 600;
 }
-.robust-methodologies .robust-methodologies-para{
+
+.robust-methodologies .robust-methodologies-para {
     text-align: left;
     color: #545454;
     font-family: "Josefin Sans", Sans-serif;
@@ -113,16 +131,19 @@
     line-height: 1.5em;
     padding-top: 15px;
 }
-.border-line-red{
+
+.border-line-red {
     border-bottom: 3px solid #ED1C24;
     width: 46%;
 }
-.img-and-para-section{
+
+.img-and-para-section {
     margin-top: 30px;
     margin-bottom: 80px;
 }
+
 /* expert-web-designer */
-.exeprt-web-designer{
+.exeprt-web-designer {
     background: url(./images/digital-experiences.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -130,13 +151,16 @@
     width: 100%;
     padding: 80px 0px 80px 0px;
 }
-.expert-title{
+
+.expert-title {
     padding: 10px;
 }
-.expert-title span i{
+
+.expert-title span i {
     color: #ED1C24;
 }
-.expert-title span h2{
+
+.expert-title span h2 {
     font-size: 18px;
     color: #413f40;
     font-weight: normal;
@@ -145,40 +169,48 @@
     text-align: left;
     margin-left: 5px;
 }
-.expert-para{
+
+.expert-para {
     margin-bottom: 20px;
     padding: 10px;
 }
-.expert-para p{
+
+.expert-para p {
     text-align: left;
-    color:#222222;
+    color: #222222;
     font-family: "Montserrat", Sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
 }
-.expert-para .red-border{
+
+.expert-para .red-border {
     border-bottom: 2px solid #ED1C24;
     width: 20%;
 }
-.expert-full-para{
- margin-bottom: 20px;
- padding: 10px;
+
+.expert-full-para {
+    margin-bottom: 20px;
+    padding: 10px;
 }
-.expert-full-para div{
+
+.expert-full-para div {
     font-family: "Josefin Sans", Sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5em;
     color: #222222;
 }
-.high-perform-img-section{
+
+.high-perform-img-section {
     text-align: center;
 }
-.we-design-partner span i{
+
+.we-design-partner span i {
     color: #ED1C24;
 }
-.we-design-partner span h3{
+
+.we-design-partner span h3 {
     font-size: 18px;
     color: #fff;
     font-weight: normal;
@@ -186,10 +218,12 @@
     margin-bottom: 0;
     margin-left: 10px;
 }
-.growing-online{
+
+.growing-online {
     padding: 80px 0px 80px 0px;
 }
-.talk-to-expert{
+
+.talk-to-expert {
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-color: #7A7A7A;
@@ -198,43 +232,51 @@
     background: #222222;
     color: #fff;
 }
-.talk-to-expert span{
+
+.talk-to-expert span {
     font-family: "Poppins", Sans-serif;
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 28px;
 }
-.talk-to-expert:hover{
+
+.talk-to-expert:hover {
     background: #ED1C24;
     text-decoration: none;
     color: #ffffff;
 }
-.expert-full-para .first{
-  color: #222222;
+
+.expert-full-para .first {
+    color: #222222;
 }
-.expert-full-para .second{
+
+.expert-full-para .second {
     color: #545454;
 }
+
 /* friquently-ask-questions */
 
-.friquently-ask-questions{
+.friquently-ask-questions {
     padding: 100px 0px 0px 0px;
     margin-top: 0px;
     margin-bottom: 100px;
 }
-.asked-questions{
+
+.asked-questions {
     align-content: center;
     align-items: center;
     padding: 0% 13% 0% 13%;
 }
-.asked-questions h3{
+
+.asked-questions h3 {
     font-size: 45px;
     font-weight: 700;
     line-height: 1.2em;
     color: #222222;
 }
-.What-web-design{
+
+.What-web-design {
     border-width: 1px;
     border-color: #D2D2D2;
     padding: 30px 30px 30px 30px;
@@ -245,22 +287,109 @@
     cursor: pointer;
     outline: none;
 }
-.wordpress-website{
+
+.wordpress-website {
     background: #F0F0F0;
     padding: 50px 0px 0px 0px;
 }
-.geelong-para p{
+
+.geelong-para p {
     font-size: 50px;
     text-align: left;
-    color:#222222;
+    color: #222222;
     font-family: "Montserrat", Sans-serif;
     font-weight: 700;
     line-height: 1.2em;
 }
-.geelong-para .red-border{
+
+.geelong-para .red-border {
     border-bottom: 2px solid #ED1C24;
     width: 16%;
 }
-.geelong-para{
+
+.geelong-para {
     padding: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .Ouelity-Design {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .Quality-paragraph p {
+        font-size: 24px !important;
+        margin-bottom: 20px;
+    }
+
+    .Queality-web-design-services {
+        margin-bottom: 20px !important;
+    }
+
+    .service-btn {
+        padding: 0px !important;
+    }
+
+    .a-tailored-paragraph p {
+        font-size: 24px !important;
+    }
+
+    .a-credible-agency {
+        padding: 0px !important;
+    }
+
+    .a-credible-agency p {
+        text-align: left !important;
+    }
+
+    .a-credible-agency .border-line {
+        margin-left: 0 !important;
+    }
+
+    .a-credible-agency-para {
+        text-align: left !important;
+    }
+
+    .empowering-local-businesses {
+        padding: 0px !important;
+    }
+
+    .exeprt-web-designer {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 50px 0px 50px 0px !important;
+    }
+
+    .expert-web-designer {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .expert-para p {
+        font-size: 24px !important;
+    }
+    .expert-para{
+        padding: 0px !important;
+    }
+
+    .expert-full-para div {
+        font-size: 16px !important;
+    }
+
+    .growing-online {
+        padding: 0px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important
+    }
+
+    .expert-title{
+        padding: 0px !important;
+        margin-bottom: 20px;
+    }
+    .geelong-para p{
+        font-size: 24px !important;
+    }
+    .growing-online .container{
+        padding-left: 0px !important;
+        padding-right: 0px;
+    }
 }

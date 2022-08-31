@@ -21,10 +21,15 @@ import ServiceDelivery from './ServiceDelivery';
 import { Link } from 'react-router-dom'
 import "../Sydney.css"
 import Landing from "../animation/Landing.json"
-import WebDesign from './WebDesign'
 import wordpressDesign from "../images/WordPress-website-design-Converted.png"
 import eCommerce from "../images/eCommerce-website-design-Converted-1.png"
 import customWebsite from "../images/Custom-website-design-Converted.png"
+import about from '../images/makemywebiste-about.jpeg'
+import experience from '../images/Years-Of-Expertise (1).png';
+import client from '../images/Satisfied-Clients.png';
+import owned from '../images/Australian_Owned_mmw.png';
+import design1 from '../images/5-star-rated-Web-Design-Agency.png'
+import CountUp from 'react-countup';
 
 function DesignPerth() {
     function goToTop() {
@@ -34,7 +39,7 @@ function DesignPerth() {
         <div>
             <div className='Sydney-main-div' style={{ padding: "150px 0px 100px 0px" }}>
                 <div className='container'>
-                    <div className='row justify-content-center Sydney-first-row'>
+                    <div className='row justify-content-center Sydney-first-row flex-column-reverse flex-lg-row'>
                         <div className='col-lg-7 Sydney-first-col-7'>
                             <h2>An Expert Team Delivering Premium Web Design Services in
                                 <span>PERTH</span>
@@ -55,7 +60,107 @@ function DesignPerth() {
                     </div>
                 </div>
             </div>
-            <WebDesign />
+            <section className='about_section'>
+                <div className="container">
+                    <div className="row  about_section-2">
+                        <div className="col-xl-5  col-sm-12">
+                            <div className='trusted'>
+                                <div className='trusted-1'>
+                                    <span>Trusted by</span>
+                                    <p className='p-800'>800+</p>
+                                    <p>Clients</p>
+                                </div>
+                            </div>
+                            <div className='shape'>
+                                <img src={about} alt="about" className="img-fluid rounded-pill" />
+                                <span className='shape-2'></span>
+                                <span className='shape-3'></span>
+                            </div>
+                        </div>
+                        <div className='col-xl-7 col-md-12 about_section-3'>
+                            <h1 className='about-p mb-4'>
+                                <i className='fas fa-dot-circle dot-cercle'></i> Web Design Perth
+                            </h1>
+                            <div id="demo" className="carousel slide about-crousal mb-5" data-ride="carousel">
+                                <div className="carousel-inner p">
+                                    <div className="carousel-item active">
+                                        <div className='carousel-h'>Complete Web Solution  In Australia</div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className='carousel-h'> Bringin in Innovation to web design</div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className='carousel-h'>Infusing creativity in  your online space</div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className='carousel-h'>Capativating designs that tell stories</div>
+                                    </div>
+                                    <div className="carousel-item">
+                                        <div className='carousel-h'>Prioritising customer satisfactions all among</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='row mb-4'>
+                                <div className='col-xl-6 web-design-btn-col '>
+                                    <div className='d-flex web-design-btn'>
+                                        <span> <i aria-hidden={true} className="fas fa-check " /></span>
+                                        <span>High-end solutions for <br /> small & large business</span>
+                                    </div>
+                                </div>
+                                <div className='col-xl-6  web-design-btn-col'>
+                                    <div className='d-flex web-design-btn'>
+                                        <i aria-hidden={true} className="fas fa-check" />
+                                        <span>Helping local <br /> businesses go online</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='paragraph'>
+                                We’ve put on our creative hats to level up web design, Australia-wide. It’s about time
+                                to put forth your business on the world wide web and be second to none.
+                                Innovation is the key to creating designs that don’t  let users hit the “back” button, and that is what we strive for at Make My Website.
+                            </div>
+                            <div>
+                                <p className='paragraph'>
+                                    If you’ve envisioned to be the foremost choice for your clients- it’s time to make a decision.
+                                    We are curious to know about your goals, and venture
+                                    into helping you to achieve those, using the digital space. So let’s get in touch and build a stunning website for you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row justify-content-center about-counter-row'>
+                        <div className='col-lg-3 col-md-6 py-5 c'>
+                            <div className='counter'>
+                                <img src={experience} alt="experience" height="60px" width="60px" />
+                                <div className='about-count-h pt-4'><CountUp start={0} end={10} duration={10} />+</div>
+                                <h4 className='about-counter-p py-2'>Years Of Expertise</h4>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 py-5 c' >
+                            <div className='counter'>
+                                <img src={owned} alt="owned" height="60px" width="60px" />
+                                <div className='about-count-h pt-4'><CountUp start={0} end={100} duration={10} />%</div>
+                                <h4 className='about-counter-p py-2'>Australian Owned</h4>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 py-5 c' >
+                            <div className='counter'>
+                                <img src={design1} alt="design" height="60px" width="60px" />
+                                <div className='about-count-h pt-4'> <CountUp start={0} end={5} duration={10} />-Star rated</div>
+                                <h4 className='about-counter-p py-2'>Web Design Agency</h4>
+                            </div>
+                        </div>
+                        <div className='col-lg-3 col-md-6 py-5 c' >
+                            <div>
+                                <img src={client} alt="clients" height="60px" width="60px" />
+                                <div className='about-count-h pt-4'>
+                                    <CountUp start={0} end={800} duration={10} />+</div>
+                                <h4 className='about-counter-p py-2' >Satisfied Clients</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className='Ouelity-Design'>
                 <div className='container py-4'>
                     <div className='row'>
@@ -369,11 +474,11 @@ function DesignPerth() {
                             </div>
                             <div className='expert-full-para'>
                                 <div className='first'>
-                                Choosing a <b>custom website design service</b> from the team at Make My Website essentially means that everything will be built from scratch. We take down your custom requirements and work with you to build a professional website that helps you establish your brand presence on the web. This includes designing specific sections based on your inputs, our expertise, developing features that you may require to efficiently run your online business, and a lot more.
+                                    Choosing a <b>custom website design service</b> from the team at Make My Website essentially means that everything will be built from scratch. We take down your custom requirements and work with you to build a professional website that helps you establish your brand presence on the web. This includes designing specific sections based on your inputs, our expertise, developing features that you may require to efficiently run your online business, and a lot more.
                                 </div>
                                 <br />
                                 <div className='first'>We love all things technology so it will be a pleasure to discuss how you’d want your website to be! If you are a business in Perth, looking for efficient web design services, get in touch with us today.</div>
-                             
+
                             </div>
                         </div>
                         <div className='col-lg-6'>
@@ -387,25 +492,106 @@ function DesignPerth() {
             <section>
                 <Customer />
             </section>
-            {/* <section className='friquently-ask-questions'>
-                <div className='container'>
-                    <div className='asked-questions'>
-                        <h3>Frequently asked questions</h3>
-                    </div>
-                    <div className='hide-and-show'>
-                        <div className='container'>
-                            <div className='text-left'>
-                                <div className='mb-5'>
-                                    <div className='What-web-design'>
-                                    <span className='float-right'></span>
-                                       <NavLink to="/">What is WEB DESIGN?</NavLink>
-                                    </div>
+            <section className='friquently-asked-questions'>
+                <div className='row friquently-ask '>
+                    <h3>Frequently asked questions</h3>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>How does a website with a good web design help your business grow?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo">
+                                    <span><i className='fas fa-plus'></i></span>
                                 </div>
                             </div>
                         </div>
+                        <div id="demo" className="collapse qustions-simply">
+                            In today’s digital world everything happens online. Online is where people go to avail of the services that they are in need of and look for the products that they need. So, if you want your business to survive and grow in this world, you have to create a solid online presence for your business. And this is exactly what a website does. It brings your business to the virtual world and helps find its way to your target audience and helps make the best of the digital wave.
+                        </div>
                     </div>
                 </div>
-            </section> */}
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>What services does Make My Website offer?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo1">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo1" className="collapse qustions-simply">
+                            Web designing covers not just one but all aspects of creating a website. We offer 360-degree web design assistance covering all elements that a website needs including: <br />
+                            <ul>
+                                <li>Web design and development</li>
+                                <li>Digital Marketing</li>
+                                <li>Branding</li>
+                                <li>Web and Email hosting</li>
+                                <li>Content writing</li>
+                                <li>Customer Care</li>
+                                <li>Photography and videography</li>
+                            </ul>
+                            Even when we are done creating your website, our services continue as per your wishes and keep on delivering our services to ensure that your website is always up-to-date.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>What makes Make My Website my best pick in Perth?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo2">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo2" className="collapse qustions-simply">
+                            For our team, web designing is not just mere work but something that we put our heart and soul into and this shows in the kind of services that we have delivered till now. We have over 400+ 5- star reviews on diverse platforms and have a record of catering to the needs of over 800 clients since our onset. Our work experience ranges across all domains and we have created websites of all scales, so, all your web design needs would be answered with us efficiently. So, the moment you choose to engage with us, you will be choosing a team that will create for you a responsive, user-friendly, and attractive website.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>Do you help with upgrading an existing web design?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo3">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo3" className="collapse qustions-simply">
+                            Our services are not limited to creating new websites but we also help revamp and upgrade existing ones to be up-to-date with all the modern innovations and advancements. You can come to us with an intent to change your website’s layout, content, graphics, design or would simply want to make it more responsive and user-friendly and our expert team would be there to efficiently take care of it all. When you come to us, we will have a thorough discussion about your expectations regarding the project, create a proper plan and then proceed accordingly.
+                        </div>
+                    </div>
+                </div>
+                <div className='row justify-content-center collapse-top-row'>
+                    <div className='col-md-12 border-column '>
+                        <div className='row d-flex website-cost'>
+                            <div className='col-11'>
+                                <span>Would I always need the assistance of a web design manager for my website?</span>
+                            </div>
+                            <div className='col-1 plus-button'>
+                                <div type='button' data-toggle="collapse" data-target="#demo4">
+                                    <span><i className='fas fa-plus'></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="demo4" className="collapse qustions-simply">
+                            This simply depends upon the choice that you make. You can give us the responsibility of managing your website starting from regular security checks, plugin updates, content addition to general maintenance and we will take care of it all with utmost efficiency. Or you can gather from us the general know-how of how things work and manage it on your own and get in touch with us whenever the need be. Whatever you decide, we will be there to offer you complete assistance.
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section>
                 <ServiceDelivery />
             </section>

@@ -13,7 +13,7 @@ function SearchEngineOptimization() {
                         </h1>
                         <div className='red-devider-top'></div>
                         <h2 className='mb-2'>
-                            An Amalgamation Of Consistency And Knowledge To Enhance Your Online <br /> Presence
+                            An Amalgamation Of Consistency And Knowledge To Enhance Your Online Presence
                         </h2>
                         <span className='shape-about-1'></span>
                         <span className='shape-about-2'></span>

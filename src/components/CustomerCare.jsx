@@ -4,8 +4,11 @@ import support from '../animation/CustomerCare.json'
 import ServiceDelivery from './ServiceDelivery'
 import { Formik } from "formik";
 import * as Yup from "yup"
+import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 function CustomerCare() {
+const [val, setVal] = useState("");
+
     // function onChange(value) {
     //     console.log("Captcha value:",value );
     //   }
@@ -16,7 +19,7 @@ function CustomerCare() {
             .required("Please complete this required field."),
         phone: Yup.string()
             .required("Please complete this required field.")
-            .min(50, "Must contain only numbers, +()-. and x."),
+        ,
         email: Yup.string()
             .email("Please enter a valid email")
             .required("Please complete this required field."),
@@ -65,7 +68,9 @@ function CustomerCare() {
                                         </div>
                                         <div className='col-md-6 input-fields1'>
                                             <label for="inputEmail4" className='form-span'>Phone Number<span className='required'>*</span></label>
-                                            <input type="text" className="form-control" value={values.phone} onChange={handleChange("phone")} onBlur={handleBlur("phone")} />
+                                            <input type="text" className="form-control" pattern="[0-9]*" value={val} onChange={(e) =>
+                                                setVal((v) => (e.target.validity.valid ? e.target.value : v))
+                                            } />
                                             <div className='redalerterror'>{touched.phone && errors.phone}</div>
                                         </div>
                                         <div className='col-md-6 input-fields1'>
