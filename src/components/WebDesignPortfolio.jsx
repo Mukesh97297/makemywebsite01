@@ -96,7 +96,7 @@ function WebDesignPortfolio() {
                         images.map((value) => {
                             return (
                                 <div className=' col-md-4 '>
-                                    <Link to="/" onClick={() => { window.open(value.link) }}>
+                                    <Link to={value.link} onClick={() => { window.open(value.link) }}>
                                         <div className='image-wrap'>
                                             <img src={value.image} alt="" />
                                             <span className='visit-button' type='button'> Visit Website </span>

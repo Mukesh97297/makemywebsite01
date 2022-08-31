@@ -1,31 +1,14 @@
 import React from 'react'
 import '../Blog.css'
-import blog1 from '../images/top-5-benefits-of-blogging.jpg'
-import blog2 from '../images/blog2.jpg'
-import blog3 from '../images/Blog-Blogging.jpg'
-import blog4 from '../images/blog-blogging-homepage-social-media-network-concept.jpg'
-import blog5 from '../images/Keep-On-Blogging.jpg'
-import design1 from '../images/Website-redesign.jpg'
-import design2 from '../images/web-design-blacktown.jpg'
-import design3 from '../images/web-design-penrith.jpg'
-import design4 from '../images/web-design-for-tradies.jpg'
-import design5 from '../images/Web-Design-Content-Creative.jpg'
-import sco1 from '../images/SEO-Agency.jpg'
-import sco2 from '../images/Seo-Search-Engine-Optimization.jpg'
-import sco3 from '../images/What-Makes-For-High-Quality-Content.jpg'
-import sco4 from '../images/mmw.png'
-import sco5 from '../images/website-optimisation.jpg'
-import business1 from '../images/Business-Ranking.jpg'
-import business2 from '../images/google-business.jpg'
-import business3 from '../images/Content-Marketing-Blog-Marketig.jpg'
-import business4 from '../images/business-brand.jpg'
-import business5 from '../images/Common-problems-faced-by-small-businesses-without-an-online-presence.jpg'
-
+import AutoBlogs from './BlogsImages'
+import { useState } from 'react'
 function Blog() {
+    const [images, setImages] = useState(AutoBlogs);
+    
     return (
         <div>
             <div className="container-fluid" id="about-container">
-            <div className='row paragraph1'>
+                <div className='row paragraph1'>
                     <div className="col-md-6 paragraph">
                         <h1>
                             Blog
@@ -41,19 +24,28 @@ function Blog() {
             </div>
             <div className='container main-blog'>
                 <div className='row'>
-                    <div className='col-xl-4 col-md-6 mb-4'>
-                        <div className='card blogs-card'>
-                            <img src={business5} alt="" />
-                            <div className='abc-btn py-1 px-3'>Business</div>
-                            <div className='card-body'>
-                                <h4>Tips To Improve Your Google My Business Ranking</h4>
-                            </div>
-                            <div className='card-footer'>
-                                <p>Admin  21/01/2022</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-xl-4 col-md-6 mb-4'>
+                    {
+                        images.map((value) => {
+                          console.log(value.text)
+                            return (
+                                < div className='col-xl-4 col-md-6 mb-4' >
+                                   <a href={value.link}>
+                                   <div className='card blogs-card'>
+                                        <img src={value.image} alt="" className='img-fluid' />
+                                        <div className='abc-btn py-1 px-3'>{value.categary}</div>
+                                        <div className='card-body'>
+                                            <h4 key={1}>{value.text}</h4>
+                                        </div>
+                                        <div className='card-footer'>
+                                            <p>{value.date}</p>
+                                        </div>
+                                    </div>
+                                   </a>
+                                </div>
+                            )
+                        })
+                    }
+                    {/* <div className='col-xl-4 col-md-6 mb-4'>
                         <div className='card blogs-card'>
                             <img src={blog2} alt="" />
                             <div className='abc-btn py-1 px-3'>Blogs</div>
@@ -304,13 +296,13 @@ function Blog() {
                                 <p>Admin  21/01/2022</p>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className='py-5 blog-footer-end' >
                     <p>No more posts to show</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
