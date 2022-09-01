@@ -43,12 +43,13 @@ import RgLand from './components/RgLand';
 import Darbin from './components/Darbin';
 import Carrabba from './components/Carrabba';
 import Thankyou from './components/Thankyou';
+import Design1 from './components/Design1';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
-        <Navbar />
+              <Design1/>
+        {/* <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -91,7 +92,7 @@ function App() {
           <Route path='/darebin' element={<Darbin />} />
           <Route path='/thankyou' element={<Thankyou />} />
         </Routes>
-        <Footer />
+        <Footer /> */}
       </BrowserRouter>
     </div>
   );
