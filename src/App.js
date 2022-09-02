@@ -48,8 +48,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-              <Design1/>
-        {/* <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -91,8 +90,9 @@ function App() {
           <Route path='/carrabba' element={<Carrabba />} />
           <Route path='/darebin' element={<Darbin />} />
           <Route path='/thankyou' element={<Thankyou />} />
+          <Route path='/design1' element={<Design1 />} />
         </Routes>
-        <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );

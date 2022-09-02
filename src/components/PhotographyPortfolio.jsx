@@ -4,10 +4,6 @@ import Photography from './Photography'
 import { useState } from 'react'
 function PhotographyPortfolio() {
     const [images, setImages] = useState(Photography)
-    // const [polor,setColor] = useState();
-    // const colorChange = () =>{
-    //     setColor(current => !current)
-    // } 
     const allItem = () => {
         const finalData = Photography.filter((value) => {
             return value;
@@ -37,7 +33,7 @@ function PhotographyPortfolio() {
                     </div>
                 </div>
             </div>
-            <div className='container photography-portfolio'>
+            <div className='container-fluid photography-portfolio'>
                 <div className='row btn-section'>
                     <div className='child'>
                         <ul className='filter-links'>
@@ -66,24 +62,7 @@ function PhotographyPortfolio() {
                     </div>
                 </div>
             </div>
-            {/* <div className="container">
-                <div className="row">
-                    {
-                        images.map((value) => {
-                            console.log("fbhjajfasjflhnasf=>",value);
-                            <div className="col-md-4 col-md-offset-4 content">
-                                <div className="screen">
-                                    <img src={value.image} className="img-fluid" alt="images" />
-                                    {
-                                        console.log("output=>",value.image)
-                                    }
-                                </div>
-                            </div>
-                        })
-                    }
-                </div>
-            </div> */}
-            <div className='container'>
+            <div className='container-fluid'>
                 <div className='row photography-images'>
                     {
                         images.map((value) => {

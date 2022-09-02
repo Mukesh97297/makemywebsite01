@@ -1,16 +1,13 @@
  @media only screen and (max-width:767px) {
- .img-container img{
-  height: 300px !important;
-  background-position: center top !important;
-  background-size: cover !important;
- }
  .filter-links li button{
   font-size: 16px !important;
  }
 }
 .img-container img{
- height: 250px;
+ height: 300px;
  width: 100%;
+ background-position: center top;
+ background-size: cover;
 }
 .img-container{
     box-sizing: border-box;

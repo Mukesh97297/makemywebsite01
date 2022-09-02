@@ -62,11 +62,6 @@
     font-weight: bold;
     line-height: 1.2em;
 }
-/* .admin-section{
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%);
-} */
 .admin-section .admin span {
     font-family: "Montserrat", Sans-serif;
     font-size: 16px;

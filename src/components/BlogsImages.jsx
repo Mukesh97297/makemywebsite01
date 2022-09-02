@@ -195,7 +195,7 @@ const AutoBlogs = [
         id: 2,
         image: design1,
         categary: "Design",
-        link: "",
+        link: "/design1",
         text: "Things To Sort When Getting Your Website Designed",
         date: "Admin  30/08/2021"
     },
@@ -203,7 +203,7 @@ const AutoBlogs = [
         id: 3,
         image: design2,
         categary: "Design",
-        link: "",
+        link: "/thankyou",
         text: "Top Mistakes When Creating High-Quality Content",
         date: "Admin  06/03/2021"
     },
