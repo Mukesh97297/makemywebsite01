@@ -80,5 +80,4 @@ function PhotographyPortfolio() {
         </div>
     )
 }
-
 export default PhotographyPortfolio
